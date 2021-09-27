@@ -8,7 +8,7 @@ body {
 }
 h1 {
   font-weight: 500;
-  font-size: 1.75em;
+  font-size: 1.5em;
   line-height: 1;
   padding-bottom: 0.25em;
 }
@@ -92,7 +92,6 @@ code {
   align-items: center;
   justify-content: space-between;
 }
-
 ol {
   flex-direction: column;
   padding: 0;
@@ -100,4 +99,12 @@ ol {
 ol li {
   padding: 0.5em 0;
   line-height: 1;
+}
+hr {
+  flex: 1;
+  height: 0.2em;
+  align-self: center;
+  border: none;
+  border-bottom: 0.025em solid var(--text);
+  margin-left: 0.5em;
 }
