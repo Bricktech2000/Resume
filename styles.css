@@ -1,0 +1,108 @@
+body {
+  font-size: 4mm;
+  line-height: 1.6;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-weight: 500;
+  font-size: 1.75em;
+  line-height: 1;
+  padding-bottom: 0.25em;
+}
+/* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
+* + h1 {
+  padding-top: 1.5em;
+}
+h2 {
+  font-weight: 500;
+  font-size: 1em;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1;
+  padding-bottom: 0.25em;
+}
+* + h2 {
+  padding-top: 0.75em;
+}
+p,
+li {
+  font-weight: 300;
+  padding: 0 1em;
+}
+i {
+  width: 1.5em;
+}
+ul {
+  flex-direction: column;
+}
+li {
+  display: list-item !important;
+  list-style: none;
+  position: relative;
+}
+/* https://stackoverflow.com/questions/7250381/html-entity-for-the-middle-dot */
+li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 0.25em;
+}
+
+header {
+  white-space: pre;
+  /* padding-bottom: 1em; */
+  /* margin-top: -.1em; */
+  font-size: 3em;
+  line-height: 1.25;
+  flex-direction: row;
+}
+header span {
+  font-weight: 500;
+}
+footer {
+  flex-direction: row;
+  justify-content: space-between;
+}
+main {
+  flex-direction: row;
+  gap: 10mm;
+}
+section {
+  flex-direction: column;
+  justify-content: stretch;
+}
+aside {
+  width: 10em;
+  flex-direction: column;
+  justify-content: stretch;
+}
+time {
+  font-weight: 300;
+  font-size: 0.75em;
+  font-style: italic;
+}
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside ul {
+  flex-direction: column;
+  padding: 0;
+}
+aside li {
+  display: flex !important;
+  padding: 0.5em 0;
+  line-height: 1;
+}
+aside li::before {
+  display: none;
+}
+aside p {
+  padding: 0;
+}

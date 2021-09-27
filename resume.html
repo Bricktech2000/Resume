@@ -5,167 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
-      <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet"
-      ></link>
-      <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet"
-      ></link>
-      <!-- fontawesome css cdn: -->
-      <!-- https://www.cdnpkg.com/font-awesome/5.5.0 -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.css" rel="stylesheet">
-      <!-- https://fontawesome.com/v5.15/icons -->
-    <style>
-      :root {
-        --text: #000000;
-        --secondary: #000000;
-        --bg: #ffffff;
-        --sans: Roboto, sans-serif;
-        --mono: Inconsolata, monospace;
-      }
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        /*https://stackoverflow.com/questions/11289166/chrome-on-android-resizes-font*/
-        max-height: 999999999px;
-        -webkit-tap-highlight-color: transparent;
-      }
-      html *:not(head *):not(script):not(style) {
-        /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
-        display: flex;
-      }
-      body {
-        width: 210mm;
-        height: 297mm;
-        padding: 10mm;
-        /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
-        font-family: var(--sans);
-        font-weight: 300;
-        color: var(--text);
-        background: var(--bg);
-      }
-
-
-      html {
-        background: #000000;
-      }
-      body {
-        font-size: 4mm;
-        line-height: 1.6;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      h1 {
-        font-weight: 500;
-        font-size: 1.75em;
-        line-height: 1;
-        padding-bottom: .25em;
-      }
-      /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
-      * + h1 {
-        padding-top: 1.5em;
-      }
-      h2 {
-        font-weight: 500;
-        font-size: 1em;
-        align-items: center;
-        justify-content: space-between;
-        line-height: 1;
-        padding-bottom: .25em;
-      }
-      * + h2 {
-        padding-top: .75em;
-      }
-      p, li {
-        font-weight: 300;
-        padding: 0 1em;
-      }
-      i {
-        width: 1.5em;
-      }
-      ul {
-        flex-direction: column;
-      }
-      li {
-        display: list-item !important;
-        list-style: none;
-        position: relative;
-      }
-      /* https://stackoverflow.com/questions/7250381/html-entity-for-the-middle-dot */
-      li::before {
-        content: '•';
-        position: absolute;
-        left: 0;
-        top: 0;
-        padding-left: .25em;
-      }
-
-      header {
-        white-space: pre;
-        /* padding-bottom: 1em; */
-        /* margin-top: -.1em; */
-        font-size: 3em;
-        line-height: 1.25;
-        flex-direction: row;
-      }
-      header span {
-        font-weight: 500;
-      }
-      footer {
-        flex-direction: row;
-        justify-content: space-between;
-      }
-      main {
-        flex-direction: row;
-        gap: 10mm;
-      }
-      section {
-        flex-direction: column;
-        justify-content: stretch;
-      }
-      aside {
-        width: 10em;
-        flex-direction: column;
-        justify-content: stretch;
-      }
-      time {
-        font-weight: 300;
-        font-size: .75em;
-        font-style: italic;
-      }
-      code {
-        font-family: var(--mono);
-        font-size: .85em;
-        font-weight: 500;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      aside ul {
-        flex-direction: column;
-        padding: 0;
-      }
-      aside li {
-        display: flex !important;
-        padding: .5em 0;
-        line-height: 1;
-      }
-      aside li::before {
-        display: none;
-      }
-      aside p {
-        padding: 0;
-      }
-    </style>
+    <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    ></link>
+    <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    ></link>
+    <!-- fontawesome css cdn: -->
+    <!-- https://www.cdnpkg.com/font-awesome/5.5.0 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.css" rel="stylesheet" />
+    <!-- https://fontawesome.com/v5.15/icons -->
+    <link href="globals.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>Emilien <span>Breton</span></header>
