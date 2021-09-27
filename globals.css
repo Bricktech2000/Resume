@@ -19,7 +19,6 @@ html *:not(head *):not(script):not(style) {
 body {
   width: 210mm;
   height: 297mm;
-  padding: 10mm;
   /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
   font-family: var(--sans);
   font-weight: 300;
