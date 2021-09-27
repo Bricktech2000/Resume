@@ -36,13 +36,13 @@ i {
 ul {
   flex-direction: column;
 }
-li {
+ul li {
   display: list-item !important;
   list-style: none;
   position: relative;
 }
 /* https://stackoverflow.com/questions/7250381/html-entity-for-the-middle-dot */
-li::before {
+ul li::before {
   content: '•';
   position: absolute;
   left: 0;
@@ -91,18 +91,11 @@ code {
   justify-content: space-between;
 }
 
-aside ul {
+ol {
   flex-direction: column;
   padding: 0;
 }
-aside li {
-  display: flex !important;
+ol li {
   padding: 0.5em 0;
   line-height: 1;
-}
-aside li::before {
-  display: none;
-}
-aside p {
-  padding: 0;
 }
