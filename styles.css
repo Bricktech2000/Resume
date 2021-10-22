@@ -112,3 +112,6 @@ hr {
   border-bottom: 0.025em solid var(--text);
   margin-left: 0.5em;
 }
+b {
+  color: #f00;
+}
