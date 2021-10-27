@@ -87,9 +87,11 @@ time {
   font-style: italic;
 }
 code {
-  font-family: var(--mono);
-  font-size: 0.85em;
-  font-weight: 500;
+  font-family: var(--sans);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
+  font-variant-caps: small-caps;
+  font-size: 0.9em;
+  font-weight: 300;
   align-items: center;
   justify-content: space-between;
 }
