@@ -24,6 +24,7 @@ body {
   font-weight: 300;
   color: var(--text);
   background: var(--bg);
+  text-align: justify;
 }
 html {
   background: #000000;
