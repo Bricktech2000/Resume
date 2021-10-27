@@ -33,7 +33,7 @@
   <body>
     <header>Emilien <span>Breton</span></header>
     <main>
-      <aside>
+      <article>
         <ol>
           <li>
             <i class="fas fa-sm fa-map-marker-alt"></i>
@@ -85,11 +85,20 @@
         </span>
 
         <h1>Languages</h1>
-        <h2>English<time>advanced</time></h2>
+        <aside>
+          <h2>English</h2>
+          <time>advanced</time>
+        </aside>
         <code>Second Language</code>
-        <h2>French<time>advanced</time></h2>
+        <aside>
+          <h2>French</h2>
+          <time>advanced</time>
+        </aside>
         <code>Mother Tongue</code>
-        <h2>Spanish<time>intermediate</time></h2>
+        <aside>
+          <h2>Spanish</h2>
+          <time>intermediate</time>
+        </aside>
         <code>Simple Conversations</code>
 
         <h1>
@@ -99,7 +108,7 @@
           <li><b>Lorem ipsum dolor sit amet</b></li>
           <li><b>Lorem ipsum</b></li>
         </ul>
-      </aside>
+      </article>
       <section>
         <!-- <h1>Work Experience</h1>
         <h2>Job Title<time>Start Date &mdash; End Date</time></h2>
@@ -109,31 +118,33 @@
         </p> -->
 
         <h1>Education</h1>
-        <h2>
-          University of Ottawa<time>
-            September 2021 &mdash; Expected December 2025
-          </time>
-        </h2>
+        <aside>
+          <h2>University of Ottawa</h2>
+          <code>GPA: <b>10.0/10.0</b> &bull; <b>4.0/4.0</b></code>
+        </aside>
         <!-- https://gradecalc.info/ca/on/uottawa/gpa_calc.pl -->
-        <code>
-          BSc with Honours in Computer Science, <b>Data Science Option</b>
-          <span>GPA: <b>10.0/10.0</b> &bull; <b>4.0/4.0</b></span>
-        </code>
-        <h2>
-          Polyvalente Saint-Francois
+        <aside>
+          <code>
+            BSc with Honours in Computer Science,&nbsp;
+            <b>Data Science Option</b>
+          </code>
+          <time>September 2021 &mdash; Expected December 2025</time>
+        </aside>
+        <h2>Polyvalente Saint-Francois</h2>
+        <aside>
+          <code>IB Middle Years Programme, Secondary School Diploma</code>
           <time>September 2016 &mdash; June 2021</time>
-        </h2>
-        <code>IB Middle Years Programme, Secondary School Diploma</code>
+        </aside>
 
         <h1>Projects</h1>
-        <h2>
-          Personal Website
+        <h2>Personal Website</h2>
+        <aside>
+          <code>A portfolio for sharing various projects</code>
           <time>
             JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull;
             Markdown&nbsp;&bull; NextJS&nbsp;&bull; Git
           </time>
-        </h2>
-        <code>A portfolio for sharing various projects</code>
+        </aside>
         <ul>
           <li>
             Designed and implemented appealing UI and optimized UX resulting in
@@ -144,13 +155,14 @@
             resulting in Lighthouse score consistently over 95%
           </li>
         </ul>
-        <h2>
-          AI Image Compressor
+        <h2>AI Image Compressor</h2>
+        <aside>
+          <code>
+            A neural network that learns to compress specific categories of
+            images
+          </code>
           <time> Python&nbsp;&bull; Tensorflow&nbsp;&bull; Keras</time>
-        </h2>
-        <code>
-          A neural network that learns to compress specific categories of images
-        </code>
+        </aside>
         <ul>
           <li>
             Implemented web scraper and image preprocessor optimized with numpy
@@ -165,8 +177,11 @@
             quality than JPEG compression when in favorable circumstances
           </li>
         </ul>
-        <h2>IB Personal Project<time>May 2020 &mdash; February 2021</time></h2>
-        <code>Design and build of a racing drone</code>
+        <h2>IB Personal Project</h2>
+        <aside>
+          <code>Design and build of a racing drone</code>
+          <time>May 2020 &mdash; February 2021</time>
+        </aside>
         <ul>
           <!-- time management -->
           <!-- organizational skills -->
@@ -187,9 +202,12 @@
         <code>Volunteer</code>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illo maxime qui labore, obcaecati dolores dolorum sit.</p> -->
         <h2>
-          <b>Club Name</b><time><b>Start Date &mdash; End Date</b></time>
+          <b>Club Name</b>
         </h2>
-        <code><b>Role in Club</b></code>
+        <aside>
+          <code><b>Role in Club</b></code>
+          <time><b>Start Date &mdash; End Date</b></time>
+        </aside>
         <p>
           <b>
             Utilize this section to show communication skills and to convey the
@@ -197,9 +215,12 @@
           </b>
         </p>
         <h2>
-          <b>Competition Name</b><time><b>Date</b></time>
+          <b>Competition Name</b>
         </h2>
-        <code><b>Hacking Competition</b></code>
+        <aside>
+          <code><b>Hacking Competition</b></code>
+          <time><b>Date</b></time>
+        </aside>
         <p>
           <b>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illo
@@ -212,8 +233,10 @@
       </section>
     </main>
     <footer>
-      <time><b>September 2021</b></time>
-      <time>github.com/Bricktech2000/resume</time>
+      <aside>
+        <time><b>October 2021</b></time>
+        <time>github.com/Bricktech2000/resume</time>
+      </aside>
     </footer>
   </body>
 </html>

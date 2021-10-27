@@ -1,15 +1,15 @@
 body {
   padding: 10mm;
   margin: 10mm;
-  font-size: 4mm;
+  font-size: 3.85mm;
   line-height: 1.6;
   flex-direction: column;
-  justify-content: space-between;
 }
 h1 {
   font-weight: 300;
   font-size: 1.5em;
   text-transform: uppercase;
+  color: var(--text2);
   line-height: 1;
   padding-bottom: 0.25em;
 }
@@ -21,12 +21,9 @@ h2 {
   font-weight: 500;
   font-size: 1em;
   align-items: center;
-  justify-content: space-between;
   line-height: 1;
-  padding-bottom: 0.25em;
-}
-* + h2 {
   padding-top: 0.75em;
+  padding-bottom: 0.25em;
 }
 p,
 li {
@@ -53,6 +50,10 @@ ul li::before {
   top: 0;
   padding-left: 0.25em;
 }
+aside {
+  justify-content: space-between;
+  flex-direction: row;
+}
 
 header {
   white-space: pre;
@@ -65,27 +66,35 @@ header {
 header span {
   font-weight: 500;
 }
-footer {
-  flex-direction: row;
-  justify-content: space-between;
+footer > * {
+  flex: 1;
 }
 main {
   flex-direction: row;
+  flex: 1;
+  padding: 5mm 0;
   gap: 10mm;
 }
 section {
   flex-direction: column;
   justify-content: stretch;
 }
-aside {
+section > * {
+  flex: 1;
+}
+article {
   width: 10em;
   flex-direction: column;
   justify-content: stretch;
+}
+article > * {
+  flex: 1;
 }
 time {
   font-weight: 300;
   font-size: 0.75em;
   font-style: italic;
+  color: var(--text2);
 }
 code {
   font-family: var(--sans);
@@ -93,8 +102,8 @@ code {
   font-variant-caps: small-caps;
   font-size: 0.9em;
   font-weight: 300;
+  color: var(--text2);
   align-items: center;
-  justify-content: space-between;
 }
 ol {
   flex-direction: column;
