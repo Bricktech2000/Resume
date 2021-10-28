@@ -73,8 +73,8 @@ footer > * {
 main {
   flex-direction: row;
   flex: 1;
-  padding: 5mm 0;
-  gap: 10mm;
+  padding: 2em 0;
+  gap: 3em;
 }
 section {
   flex-direction: column;
@@ -116,6 +116,9 @@ ol li {
 }
 ol li span {
   flex-direction: column;
+}
+ol h2 {
+  padding-top: 0;
 }
 hr {
   flex: 1;
