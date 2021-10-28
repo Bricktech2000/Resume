@@ -130,4 +130,5 @@ hr {
 }
 b {
   color: #f00;
+  font-weight: inherit;
 }
