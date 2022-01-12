@@ -1,7 +1,7 @@
 body {
   padding: 10mm;
   margin: 10mm;
-  font-size: 3.75mm;
+  font-size: 3.65mm;
   line-height: 1.4;
   flex-direction: column;
 }
@@ -84,7 +84,7 @@ section > * {
   flex: 1;
 }
 article {
-  width: 20em;
+  width: 15em;
   flex-direction: column;
   justify-content: stretch;
 }
