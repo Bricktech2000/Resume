@@ -84,7 +84,7 @@ section > * {
   flex: 1;
 }
 article {
-  width: 10em;
+  width: 20em;
   flex-direction: column;
   justify-content: stretch;
 }
