@@ -132,3 +132,17 @@ b {
   color: #f00;
   font-weight: inherit;
 }
+
+@media print {
+  body {
+    margin: 0;
+  }
+}
+
+/* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
+@page {
+  /* seems to load indefinitely on Chrome */
+  /* size: A4 portrait; */
+  margin: 0;
+}
