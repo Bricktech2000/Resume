@@ -1,7 +1,7 @@
 body {
   padding: 10mm;
   margin: 10mm;
-  font-size: 3.5mm;
+  font-size: 3.55mm;
   line-height: 1.4;
   flex-direction: column;
 }
@@ -28,11 +28,10 @@ h2 {
 p,
 li {
   font-weight: 300;
-  padding: 0.25em 0;
   padding-left: 1em;
 }
 i {
-  width: 1.5em;
+  width: 1em;
   align-self: center;
 }
 ul {
@@ -109,9 +108,9 @@ code {
 }
 ol {
   flex-direction: column;
-  padding: 0;
 }
 ol li {
+  gap: 1em;
   padding: 0.5em 0;
   line-height: 1.25;
 }
@@ -132,6 +131,11 @@ hr {
 b {
   color: #f00;
   font-weight: inherit;
+}
+a {
+  display: inline !important;
+  color: inherit;
+  text-decoration: none;
 }
 
 @media print {
