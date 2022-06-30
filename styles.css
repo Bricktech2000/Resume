@@ -74,7 +74,7 @@ main {
   flex-direction: row;
   flex: 1;
   padding: 2em 0;
-  gap: 15mm;
+  gap: 10mm;
 }
 section {
   flex-direction: column;
@@ -100,9 +100,10 @@ time {
 code {
   font-family: var(--sans);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
-  font-variant-caps: all-petite-caps;
-  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   font-weight: 300;
+  font-size: 0.66em;
   color: var(--text2);
   align-items: center;
 }
