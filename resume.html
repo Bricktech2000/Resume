@@ -430,8 +430,31 @@
     </main>
     <footer>
       <aside>
-        <time>September 2022</time>
+        <time class="time"></time>
         <time>github.com/Bricktech2000/Resume</time>
+        <script>
+          // https://stackoverflow.com/questions/45726013/how-can-i-get-last-commit-from-github-api
+          // https://api.github.com/users/Bricktech2000/events/public
+          // https://api.github.com/repos/Bricktech2000/Resume
+          // https://api.github.com/repos/Bricktech2000/Resume/commits
+          (async () => {
+            const latestCommitHash = (
+              await (
+                await fetch(
+                  'https://api.github.com/repos/Bricktech2000/Resume/commits'
+                )
+              ).json()
+            )[0].sha.slice(0, 15);
+
+            const currentMonthYear = new Date().toLocaleString('default', {
+              month: 'long',
+              year: 'numeric',
+            });
+
+            document.querySelector('.time').innerHTML =
+              currentMonthYear + '&nbsp;&bull;&nbsp;' + latestCommitHash;
+          })();
+        </script>
       </aside>
     </footer>
   </body>
