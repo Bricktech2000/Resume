@@ -1,3 +1,3 @@
 # Resume
 
-Current resume as a Computer Science student
+Current resume as a software engineer
