@@ -52,7 +52,7 @@ ul li::before {
 }
 aside {
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
 }
 
