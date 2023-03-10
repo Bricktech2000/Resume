@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome css cdn: -->
+    <!-- https://www.cdnpkg.com/font-awesome/5.5.0 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- https://resumeworded.com/results.php -->
+    <!-- https://fontawesome.com/v5.15/icons -->
+    <style>
+      :root {
+        --text: #000000;
+        --text2: #666666;
+        --bg: #ffffff;
+        --bg2: #bbbbbb;
+        --sans: Roboto, sans-serif;
+        --mono: Inconsolata, monospace;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /*https://stackoverflow.com/questions/11289166/chrome-on-android-resizes-font*/
+        max-height: 999999999px;
+        -webkit-tap-highlight-color: transparent;
+      }
+      html *:not(head *):not(script):not(style) {
+        /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
+        display: flex;
+      }
+      body {
+        /* A4 paper size */
+        width: 210mm;
+        height: 297mm;
+        /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
+        font-family: var(--sans);
+        font-weight: 300;
+        color: var(--text);
+        background: var(--bg);
+        text-align: justify;
+      }
+      html {
+        background: #000000;
+      }
+    </style>
+    <style>
+      body {
+        display: grid !important;
+        grid-template-columns: auto 14em;
+        grid-template-rows: auto auto auto;
+        padding: 10mm;
+        margin: 10mm;
+        font-size: 3.25mm;
+        line-height: 1.4;
+        gap: 10mm;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: var(--text2);
+        line-height: 1;
+        padding-bottom: 0.25em;
+      }
+      /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
+      * + h2 {
+        padding-top: 1.5em;
+      }
+      h3 {
+        font-weight: 500;
+        font-size: 1em;
+        align-items: center;
+        line-height: 1;
+        padding-top: 0.75em;
+        padding-bottom: 0.25em;
+      }
+      li {
+        font-weight: 300;
+        padding-left: 1em;
+      }
+      ul {
+        flex-direction: column;
+      }
+      ul li {
+        display: list-item !important;
+        list-style: none;
+        position: relative;
+      }
+      /* https://stackoverflow.com/questions/7250381/html-entity-for-the-middle-dot */
+      ul li::before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 0.25em;
+      }
+
+      h1 {
+        white-space: pre;
+        font-size: 3em;
+        line-height: 1.25;
+        flex-direction: row;
+        font-weight: 300;
+      }
+      h1 strong {
+        font-weight: 500;
+      }
+      section > * {
+        flex: auto;
+      }
+      section:nth-child(1) {
+        grid-column: 1 / 3;
+      }
+      section:nth-child(2) {
+        flex-direction: column;
+        justify-content: stretch;
+      }
+      section:nth-child(3) {
+        flex-direction: column;
+        justify-content: stretch;
+      }
+      section:nth-child(4) {
+        grid-column: 1 / 3;
+      }
+      em {
+        height: 100%;
+        align-items: center;
+        font-weight: 300;
+        font-size: 0.75em;
+        font-style: italic;
+        color: var(--text2);
+      }
+      code {
+        height: 100%;
+        align-items: center;
+      }
+      code {
+        font-family: var(--sans);
+        /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 300;
+        font-size: 0.66em;
+        color: var(--text2);
+        align-items: center;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a > * {
+        vertical-align: middle;
+      }
+      i {
+        width: 1em;
+        margin-right: 0.5em;
+        text-align: right;
+      }
+      h1,
+      h2,
+      h3 {
+        display: block !important;
+      }
+      a,
+      p,
+      strong,
+      code {
+        display: inline !important;
+      }
+
+      @media print {
+        body {
+          margin: 0;
+        }
+      }
+
+      /* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
+      @page {
+        size: A4 portrait;
+        margin: 0;
+      }
+
+      em {
+        float: right;
+      }
+    </style>
+    <script>
+      window.addEventListener('load', () => {
+        document.querySelectorAll('a').forEach((a) => {
+          let icon = '';
+          if (a.href.includes('maps.google.com')) icon = 'fas fa-map-marker-alt';
+          else if (a.href.includes('tel:')) icon = 'fas fa-phone';
+          else if (a.href.includes('mailto:')) icon = 'fas fa-envelope';
+          else if (a.href.includes('github.com')) icon = 'fab fa-github';
+          else if (a.href.includes('devpost.com')) icon = 'fas fa-file-lines';
+          else if (a.href.includes('linkedin.com')) icon = 'fab fa-linkedin';
+          else icon = 'fas fa-link';
+
+          a.target = '_blank';
+          a.innerHTML = `<i class="fa-sm ${icon}"></i>${a.innerHTML}`;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    {{export}}
+  </body>
+</html>

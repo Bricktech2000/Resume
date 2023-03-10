@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome css cdn: -->
+    <!-- https://www.cdnpkg.com/font-awesome/5.5.0 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- https://resumeworded.com/results.php -->
+    <!-- https://fontawesome.com/v5.15/icons -->
+    <style>
+      :root {
+        --text: #000000;
+        --text2: #666666;
+        --bg: #ffffff;
+        --bg2: #bbbbbb;
+        --sans: Roboto, sans-serif;
+        --mono: Inconsolata, monospace;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /*https://stackoverflow.com/questions/11289166/chrome-on-android-resizes-font*/
+        max-height: 999999999px;
+        -webkit-tap-highlight-color: transparent;
+      }
+      html *:not(head *):not(script):not(style) {
+        /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
+        display: flex;
+      }
+      body {
+        /* A4 paper size */
+        width: 210mm;
+        height: 297mm;
+        /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
+        font-family: var(--sans);
+        font-weight: 300;
+        color: var(--text);
+        background: var(--bg);
+        text-align: justify;
+      }
+      html {
+        background: #000000;
+      }
+    </style>
+    <style>
+      body {
+        display: grid !important;
+        grid-template-columns: auto 14em;
+        grid-template-rows: auto auto auto;
+        padding: 10mm;
+        margin: 10mm;
+        font-size: 3.25mm;
+        line-height: 1.4;
+        gap: 10mm;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: var(--text2);
+        line-height: 1;
+        padding-bottom: 0.25em;
+      }
+      /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
+      * + h2 {
+        padding-top: 1.5em;
+      }
+      h3 {
+        font-weight: 500;
+        font-size: 1em;
+        align-items: center;
+        line-height: 1;
+        padding-top: 0.75em;
+        padding-bottom: 0.25em;
+      }
+      li {
+        font-weight: 300;
+        padding-left: 1em;
+      }
+      ul {
+        flex-direction: column;
+      }
+      ul li {
+        display: list-item !important;
+        list-style: none;
+        position: relative;
+      }
+      /* https://stackoverflow.com/questions/7250381/html-entity-for-the-middle-dot */
+      ul li::before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 0.25em;
+      }
+
+      h1 {
+        white-space: pre;
+        font-size: 3em;
+        line-height: 1.25;
+        flex-direction: row;
+        font-weight: 300;
+      }
+      h1 strong {
+        font-weight: 500;
+      }
+      section > * {
+        flex: auto;
+      }
+      section:nth-child(1) {
+        grid-column: 1 / 3;
+      }
+      section:nth-child(2) {
+        flex-direction: column;
+        justify-content: stretch;
+      }
+      section:nth-child(3) {
+        flex-direction: column;
+        justify-content: stretch;
+      }
+      section:nth-child(4) {
+        grid-column: 1 / 3;
+      }
+      em {
+        height: 100%;
+        align-items: center;
+        font-weight: 300;
+        font-size: 0.75em;
+        font-style: italic;
+        color: var(--text2);
+      }
+      code {
+        height: 100%;
+        align-items: center;
+      }
+      code {
+        font-family: var(--sans);
+        /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 300;
+        font-size: 0.66em;
+        color: var(--text2);
+        align-items: center;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a > * {
+        vertical-align: middle;
+      }
+      i {
+        width: 1em;
+        margin-right: 0.5em;
+        text-align: right;
+      }
+      h1,
+      h2,
+      h3 {
+        display: block !important;
+      }
+      a,
+      p,
+      strong,
+      code {
+        display: inline !important;
+      }
+
+      @media print {
+        body {
+          margin: 0;
+        }
+      }
+
+      /* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
+      @page {
+        size: A4 portrait;
+        margin: 0;
+      }
+
+      em {
+        float: right;
+      }
+    </style>
+    <script>
+      window.addEventListener('load', () => {
+        document.querySelectorAll('a').forEach((a) => {
+          let icon = '';
+          if (a.href.includes('maps.google.com')) icon = 'fas fa-map-marker-alt';
+          else if (a.href.includes('tel:')) icon = 'fas fa-phone';
+          else if (a.href.includes('mailto:')) icon = 'fas fa-envelope';
+          else if (a.href.includes('github.com')) icon = 'fab fa-github';
+          else if (a.href.includes('devpost.com')) icon = 'fas fa-file-lines';
+          else if (a.href.includes('linkedin.com')) icon = 'fab fa-linkedin';
+          else icon = 'fas fa-link';
+
+          a.target = '_blank';
+          a.innerHTML = `<i class="fa-sm ${icon}"></i>${a.innerHTML}`;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <section><h1>Emilien <strong>Breton</strong></h1>
+</section><section>
+<h2>Experience</h2>
+<h3><a href="http://hackthehill.com/">Hack the Hill</a></h3>
+<p><code>Development Coordinator &mdash; Development Team</code> <em>University of Ottawa • November 2022 — Present</em></p>
+<h3>Zeptile Software</h3>
+<p><code>Software Engineer &mdash; Web3</code> <em>Remote from Ottawa • October 2022 — Present</em></p>
+<h3><a href="https://uocsclub.ca/">uOttawa CS Club</a></h3>
+<p><code>Club Executive</code> <em>University of Ottawa • June 2022 — Present</em></p>
+<ul>
+<li>Collaborated with two other executives to brainstorm, organize and schedule a dozen small-scale events in Ottawa by giving talks and organizing workshops for over 100 students</li>
+<li>Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress</li>
+</ul>
+<h2>Projects</h2>
+<h3><a href="https://emilien.ca/">Personal Website</a></h3>
+<p><code>A portfolio for sharing various projects</code>
+<em>JavaScript • HTML • CSS • Markdown • Next.js</em></p>
+<ul>
+<li>Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over 5000 unique visitors a month</li>
+<li>Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over 95%</li>
+</ul>
+<h3><a href="https://github.com/Bricktech2000/Stack-Based-CPU">Stack-Based CPU</a></h3>
+<p><code>An assembler and emulator for a custom stack-based CPU architecture</code>
+<em>Rust • Assembly</em></p>
+<ul>
+<li>Designed and implemented stack-based emulator in Rust that supports 44 CPU instructions and graphics through 32x32 grayscale display buffer</li>
+<li>Developed basic assembler to resolve labels and convert Assembly source files into custom binary machine code</li>
+<li>Proved custom instruction set Turing complete through <a href="https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm">implementation of Conway's Game of Life</a> from scratch in Assembly language</li>
+</ul>
+<h3><a href="https://dbless.emilien.ca/">DBLess Password Manager</a></h3>
+<p><code>A hash-based, database-less password manager</code>
+<em>Python • JavaScript • HTML • CSS • Next.js</em></p>
+<ul>
+<li>Devised <a href="https://github.com/Bricktech2000/DBLess-Password-Manager/blob/master/web/lib/generatePassword.js">custom cryptographic procedure</a> based on SHA-256 to deterministically generate passwords on demand instead of encrypting them</li>
+<li>Built <a href="https://dbless.emilien.ca/">cross-platform PWA</a> with Next.js that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience</li>
+</ul>
+<h3><a href="https://devpost.com/software/legacy-protocol">Legacy Protocol</a></h3>
+<p><code>Submission for DeFi The Conventional 2022</code>
+<em>March 2022 • JavaScript • React • Rust</em></p>
+<ul>
+<li>Won first place in Finance category of Canada's largest DeFi hackathon along with 2500$ prize as part of 3-member team</li>
+<li>Built <a href="https://github.com/Bricktech2000/crypto_will">MVP smart contract backend</a> from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe</li>
+<li>Collaborated with Terraform Labs to officialize our protocol and secure additional funding prior to Terra Luna collapse</li>
+</ul>
+<h3>More on <a href="https://github.com/Bricktech2000">GitHub</a> and in <a href="https://emilien.ca/">Portfolio</a></h3>
+<h2>Education</h2>
+<h3>University of Ottawa</h3>
+<p><code>BSc with Honours in Computer Science</code> <em>Dropped out after first year</em></p>
+<ul>
+<li>Admission scholarship — 95%+ average <em>November 2020</em></li>
+</ul>
+</section><section>
+<h2>Contact</h2>
+<p><a href="https://maps.google.com/place/Ottawa,+ON">Ottawa, Ontario</a></p>
+<p><a href="tel:+1-613-913-9909">613-913-9909</a></p>
+<p><a href="mailto:mail@emilien.ca">mail@emilien.ca</a></p>
+<p><a href="https://emilien.ca/">https://emilien.ca/</a></p>
+<p><a href="https://github.com/Bricktech2000"><strong>github/</strong> Bricktech2000</a></p>
+<p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/in/</strong> emilien-breton</a></p>
+<h2>Skills</h2>
+<h3>Programming Languages</h3>
+<p>Python • JavaScript • Rust • C++</p>
+<h3>Development Tools</h3>
+<p>Linux • Neovim • Git • GitHub • Docker</p>
+<h3>Frameworks</h3>
+<p>React • Node.js • Next.js • Express.js</p>
+<h3>Other Technologies</h3>
+<p>HTML • CSS • JSON • YAML • Markdown • LaTeX • C • Assembly • Raspberry Pi • Arduino • VS Code • Figma • Notion • Cloudflare</p>
+<h2>Other</h2>
+<h3>Languages</h3>
+<p>French <em>Native</em></p>
+<p>English <em>Native</em></p>
+<p>Spanish <em>Intermediate</em></p>
+<p>Russian <em>Elementary</em></p>
+<h3>Interests</h3>
+<p>Electronics • <a href="https://emilien.ca/Spider-Robot/">Robotics</a> • 3D Printing • Mathematics • <a href="https://emilien.ca/FPV-Racing-Drone/">Drone Building</a> • Finance & Investing • <a href="https://notes.emilien.ca/productivity/">Productivity</a> • Music</p>
+</section><section>
+<p><a href="https://github.com/Bricktech2000/Resume/"><code>Bricktech2000/Resume</code></a> <em class="time"></em></p>
+<script>
+  // https://stackoverflow.com/questions/45726013/how-can-i-get-last-commit-from-github-api
+  // https://api.github.com/users/Bricktech2000/events/public
+  // https://api.github.com/repos/Bricktech2000/Resume
+  // https://api.github.com/repos/Bricktech2000/Resume/commits
+  (async () => {
+    const latestCommitHash = (
+      await (
+        await fetch(
+          'https://api.github.com/repos/Bricktech2000/Resume/commits'
+        )
+      ).json()
+    )[0].sha.slice(0, 15);
+
+    const currentMonthYear = new Date().toLocaleString('default', {
+      month: 'long',
+      year: 'numeric',
+    });
+
+    document.querySelector('.time').innerHTML =
+      currentMonthYear + '&nbsp;&bull;&nbsp;' + latestCommitHash;
+  })();
+</script>
+</section>
+  </body>
+</html>
