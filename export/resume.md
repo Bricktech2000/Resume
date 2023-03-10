@@ -69,7 +69,7 @@ _March 2022&nbsp;&bull; JavaScript&nbsp;&bull; React&nbsp;&bull; Rust_
 
 ## Contact
 
-[Ottawa, Ontario](https://maps.google.com/place/Ottawa,+ON)
+[Ottawa, Ontario](https://google.com/maps/place/Ottawa,+ON)
 
 [613-913-9909](tel:+1-613-913-9909)
 
@@ -103,13 +103,10 @@ HTML&nbsp;&bull; CSS&nbsp;&bull; JSON&nbsp;&bull; YAML&nbsp;&bull; Markdown&nbsp
 
 ### Languages
 
-French _Native_
-
-English _Native_
-
-Spanish _Intermediate_
-
-Russian _Elementary_
+- French _Native_
+- English _Native_
+- Spanish _Intermediate_
+- Russian _Elementary_
 
 ### Interests
 

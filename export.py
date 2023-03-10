@@ -1,4 +1,5 @@
 def export(extension, process):
+  print(f'exporting `{extension}` file...')
   with open(f'resume.md', 'r') as f:
     md = f.read()
     with open(f'export/resume.{extension}', 'wb') as f:
@@ -17,10 +18,11 @@ def txt_process(md):
 
   width = 100
   small_width = 94
+  newline = '\n'
 
   class TextRenderer(Renderer):
     def render_code_block(self, element):
-      return f'CODE_BLOCK {element}'
+      raise NotImplementedError
 
     def render_heading(self, element):
       if element.level == 1:
@@ -30,32 +32,32 @@ def txt_process(md):
         options = webdriver.ChromeOptions()
         options.add_argument('--headless')
         driver = webdriver.Chrome(options=options)
-        driver.get(f'https://patorjk.com/software/taag/#p=display&f=Small%20Slant&t={self.render_children(element)}')
-        time.sleep(1)
+        driver.get(
+            f'https://patorjk.com/software/taag/#p=display&f=Stick%20Letters&t={self.render_children(element).upper()}')
+        time.sleep(0.25)
         ascii_art = driver.find_element(By.ID, 'taag_output_text').text
         driver.quit()
         return f'{ascii_art}'
       if element.level == 2:
-        return f'{self.render_children(element).upper().ljust(width, "_")}\n'
+        return f'{self.parse_html("&mdash;&mdash;") + (" " + self.render_children(element).upper() + " ").ljust(width, self.parse_html("&mdash;"))}\n'
       if element.level == 3:
         return f'{fill(self.render_children(element).upper(), small_width)}'
       raise NotImplementedError
 
     def render_list_item(self, element):
-      newline = '\n'
       return f'{self.parse_html("&bull;")} {(newline + "  ").join(fill(self.render_children(element), small_width).split(newline))}\n'
 
     def render_blank_line(self, element):
       return f'\n'
 
     def render_quote(self, element):
-      return f'{"|".join([self.render_children(child) for child in element.children])}'
+      return f'| {"| ".join([self.render(child) for child in element.children])}'
 
     def render_fenced_code(self, element):
       raise NotImplementedError
 
     def render_thematic_break(self, element):
-      return f'\n{" " * (width // 2 - 3) + "* * *"}\n'
+      return f'\n{" " * (width // 2 - 3) + self.parse_html("&bull;&nbsp;&bull;&nbsp;&bull;")}\n'
 
     def render_html_block(self, element):
       return f''
@@ -83,7 +85,7 @@ def txt_process(md):
 
     def render_emphasis(self, element):
       newline = '\n'
-      return f'|||{(newline + "||||").join(fill(self.render_children(element), small_width).split(newline))}'
+      return f'|||{(newline + "|||").join(fill(self.render_children(element), small_width).split(newline))}'
 
     def render_strong_emphasis(self, element):
       return f'{fill(self.render_children(element).upper(), small_width)}'
@@ -105,7 +107,7 @@ def txt_process(md):
 
   markdown = Markdown(parser=Parser, renderer=TextRenderer)
   return '\n'.join(map(
-      lambda line: line.replace('|||', ' ' * (width - len(line) + 3)),
+      lambda line: line.replace('|||', ' ' * (width - len(line) + 5)),
       markdown.convert(md).split('\n')
   )).encode('utf-8')
 
@@ -127,46 +129,29 @@ def pdf_process(md):
     f.write(html_process(md))
 
   from selenium import webdriver
+  import base64
   import json
   import time
   import os
 
   options = webdriver.ChromeOptions()
-  settings = {
-      'recentDestinations': [{
-          'id': 'Save as PDF',
-          'origin': 'local',
-          'account': '',
-      }],
-      'mediaSize': {
-          'name': 'ISO_A4',
-          'custom_display_name': 'A4',
-          'width_microns': 210000,
-          'height_microns': 297000,
-      },
-      'customMargins': {},
-      'marginsType': 2,
-      'selectedDestinationId': 'Save as PDF',
-      'version': 2,
-      'isHeaderFooterEnabled': False,
+  settings2 = {
+      'landscape': False,
+      'displayHeaderFooter': False,
+      'paperWidth': 210 / 25.4,  # why imperial?
+      'paperHeight': 297 / 25.4,
+      'marginTop': 0,
+      'marginBottom': 0,
+      'marginLeft': 0,
+      'marginRight': 0,
   }
-  prefs = {
-      'printing.print_preview_sticky_settings.appState': json.dumps(settings),
-      'savefile.default_directory': os.path.dirname(os.path.realpath(__file__)),
-  }
-  options.add_experimental_option('prefs', prefs)
-  options.add_argument('--kiosk-printing')
-  options.add_argument('--window-size=0,0')
+  options.add_argument('--headless')
   driver = webdriver.Chrome(options=options)
   driver.get(f'file://{os.path.realpath("temp.html")}')
-  time.sleep(1)
-  driver.execute_script('window.print();')
+  time.sleep(0.25)
+  pdf = base64.b64decode(driver.execute_cdp_cmd("Page.printToPDF", settings2)['data'])
   driver.quit()
-
-  with open('temp.html.pdf', 'rb') as f:
-    pdf = f.read()
   os.remove('temp.html')
-  os.remove('temp.html.pdf')
 
   return pdf
 
@@ -175,3 +160,4 @@ export('html', html_process)
 export('txt', txt_process)
 export('pdf', pdf_process)
 export('md', md_process)
+print('done.')

@@ -1,31 +1,30 @@
-   ____      _ ___            ___  ___  ______________  _  __
-  / __/_ _  (_) (_)__ ___    / _ )/ _ \/ __/_  __/ __ \/ |/ /
- / _//  ' \/ / / / -_) _ \  / _  / , _/ _/  / / / /_/ /    / 
-/___/_/_/_/_/_/_/\__/_//_/ /____/_/|_/___/ /_/  \____/_/|_/  
-                                                             
+ ___                 ___          __   __   ___ ___  __       
+|__   |\/| | |    | |__  |\ |    |__) |__) |__   |  /  \ |\ | 
+|___  |  | | |___ | |___ | \|    |__) |  \ |___  |  \__/ | \| 
+                                                              
 
-                                               * * *
+                                               • • •
 
-EXPERIENCE__________________________________________________________________________________________
+—— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————————
 
 HACK THE HILL <HTTP://HACKTHEHILL.COM/>
-[Development Coordinator — Development Team]          University of Ottawa • November 2022 — Present
+[Development Coordinator — Development Team]            University of Ottawa • November 2022 — Present
 
 ZEPTILE SOFTWARE
-[Software Engineer — Web3]                               Remote from Ottawa • October 2022 — Present
+[Software Engineer — Web3]                                 Remote from Ottawa • October 2022 — Present
 
 UOTTAWA CS CLUB <HTTPS://UOCSCLUB.CA/>
-[Club Executive]                                          University of Ottawa • June 2022 — Present
+[Club Executive]                                            University of Ottawa • June 2022 — Present
 
 • Collaborated with two other executives to brainstorm, organize and schedule a dozen small-
   scale events in Ottawa by giving talks and organizing workshops for over 100 students
 • Designed internal Notion workspace, improving short-term planning by providing single central
   platform to capture meeting minutes and track task progress
 
-PROJECTS____________________________________________________________________________________________
+—— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————————
 
 PERSONAL WEBSITE <HTTPS://EMILIEN.CA/>
-[A portfolio for sharing various projects]              JavaScript • HTML • CSS • Markdown • Next.js
+[A portfolio for sharing various projects]                JavaScript • HTML • CSS • Markdown • Next.js
 
 • Designed and implemented appealing UI and optimized UX using Google Search Console resulting
   in over 5000 unique visitors a month
@@ -33,7 +32,7 @@ PERSONAL WEBSITE <HTTPS://EMILIEN.CA/>
   Lighthouse score consistently over 95%
 
 STACK-BASED CPU <HTTPS://GITHUB.COM/BRICKTECH2000/STACK-BASED-CPU>
-[An assembler and emulator for a custom stack-based CPU architecture]                Rust • Assembly
+[An assembler and emulator for a custom stack-based CPU architecture]                  Rust • Assembly
 
 • Designed and implemented stack-based emulator in Rust that supports 44 CPU instructions and
   graphics through 32x32 grayscale display buffer
@@ -44,7 +43,7 @@ STACK-BASED CPU <HTTPS://GITHUB.COM/BRICKTECH2000/STACK-BASED-CPU>
   scratch in Assembly language
 
 DBLESS PASSWORD MANAGER <HTTPS://DBLESS.EMILIEN.CA/>
-[A hash-based, database-less password manager]            Python • JavaScript • HTML • CSS • Next.js
+[A hash-based, database-less password manager]              Python • JavaScript • HTML • CSS • Next.js
 
 • Devised custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
   Manager/blob/master/web/lib/generatePassword.js> based on SHA-256 to deterministically
@@ -53,7 +52,7 @@ DBLESS PASSWORD MANAGER <HTTPS://DBLESS.EMILIEN.CA/>
   generates passwords and copies them to user's clipboard for convenience
 
 LEGACY PROTOCOL <HTTPS://DEVPOST.COM/SOFTWARE/LEGACY-PROTOCOL>
-[Submission for DeFi The Conventional 2022]                   March 2022 • JavaScript • React • Rust
+[Submission for DeFi The Conventional 2022]                     March 2022 • JavaScript • React • Rust
 
 • Won first place in Finance category of Canada's largest DeFi hackathon along with 2500$ prize
   as part of 3-member team
@@ -63,19 +62,19 @@ LEGACY PROTOCOL <HTTPS://DEVPOST.COM/SOFTWARE/LEGACY-PROTOCOL>
   prior to Terra Luna collapse
 
 MORE ON GITHUB <HTTPS://GITHUB.COM/BRICKTECH2000> AND IN PORTFOLIO <HTTPS://EMILIEN.CA/>
-EDUCATION___________________________________________________________________________________________
+—— EDUCATION —————————————————————————————————————————————————————————————————————————————————————————
 
 UNIVERSITY OF OTTAWA
-[BSc with Honours in Computer Science]                                  Dropped out after first year
+[BSc with Honours in Computer Science]                                    Dropped out after first year
 
-• Admission scholarship — 95%+ average                                                 November 2020
+• Admission scholarship — 95%+ average                                                   November 2020
 
 
-                                               * * *
+                                               • • •
 
-CONTACT_____________________________________________________________________________________________
+—— CONTACT ———————————————————————————————————————————————————————————————————————————————————————————
 
-Ottawa, Ontario <https://maps.google.com/place/Ottawa,+ON>
+Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
 
 613-913-9909 <tel:+1-613-913-9909>
 
@@ -87,7 +86,7 @@ GITHUB/ Bricktech2000 <https://github.com/Bricktech2000>
 
 LINKEDIN/IN/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
-SKILLS______________________________________________________________________________________________
+—— SKILLS ————————————————————————————————————————————————————————————————————————————————————————————
 
 PROGRAMMING LANGUAGES
 Python • JavaScript • Rust • C++
@@ -102,16 +101,13 @@ OTHER TECHNOLOGIES
 HTML • CSS • JSON • YAML • Markdown • LaTeX • C • Assembly • Raspberry Pi • Arduino • VS Code
 • Figma • Notion • Cloudflare
 
-OTHER_______________________________________________________________________________________________
+—— OTHER —————————————————————————————————————————————————————————————————————————————————————————————
 
 LANGUAGES
-French                                                                                        Native
-
-English                                                                                       Native
-
-Spanish                                                                                 Intermediate
-
-Russian                                                                                   Elementary
+• French                                                                                        Native
+• English                                                                                       Native
+• Spanish                                                                                 Intermediate
+• Russian                                                                                   Elementary
 
 INTERESTS
 Electronics • Robotics <https://emilien.ca/Spider-Robot/> • 3D Printing • Mathematics • Drone
@@ -119,7 +115,7 @@ Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing • Prod
 <https://notes.emilien.ca/productivity/> • Music
 
 
-                                               * * *
+                                               • • •
 
 [Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>
 
