@@ -3,7 +3,8 @@ def export(extension, process):
   with open(f'resume.md', 'r') as f:
     md = f.read()
     with open(f'export/resume.{extension}', 'wb') as f:
-      f.write(process(md))
+      import re
+      f.write(process(re.sub(r'<\?(.|\n)*?\?>(\n\n)?', r'', md)))
 
 
 def md_process(md):

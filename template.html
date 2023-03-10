@@ -40,8 +40,6 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        /*https://stackoverflow.com/questions/11289166/chrome-on-android-resizes-font*/
-        max-height: 999999999px;
         -webkit-tap-highlight-color: transparent;
       }
       html *:not(head *):not(script):not(style) {
@@ -52,7 +50,6 @@
         /* A4 paper size */
         width: 210mm;
         height: 297mm;
-        /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
         font-family: var(--sans);
         font-weight: 300;
         color: var(--text);
@@ -106,7 +103,6 @@
         list-style: none;
         position: relative;
       }
-      /* https://stackoverflow.com/questions/7250381/html-entity-for-the-middle-dot */
       ul li::before {
         content: '•';
         position: absolute;
@@ -144,6 +140,7 @@
       }
       em {
         height: 100%;
+        float: right;
         align-items: center;
         font-weight: 300;
         font-size: 0.75em;
@@ -156,7 +153,6 @@
       }
       code {
         font-family: var(--sans);
-        /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
         text-transform: uppercase;
         letter-spacing: 0.1em;
         font-weight: 300;
@@ -199,10 +195,6 @@
       @page {
         size: A4 portrait;
         margin: 0;
-      }
-
-      em {
-        float: right;
       }
     </style>
     <script>

@@ -16,7 +16,7 @@
 
 `Club Executive` _University of Ottawa&nbsp;&bull; June 2022 &mdash; Present_
 
-- Collaborated with two other executives to brainstorm, organize and schedule a dozen small-scale events in Ottawa by giving talks and organizing workshops for over 100 students
+- Collaborated with two other executives to brainstorm, organize and schedule a dozen small-scale events in Ottawa by giving talks and organizing workshops for over 100 students 
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress
 
 ## Projects
@@ -51,7 +51,7 @@ _Python&nbsp;&bull; JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Next
 `Submission for DeFi The Conventional 2022`
 _March 2022&nbsp;&bull; JavaScript&nbsp;&bull; React&nbsp;&bull; Rust_
 
-- Won first place in Finance category of Canada's largest DeFi hackathon along with 2500\$ prize as part of 3-member team
+- Won first place in Finance category of Canada's largest DeFi hackathon along with 2500&dollar; prize as part of 3-member team
 - Built [MVP smart contract backend](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
 - Collaborated with Terraform Labs to officialize our protocol and secure additional funding prior to Terra Luna collapse
 
@@ -70,6 +70,8 @@ _March 2022&nbsp;&bull; JavaScript&nbsp;&bull; React&nbsp;&bull; Rust_
 ## Contact
 
 [Ottawa, Ontario](https://google.com/maps/place/Ottawa,+ON)
+
+
 
 [613-913-9909](tel:+1-613-913-9909)
 
@@ -102,6 +104,7 @@ HTML&nbsp;&bull; CSS&nbsp;&bull; JSON&nbsp;&bull; YAML&nbsp;&bull; Markdown&nbsp
 ## Other
 
 ### Languages
+
 
 - French _Native_
 - English _Native_
