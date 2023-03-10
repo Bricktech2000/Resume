@@ -119,26 +119,4 @@ Electronics&nbsp;&bull; [Robotics](https://emilien.ca/Spider-Robot/)&nbsp;&bull;
 
 [`Bricktech2000/Resume`](https://github.com/Bricktech2000/Resume/) <em class="time"></em>
 
-<script>
-  // https://stackoverflow.com/questions/45726013/how-can-i-get-last-commit-from-github-api
-  // https://api.github.com/users/Bricktech2000/events/public
-  // https://api.github.com/repos/Bricktech2000/Resume
-  // https://api.github.com/repos/Bricktech2000/Resume/commits
-  (async () => {
-    const latestCommitHash = (
-      await (
-        await fetch(
-          'https://api.github.com/repos/Bricktech2000/Resume/commits'
-        )
-      ).json()
-    )[0].sha.slice(0, 15);
 
-    const currentMonthYear = new Date().toLocaleString('default', {
-      month: 'long',
-      year: 'numeric',
-    });
-
-    document.querySelector('.time').innerHTML =
-      currentMonthYear + '&nbsp;&bull;&nbsp;' + latestCommitHash;
-  })();
-</script>

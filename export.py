@@ -1,14 +1,19 @@
+import base64
+import time
+import os
+import re
+
+
 def export(extension, process):
   print(f'exporting `{extension}` file...')
   with open(f'resume.md', 'r') as f:
     md = f.read()
     with open(f'export/resume.{extension}', 'wb') as f:
-      import re
       f.write(process(re.sub(r'<\?(.|\n)*?\?>(\n\n)?', r'', md)))
 
 
 def md_process(md):
-  return md.encode('utf-8')
+  return re.sub(r'<script>(.|\n)*?</script>(\n\n)?', r'', md).encode('utf-8')
 
 
 def txt_process(md):
@@ -22,14 +27,14 @@ def txt_process(md):
   newline = '\n'
 
   class TextRenderer(Renderer):
-    def render_code_block(self, element):
+    def render_code_block(self, _):
       raise NotImplementedError
 
     def render_heading(self, element):
       if element.level == 1:
         from selenium import webdriver
         from selenium.webdriver.common.by import By
-        import time
+
         options = webdriver.ChromeOptions()
         options.add_argument('--headless')
         driver = webdriver.Chrome(options=options)
@@ -48,37 +53,37 @@ def txt_process(md):
     def render_list_item(self, element):
       return f'{self.parse_html("&bull;")} {(newline + "  ").join(fill(self.render_children(element), small_width).split(newline))}\n'
 
-    def render_blank_line(self, element):
+    def render_blank_line(self, _):
       return f'\n'
 
     def render_quote(self, element):
       return f'| {"| ".join([self.render(child) for child in element.children])}'
 
-    def render_fenced_code(self, element):
+    def render_fenced_code(self, _):
       raise NotImplementedError
 
-    def render_thematic_break(self, element):
+    def render_thematic_break(self, _):
       return f'\n{" " * (width // 2 - 3) + self.parse_html("&bull;&nbsp;&bull;&nbsp;&bull;")}\n'
 
-    def render_html_block(self, element):
+    def render_html_block(self, _):
       return f''
 
-    def render_link_ref_def(self, element):
+    def render_link_ref_def(self, _):
       raise NotImplementedError
 
-    def render_setext_heading(self, element):
+    def render_setext_heading(self, _):
       raise NotImplementedError
 
     def render_paragraph(self, element):
       return f'{fill(self.render_children(element), small_width)}\n'
 
-    def render_line_break(self, element):
+    def render_line_break(self, _):
       return f'\n'
 
     def render_literal(self, element):
       return f'{element.children}'
 
-    def render_inline_html(self, element):
+    def render_inline_html(self, _):
       return f''
 
     def render_code_span(self, element):
@@ -94,17 +99,17 @@ def txt_process(md):
     def render_link(self, element):
       return f'{self.render_children(element)} <{element.dest}>'
 
-    def render_image(self, element):
+    def render_image(self, _):
       raise NotImplementedError
 
-    def render_autolink(self, element):
+    def render_autolink(self, _):
       raise NotImplementedError
 
     def render_raw_text(self, element):
       return f'{self.parse_html(element.children)}'
 
     def parse_html(self, element):
-      return element.replace("&nbsp;", " ").replace("&bull;", "•").replace("&mdash;", "—")
+      return element.replace('&nbsp;', ' ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$')
 
   markdown = Markdown(parser=Parser, renderer=TextRenderer)
   return '\n'.join(map(
@@ -130,10 +135,6 @@ def pdf_process(md):
     f.write(html_process(md))
 
   from selenium import webdriver
-  import base64
-  import json
-  import time
-  import os
 
   options = webdriver.ChromeOptions()
   settings2 = {
@@ -150,7 +151,7 @@ def pdf_process(md):
   driver = webdriver.Chrome(options=options)
   driver.get(f'file://{os.path.realpath("temp.html")}')
   time.sleep(0.25)
-  pdf = base64.b64decode(driver.execute_cdp_cmd("Page.printToPDF", settings2)['data'])
+  pdf = base64.b64decode(driver.execute_cdp_cmd('Page.printToPDF', settings2)['data'])
   driver.quit()
   os.remove('temp.html')
 

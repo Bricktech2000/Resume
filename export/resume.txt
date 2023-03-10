@@ -54,8 +54,8 @@ DBLESS PASSWORD MANAGER <HTTPS://DBLESS.EMILIEN.CA/>
 LEGACY PROTOCOL <HTTPS://DEVPOST.COM/SOFTWARE/LEGACY-PROTOCOL>
 [Submission for DeFi The Conventional 2022]                     March 2022 • JavaScript • React • Rust
 
-• Won first place in Finance category of Canada's largest DeFi hackathon along with 2500&dollar;
-  prize as part of 3-member team
+• Won first place in Finance category of Canada's largest DeFi hackathon along with 2500$ prize
+  as part of 3-member team
 • Built MVP smart contract backend <https://github.com/Bricktech2000/crypto_will> from scratch
   in Rust with no prior experience in Web3, all within tight 36-hour timeframe
 • Collaborated with Terraform Labs to officialize our protocol and secure additional funding
