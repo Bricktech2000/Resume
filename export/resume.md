@@ -117,6 +117,4 @@ Electronics&nbsp;&bull; [Robotics](https://emilien.ca/Spider-Robot/)&nbsp;&bull;
 
 ---
 
-[`Bricktech2000/Resume`](https://github.com/Bricktech2000/Resume/) <em class="time"></em>
-
-
+[`Bricktech2000/Resume`](https://github.com/Bricktech2000/Resume/) _f00a9360a524ea1&nbsp;&bull; Mar 2023_

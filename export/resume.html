@@ -295,30 +295,7 @@
 <h3>Interests</h3>
 <p>Electronics • <a href="https://emilien.ca/Spider-Robot/">Robotics</a> • 3D Printing • Mathematics • <a href="https://emilien.ca/FPV-Racing-Drone/">Drone Building</a> • Finance & Investing • <a href="https://notes.emilien.ca/productivity/">Productivity</a> • Music</p>
 </section><section>
-<p><a href="https://github.com/Bricktech2000/Resume/"><code>Bricktech2000/Resume</code></a> <em class="time"></em></p>
-<script>
-  // https://stackoverflow.com/questions/45726013/how-can-i-get-last-commit-from-github-api
-  // https://api.github.com/users/Bricktech2000/events/public
-  // https://api.github.com/repos/Bricktech2000/Resume
-  // https://api.github.com/repos/Bricktech2000/Resume/commits
-  (async () => {
-    const latestCommitHash = (
-      await (
-        await fetch(
-          'https://api.github.com/repos/Bricktech2000/Resume/commits'
-        )
-      ).json()
-    )[0].sha.slice(0, 15);
-
-    const currentMonthYear = new Date().toLocaleString('default', {
-      month: 'long',
-      year: 'numeric',
-    });
-
-    document.querySelector('.time').innerHTML =
-      currentMonthYear + '&nbsp;&bull;&nbsp;' + latestCommitHash;
-  })();
-</script>
+<p><a href="https://github.com/Bricktech2000/Resume/"><code>Bricktech2000/Resume</code></a> <em>f00a9360a524ea1 • Mar 2023</em></p>
 </section>
   </body>
 </html>

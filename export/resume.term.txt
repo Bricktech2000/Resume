@@ -1,0 +1,120 @@
+ ___                 ___          __   __   ___ ___  __       
+|__   |\/| | |    | |__  |\ |    |__) |__) |__   |  /  \ |\ | 
+|___  |  | | |___ | |___ | \|    |__) |  \ |___  |  \__/ | \| 
+                                                              
+
+                                             • • •
+
+—— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
+
+[1mHack the Hill[0m <http://hackthehill.com/>
+[3m[Development Coordinator — Development Team][0m        [3mUniversity of Ottawa • November 2022 — Present[0m
+
+[1mZeptile Software[0m
+[3m[Software Engineer — Web3][0m                             [3mRemote from Ottawa • October 2022 — Present[0m
+
+[1muOttawa CS Club[0m <https://uocsclub.ca/>
+[3m[Club Executive][0m                                        [3mUniversity of Ottawa • June 2022 — Present[0m
+
+• Collaborated with two other executives to brainstorm, organize and schedule a dozen small-
+  scale events in Ottawa by giving talks and organizing workshops for over 100 students
+• Designed  internal  Notion  workspace,  improving  short-term planning by providing single
+  central platform to capture meeting minutes and track task progress
+
+—— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————
+
+[1mPersonal Website[0m <https://emilien.ca/>
+[3m[A portfolio for sharing various projects][0m            [3mJavaScript • HTML • CSS • Markdown • Next.js[0m
+
+• Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
+  resulting in over 5000 unique visitors a month
+• Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
+  Lighthouse score consistently over 95%
+
+[1mStack-Based CPU[0m <https://github.com/Bricktech2000/Stack-Based-CPU>
+[3m[An assembler and emulator for a custom stack-based CPU architecture][0m              [3mRust • Assembly[0m
+
+• Designed  and  implemented  stack-based emulator in Rust that supports 44 CPU instructions
+  and graphics through 32x32 grayscale display buffer
+• Developed  basic assembler to resolve labels and convert Assembly source files into custom
+  binary machine code
+• Proved  custom  instruction set Turing complete through implementation of Conway's Game of
+  Life  <https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm>
+  from scratch in Assembly language
+
+[1mDBLess Password Manager[0m <https://dbless.emilien.ca/>
+[3m[A hash-based, database-less password manager][0m          [3mPython • JavaScript • HTML • CSS • Next.js[0m
+
+• Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
+  Manager/blob/master/web/lib/generatePassword.js>  based  on  SHA-256  to deterministically
+  generate passwords on demand instead of encrypting them
+• Built  cross-platform PWA <https://dbless.emilien.ca/> with Next.js that loads 2FA tokens,
+  generates passwords and copies them to user's clipboard for convenience
+
+[1mLegacy Protocol[0m <https://devpost.com/software/legacy-protocol>
+[3m[Submission for DeFi The Conventional 2022][0m                 [3mMarch 2022 • JavaScript • React • Rust[0m
+
+• Won  first  place  in Finance category of Canada's largest DeFi hackathon along with 2500$
+  prize as part of 3-member team
+• Built  MVP  smart  contract  backend  <https://github.com/Bricktech2000/crypto_will>  from
+  scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
+• Collaborated with Terraform Labs to officialize our protocol and secure additional funding
+  prior to Terra Luna collapse
+
+[1mMore on [0m[1mGitHub[0m <https://github.com/Bricktech2000>[1m and in [0m[1mPortfolio[0m <https://emilien.ca/>
+—— EDUCATION —————————————————————————————————————————————————————————————————————————————————————
+
+[1mUniversity of Ottawa[0m
+[3m[BSc with Honours in Computer Science][0m                                [3mDropped out after first year[0m
+
+• Admission scholarship — 95%+ average                                               [3mNovember 2020[0m
+
+
+                                             • • •
+
+—— CONTACT ———————————————————————————————————————————————————————————————————————————————————————
+
+Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
+
+613-913-9909 <tel:+1-613-913-9909>
+
+mail@emilien.ca <mailto:mail@emilien.ca>
+
+https://emilien.ca/ <https://emilien.ca/>
+
+[1mgithub/[0m Bricktech2000 <https://github.com/Bricktech2000>
+
+[1mlinkedin/in/[0m emilien-breton <https://www.linkedin.com/in/emilien-breton/>
+
+—— SKILLS ————————————————————————————————————————————————————————————————————————————————————————
+
+[1mProgramming Languages[0m
+Python • JavaScript • Rust • C++
+
+[1mDevelopment Tools[0m
+Linux • Neovim • Git • GitHub • Docker
+
+[1mFrameworks[0m
+React • Node.js • Next.js • Express.js
+
+[1mOther Technologies[0m
+HTML • CSS • JSON • YAML • Markdown • LaTeX • C • Assembly • Raspberry Pi • Arduino • VS
+Code • Figma • Notion • Cloudflare
+
+—— OTHER —————————————————————————————————————————————————————————————————————————————————————————
+
+[1mLanguages[0m
+• French                                                                                    [3mNative[0m
+• English                                                                                   [3mNative[0m
+• Spanish                                                                             [3mIntermediate[0m
+• Russian                                                                               [3mElementary[0m
+
+[1mInterests[0m
+Electronics • Robotics <https://emilien.ca/Spider-Robot/> • 3D Printing • Mathematics •
+Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing • Productivity
+<https://notes.emilien.ca/productivity/> • Music
+
+
+                                             • • •
+
+[3m[Bricktech2000/Resume][0m <https://github.com/Bricktech2000/Resume/>       [3mf00a9360a524ea1 • Mar 2023[0m

@@ -32,3 +32,10 @@ https://stackoverflow.com/questions/73930294/disable-variable-is-not-accessed-er
 PNG export (removed because resolution was too low):
 https://stackoverflow.com/questions/41721734/take-screenshot-of-full-page-with-selenium-python-with-chromedriver
 https://stackoverflow.com/questions/39600245/how-to-capture-website-screenshot-in-high-resolution
+
+
+commit hash script:
+https://stackoverflow.com/questions/45726013/how-can-i-get-last-commit-from-github-api
+https://api.github.com/users/Bricktech2000/events/public
+https://api.github.com/repos/Bricktech2000/Resume
+https://api.github.com/repos/Bricktech2000/Resume/commits
