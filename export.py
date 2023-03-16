@@ -20,6 +20,10 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
     return _justify(fill(string, target_width)) if justify else fill(string, target_width)
 
   class TextRenderer(Renderer):
+    # rule of thumb for newlines:
+    # 1. add newlines at the end of render strings so all elements display on their own line with no blank lines
+    # 2. add newlines at the start of render strings to add spacing between elements
+
     def __init__(self, *args, **kwargs):
       super().__init__(*args, **kwargs)
 
@@ -60,10 +64,10 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
         time.sleep(0.25)
         ascii_art = driver.find_element(By.ID, 'taag_output_text').text
         driver.quit()
-        return f'{ascii_art}'
+        return f'{ascii_art}\n'
 
       if element.level == 2:
-        return f'{self.format_html("&ndash;&ndash;") + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_html("&ndash;"))}\n'
+        return f'\n{self.format_html("&ndash;&ndash;") + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_html("&ndash;"))}\n'
 
       if element.level == 3:
         def strong_safe(element):
@@ -73,7 +77,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
             return f'{self.format_strong(self.render_children(element))} <{element.dest}>'
           return self.format_strong(self.render(element))
 
-        return f'{fill("".join(strong_safe(child) for child in element.children), self.small_width)}'
+        return f'\n{fill("".join(strong_safe(child) for child in element.children), self.small_width)}\n'
       raise NotImplementedError
 
     def render_list_item(self, element):
@@ -81,7 +85,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       return f'{self.format_html("&bull;")} {(newline + "  ").join(fill(self.render_children(element), self.small_width, justify=True).split(newline))}\n'
 
     def render_blank_line(self, _):
-      return f'\n'
+      return f''
 
     def render_quote(self, element):
       return f'| {"| ".join(self.render(child) for child in element.children)}'

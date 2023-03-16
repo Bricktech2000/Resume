@@ -15,7 +15,6 @@
 
 [1muOttawa CS Club[0m <https://uocsclub.ca/>
 [3m[Club Executive][0m                                        [3mUniversity of Ottawa • June 2022 — Present[0m
-
 • Collaborated with two other executives to brainstorm, organize and schedule a dozen small-
   scale events in Ottawa by giving talks and organizing workshops for over 100 students
 • Designed  internal  Notion  workspace,  improving  short-term planning by providing single
@@ -25,7 +24,6 @@
 
 [1mPersonal Website[0m <https://emilien.ca/>
 [3m[A portfolio for sharing various projects][0m            [3mJavaScript • HTML • CSS • Markdown • Next.js[0m
-
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over 5000 unique visitors a month
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
@@ -33,7 +31,6 @@
 
 [1mStack-Based CPU[0m <https://github.com/Bricktech2000/Stack-Based-CPU>
 [3m[An assembler and emulator for a custom stack-based CPU architecture][0m              [3mRust • Assembly[0m
-
 • Designed  and  implemented  stack-based emulator in Rust that supports 44 CPU instructions
   and graphics through 32x32 grayscale display buffer
 • Developed  basic assembler to resolve labels and convert Assembly source files into custom
@@ -44,7 +41,6 @@
 
 [1mDBLess Password Manager[0m <https://dbless.emilien.ca/>
 [3m[A hash-based, database-less password manager][0m          [3mPython • JavaScript • HTML • CSS • Next.js[0m
-
 • Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
   Manager/blob/master/web/lib/generatePassword.js>  based  on  SHA-256  to deterministically
   generate passwords on demand instead of encrypting them
@@ -53,7 +49,6 @@
 
 [1mLegacy Protocol[0m <https://devpost.com/software/legacy-protocol>
 [3m[Submission for DeFi The Conventional 2022][0m                 [3mMarch 2022 • JavaScript • React • Rust[0m
-
 • Won  first  place  in Finance category of Canada's largest DeFi hackathon along with 2500$
   prize as part of 3-member team
 • Built  MVP  smart  contract  backend  <https://github.com/Bricktech2000/crypto_will>  from
@@ -62,28 +57,21 @@
   prior to Terra Luna collapse
 
 [1mMore on [0m[1mGitHub[0m <https://github.com/Bricktech2000>[1m and in [0m[1mPortfolio[0m <https://emilien.ca/>
+
 —— EDUCATION —————————————————————————————————————————————————————————————————————————————————————
 
 [1mUniversity of Ottawa[0m
 [3m[BSc with Honours in Computer Science][0m                                [3mDropped out after first year[0m
-
 • Admission scholarship — 95%+ average                                               [3mNovember 2020[0m
-
 
                                              • • •
 
 —— CONTACT ———————————————————————————————————————————————————————————————————————————————————————
-
 Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
-
 613-913-9909 <tel:+1-613-913-9909>
-
 mail@emilien.ca <mailto:mail@emilien.ca>
-
 https://emilien.ca/ <https://emilien.ca/>
-
 [1mgithub/[0m Bricktech2000 <https://github.com/Bricktech2000>
-
 [1mlinkedin/in/[0m emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
 —— SKILLS ————————————————————————————————————————————————————————————————————————————————————————
@@ -114,7 +102,5 @@ Electronics • Robotics <https://emilien.ca/Spider-Robot/> • 3D Printing • 
 Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing • Productivity
 <https://notes.emilien.ca/productivity/> • Music
 
-
                                              • • •
-
-[3m[Bricktech2000/Resume][0m <https://github.com/Bricktech2000/Resume/>       [3mf00a9360a524ea1 • Mar 2023[0m
+[3m[Bricktech2000/Resume][0m <https://github.com/Bricktech2000/Resume/>       [3m0a9a2dd787fddbc • Mar 2023[0m

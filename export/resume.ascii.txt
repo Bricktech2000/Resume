@@ -15,7 +15,6 @@ ZEPTILE SOFTWARE
 
 UOTTAWA CS CLUB <https://uocsclub.ca/>
 [Club Executive]                                       University of Ottawa - June 2022 -- Present
-
 - Collaborated with two other executives to brainstorm, organize and schedule a dozen small-
   scale events in Ottawa by giving talks and organizing workshops for over 100 students
 - Designed  internal  Notion  workspace,  improving  short-term planning by providing single
@@ -25,7 +24,6 @@ UOTTAWA CS CLUB <https://uocsclub.ca/>
 
 PERSONAL WEBSITE <https://emilien.ca/>
 [A portfolio for sharing various projects]            JavaScript - HTML - CSS - Markdown - Next.js
-
 - Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over 5000 unique visitors a month
 - Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
@@ -33,7 +31,6 @@ PERSONAL WEBSITE <https://emilien.ca/>
 
 STACK-BASED CPU <https://github.com/Bricktech2000/Stack-Based-CPU>
 [An assembler and emulator for a custom stack-based CPU architecture]              Rust - Assembly
-
 - Designed  and  implemented  stack-based emulator in Rust that supports 44 CPU instructions
   and graphics through 32x32 grayscale display buffer
 - Developed  basic assembler to resolve labels and convert Assembly source files into custom
@@ -44,7 +41,6 @@ STACK-BASED CPU <https://github.com/Bricktech2000/Stack-Based-CPU>
 
 DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
 [A hash-based, database-less password manager]          Python - JavaScript - HTML - CSS - Next.js
-
 - Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
   Manager/blob/master/web/lib/generatePassword.js>  based  on  SHA-256  to deterministically
   generate passwords on demand instead of encrypting them
@@ -53,7 +49,6 @@ DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
 
 LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
 [Submission for DeFi The Conventional 2022]                 March 2022 - JavaScript - React - Rust
-
 - Won  first  place  in Finance category of Canada's largest DeFi hackathon along with 2500$
   prize as part of 3-member team
 - Built  MVP  smart  contract  backend  <https://github.com/Bricktech2000/crypto_will>  from
@@ -62,28 +57,21 @@ LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
   prior to Terra Luna collapse
 
 MORE ON GITHUB <https://github.com/Bricktech2000> AND IN PORTFOLIO <https://emilien.ca/>
+
 -- EDUCATION -------------------------------------------------------------------------------------
 
 UNIVERSITY OF OTTAWA
 [BSc with Honours in Computer Science]                                Dropped out after first year
-
 - Admission scholarship -- 95%+ average                                              November 2020
-
 
                                              - - -
 
 -- CONTACT ---------------------------------------------------------------------------------------
-
 Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
-
 613-913-9909 <tel:+1-613-913-9909>
-
 mail@emilien.ca <mailto:mail@emilien.ca>
-
 https://emilien.ca/ <https://emilien.ca/>
-
 GITHUB/ Bricktech2000 <https://github.com/Bricktech2000>
-
 LINKEDIN/IN/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
 -- SKILLS ----------------------------------------------------------------------------------------
@@ -114,7 +102,5 @@ Electronics - Robotics <https://emilien.ca/Spider-Robot/> - 3D Printing - Mathem
 Drone Building <https://emilien.ca/FPV-Racing-Drone/> - Finance & Investing - Productivity
 <https://notes.emilien.ca/productivity/> - Music
 
-
                                              - - -
-
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       f00a9360a524ea1 - Mar 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       0a9a2dd787fddbc - Mar 2023

@@ -27,6 +27,7 @@ https://stackoverflow.com/questions/70666790/python-textwrap-module-not-replacin
 https://docs.python.org/3/library/textwrap.html
 https://patorjk.com/software/taag/#p=display&f=Small%20Slant&t=Emilien%20Breton
 https://stackoverflow.com/questions/73930294/disable-variable-is-not-accessed-error-in-python-vscode-extension
+https://stackoverflow.com/questions/2444447/string-that-contains-all-ascii-characters
 
 
 PNG export (removed because resolution was too low):
@@ -39,3 +40,13 @@ https://stackoverflow.com/questions/45726013/how-can-i-get-last-commit-from-gith
 https://api.github.com/users/Bricktech2000/events/public
 https://api.github.com/repos/Bricktech2000/Resume
 https://api.github.com/repos/Bricktech2000/Resume/commits
+https://stackoverflow.com/questions/415511/how-do-i-get-the-current-time
+https://stackoverflow.com/questions/204017/how-do-i-execute-a-program-from-python-os-system-fails-due-to-spaces-in-path
+https://www.reddit.com/r/learnpython/comments/328yd0/is_there_a_way_to_print_bold_text_in_python/
+https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
+https://stackoverflow.com/questions/949314/how-do-i-get-the-hash-for-the-current-commit-in-git
+https://lingojam.com/BoldTextGenerator
+
+
+general:
+https://www.30secondsofcode.org/python/s/compose
