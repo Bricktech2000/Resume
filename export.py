@@ -3,8 +3,14 @@ import time
 import os
 import re
 
+# external requirements:
+# - `git` in `$PATH`
+# - `chromedriver` in `$PATH`
+# - an internet connection
+# - an _export_ folder
 
-def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90):
+
+def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90, heading_cache={}):
   from marko.renderer import Renderer
 
   def fill(string, target_width, justify=False):
@@ -53,18 +59,22 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
             return ''.join(map(formatless, element.children))
           return self.render(element)
 
-        from selenium import webdriver
-        from selenium.webdriver.common.by import By
+        formatless_children = "".join(formatless(child) for child in element.children)
 
-        options = webdriver.ChromeOptions()
-        options.add_argument('--headless')
-        driver = webdriver.Chrome(options=options)
-        driver.get(
-            f'https://patorjk.com/software/taag/#p=display&f=Stick%20Letters&t={"".join(formatless(child) for child in element.children)}')
-        time.sleep(0.25)
-        ascii_art = driver.find_element(By.ID, 'taag_output_text').text
-        driver.quit()
-        return f'{ascii_art}\n'
+        if formatless_children not in heading_cache:
+          from selenium import webdriver
+          from selenium.webdriver.common.by import By
+
+          options = webdriver.ChromeOptions()
+          options.add_argument('--headless')
+          driver = webdriver.Chrome(options=options)
+          driver.get(
+              f'https://patorjk.com/software/taag/#p=display&f=Stick%20Letters&t={formatless_children}')
+          time.sleep(0.25)
+          heading_cache[formatless_children] = driver.find_element(By.ID, 'taag_output_text').text
+          driver.quit()
+
+        return f'{heading_cache[formatless_children]}\n'
 
       if element.level == 2:
         return f'\n{self.format_html("&ndash;&ndash;") + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_html("&ndash;"))}\n'
@@ -80,9 +90,15 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
         return f'\n{fill("".join(strong_safe(child) for child in element.children), self.small_width)}\n'
       raise NotImplementedError
 
-    def render_list_item(self, element):
-      newline = '\n'
-      return f'{self.format_html("&bull;")} {(newline + "  ").join(fill(self.render_children(element), self.small_width, justify=True).split(newline))}\n'
+    def render_list(self, element):
+      def render_list_child(element, bullet):
+        newline = '\n'
+        return f'{bullet}{(newline + " " * len(bullet)).join(fill(self.render_children(element), self.small_width, justify=True).split(newline))}\n'
+
+      return ''.join(render_list_child(child, '  ' if element.ordered else self.format_html('&bull; ')) for child in element.children)
+
+    def render_list_item(self, _):
+      raise NotImplementedError
 
     def render_blank_line(self, _):
       return f''
@@ -142,11 +158,11 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
   return TextRenderer
 
 
-def md_process(md):
-  return md.encode('utf-8')
+def md_process(source):
+  return source.encode('utf-8')
 
 
-def utf8_txt_process(md):
+def utf8_txt_process(source):
   from marko.parser import Parser
   from marko import Markdown
 
@@ -162,24 +178,24 @@ def utf8_txt_process(md):
           '                                 !"#$%&\'()*+,-./0123456789:;<=>?@ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ[\\]^_`ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ{|}~'),
       make_format(
           '                                 !"#$%&\'()*+,-./0123456789:;<=>?@ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ[\\]^_`ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ{|}~'),
-      lambda element: element.replace('&nbsp;', ' ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—'))
+      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—'))
 
-  return Markdown(parser=Parser, renderer=Utf8TxtRenderer)(md)
+  return Markdown(parser=Parser, renderer=Utf8TxtRenderer)(source)
 
 
-def ascii_txt_process(md):
+def ascii_txt_process(source):
   from marko.parser import Parser
   from marko import Markdown
 
   AsciiTxtRenderer = make_text_renderer(
-      str.upper, lambda emphasis: emphasis, lambda code: code,
-      lambda element: element.replace('&nbsp;', ' ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-'))
+      lambda strong: str.upper(strong), lambda emphasis: emphasis, lambda code: code,
+      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-'))
 
   # raise exception if not valid ASCII
-  return Markdown(parser=Parser, renderer=AsciiTxtRenderer)(md).decode('utf-8').encode('ascii')
+  return Markdown(parser=Parser, renderer=AsciiTxtRenderer)(source).decode('utf-8').encode('ascii')
 
 
-def term_txt_process(md):
+def term_txt_process(source):
   from marko.parser import Parser
   from marko import Markdown
 
@@ -187,33 +203,34 @@ def term_txt_process(md):
       lambda strong: '\033[1m' + strong + '\033[0m',
       lambda emphasis: '\033[3m' + emphasis + '\033[0m',
       lambda code: '\033[3m' + code + '\033[0m',
-      lambda element: element.replace('&nbsp;', ' ').replace('&bull;', '•').replace(
+      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '•').replace(
           '&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—'),
       lambda string: len(re.sub(r'\033[^m]*m', '', string)))
 
-  return Markdown(parser=Parser, renderer=TermTxtRenderer)(md)
+  return Markdown(parser=Parser, renderer=TermTxtRenderer)(source)
 
 
-def html_process(md):
+def html_process(source):
   from marko.ext.gfm import gfm
+
   with open('template.html', 'r') as f:
     template = f.read()
     return template.replace('{{export}}',
                             '<section>' +
-                            gfm(md)
+                            gfm(source)
                             .replace('&amp;', '&')
                             .replace('<hr />', '</section><section>')
                             + '</section>').encode('utf-8')
 
 
-def pdf_process(md):
+def pdf_process(source):
   with open('temp.html', 'wb') as f:
-    f.write(html_process(md))
+    f.write(html_process(source))
 
   from selenium import webdriver
 
   options = webdriver.ChromeOptions()
-  settings2 = {
+  settings = {
       'landscape': False,
       'displayHeaderFooter': False,
       'paperWidth': 210 / 25.4,  # why imperial?
@@ -227,7 +244,7 @@ def pdf_process(md):
   driver = webdriver.Chrome(options=options)
   driver.get(f'file://{os.path.realpath("temp.html")}')
   time.sleep(0.25)
-  pdf = base64.b64decode(driver.execute_cdp_cmd('Page.printToPDF', settings2)['data'])
+  pdf = base64.b64decode(driver.execute_cdp_cmd('Page.printToPDF', settings)['data'])
   driver.quit()
   os.remove('temp.html')
 
@@ -239,33 +256,32 @@ def compose(*fns):
   return reduce(lambda g, f: lambda *args: f(g(*args)), fns)
 
 
-def preprocess(md):
+def preprocess(source):
   import subprocess
-
-  md = md
 
   commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:15]
   day, month, year = time.strftime('%d %b %Y').split()
-  md = md.replace('{{COMMIT_HASH}}', commit_hash).replace('{{DAY}}', day).replace(
+  source = source.replace('{{COMMIT_HASH}}', commit_hash).replace('{{DAY}}', day).replace(
       '{{MONTH}}', month).replace('{{YEAR}}', year)
 
-  md = re.sub(r'<\?(.|\n)*?\?>(\n\n)?', r'', md)
+  source = re.sub(r'<\?(.|\n)*?\?>(\n\n)?', r'', source)
 
-  return md
+  return source
 
 
 def export(extension, process):
   print(f'exporting `{extension}` file...')
   with open(f'resume.md', 'r') as f:
-    md = f.read()
-    with open(f'export/resume{extension}', 'wb') as f:
-      f.write(process(md))
+    source = f.read()
+  processed = process(source)  # blocking
+  with open(f'export/resume{extension}', 'wb') as f:
+    f.write(processed)
 
 
+export('.md', compose(preprocess, md_process))
 export('.html', compose(preprocess, html_process))
 export('.ascii.txt', compose(preprocess, ascii_txt_process))
 export('.utf-8.txt', compose(preprocess, utf8_txt_process))
 export('.term.txt', compose(preprocess, term_txt_process))
 export('.pdf', compose(preprocess, pdf_process))
-export('.md', compose(preprocess, md_process))
 print('done.')

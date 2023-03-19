@@ -103,4 +103,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> - Finance & Investing - Pr
 <https://notes.emilien.ca/productivity/> - Music
 
                                              - - -
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       0a9a2dd787fddbc - Mar 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       92ac9cb334c0164 - Mar 2023
