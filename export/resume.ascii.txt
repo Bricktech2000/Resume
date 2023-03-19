@@ -9,14 +9,21 @@
 
 HACK THE HILL <http://hackthehill.com/>
 [Development Coordinator -- Development Team]      University of Ottawa - November 2022 -- Present
+- Contributed  in  developing  open-source  participant  tracker
+  <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
+  over 1000 hackers and 50 organizers throughout hackathon
+- Collaborated  with  infrastructure  and  sponsorship  teams to build and maintain internal
+  sponsor payment portal powered by Stripe and React.js
 
 ZEPTILE SOFTWARE
 [Software Engineer -- Web3]                           Remote from Ottawa - October 2022 -- Present
+  Working  on  small-scale project and getting up to speed with various technologies such as
+  Web3 programming in Solidity and testing using Chai and Hardhat
 
 UOTTAWA CS CLUB <https://uocsclub.ca/>
 [Club Executive]                                       University of Ottawa - June 2022 -- Present
-- Collaborated with two other executives to brainstorm, organize and schedule a dozen small-
-  scale events in Ottawa by giving talks and organizing workshops for over 100 students
+- Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
+  events by giving talks and organizing workshops for over 100 students
 - Designed  internal  Notion  workspace,  improving  short-term planning by providing single
   central platform to capture meeting minutes and track task progress
 
@@ -29,21 +36,11 @@ PERSONAL WEBSITE <https://emilien.ca/>
 - Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 95%
 
-STACK-BASED CPU <https://github.com/Bricktech2000/Stack-Based-CPU>
-[An assembler and emulator for a custom stack-based CPU architecture]              Rust - Assembly
-- Designed  and  implemented  stack-based emulator in Rust that supports 44 CPU instructions
-  and graphics through 32x32 grayscale display buffer
-- Developed  basic assembler to resolve labels and convert Assembly source files into custom
-  binary machine code
-- Proved  custom  instruction set Turing complete through implementation of Conway's Game of
-  Life  <https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm>
-  from scratch in Assembly language
-
 DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
 [A hash-based, database-less password manager]          Python - JavaScript - HTML - CSS - Next.js
 - Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
   Manager/blob/master/web/lib/generatePassword.js>  based  on  SHA-256  to deterministically
-  generate passwords on demand instead of encrypting them
+  generate passwords on demand without requiring encryption or password storage
 - Built  cross-platform PWA <https://dbless.emilien.ca/> with Next.js that loads 2FA tokens,
   generates passwords and copies them to user's clipboard for convenience
 
@@ -103,4 +100,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> - Finance & Investing - Pr
 <https://notes.emilien.ca/productivity/> - Music
 
                                              - - -
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       92ac9cb334c0164 - Mar 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       1cb81889b410563 - Mar 2023

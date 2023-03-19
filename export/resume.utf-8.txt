@@ -9,14 +9,21 @@
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 <http://hackthehill.com/>
 [ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴄᴏᴏʀᴅɪɴᴀᴛᴏʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ]        ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ • ɴᴏᴠᴇᴍʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
+• Contributed  in  developing  open-source  participant  tracker
+  <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
+  over 1000 hackers and 50 organizers throughout hackathon
+• Collaborated  with  infrastructure  and  sponsorship  teams to build and maintain internal
+  sponsor payment portal powered by Stripe and React.js
 
 𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
 [ꜱᴏꜰᴛᴡᴀʀᴇ ᴇɴɢɪɴᴇᴇʀ — ᴡᴇʙ3]                             ʀᴇᴍᴏᴛᴇ ꜰʀᴏᴍ ᴏᴛᴛᴀᴡᴀ • ᴏᴄᴛᴏʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
+  Working  on  small-scale project and getting up to speed with various technologies such as
+  Web3 programming in Solidity and testing using Chai and Hardhat
 
 𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗦 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
 [ᴄʟᴜʙ ᴇxᴇᴄᴜᴛɪᴠᴇ]                                        ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ • ᴊᴜɴᴇ 2022 — ᴘʀᴇꜱᴇɴᴛ
-• Collaborated with two other executives to brainstorm, organize and schedule a dozen small-
-  scale events in Ottawa by giving talks and organizing workshops for over 100 students
+• Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
+  events by giving talks and organizing workshops for over 100 students
 • Designed  internal  Notion  workspace,  improving  short-term planning by providing single
   central platform to capture meeting minutes and track task progress
 
@@ -29,21 +36,11 @@
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 95%
 
-𝗦𝘁𝗮𝗰𝗸-𝗕𝗮𝘀𝗲𝗱 𝗖𝗣𝗨 <https://github.com/Bricktech2000/Stack-Based-CPU>
-[ᴀɴ ᴀꜱꜱᴇᴍʙʟᴇʀ ᴀɴᴅ ᴇᴍᴜʟᴀᴛᴏʀ ꜰᴏʀ ᴀ ᴄᴜꜱᴛᴏᴍ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴄᴘᴜ ᴀʀᴄʜɪᴛᴇᴄᴛᴜʀᴇ]              ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
-• Designed  and  implemented  stack-based emulator in Rust that supports 44 CPU instructions
-  and graphics through 32x32 grayscale display buffer
-• Developed  basic assembler to resolve labels and convert Assembly source files into custom
-  binary machine code
-• Proved  custom  instruction set Turing complete through implementation of Conway's Game of
-  Life  <https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm>
-  from scratch in Assembly language
-
 𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://dbless.emilien.ca/>
 [ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ]          ᴘʏᴛʜᴏɴ • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ɴᴇxᴛ.ᴊꜱ
 • Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
   Manager/blob/master/web/lib/generatePassword.js>  based  on  SHA-256  to deterministically
-  generate passwords on demand instead of encrypting them
+  generate passwords on demand without requiring encryption or password storage
 • Built  cross-platform PWA <https://dbless.emilien.ca/> with Next.js that loads 2FA tokens,
   generates passwords and copies them to user's clipboard for convenience
 
@@ -103,4 +100,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-[ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ] <https://github.com/Bricktech2000/Resume/>       92ᴀᴄ9ᴄʙ334ᴄ0164 • ᴍᴀʀ 2023
+[ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ] <https://github.com/Bricktech2000/Resume/>       1ᴄʙ81889ʙ410563 • ᴍᴀʀ 2023

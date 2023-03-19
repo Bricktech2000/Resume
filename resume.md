@@ -12,9 +12,15 @@
 
 <? infrastructure role was removed around 2023-01-24 ?>
 
+`Development Coordinator &mdash; Development Team` _University of Ottawa&nbsp;&bull; November 2022 &mdash; Present_
+
+<? according to https://prisma.hackthehill.com/ ?>
+
+- Contributed in developing [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over 1000 hackers and 50 organizers throughout hackathon
+- Collaborated with infrastructure and sponsorship teams to build and maintain internal sponsor payment portal powered by Stripe and React.js
+
 <?
 - Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
-- Worked with infrastructure and sponsorship teams to set up and maintain sponsorship payment portal powered by Stripe and React.js
 - worked on website to fix issues
 - worked on sponsorship portal with stripe
 - worked on display system with firebase
@@ -26,17 +32,13 @@
 - learned basics of SQL to build queries for hacker tracker
 ?>
 
-`Development Coordinator &mdash; Development Team` _University of Ottawa&nbsp;&bull; November 2022 &mdash; Present_
-
 ### Zeptile Software
 
 <? according to Discord conversations ?>
 
-<?
-- Currently working on a small-scale project for a client and getting up to speed with various technologies such as Web3 programming in Solidity, testing using Chai and Hardhat and keeping track of tasks using GitHub Projects.
-?>
-
 `Software Engineer &mdash; Web3` _Remote from Ottawa&nbsp;&bull; October 2022 &mdash; Present_
+
+1. Working on small-scale project and getting up to speed with various technologies such as Web3 programming in Solidity and testing using Chai and Hardhat
 
 ### [uOttawa CS Club](https://uocsclub.ca/)
 
@@ -51,7 +53,7 @@
 
 `Club Executive` _University of Ottawa&nbsp;&bull; June 2022 &mdash; Present_
 
-- Collaborated with two other executives to brainstorm, organize and schedule a dozen small-scale events in Ottawa by giving talks and organizing workshops for over 100 students <? (generous cumulative estimation) ?>
+- Collaborated with both other executives to brainstorm, organize and schedule a dozen events by giving talks and organizing workshops for over 100 students <? (generous cumulative estimation) ?>
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress
 
 <?
@@ -96,6 +98,7 @@ _JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Markdown&nbsp;&bull; Ne
 - Designed project roadmap based on thorough understanding of possible complications resulting in only one major setback caused by defective parts
 ?>
 
+<?
 ### [Stack-Based CPU](https://github.com/Bricktech2000/Stack-Based-CPU)
 
 `An assembler and emulator for a custom stack-based CPU architecture`
@@ -104,14 +107,19 @@ _Rust&nbsp;&bull; Assembly_
 - Designed and implemented stack-based emulator in Rust that supports 44 CPU instructions and graphics through 32x32 grayscale display buffer
 - Developed basic assembler to resolve labels and convert Assembly source files into custom binary machine code
 - Proved custom instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm) from scratch in Assembly language
+?>
 
 ### [DBLess Password Manager](https://dbless.emilien.ca/)
 
 `A hash-based, database-less password manager`
 _Python&nbsp;&bull; JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Next.js_
 
-- Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess-Password-Manager/blob/master/web/lib/generatePassword.js) based on SHA-256 to deterministically generate passwords on demand instead of encrypting them
+- Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess-Password-Manager/blob/master/web/lib/generatePassword.js) based on SHA-256 to deterministically generate passwords on demand without requiring encryption or password storage
 - Built [cross-platform PWA](https://dbless.emilien.ca/) with Next.js that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience
+
+<?
+- Haven't been pwned yet, thereby proving security of password generation
+?>
 
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
 
