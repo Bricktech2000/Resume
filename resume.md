@@ -98,15 +98,16 @@ _JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Markdown&nbsp;&bull; Ne
 - Designed project roadmap based on thorough understanding of possible complications resulting in only one major setback caused by defective parts
 ?>
 
-<?
 ### [Stack-Based CPU](https://github.com/Bricktech2000/Stack-Based-CPU)
 
 `An assembler and emulator for a custom stack-based CPU architecture`
 _Rust&nbsp;&bull; Assembly_
 
 - Designed and implemented stack-based emulator in Rust that supports 44 CPU instructions and graphics through 32x32 grayscale display buffer
-- Developed basic assembler to resolve labels and convert Assembly source files into custom binary machine code
 - Proved custom instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm) from scratch in Assembly language
+
+<?
+- Developed basic assembler to resolve labels and convert Assembly source files into custom binary machine code
 ?>
 
 ### [DBLess Password Manager](https://dbless.emilien.ca/)
@@ -129,8 +130,8 @@ _Python&nbsp;&bull; JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Next
 _March 2022&nbsp;&bull; JavaScript&nbsp;&bull; React&nbsp;&bull; Rust_
 
 - Won first place in Finance category of Canada's largest DeFi hackathon along with 2500&dollar; prize as part of 3-member team
-- Built [MVP smart contract backend](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
-- Collaborated with Terraform Labs to officialize our protocol and secure additional funding prior to Terra Luna collapse
+- Built [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
+- Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse
 
 ### More on [GitHub](https://github.com/Bricktech2000) and in [Portfolio](https://emilien.ca/)
 

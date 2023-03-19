@@ -63,13 +63,22 @@
     <style>
       body {
         display: grid !important;
-        grid-template-columns: auto 14em;
+        grid-template-columns: auto 13em;
         grid-template-rows: auto 1fr auto;
-        padding: 10mm;
-        margin: 10mm;
-        font-size: 3.25mm;
+        padding: 7.5mm;
+        margin: 7.5mm;
+        font-size: 3.125mm;
         line-height: 1.4;
-        gap: 10mm;
+        gap: 7.5mm;
+      }
+      h1 {
+        font-size: 2.5em;
+        line-height: 1.25;
+        flex-direction: row;
+        font-weight: 300;
+      }
+      h1 strong {
+        font-weight: 500;
       }
       h2 {
         font-weight: 300;
@@ -109,17 +118,6 @@
         left: 0;
         top: 0;
         padding-left: 0.25em;
-      }
-
-      h1 {
-        white-space: pre;
-        font-size: 3em;
-        line-height: 1.25;
-        flex-direction: row;
-        font-weight: 300;
-      }
-      h1 strong {
-        font-weight: 500;
       }
       section > * {
         flex: auto;

@@ -36,6 +36,14 @@
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 95%
 
+𝗦𝘁𝗮𝗰𝗸-𝗕𝗮𝘀𝗲𝗱 𝗖𝗣𝗨 <https://github.com/Bricktech2000/Stack-Based-CPU>
+[ᴀɴ ᴀꜱꜱᴇᴍʙʟᴇʀ ᴀɴᴅ ᴇᴍᴜʟᴀᴛᴏʀ ꜰᴏʀ ᴀ ᴄᴜꜱᴛᴏᴍ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴄᴘᴜ ᴀʀᴄʜɪᴛᴇᴄᴛᴜʀᴇ]              ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
+• Designed  and  implemented  stack-based emulator in Rust that supports 44 CPU instructions
+  and graphics through 32x32 grayscale display buffer
+• Proved  custom  instruction set Turing complete through implementation of Conway's Game of
+  Life  <https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm>
+  from scratch in Assembly language
+
 𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://dbless.emilien.ca/>
 [ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ]          ᴘʏᴛʜᴏɴ • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ɴᴇxᴛ.ᴊꜱ
 • Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
@@ -48,10 +56,10 @@
 [ꜱᴜʙᴍɪꜱꜱɪᴏɴ ꜰᴏʀ ᴅᴇꜰɪ ᴛʜᴇ ᴄᴏɴᴠᴇɴᴛɪᴏɴᴀʟ 2022]                 ᴍᴀʀᴄʜ 2022 • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʀᴇᴀᴄᴛ • ʀᴜꜱᴛ
 • Won  first  place  in Finance category of Canada's largest DeFi hackathon along with 2500$
   prize as part of 3-member team
-• Built  MVP  smart  contract  backend  <https://github.com/Bricktech2000/crypto_will>  from
-  scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
-• Collaborated with Terraform Labs to officialize our protocol and secure additional funding
-  prior to Terra Luna collapse
+• Built  MVP  smart  contract backend and API <https://github.com/Bricktech2000/crypto_will>
+  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
+• Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
+  secure additional funding prior to Terra Luna collapse
 
 𝗠𝗼𝗿𝗲 𝗼𝗻 𝗚𝗶𝘁𝗛𝘂𝗯 <https://github.com/Bricktech2000> 𝗮𝗻𝗱 𝗶𝗻 𝗣𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼 <https://emilien.ca/>
 
@@ -100,4 +108,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-[ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ] <https://github.com/Bricktech2000/Resume/>       1ᴄʙ81889ʙ410563 • ᴍᴀʀ 2023
+[ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ] <https://github.com/Bricktech2000/Resume/>       08ᴇ650ʙʙᴄᴇ74ꜰᴄ3 • ᴍᴀʀ 2023
