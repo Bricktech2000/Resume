@@ -70,7 +70,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
           driver = webdriver.Chrome(options=options)
           driver.get(
               f'https://patorjk.com/software/taag/#p=display&f=Stick%20Letters&t={formatless_children}')
-          time.sleep(0.25)
+          time.sleep(0.5)
           heading_cache[formatless_children] = driver.find_element(By.ID, 'taag_output_text').text
           driver.quit()
 
@@ -158,8 +158,77 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
   return TextRenderer
 
 
+def make_html_process(text_primary, text_secondary, background):
+  def html_process(source):
+    from marko.ext.gfm import gfm
+
+    with open('template.html', 'r') as f:
+      template = f.read()
+      return template.replace('{{EXPORT}}',
+                              '<section>' +
+                              gfm(source)
+                              .replace('&amp;', '&')
+                              .replace('<hr />', '</section><section>')
+                              + '</section>') \
+          .replace('{{TEXT_PRIMARY}}', text_primary).replace('{{TEXT_SECONDARY}}', text_secondary).replace('{{BACKGROUND}}', background).encode('utf-8')
+
+  return html_process
+
+
+def make_pdf_process(html_process):
+  def pdf_process(source):
+    with open('temp.html', 'wb') as f:
+      f.write(html_process(source))
+
+    from selenium import webdriver
+
+    options = webdriver.ChromeOptions()
+    settings = {
+        'landscape': False,
+        'displayHeaderFooter': False,
+        'printBackground': True,
+        'paperWidth': 210 / 25.4,  # why imperial?
+        'paperHeight': 297 / 25.4,
+        'marginTop': 0,
+        'marginBottom': 0,
+        'marginLeft': 0,
+        'marginRight': 0,
+    }
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(options=options)
+    driver.get(f'file://{os.path.realpath("temp.html")}')
+    time.sleep(0.5)
+    pdf = base64.b64decode(driver.execute_cdp_cmd('Page.printToPDF', settings)['data'])
+    driver.quit()
+    os.remove('temp.html')
+
+    return pdf
+
+  return pdf_process
+
+
 def md_process(source):
   return source.encode('utf-8')
+
+
+def dark_html_process(source):
+  return make_html_process('#ffffff', '#dddddd', '#000000')(source)
+
+
+def light_html_process(source):
+  return make_html_process('#000000', '#666666', '#ffffff')(source)
+
+
+def ascii_txt_process(source):
+  from marko.parser import Parser
+  from marko import Markdown
+
+  AsciiTxtRenderer = make_text_renderer(
+      lambda strong: str.upper(strong), lambda emphasis: emphasis, lambda code: code,
+      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-'))
+
+  # raise exception if not valid ASCII
+  return Markdown(parser=Parser, renderer=AsciiTxtRenderer)(source).decode('utf-8').encode('ascii')
 
 
 def utf8_txt_process(source):
@@ -183,18 +252,6 @@ def utf8_txt_process(source):
   return Markdown(parser=Parser, renderer=Utf8TxtRenderer)(source)
 
 
-def ascii_txt_process(source):
-  from marko.parser import Parser
-  from marko import Markdown
-
-  AsciiTxtRenderer = make_text_renderer(
-      lambda strong: str.upper(strong), lambda emphasis: emphasis, lambda code: code,
-      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-'))
-
-  # raise exception if not valid ASCII
-  return Markdown(parser=Parser, renderer=AsciiTxtRenderer)(source).decode('utf-8').encode('ascii')
-
-
 def term_txt_process(source):
   from marko.parser import Parser
   from marko import Markdown
@@ -210,45 +267,12 @@ def term_txt_process(source):
   return Markdown(parser=Parser, renderer=TermTxtRenderer)(source)
 
 
-def html_process(source):
-  from marko.ext.gfm import gfm
-
-  with open('template.html', 'r') as f:
-    template = f.read()
-    return template.replace('{{export}}',
-                            '<section>' +
-                            gfm(source)
-                            .replace('&amp;', '&')
-                            .replace('<hr />', '</section><section>')
-                            + '</section>').encode('utf-8')
+def dark_pdf_process(source):
+  return make_pdf_process(dark_html_process)(source)
 
 
-def pdf_process(source):
-  with open('temp.html', 'wb') as f:
-    f.write(html_process(source))
-
-  from selenium import webdriver
-
-  options = webdriver.ChromeOptions()
-  settings = {
-      'landscape': False,
-      'displayHeaderFooter': False,
-      'paperWidth': 210 / 25.4,  # why imperial?
-      'paperHeight': 297 / 25.4,
-      'marginTop': 0,
-      'marginBottom': 0,
-      'marginLeft': 0,
-      'marginRight': 0,
-  }
-  options.add_argument('--headless')
-  driver = webdriver.Chrome(options=options)
-  driver.get(f'file://{os.path.realpath("temp.html")}')
-  time.sleep(0.25)
-  pdf = base64.b64decode(driver.execute_cdp_cmd('Page.printToPDF', settings)['data'])
-  driver.quit()
-  os.remove('temp.html')
-
-  return pdf
+def light_pdf_process(source):
+  return make_pdf_process(light_html_process)(source)
 
 
 def compose(*fns):
@@ -279,9 +303,11 @@ def export(extension, process):
 
 
 export('.md', compose(preprocess, md_process))
-export('.html', compose(preprocess, html_process))
+export('.dark.html', compose(preprocess, dark_html_process))
+export('.light.html', compose(preprocess, light_html_process))
 export('.ascii.txt', compose(preprocess, ascii_txt_process))
 export('.utf-8.txt', compose(preprocess, utf8_txt_process))
 export('.term.txt', compose(preprocess, term_txt_process))
-export('.pdf', compose(preprocess, pdf_process))
+export('.dark.pdf', compose(preprocess, dark_pdf_process))
+export('.light.pdf', compose(preprocess, light_pdf_process))
 print('done.')

@@ -29,10 +29,9 @@
     <!-- https://fontawesome.com/v5.15/icons -->
     <style>
       :root {
-        --text: #000000;
-        --text2: #666666;
-        --bg: #ffffff;
-        --bg2: #bbbbbb;
+        --text-primary: {{TEXT_PRIMARY}};
+        --text-secondary: {{TEXT_SECONDARY}};
+        --background: {{BACKGROUND}};
         --sans: Roboto, sans-serif;
         --mono: Inconsolata, monospace;
       }
@@ -52,18 +51,18 @@
         height: 297mm;
         font-family: var(--sans);
         font-weight: 300;
-        color: var(--text);
-        background: var(--bg);
+        color: var(--text-primary);
+        background: var(--background);
         text-align: justify;
       }
       html {
-        background: #000000;
+        background: #888888;
       }
     </style>
     <style>
       body {
         display: grid !important;
-        grid-template-columns: auto 13em;
+        grid-template-columns: auto 14em;
         grid-template-rows: auto 1fr auto;
         padding: 7.5mm;
         margin: 7.5mm;
@@ -84,7 +83,7 @@
         font-weight: 300;
         font-size: 1.5em;
         text-transform: uppercase;
-        color: var(--text2);
+        color: var(--text-secondary);
         line-height: 1;
         padding-bottom: 0.25em;
       }
@@ -143,7 +142,7 @@
         font-weight: 300;
         font-size: 0.75em;
         font-style: italic;
-        color: var(--text2);
+        color: var(--text-secondary);
       }
       code {
         height: 100%;
@@ -155,7 +154,7 @@
         letter-spacing: 0.1em;
         font-weight: 300;
         font-size: 0.66em;
-        color: var(--text2);
+        color: var(--text-secondary);
         align-items: center;
       }
       a {
@@ -214,6 +213,6 @@
     </script>
   </head>
   <body>
-    {{export}}
+    {{EXPORT}}
   </body>
 </html>
