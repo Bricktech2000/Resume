@@ -212,11 +212,11 @@ def md_process(source):
 
 
 def dark_html_process(source):
-  return make_html_process('#ffffff', '#dddddd', '#000000')(source)
+  return make_html_process('#ffffff', '#aaaaaa', '#000000')(source)
 
 
 def light_html_process(source):
-  return make_html_process('#000000', '#666666', '#ffffff')(source)
+  return make_html_process('#000000', '#888888', '#ffffff')(source)
 
 
 def ascii_txt_process(source):
