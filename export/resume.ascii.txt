@@ -46,9 +46,10 @@ STACK-BASED CPU <https://github.com/Bricktech2000/Stack-Based-CPU>
 
 DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
 [A hash-based, database-less password manager]          Python - JavaScript - HTML - CSS - Next.js
-- Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
-  Manager/blob/master/web/lib/generatePassword.js>  based  on  SHA-256  to deterministically
-  generate passwords on demand without requiring encryption or password storage
+- Devised  custom  cryptographic  procedure
+  <https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js> based on
+  SHA-256  to deterministically generate passwords on demand without requiring encryption or
+  password storage
 - Built  cross-platform PWA <https://dbless.emilien.ca/> with Next.js that loads 2FA tokens,
   generates passwords and copies them to user's clipboard for convenience
 
@@ -108,4 +109,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> - Finance & Investing - Pr
 <https://notes.emilien.ca/productivity/> - Music
 
                                              - - -
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       441e40c2b9bd8ae - Apr 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       8bf11082265a618 - Apr 2023

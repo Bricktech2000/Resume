@@ -115,7 +115,7 @@ _Rust&nbsp;&bull; Assembly_
 `A hash-based, database-less password manager`
 _Python&nbsp;&bull; JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Next.js_
 
-- Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess-Password-Manager/blob/master/web/lib/generatePassword.js) based on SHA-256 to deterministically generate passwords on demand without requiring encryption or password storage
+- Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js) based on SHA-256 to deterministically generate passwords on demand without requiring encryption or password storage
 - Built [cross-platform PWA](https://dbless.emilien.ca/) with Next.js that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience
 
 <?

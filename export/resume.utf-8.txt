@@ -46,9 +46,10 @@
 
 𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://dbless.emilien.ca/>
 [ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ]          ᴘʏᴛʜᴏɴ • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ɴᴇxᴛ.ᴊꜱ
-• Devised  custom cryptographic procedure <https://github.com/Bricktech2000/DBLess-Password-
-  Manager/blob/master/web/lib/generatePassword.js>  based  on  SHA-256  to deterministically
-  generate passwords on demand without requiring encryption or password storage
+• Devised  custom  cryptographic  procedure
+  <https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js> based on
+  SHA-256  to deterministically generate passwords on demand without requiring encryption or
+  password storage
 • Built  cross-platform PWA <https://dbless.emilien.ca/> with Next.js that loads 2FA tokens,
   generates passwords and copies them to user's clipboard for convenience
 
@@ -108,4 +109,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-[ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ] <https://github.com/Bricktech2000/Resume/>       441ᴇ40ᴄ2ʙ9ʙᴅ8ᴀᴇ • ᴀᴘʀ 2023
+[ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ] <https://github.com/Bricktech2000/Resume/>       8ʙꜰ11082265ᴀ618 • ᴀᴘʀ 2023
