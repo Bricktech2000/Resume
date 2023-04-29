@@ -17,7 +17,7 @@
 
 [1mZeptile Software[0m
 [3m[Software Engineer — Web3][0m                             [3mRemote from Ottawa • October 2022 — Present[0m
-  Working  on  small-scale project and getting up to speed with various technologies such as
+• Working  on  small-scale project and getting up to speed with various technologies such as
   Web3 programming in Solidity and testing using Chai and Hardhat
 
 [1muOttawa CS Club[0m <https://uocsclub.ca/>
@@ -36,13 +36,18 @@
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 95%
 
-[1mStack-Based CPU[0m <https://github.com/Bricktech2000/Stack-Based-CPU>
-[3m[An assembler and emulator for a custom stack-based CPU architecture][0m              [3mRust • Assembly[0m
-• Designed  and  implemented  stack-based emulator in Rust that supports 44 CPU instructions
-  and graphics through 32x32 grayscale display buffer
-• Proved  custom  instruction set Turing complete through implementation of Conway's Game of
-  Life  <https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm>
-  from scratch in Assembly language
+[1mAtto-8 Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
+[3m[A minimalist 8-bit microcomputer with stack-based microprocessor][0m                 [3mRust • Assembly[0m
+• Implemented  optimizing  assembler
+  <https://github.com/Bricktech2000/Atto-8/tree/master/asm>,  elementary  disassembler
+  <https://github.com/Bricktech2000/Atto-8/tree/master/dasm>  and instruction-level emulator
+  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  in  Rust for custom stack-based
+  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>
+• Proved  instruction  set  Turing  complete through implementation of Conway's Game of Life
+  <https://github.com/Bricktech2000/Atto-8/blob/master/asm/tests/life.asm>  from  scratch in
+  Assembly
+• Working  on building microcomputer physically using 74HC-series logic chips and 3D-printed
+  parts
 
 [1mDBLess Password Manager[0m <https://dbless.emilien.ca/>
 [3m[A hash-based, database-less password manager][0m          [3mPython • JavaScript • HTML • CSS • Next.js[0m
@@ -109,4 +114,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-[3m[Bricktech2000/Resume][0m <https://github.com/Bricktech2000/Resume/>       [3m8bf11082265a618 • Apr 2023[0m
+[3m[Bricktech2000/Resume][0m <https://github.com/Bricktech2000/Resume/>       [3m4a3801b9ddc7668 • Apr 2023[0m

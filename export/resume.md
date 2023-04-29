@@ -15,7 +15,7 @@
 
 `Software Engineer &mdash; Web3` _Remote from Ottawa&nbsp;&bull; October 2022 &mdash; Present_
 
-1. Working on small-scale project and getting up to speed with various technologies such as Web3 programming in Solidity and testing using Chai and Hardhat
+- Working on small-scale project and getting up to speed with various technologies such as Web3 programming in Solidity and testing using Chai and Hardhat
 
 ### [uOttawa CS Club](https://uocsclub.ca/)
 
@@ -34,13 +34,14 @@ _JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Markdown&nbsp;&bull; Ne
 - Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over 5000 unique visitors a month
 - Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over 95%
 
-### [Stack-Based CPU](https://github.com/Bricktech2000/Stack-Based-CPU)
+### [Atto-8 Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
-`An assembler and emulator for a custom stack-based CPU architecture`
+`A minimalist 8-bit microcomputer with stack-based microprocessor`
 _Rust&nbsp;&bull; Assembly_
 
-- Designed and implemented stack-based emulator in Rust that supports 44 CPU instructions and graphics through 32x32 grayscale display buffer
-- Proved custom instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Stack-Based-CPU/blob/master/src/tests/test15.asm) from scratch in Assembly language
+- Implemented [optimizing assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm), [elementary disassembler](https://github.com/Bricktech2000/Atto-8/tree/master/dasm) and [instruction-level emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu) in Rust for [custom stack-based architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md)
+- Proved instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Atto-8/blob/master/asm/tests/life.asm) from scratch in Assembly
+- Working on building microcomputer physically using 74HC-series logic chips and 3D-printed parts
 
 ### [DBLess Password Manager](https://dbless.emilien.ca/)
 
@@ -121,4 +122,4 @@ Electronics&nbsp;&bull; [Robotics](https://emilien.ca/Spider-Robot/)&nbsp;&bull;
 
 ---
 
-[`Bricktech2000/Resume`](https://github.com/Bricktech2000/Resume/) _8bf11082265a618&nbsp;&bull; Apr 2023_
+[`Bricktech2000/Resume`](https://github.com/Bricktech2000/Resume/) _4a3801b9ddc7668&nbsp;&bull; Apr 2023_
