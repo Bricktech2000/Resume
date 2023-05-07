@@ -7,34 +7,38 @@
 
 -- EXPERIENCE ------------------------------------------------------------------------------------
 
+ZEPTILE SOFTWARE
+[Software Engineer -- Web3]                           Remote from Ottawa | October 2022 -- Present
+- Working  on  small-scale project and getting up to speed with various technologies such as
+  Web3 programming in Solidity and testing using Chai and Hardhat.
+
+-- VOLUNTEERING ----------------------------------------------------------------------------------
+
 HACK THE HILL <http://hackthehill.com/>
-[Development Coordinator -- Development Team]      University of Ottawa - November 2022 -- Present
+[Development Manager -- Development Team]                             Ottawa | May 2023 -- Present
+[Development Coordinator -- Development Team]                   Ottawa | November 2022 -- May 2023
 - Contributed  in  developing  open-source  participant  tracker
   <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
-  over 1000 hackers and 50 organizers throughout hackathon
+  over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
 - Collaborated  with  infrastructure  and  sponsorship  teams to build and maintain internal
-  sponsor payment portal powered by Stripe and React.js
-
-ZEPTILE SOFTWARE
-[Software Engineer -- Web3]                           Remote from Ottawa - October 2022 -- Present
-- Working  on  small-scale project and getting up to speed with various technologies such as
-  Web3 programming in Solidity and testing using Chai and Hardhat
+  payment  portal  powered  by  Stripe  and  React.js,  allowing for over 20 000$ in sponsor
+  payments to be processed.
 
 UOTTAWA CS CLUB <https://uocsclub.ca/>
-[Club Executive]                                       University of Ottawa - June 2022 -- Present
+[Club Executive]                                       University of Ottawa | June 2022 -- Present
 - Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
-  events by giving talks and organizing workshops for over 100 students
-- Designed  internal  Notion  workspace,  improving  short-term planning by providing single
-  central platform to capture meeting minutes and track task progress
+  events by giving talks and organizing workshops for over 100 STUDENTS.
+- Reorganized Discord server of over 1000 MEMBERS by creating clearer roles and introduction
+  channels, improving user experience and onboarding.
 
 -- PROJECTS --------------------------------------------------------------------------------------
 
 PERSONAL WEBSITE <https://emilien.ca/>
 [A portfolio for sharing various projects]            JavaScript - HTML - CSS - Markdown - Next.js
 - Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
-  resulting in over 5000 unique visitors a month
+  resulting in over 5000 UNIQUE VISITORS a month.
 - Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
-  Lighthouse score consistently over 95%
+  Lighthouse score consistently over 95%.
 
 ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
 [A minimalist 8-bit microcomputer with stack-based microprocessor]                 Rust - Assembly
@@ -42,38 +46,33 @@ ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
   <https://github.com/Bricktech2000/Atto-8/tree/master/asm>,  elementary  disassembler
   <https://github.com/Bricktech2000/Atto-8/tree/master/dasm>  and instruction-level emulator
   <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  in  Rust for custom stack-based
-  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>
+  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>.
 - Proved  instruction  set  Turing  complete through implementation of Conway's Game of Life
   <https://github.com/Bricktech2000/Atto-8/blob/master/asm/tests/life.asm>  from  scratch in
-  Assembly
+  Assembly.
 - Working  on building microcomputer physically using 74HC-series logic chips and 3D-printed
-  parts
+  parts.
 
 DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
 [A hash-based, database-less password manager]          Python - JavaScript - HTML - CSS - Next.js
 - Devised  custom  cryptographic  procedure
   <https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js> based on
   SHA-256  to deterministically generate passwords on demand without requiring encryption or
-  password storage
-- Built  cross-platform PWA <https://dbless.emilien.ca/> with Next.js that loads 2FA tokens,
-  generates passwords and copies them to user's clipboard for convenience
+  password storage.
+- Built  cross-platform  PWA  <https://dbless.emilien.ca/>  with  Next.js  used  by  over 50
+  ACCOUNTS  that  loads  2FA tokens, generates passwords and copies them to user's clipboard
+  for convenience
 
 LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
-[Submission for DeFi The Conventional 2022]                 March 2022 - JavaScript - React - Rust
-- Won  first  place  in Finance category of Canada's largest DeFi hackathon along with 2500$
-  prize as part of 3-member team
+[Submission for DeFi The Conventional 2022]                 March 2022 | JavaScript - React - Rust
+- Won  FIRST  PLACE  in Finance category of Canada's largest DeFi hackathon along with 2500$
+  PRIZE as part of 3-member team.
 - Built  MVP  smart  contract backend and API <https://github.com/Bricktech2000/crypto_will>
-  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
+  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
-  secure additional funding prior to Terra Luna collapse
+  secure additional funding prior to Terra Luna collapse.
 
 MORE ON GITHUB <https://github.com/Bricktech2000> AND IN PORTFOLIO <https://emilien.ca/>
-
--- EDUCATION -------------------------------------------------------------------------------------
-
-UNIVERSITY OF OTTAWA
-[BSc with Honours in Computer Science]                                Dropped out after first year
-- Admission scholarship -- 95%+ average                                              November 2020
 
                                              - - -
 
@@ -88,21 +87,21 @@ LINKEDIN/IN/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 -- SKILLS ----------------------------------------------------------------------------------------
 
 PROGRAMMING LANGUAGES
-Python - JavaScript - Rust - C++
+Rust - Python - C - JavaScript
 
 DEVELOPMENT TOOLS
-Linux - Neovim - Git - GitHub - Docker
+Linux - Neovim - Git - Fish - GitHub - Docker
 
 FRAMEWORKS
-React - Node.js - Next.js - Express.js
+React - Next.js - Node.js
 
 OTHER TECHNOLOGIES
-HTML - CSS - JSON - YAML - Markdown - LaTeX - C - Assembly - Raspberry Pi - Arduino - VS
+HTML - CSS - JSON - YAML - Markdown - LaTeX - C++ - Assembly - Raspberry Pi - Arduino - VS
 Code - Figma - Notion - Cloudflare
 
 -- OTHER -----------------------------------------------------------------------------------------
 
-LANGUAGES
+SPOKEN LANGUAGES
 - French                                                                                    Native
 - English                                                                                   Native
 - Spanish                                                                             Intermediate
@@ -114,4 +113,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> - Finance & Investing - Pr
 <https://notes.emilien.ca/productivity/> - Music
 
                                              - - -
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       4a3801b9ddc7668 - Apr 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       2c11024026345e3 - May 2023

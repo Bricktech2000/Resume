@@ -10,20 +10,38 @@ import re
 # - an _export_ folder
 
 
+def utf8_replace_html_entities(html):
+  return html.replace('&nbsp;', ' ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—')
+
+
+def ascii_replace_html_entities(html):
+  return html.replace('&nbsp;', ' ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-')
+
+
 def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90, heading_cache={}):
   from marko.renderer import Renderer
 
-  def fill(string, target_width, justify=False):
-    from textwrap import fill
-    right_float_delta = (width - small_width) if '|||' in string else 0
-    patched_len_delta = len(string) - len_patched(string)
-    target_width = target_width + right_float_delta + patched_len_delta
+  def fill(text, target_width, justify=False):
+    right_float_delta = (width - small_width) if '|||' in text else 0
+    target_width = target_width + right_float_delta  # allow right float to take full `width`
+
+    def fill(text, target_width, len_patched=len):
+      words = text.split()
+      lines = []
+      for word in words:
+        if len(lines) == 0:
+          lines.append(word)
+        elif len_patched(lines[-1] + ' ' + word) > target_width:
+          lines.append(word)
+        else:
+          lines[-1] += ' ' + word
+      return '\n'.join(lines)
 
     def _justify(text):
       lines = text.split('\n')
       return '\n'.join(list(map(lambda line: line.replace(' ', '  ', target_width - len_patched(line)), lines[:-1])) + [lines[-1]])
 
-    return _justify(fill(string, target_width)) if justify else fill(string, target_width)
+    return _justify(fill(text, target_width, len_patched)) if justify else fill(text, target_width, len_patched)
 
   class TextRenderer(Renderer):
     # rule of thumb for newlines:
@@ -69,7 +87,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
           options.add_argument('--headless')
           driver = webdriver.Chrome(options=options)
           driver.get(
-              f'https://patorjk.com/software/taag/#p=display&f=Stick%20Letters&t={formatless_children}')
+              f'http://patorjk.com/software/taag/#p=display&f=Stick%20Letters&t={formatless_children}')
           time.sleep(0.5)
           heading_cache[formatless_children] = driver.find_element(By.ID, 'taag_output_text').text
           driver.quit()
@@ -134,11 +152,11 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       return f''
 
     def render_code_span(self, element):
-      return f'{fill(self.format_code("[" + self.format_html(element.children) + "]"), self.small_width)}'
+      newline = '\n'
+      return f'|||{(newline + "|||").join(fill(self.format_code(self.format_html(element.children)), self.small_width).split(newline))}'
 
     def render_emphasis(self, element):
-      newline = '\n'
-      return f'|||{(newline + "|||").join(fill(self.format_emphasis(self.render_children(element)), self.small_width).split(newline))}'
+      return f'{fill(self.format_emphasis(self.render_children(element)), self.small_width)}'
 
     def render_strong_emphasis(self, element):
       return f'{fill(self.format_strong(self.render_children(element)), self.small_width)}'
@@ -208,7 +226,7 @@ def make_pdf_process(html_process):
 
 
 def md_process(source):
-  return source.encode('utf-8')
+  return utf8_replace_html_entities(re.sub(r'<!--(.|\n)*?-->(\n\n)?', r'', source)).encode('utf-8')
 
 
 def dark_html_process(source):
@@ -224,8 +242,8 @@ def ascii_txt_process(source):
   from marko import Markdown
 
   AsciiTxtRenderer = make_text_renderer(
-      lambda strong: str.upper(strong), lambda emphasis: emphasis, lambda code: code,
-      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-'))
+      lambda strong: str.upper(strong), lambda emphasis: '[' + emphasis + ']', lambda code: code,
+      lambda html: ascii_replace_html_entities(html))
 
   # raise exception if not valid ASCII
   return Markdown(parser=Parser, renderer=AsciiTxtRenderer)(source).decode('utf-8').encode('ascii')
@@ -247,7 +265,7 @@ def utf8_txt_process(source):
           '                                 !"#$%&\'()*+,-./0123456789:;<=>?@ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ[\\]^_`ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ{|}~'),
       make_format(
           '                                 !"#$%&\'()*+,-./0123456789:;<=>?@ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ[\\]^_`ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ{|}~'),
-      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—'))
+      lambda html: utf8_replace_html_entities(html))
 
   return Markdown(parser=Parser, renderer=Utf8TxtRenderer)(source)
 
@@ -258,10 +276,9 @@ def term_txt_process(source):
 
   TermTxtRenderer = make_text_renderer(
       lambda strong: '\033[1m' + strong + '\033[0m',
-      lambda emphasis: '\033[3m' + emphasis + '\033[0m',
+      lambda emphasis: '[' + '\033[3m' + emphasis + '\033[0m' + ']',
       lambda code: '\033[3m' + code + '\033[0m',
-      lambda html: html.replace('&nbsp;', ' ').replace('&bull;', '•').replace(
-          '&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—'),
+      lambda html: utf8_replace_html_entities(html),
       lambda string: len(re.sub(r'\033[^m]*m', '', string)))
 
   return Markdown(parser=Parser, renderer=TermTxtRenderer)(source)
@@ -287,8 +304,6 @@ def preprocess(source):
   day, month, year = time.strftime('%d %b %Y').split()
   source = source.replace('{{COMMIT_HASH}}', commit_hash).replace('{{DAY}}', day).replace(
       '{{MONTH}}', month).replace('{{YEAR}}', year)
-
-  source = re.sub(r'<\?(.|\n)*?\?>(\n\n)?', r'', source)
 
   return source
 

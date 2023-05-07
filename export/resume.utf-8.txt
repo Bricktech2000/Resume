@@ -7,73 +7,72 @@
 
 —— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
 
+𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
+ꜱᴏꜰᴛᴡᴀʀᴇ ᴇɴɢɪɴᴇᴇʀ — ᴡᴇʙ3                               ʀᴇᴍᴏᴛᴇ ꜰʀᴏᴍ ᴏᴛᴛᴀᴡᴀ | ᴏᴄᴛᴏʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
+• Working  on  small-scale project and getting up to speed with various technologies such as
+  Web3 programming in Solidity and testing using Chai and Hardhat.
+
+—— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
+
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 <http://hackthehill.com/>
-[ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴄᴏᴏʀᴅɪɴᴀᴛᴏʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ]        ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ • ɴᴏᴠᴇᴍʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
+ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴍᴀɴᴀɢᴇʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                                 ᴏᴛᴛᴀᴡᴀ | ᴍᴀʏ 2023 — ᴘʀᴇꜱᴇɴᴛ
+ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴄᴏᴏʀᴅɪɴᴀᴛᴏʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                       ᴏᴛᴛᴀᴡᴀ | ɴᴏᴠᴇᴍʙᴇʀ 2022 — ᴍᴀʏ 2023
 • Contributed  in  developing  open-source  participant  tracker
   <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
-  over 1000 hackers and 50 organizers throughout hackathon
+  over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
 • Collaborated  with  infrastructure  and  sponsorship  teams to build and maintain internal
-  sponsor payment portal powered by Stripe and React.js
-
-𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
-[ꜱᴏꜰᴛᴡᴀʀᴇ ᴇɴɢɪɴᴇᴇʀ — ᴡᴇʙ3]                             ʀᴇᴍᴏᴛᴇ ꜰʀᴏᴍ ᴏᴛᴛᴀᴡᴀ • ᴏᴄᴛᴏʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
-• Working  on  small-scale project and getting up to speed with various technologies such as
-  Web3 programming in Solidity and testing using Chai and Hardhat
+  payment  portal  powered  by  Stripe  and  React.js,  allowing for over 𝟮𝟬 𝟬𝟬𝟬$ in sponsor
+  payments to be processed.
 
 𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗦 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
-[ᴄʟᴜʙ ᴇxᴇᴄᴜᴛɪᴠᴇ]                                        ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ • ᴊᴜɴᴇ 2022 — ᴘʀᴇꜱᴇɴᴛ
+ᴄʟᴜʙ ᴇxᴇᴄᴜᴛɪᴠᴇ                                          ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ | ᴊᴜɴᴇ 2022 — ᴘʀᴇꜱᴇɴᴛ
 • Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
-  events by giving talks and organizing workshops for over 100 students
-• Designed  internal  Notion  workspace,  improving  short-term planning by providing single
-  central platform to capture meeting minutes and track task progress
+  events by giving talks and organizing workshops for over 𝟭𝟬𝟬 𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀.
+• Reorganized Discord server of over 𝟭𝟬𝟬𝟬 𝗺𝗲𝗺𝗯𝗲𝗿𝘀 by creating clearer roles and introduction
+  channels, improving user experience and onboarding.
 
 —— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————
 
 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗪𝗲𝗯𝘀𝗶𝘁𝗲 <https://emilien.ca/>
-[ᴀ ᴘᴏʀᴛꜰᴏʟɪᴏ ꜰᴏʀ ꜱʜᴀʀɪɴɢ ᴠᴀʀɪᴏᴜꜱ ᴘʀᴏᴊᴇᴄᴛꜱ]            ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ᴍᴀʀᴋᴅᴏᴡɴ • ɴᴇxᴛ.ᴊꜱ
+ᴀ ᴘᴏʀᴛꜰᴏʟɪᴏ ꜰᴏʀ ꜱʜᴀʀɪɴɢ ᴠᴀʀɪᴏᴜꜱ ᴘʀᴏᴊᴇᴄᴛꜱ              ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ᴍᴀʀᴋᴅᴏᴡɴ • ɴᴇxᴛ.ᴊꜱ
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
-  resulting in over 5000 unique visitors a month
+  resulting in over 𝟱𝟬𝟬𝟬 𝘂𝗻𝗶𝗾𝘂𝗲 𝘃𝗶𝘀𝗶𝘁𝗼𝗿𝘀 a month.
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
-  Lighthouse score consistently over 95%
+  Lighthouse score consistently over 𝟵𝟱%.
 
 𝗔𝘁𝘁𝗼-𝟴 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
-[ᴀ ᴍɪɴɪᴍᴀʟɪꜱᴛ 8-ʙɪᴛ ᴍɪᴄʀᴏᴄᴏᴍᴘᴜᴛᴇʀ ᴡɪᴛʜ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴍɪᴄʀᴏᴘʀᴏᴄᴇꜱꜱᴏʀ]                 ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
+ᴀ ᴍɪɴɪᴍᴀʟɪꜱᴛ 8-ʙɪᴛ ᴍɪᴄʀᴏᴄᴏᴍᴘᴜᴛᴇʀ ᴡɪᴛʜ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴍɪᴄʀᴏᴘʀᴏᴄᴇꜱꜱᴏʀ                   ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
 • Implemented  optimizing  assembler
   <https://github.com/Bricktech2000/Atto-8/tree/master/asm>,  elementary  disassembler
   <https://github.com/Bricktech2000/Atto-8/tree/master/dasm>  and instruction-level emulator
   <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  in  Rust for custom stack-based
-  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>
+  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>.
 • Proved  instruction  set  Turing  complete through implementation of Conway's Game of Life
   <https://github.com/Bricktech2000/Atto-8/blob/master/asm/tests/life.asm>  from  scratch in
-  Assembly
+  Assembly.
 • Working  on building microcomputer physically using 74HC-series logic chips and 3D-printed
-  parts
+  parts.
 
 𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://dbless.emilien.ca/>
-[ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ]          ᴘʏᴛʜᴏɴ • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ɴᴇxᴛ.ᴊꜱ
+ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ            ᴘʏᴛʜᴏɴ • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ɴᴇxᴛ.ᴊꜱ
 • Devised  custom  cryptographic  procedure
   <https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js> based on
   SHA-256  to deterministically generate passwords on demand without requiring encryption or
-  password storage
-• Built  cross-platform PWA <https://dbless.emilien.ca/> with Next.js that loads 2FA tokens,
-  generates passwords and copies them to user's clipboard for convenience
+  password storage.
+• Built  cross-platform  PWA  <https://dbless.emilien.ca/>  with  Next.js  used  by  over 𝟱𝟬
+  𝗮𝗰𝗰𝗼𝘂𝗻𝘁𝘀  that  loads  2FA tokens, generates passwords and copies them to user's clipboard
+  for convenience
 
 𝗟𝗲𝗴𝗮𝗰𝘆 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹 <https://devpost.com/software/legacy-protocol>
-[ꜱᴜʙᴍɪꜱꜱɪᴏɴ ꜰᴏʀ ᴅᴇꜰɪ ᴛʜᴇ ᴄᴏɴᴠᴇɴᴛɪᴏɴᴀʟ 2022]                 ᴍᴀʀᴄʜ 2022 • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʀᴇᴀᴄᴛ • ʀᴜꜱᴛ
-• Won  first  place  in Finance category of Canada's largest DeFi hackathon along with 2500$
-  prize as part of 3-member team
+ꜱᴜʙᴍɪꜱꜱɪᴏɴ ꜰᴏʀ ᴅᴇꜰɪ ᴛʜᴇ ᴄᴏɴᴠᴇɴᴛɪᴏɴᴀʟ 2022                   ᴍᴀʀᴄʜ 2022 | ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʀᴇᴀᴄᴛ • ʀᴜꜱᴛ
+• Won  𝗳𝗶𝗿𝘀𝘁  𝗽𝗹𝗮𝗰𝗲  in Finance category of Canada's largest DeFi hackathon along with 𝟮𝟱𝟬𝟬$
+  𝗽𝗿𝗶𝘇𝗲 as part of 3-member team.
 • Built  MVP  smart  contract backend and API <https://github.com/Bricktech2000/crypto_will>
-  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe
+  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe.
 • Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
-  secure additional funding prior to Terra Luna collapse
+  secure additional funding prior to Terra Luna collapse.
 
 𝗠𝗼𝗿𝗲 𝗼𝗻 𝗚𝗶𝘁𝗛𝘂𝗯 <https://github.com/Bricktech2000> 𝗮𝗻𝗱 𝗶𝗻 𝗣𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼 <https://emilien.ca/>
-
-—— EDUCATION —————————————————————————————————————————————————————————————————————————————————————
-
-𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝗼𝗳 𝗢𝘁𝘁𝗮𝘄𝗮
-[ʙꜱᴄ ᴡɪᴛʜ ʜᴏɴᴏᴜʀꜱ ɪɴ ᴄᴏᴍᴘᴜᴛᴇʀ ꜱᴄɪᴇɴᴄᴇ]                                ᴅʀᴏᴘᴘᴇᴅ ᴏᴜᴛ ᴀꜰᴛᴇʀ ꜰɪʀꜱᴛ ʏᴇᴀʀ
-• Admission scholarship — 95%+ average                                               ɴᴏᴠᴇᴍʙᴇʀ 2020
 
                                              • • •
 
@@ -88,21 +87,21 @@ https://emilien.ca/ <https://emilien.ca/>
 —— SKILLS ————————————————————————————————————————————————————————————————————————————————————————
 
 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀
-Python • JavaScript • Rust • C++
+Rust • Python • C • JavaScript
 
 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗧𝗼𝗼𝗹𝘀
-Linux • Neovim • Git • GitHub • Docker
+Linux • Neovim • Git • Fish • GitHub • Docker
 
 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸𝘀
-React • Node.js • Next.js • Express.js
+React • Next.js • Node.js
 
 𝗢𝘁𝗵𝗲𝗿 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀
-HTML • CSS • JSON • YAML • Markdown • LaTeX • C • Assembly • Raspberry Pi • Arduino • VS
+HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • Assembly • Raspberry Pi • Arduino • VS
 Code • Figma • Notion • Cloudflare
 
 —— OTHER —————————————————————————————————————————————————————————————————————————————————————————
 
-𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀
+𝗦𝗽𝗼𝗸𝗲𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀
 • French                                                                                    ɴᴀᴛɪᴠᴇ
 • English                                                                                   ɴᴀᴛɪᴠᴇ
 • Spanish                                                                             ɪɴᴛᴇʀᴍᴇᴅɪᴀᴛᴇ
@@ -114,4 +113,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-[ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ] <https://github.com/Bricktech2000/Resume/>       4ᴀ3801ʙ9ᴅᴅᴄ7668 • ᴀᴘʀ 2023
+ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>         2ᴄ11024026345ᴇ3 • ᴍᴀʏ 2023
