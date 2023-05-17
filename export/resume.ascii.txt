@@ -61,7 +61,7 @@ DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
   password storage.
 - Built  cross-platform  PWA  <https://dbless.emilien.ca/>  with  Next.js  used  by  over 50
   ACCOUNTS  that  loads  2FA tokens, generates passwords and copies them to user's clipboard
-  for convenience
+  for convenience.
 
 LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
 [Submission for DeFi The Conventional 2022]                 March 2022 | JavaScript - React - Rust
@@ -113,4 +113,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> - Finance & Investing - Pr
 <https://notes.emilien.ca/productivity/> - Music
 
                                              - - -
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       2c11024026345e3 - May 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       d2ae7a963a87ee6 - May 2023

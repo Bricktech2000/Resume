@@ -119,7 +119,7 @@ _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust&nbsp;&b
 _A hash-based, database-less password manager_ `Python&nbsp;&bull; JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Next.js`
 
 - Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js) based on SHA-256 to deterministically generate passwords on demand without requiring encryption or password storage.
-- Built [cross-platform PWA](https://dbless.emilien.ca/) with Next.js used by over **50 accounts** <!-- 50 of which are mine--> that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience
+- Built [cross-platform PWA](https://dbless.emilien.ca/) with Next.js used by over **50 accounts** <!-- 50 of which are mine--> that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience.
 
 <!--
 - Haven't been pwned yet, thereby proving security of password generation.

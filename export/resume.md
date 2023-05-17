@@ -50,7 +50,7 @@ _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • Ass
 _A hash-based, database-less password manager_ `Python • JavaScript • HTML • CSS • Next.js`
 
 - Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js) based on SHA-256 to deterministically generate passwords on demand without requiring encryption or password storage.
-- Built [cross-platform PWA](https://dbless.emilien.ca/) with Next.js used by over **50 accounts**  that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience
+- Built [cross-platform PWA](https://dbless.emilien.ca/) with Next.js used by over **50 accounts**  that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience.
 
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
 
@@ -114,4 +114,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing •
 
 ---
 
-[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `2c11024026345e3 • May 2023`
+[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `d2ae7a963a87ee6 • May 2023`

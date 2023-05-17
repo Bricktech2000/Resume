@@ -61,7 +61,7 @@
   password storage.
 • Built  cross-platform  PWA  <https://dbless.emilien.ca/>  with  Next.js  used  by  over [1m50
   accounts[0m  that  loads  2FA tokens, generates passwords and copies them to user's clipboard
-  for convenience
+  for convenience.
 
 [1mLegacy Protocol[0m <https://devpost.com/software/legacy-protocol>
 [[3mSubmission for DeFi The Conventional 2022[0m]                 [3mMarch 2022 | JavaScript • React • Rust[0m
@@ -113,4 +113,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-[[3mBricktech2000/Resume[0m] <https://github.com/Bricktech2000/Resume/>       [3m2c11024026345e3 • May 2023[0m
+[[3mBricktech2000/Resume[0m] <https://github.com/Bricktech2000/Resume/>       [3md2ae7a963a87ee6 • May 2023[0m
