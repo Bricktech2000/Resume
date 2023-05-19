@@ -1,10 +1,10 @@
 # Resume
 
-Current resume as a software engineer
+_Current resume as a software engineer_
 
 ## Overview
 
-Resume markup is located in [`resume.md`](resume.md). The markdown source code is then exported to [various formats](export/) automatically using [`export.py`](export.py).
+Resume markup is located in [resume.md](resume.md). The markdown source code is then exported to [various formats](export/) automatically using [export.py](export.py).
 
 ## Requirements
 
