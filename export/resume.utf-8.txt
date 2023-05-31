@@ -48,7 +48,7 @@
   <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  in  Rust for custom stack-based
   architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>.
 • Proved  instruction  set  Turing  complete through implementation of Conway's Game of Life
-  <https://github.com/Bricktech2000/Atto-8/blob/master/asm/tests/life.asm>  from  scratch in
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm>  from  scratch  in
   Assembly.
 • Working  on building microcomputer physically using 74HC-series logic chips and 3D-printed
   parts.
@@ -113,4 +113,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>         ᴅ2ᴀᴇ7ᴀ963ᴀ87ᴇᴇ6 • ᴍᴀʏ 2023
+ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>         385ᴅᴀ7276ꜰᴀ27ᴇᴄ • ᴍᴀʏ 2023

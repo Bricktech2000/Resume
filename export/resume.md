@@ -42,7 +42,7 @@ _A portfolio for sharing various projects_ `JavaScript • HTML • CSS • Mark
 _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • Assembly`
 
 - Implemented [optimizing assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm), [elementary disassembler](https://github.com/Bricktech2000/Atto-8/tree/master/dasm) and [instruction-level emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu) in Rust for [custom stack-based architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md).
-- Proved instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Atto-8/blob/master/asm/tests/life.asm) from scratch in Assembly.
+- Proved instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm) from scratch in Assembly.
 - Working on building microcomputer physically using 74HC-series logic chips and 3D-printed parts.
 
 ### [DBLess Password Manager](https://dbless.emilien.ca/)
@@ -114,4 +114,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing •
 
 ---
 
-[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `d2ae7a963a87ee6 • May 2023`
+[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `385da7276fa27ec • May 2023`
