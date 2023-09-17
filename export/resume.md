@@ -8,7 +8,7 @@
 
 _Software Engineer — Web3_ `Remote from Ottawa | October 2022 — Present`
 
-- Working on small-scale project and getting up to speed with various technologies such as Web3 programming in Solidity and testing using Chai and Hardhat.
+- Implemented various smart contracts in Solitidy as per specification and ensured **100% test coverage** through Chai and Hardhat.
 
 ## Volunteering
 
@@ -18,8 +18,8 @@ _Development Manager — Development Team_ `Ottawa | May 2023 — Present`
 
 _Development Coordinator — Development Team_ `Ottawa | November 2022 — May 2023`
 
-- Contributed in developing [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over **1000 hackers** and **50 organizers** throughout hackathon.
-- Collaborated with infrastructure and sponsorship teams to build and maintain internal payment portal powered by Stripe and React.js, allowing for over **20 000$** in sponsor payments to be processed.
+- Leading development of [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over **1000 hackers** and **50 organizers** throughout hackathon.
+- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, allowing for over **20 000$** in sponsor payments to be processed.
 
 ### [uOttawa CS Club](https://uocsclub.ca/)
 
@@ -61,22 +61,6 @@ _Submission for DeFi The Conventional 2022_ `March 2022 | React • Rust`
 
 ---
 
-## Contact
-
-[Ottawa, Ontario](https://google.com/maps/place/Ottawa,+ON)
-
-
-
-[613-913-9909](tel:+1-613-913-9909)
-
-[mail@emilien.ca](mailto:mail@emilien.ca)
-
-[https://emilien.ca/](https://emilien.ca/)
-
-[**github/** Bricktech2000](https://github.com/Bricktech2000)
-
-[**linkedin/in/** emilien-breton](https://www.linkedin.com/in/emilien-breton/)
-
 ## Skills
 
 ### Programming Languages
@@ -109,6 +93,22 @@ HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • x86 Assembly �
 
 Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing • Mathematics • [Drone Building](https://emilien.ca/FPV-Racing-Drone/) • Finance & Investing • [Productivity](https://notes.emilien.ca/productivity/) • Music
 
+## Contact
+
+[Ottawa, Ontario](https://google.com/maps/place/Ottawa,+ON)
+
+
+
+[613-913-9909](tel:+1-613-913-9909)
+
+[mail@emilien.ca](mailto:mail@emilien.ca)
+
+[https://emilien.ca/](https://emilien.ca/)
+
+[**github/** Bricktech2000](https://github.com/Bricktech2000)
+
+[**linkedin/in/** emilien-breton](https://www.linkedin.com/in/emilien-breton/)
+
 ---
 
-[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `B226284F7E1F7BA • Sep 2023`
+[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `Commit 113CAA2 • Sep 2023`

@@ -12,7 +12,7 @@
 
 _Software Engineer &mdash; Web3_ `Remote from Ottawa | October 2022 &mdash; Present`
 
-- Working on small-scale project and getting up to speed with various technologies such as Web3 programming in Solidity and testing using Chai and Hardhat.
+- Implemented various smart contracts in Solitidy as per specification and ensured **100% test coverage** through Chai and Hardhat.
 
 ## Volunteering
 
@@ -32,8 +32,8 @@ _Development Coordinator &mdash; Development Team_ `Ottawa | November 2022 &mdas
 
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 
-- Contributed in developing [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over **1000 hackers** and **50 organizers** throughout hackathon.
-- Collaborated with infrastructure and sponsorship teams to build and maintain internal payment portal powered by Stripe and React.js, allowing for over **20 000&dollar;** in sponsor payments to be processed.
+- Leading development of [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over **1000 hackers** and **50 organizers** throughout hackathon.
+- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, allowing for over **20 000&dollar;** in sponsor payments to be processed.
 
 <!--
 - Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
@@ -173,24 +173,6 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 
 ---
 
-## Contact
-
-[Ottawa, Ontario](https://google.com/maps/place/Ottawa,+ON)
-
-<!--          WARNING          -->
-<!-- don't spam call me thanks -->
-<!--        END WARNING        -->
-
-[613-913-9909](tel:+1-613-913-9909)
-
-[mail@emilien.ca](mailto:mail@emilien.ca)
-
-[https://emilien.ca/](https://emilien.ca/)
-
-[**github/** Bricktech2000](https://github.com/Bricktech2000)
-
-[**linkedin/in/** emilien-breton](https://www.linkedin.com/in/emilien-breton/)
-
 ## Skills
 
 ### Programming Languages
@@ -225,6 +207,24 @@ HTML&nbsp;&bull; CSS&nbsp;&bull; JSON&nbsp;&bull; YAML&nbsp;&bull; Markdown&nbsp
 
 Electronics&nbsp;&bull; [Robotics](https://emilien.ca/Spider-Robot/)&nbsp;&bull; 3D Printing&nbsp;&bull; Mathematics&nbsp;&bull; [Drone Building](https://emilien.ca/FPV-Racing-Drone/)&nbsp;&bull; Finance & Investing&nbsp;&bull; [Productivity](https://notes.emilien.ca/productivity/)&nbsp;&bull; Music
 
+## Contact
+
+[Ottawa, Ontario](https://google.com/maps/place/Ottawa,+ON)
+
+<!--          WARNING          -->
+<!-- don't spam call me thanks -->
+<!--        END WARNING        -->
+
+[613-913-9909](tel:+1-613-913-9909)
+
+[mail@emilien.ca](mailto:mail@emilien.ca)
+
+[https://emilien.ca/](https://emilien.ca/)
+
+[**github/** Bricktech2000](https://github.com/Bricktech2000)
+
+[**linkedin/in/** emilien-breton](https://www.linkedin.com/in/emilien-breton/)
+
 ---
 
-[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `[COMMIT_HASH]&nbsp;&bull; [MONTH] [YEAR]`
+[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `Commit [COMMIT_HASH]&nbsp;&bull; [MONTH] [YEAR]`

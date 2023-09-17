@@ -9,20 +9,20 @@
 
 𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
 ꜱᴏꜰᴛᴡᴀʀᴇ ᴇɴɢɪɴᴇᴇʀ — ᴡᴇʙ3                               ʀᴇᴍᴏᴛᴇ ꜰʀᴏᴍ ᴏᴛᴛᴀᴡᴀ | ᴏᴄᴛᴏʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
-• Working  on  small-scale project and getting up to speed with various technologies such as
-  Web3 programming in Solidity and testing using Chai and Hardhat.
+• Implemented various smart contracts in Solitidy as per specification and ensured 𝟭𝟬𝟬% 𝘁𝗲𝘀𝘁
+  𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 through Chai and Hardhat.
 
 —— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 <http://hackthehill.com/>
 ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴍᴀɴᴀɢᴇʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                                 ᴏᴛᴛᴀᴡᴀ | ᴍᴀʏ 2023 — ᴘʀᴇꜱᴇɴᴛ
 ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴄᴏᴏʀᴅɪɴᴀᴛᴏʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                       ᴏᴛᴛᴀᴡᴀ | ɴᴏᴠᴇᴍʙᴇʀ 2022 — ᴍᴀʏ 2023
-• Contributed  in  developing  open-source  participant  tracker
+• Leading  development  of  open-source  participant  tracker
   <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
   over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
-• Collaborated  with  infrastructure  and  sponsorship  teams to build and maintain internal
-  payment  portal  powered  by  Stripe  and  React.js,  allowing for over 𝟮𝟬 𝟬𝟬𝟬$ in sponsor
-  payments to be processed.
+• Built  and  maintained  internal  payment  portal  powered  by  Stripe  and  React.js  in
+  collaboration  with  infrastructure  and  sponsorship  teams, allowing for over 𝟮𝟬 𝟬𝟬𝟬$ in
+  sponsor payments to be processed.
 
 𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗦 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
 ᴄʟᴜʙ ᴇxᴇᴄᴜᴛɪᴠᴇ                                          ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ | ᴊᴜɴᴇ 2022 — ᴘʀᴇꜱᴇɴᴛ
@@ -83,14 +83,6 @@
 
                                              • • •
 
-—— CONTACT ———————————————————————————————————————————————————————————————————————————————————————
-Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
-613-913-9909 <tel:+1-613-913-9909>
-mail@emilien.ca <mailto:mail@emilien.ca>
-https://emilien.ca/ <https://emilien.ca/>
-𝗴𝗶𝘁𝗵𝘂𝗯/ Bricktech2000 <https://github.com/Bricktech2000>
-𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/𝗶𝗻/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
-
 —— SKILLS ————————————————————————————————————————————————————————————————————————————————————————
 
 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀
@@ -119,5 +111,13 @@ Electronics • Robotics <https://emilien.ca/Spider-Robot/> • 3D Printing • 
 Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing • Productivity
 <https://notes.emilien.ca/productivity/> • Music
 
+—— CONTACT ———————————————————————————————————————————————————————————————————————————————————————
+Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
+613-913-9909 <tel:+1-613-913-9909>
+mail@emilien.ca <mailto:mail@emilien.ca>
+https://emilien.ca/ <https://emilien.ca/>
+𝗴𝗶𝘁𝗵𝘂𝗯/ Bricktech2000 <https://github.com/Bricktech2000>
+𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/𝗶𝗻/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
+
                                              • • •
-ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>         ʙ226284ꜰ7ᴇ1ꜰ7ʙᴀ • ꜱᴇᴘ 2023
+ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>          ᴄᴏᴍᴍɪᴛ 113ᴄᴀᴀ2 • ꜱᴇᴘ 2023

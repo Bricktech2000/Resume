@@ -302,7 +302,7 @@ def compose(*fns):
 def preprocess(source):
   import subprocess
 
-  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:15].upper()
+  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:7].upper()
   day, month, year = time.strftime('%d %b %Y').split()
   source = source.replace('[COMMIT_HASH]', commit_hash).replace('[DAY]', day).replace(
       '[MONTH]', month).replace('[YEAR]', year)
