@@ -4,6 +4,8 @@ import os
 import re
 
 # external requirements:
+# - `marko`
+# - Google Chrome
 # - `git` in `$PATH`
 # - `chromedriver` in `$PATH`
 # - an internet connection
@@ -182,13 +184,13 @@ def make_html_process(text_primary, text_secondary, background):
 
     with open('template.html', 'r') as f:
       template = f.read()
-      return template.replace('{{EXPORT}}',
+      return template.replace('[EXPORT]',
                               '<section>' +
                               gfm(source)
                               .replace('&amp;', '&')
                               .replace('<hr />', '</section><section>')
                               + '</section>') \
-          .replace('{{TEXT_PRIMARY}}', text_primary).replace('{{TEXT_SECONDARY}}', text_secondary).replace('{{BACKGROUND}}', background).encode('utf-8')
+          .replace('[TEXT_PRIMARY]', text_primary).replace('[TEXT_SECONDARY]', text_secondary).replace('[BACKGROUND]', background).encode('utf-8')
 
   return html_process
 
@@ -300,10 +302,10 @@ def compose(*fns):
 def preprocess(source):
   import subprocess
 
-  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:15]
+  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:15].upper()
   day, month, year = time.strftime('%d %b %Y').split()
-  source = source.replace('{{COMMIT_HASH}}', commit_hash).replace('{{DAY}}', day).replace(
-      '{{MONTH}}', month).replace('{{YEAR}}', year)
+  source = source.replace('[COMMIT_HASH]', commit_hash).replace('[DAY]', day).replace(
+      '[MONTH]', month).replace('[YEAR]', year)
 
   return source
 

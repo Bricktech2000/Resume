@@ -111,4 +111,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing •
 
 ---
 
-[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `8A2B5117D637E0C • Sep 2023`
+[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `B226284F7E1F7BA • Sep 2023`
