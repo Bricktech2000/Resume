@@ -1,219 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- fontawesome css cdn: -->
-    <!-- https://www.cdnpkg.com/font-awesome/5.5.0 -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css"
-      rel="stylesheet"
-    />
-    <!-- https://resumeworded.com/results.php -->
-    <!-- https://fontawesome.com/v5.15/icons -->
-    <style>
-      :root {
-        --text-primary: #000000;
-        --text-secondary: #888888;
-        --background: #FFFFFF;
-        --sans: Roboto, sans-serif;
-        --mono: Inconsolata, monospace;
-      }
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        -webkit-tap-highlight-color: transparent;
-      }
-      html *:not(head *):not(script):not(style) {
-        /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
-        display: flex;
-      }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- fontawesome css cdn: -->
+  <!-- https://www.cdnpkg.com/font-awesome/5.5.0 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css" rel="stylesheet" />
+  <!-- https://resumeworded.com/results.php -->
+  <!-- https://fontawesome.com/v5.15/icons -->
+  <style>
+    :root {
+      --text-primary: #000000;
+      --text-secondary: #888888;
+      --background: #FFFFFF;
+      --sans: Roboto, sans-serif;
+      --mono: Inconsolata, monospace;
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html *:not(head *):not(script):not(style) {
+      /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
+      display: flex;
+    }
+
+    body {
+      /* A4 paper size */
+      width: 210mm;
+      height: 297mm;
+      font-family: var(--sans);
+      font-weight: 300;
+      color: var(--text-primary);
+      background: var(--background);
+      text-align: justify;
+    }
+
+    html {
+      background: #888888;
+    }
+  </style>
+  <style>
+    body {
+      display: grid !important;
+      grid-template-columns: auto 14em;
+      grid-template-rows: auto 1fr auto;
+      padding: 7.5mm;
+      margin: 7.5mm;
+      font-size: 3.125mm;
+      line-height: 1.4;
+      gap: 7.5mm;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      line-height: 1.25;
+      flex-direction: row;
+      font-weight: 300;
+    }
+
+    h1 strong {
+      font-weight: 500;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      line-height: 1;
+      padding-bottom: 0.25em;
+    }
+
+    /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
+    *+h2 {
+      padding-top: 1.5em;
+    }
+
+    h3 {
+      font-weight: 500;
+      font-size: 1em;
+      align-items: center;
+      line-height: 1;
+      padding-top: 0.75em;
+      padding-bottom: 0.25em;
+    }
+
+    li {
+      font-weight: 300;
+      padding-left: 1em;
+    }
+
+    ul,
+    ol {
+      flex-direction: column;
+    }
+
+    ul li,
+    ol li {
+      display: list-item !important;
+      list-style: none;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-left: 0.25em;
+    }
+
+    section>* {
+      flex: auto;
+    }
+
+    section:nth-child(1) {
+      grid-column: 1 / 3;
+    }
+
+    section:nth-child(2) {
+      flex-direction: column;
+      justify-content: stretch;
+    }
+
+    section:nth-child(3) {
+      flex-direction: column;
+      justify-content: stretch;
+    }
+
+    section:nth-child(4) {
+      grid-column: 1 / 3;
+    }
+
+    code {
+      height: 100%;
+      float: right;
+      align-items: center;
+      font-family: var(--sans);
+      font-weight: 400;
+      font-size: 0.875em;
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    em {
+      height: 100%;
+      align-items: center;
+      font-family: var(--sans);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 400;
+      font-size: 0.75em;
+      font-style: normal;
+      color: var(--text-secondary);
+      align-items: center;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a>* {
+      vertical-align: middle;
+    }
+
+    i {
+      width: 1em;
+      margin-right: 0.5em;
+      text-align: right;
+    }
+
+    h1,
+    h2,
+    h3 {
+      display: block !important;
+    }
+
+    a,
+    p,
+    strong,
+    em {
+      display: inline !important;
+    }
+
+    @media print {
       body {
-        /* A4 paper size */
-        width: 210mm;
-        height: 297mm;
-        font-family: var(--sans);
-        font-weight: 300;
-        color: var(--text-primary);
-        background: var(--background);
-        text-align: justify;
-      }
-      html {
-        background: #888888;
-      }
-    </style>
-    <style>
-      body {
-        display: grid !important;
-        grid-template-columns: auto 14em;
-        grid-template-rows: auto 1fr auto;
-        padding: 7.5mm;
-        margin: 7.5mm;
-        font-size: 3.125mm;
-        line-height: 1.4;
-        gap: 7.5mm;
-      }
-      h1 {
-        font-size: 2.5em;
-        line-height: 1.25;
-        flex-direction: row;
-        font-weight: 300;
-      }
-      h1 strong {
-        font-weight: 500;
-      }
-      h2 {
-        font-weight: 300;
-        font-size: 1.5em;
-        text-transform: uppercase;
-        color: var(--text-secondary);
-        line-height: 1;
-        padding-bottom: 0.25em;
-      }
-      /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
-      * + h2 {
-        padding-top: 1.5em;
-      }
-      h3 {
-        font-weight: 500;
-        font-size: 1em;
-        align-items: center;
-        line-height: 1;
-        padding-top: 0.75em;
-        padding-bottom: 0.25em;
-      }
-      li {
-        font-weight: 300;
-        padding-left: 1em;
-      }
-      ul, ol {
-        flex-direction: column;
-      }
-      ul li, ol li {
-        display: list-item !important;
-        list-style: none;
-        position: relative;
-      }
-      ul li::before {
-        content: '•';
-        position: absolute;
-        left: 0;
-        top: 0;
-        padding-left: 0.25em;
-      }
-      section > * {
-        flex: auto;
-      }
-      section:nth-child(1) {
-        grid-column: 1 / 3;
-      }
-      section:nth-child(2) {
-        flex-direction: column;
-        justify-content: stretch;
-      }
-      section:nth-child(3) {
-        flex-direction: column;
-        justify-content: stretch;
-      }
-      section:nth-child(4) {
-        grid-column: 1 / 3;
-      }
-      code {
-        height: 100%;
-        float: right;
-        align-items: center;
-        font-family: var(--sans);
-        font-weight: 400;
-        font-size: 0.875em;
-        font-style: italic;
-        color: var(--text-secondary);
-      }
-      em {
-        height: 100%;
-        align-items: center;
-        font-family: var(--sans);
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        font-weight: 400;
-        font-size: 0.75em;
-        font-style: normal;
-        color: var(--text-secondary);
-        align-items: center;
-      }
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-      a > * {
-        vertical-align: middle;
-      }
-      i {
-        width: 1em;
-        margin-right: 0.5em;
-        text-align: right;
-      }
-      h1,
-      h2,
-      h3 {
-        display: block !important;
-      }
-      a,
-      p,
-      strong,
-      em {
-        display: inline !important;
-      }
-
-      @media print {
-        body {
-          margin: 0;
-        }
-      }
-
-      /* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
-      /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
-      @page {
-        size: A4 portrait;
         margin: 0;
       }
-    </style>
-    <script>
-      window.addEventListener('load', () => {
-        document.querySelectorAll('a').forEach((a) => {
-          let icon = '';
-          if (a.href.includes('google.com/maps')) icon = 'fas fa-map-marker-alt';
-          else if (a.href.includes('tel:')) icon = 'fas fa-phone';
-          else if (a.href.includes('mailto:')) icon = 'fas fa-envelope';
-          else if (a.href.includes('github.com')) icon = 'fab fa-github';
-          else if (a.href.includes('devpost.com')) icon = 'fas fa-file-lines';
-          else if (a.href.includes('linkedin.com')) icon = 'fab fa-linkedin';
-          else icon = 'fas fa-link';
+    }
 
-          a.target = '_blank';
-          a.innerHTML = `<i class="fa-sm ${icon}"></i>${a.innerHTML}`;
-        });
+    /* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+  </style>
+  <script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('a').forEach((a) => {
+        let icon = '';
+        if (a.href.includes('google.com/maps'))
+          icon = 'fas fa-map-marker-alt';
+        else if (a.href.includes('tel:')) icon = 'fas fa-phone';
+        else if (a.href.includes('mailto:')) icon = 'fas fa-envelope';
+        else if (a.href.includes('github.com')) icon = 'fab fa-github';
+        else if (a.href.includes('devpost.com')) icon = 'fas fa-file-lines';
+        else if (a.href.includes('linkedin.com')) icon = 'fab fa-linkedin';
+        else icon = 'fas fa-link';
+
+        a.target = '_blank';
+        a.innerHTML = `<i class="fa-sm ${icon}"></i>${a.innerHTML}`;
       });
-    </script>
-  </head>
-  <body>
-    <section><h1>Emilien <strong>Breton</strong></h1>
+    });
+  </script>
+</head>
+
+<body>
+  <section><h1>Emilien <strong>Breton</strong></h1>
 </section><section>
 <!-- https://www.engineering.cornell.edu/sites/default/files/users/user240/Action%20Words%20for%20ENG%20(website).pdf -->
 <h2>Experience</h2>
@@ -257,11 +281,15 @@
 - refreshed Discord server with clearer roles and introduction
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress.
 -->
+<!-- 1147 members on Discord server as of September 19 2023 19:08 -->
 <p><em>Club Executive</em> <code>University of Ottawa | June 2022 &mdash; Present</code></p>
 <ul>
-<li>Collaborated with both other executives to brainstorm, organize and schedule a dozen events by giving talks and organizing workshops for over <strong>100 students</strong>. <!-- generous cumulative estimation --></li>
-<li>Reorganized Discord server of over <strong>1000 members</strong> by creating clearer roles and introduction channels, improving user experience and onboarding.</li>
+<li>Building a community of <strong>over 1000</strong> computer science students at the University of Ottawa.</li>
+<li>Collaborating with both other executives to brainstorm, organize and schedule a few dozen events by designing marketing material using Figma and organizing workshops for over <strong>100 students</strong>. <!-- generous cumulative estimation --></li>
 </ul>
+<!--
+- Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
+-->
 <!--
 ### Group Chat Moderator
 
@@ -275,8 +303,26 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 - Improved moderation experience by creating [Discord bot](https://github.com/Bricktech2000/Turing-Complete-Mentions) to address groups of students based on specific criteria, extending flexibility of Discord mentions.
 -->
 <h2>Projects</h2>
+<h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
+<p><em>A minimalist 8-bit microcomputer with stack-based microprocessor</em> <code>Rust&nbsp;&bull; Assembly</code></p>
+<ul>
+<li>Designing ecosystem of hardware and software from logic chips upward: <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">microarchitecture specification</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/mic">microcode builder</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/circ">gate-level circuit design</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">instruction-level emulator</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">optimizing assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/lib">assembly standard library</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/cc">rudimentary C99 compiler</a>.</li>
+<li>Built various utilities and demos running natively on microcomputer: <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">C string handling functions</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm">native Brainfuck compiler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif">Flappy Bird clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif">Game of Life simulation</a>.</li>
+</ul>
+<!--
+TODO delete
+
+- brainfuck interpreter
+- hex monitor
+- life
+
+- Implemented [optimizing assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm), [elementary disassembler](https://github.com/Bricktech2000/Atto-8/tree/master/dasm) and [instruction-level emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu) in Rust for [custom stack-based architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md).
+- Proved instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm) from scratch in Assembly.
+- Writing [rudimentary C99 compiler](https://github.com/Bricktech2000/Atto-8/tree/master/cc) in Rust targetting the architecture.
+- Working on building microcomputer physically using 74HC-series logic chips and 3D-printed parts.
+-->
 <h3><a href="https://emilien.ca/">Personal Website</a></h3>
-<p><em>A portfolio for sharing various projects</em> <code>JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Markdown&nbsp;&bull; Next.js</code></p>
+<p><em>A portfolio for sharing various projects</em> <code>Markdown&nbsp;&bull; Next.js</code></p>
 <ul>
 <li>Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over <strong>5000 unique visitors</strong> a month.</li>
 <li>Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over <strong>95%</strong>.</li>
@@ -298,15 +344,8 @@ _Design and build of a racing drone_ `May 2020 &mdash; February 2021`
 - Strategically put in place a dozen deadlines for the year-long project allowing for submission of [final report](https://docs.google.com/document/d/1IacnKTF84T8h3rhnu_9Y1yqm5nK6_kY3pc5PWw-RIvo/edit?usp=sharing) several days early.
 - Designed project roadmap based on thorough understanding of possible complications resulting in only one major setback caused by defective parts.
 -->
-<h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
-<p><em>A minimalist 8-bit microcomputer with stack-based microprocessor</em> <code>Rust&nbsp;&bull; Assembly</code></p>
-<ul>
-<li>Implemented <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">optimizing assembler</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/dasm">elementary disassembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">instruction-level emulator</a> in Rust for <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md">custom stack-based architecture</a>.</li>
-<li>Proved instruction set Turing complete through <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm">implementation of Conway's Game of Life</a> from scratch in Assembly.</li>
-<li>Working on building microcomputer physically using 74HC-series logic chips and 3D-printed parts.</li>
-</ul>
 <h3><a href="https://dbless.emilien.ca/">DBLess Password Manager</a></h3>
-<p><em>A hash-based, database-less password manager</em> <code>Python&nbsp;&bull; JavaScript&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; Next.js</code></p>
+<p><em>A hash-based, database-less password manager</em> <code>Python&nbsp;&bull; Next.js</code></p>
 <ul>
 <li>Devised <a href="https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js">custom cryptographic procedure</a> based on SHA-256 to deterministically generate passwords on demand without requiring encryption or password storage.</li>
 <li>Built <a href="https://dbless.emilien.ca/">cross-platform PWA</a> with Next.js used by over <strong>50 accounts</strong> <!-- 50 of which are mine--> that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience.</li>
@@ -316,10 +355,10 @@ _Design and build of a racing drone_ `May 2020 &mdash; February 2021`
 -->
 <h3><a href="https://devpost.com/software/legacy-protocol">Legacy Protocol</a></h3>
 <!-- March 18th 2022 &mdash; March 20th 2022 -->
-<p><em>Submission for DeFi The Conventional 2022</em> <code>March 2022 | JavaScript&nbsp;&bull; React&nbsp;&bull; Rust</code></p>
+<p><em>Submission for DeFi The Conventional 2022</em> <code>March 2022 | React&nbsp;&bull; Rust</code></p>
 <ul>
 <li>Won <strong>first place</strong> in Finance category of Canada's largest DeFi hackathon along with <strong>2500$ prize</strong> as part of 3-member team.</li>
-<li>Built <a href="https://github.com/Bricktech2000/crypto_will">MVP smart contract backend and API</a> from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe.</li>
+<li>Built <a href="https://github.com/Bricktech2000/crypto_will">MVP smart contract backend and API</a> from scratch in Rust with no prior experience in Web3, all within tight <strong>36-hour timeframe</strong>.</li>
 <li>Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.</li>
 </ul>
 <h3>More on <a href="https://github.com/Bricktech2000">GitHub</a> and in <a href="https://emilien.ca/">Portfolio</a></h3>
@@ -350,13 +389,13 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 <p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/in/</strong> emilien-breton</a></p>
 <h2>Skills</h2>
 <h3>Programming Languages</h3>
-<p>Rust • Python • C • JavaScript</p>
+<p>Rust • C • Python • JavaScript</p>
 <h3>Development Tools</h3>
-<p>Linux • Neovim • Git • Fish • GitHub • Docker</p>
+<p>NixOS • Neovim • Fish • Git • GitHub • Docker</p>
 <h3>Frameworks</h3>
 <p>React • Next.js • Node.js</p>
 <h3>Other Technologies</h3>
-<p>HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • Assembly • Raspberry Pi • Arduino • VS Code • Figma • Notion • Cloudflare</p>
+<p>HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • x86 Assembly • Linux • GDB • Arduino • VS Code • Figma • Notion • Cloudflare</p>
 <h2>Other</h2>
 <h3>Spoken Languages</h3>
 <!-- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf -->
@@ -370,7 +409,8 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 <h3>Interests</h3>
 <p>Electronics • <a href="https://emilien.ca/Spider-Robot/">Robotics</a> • 3D Printing • Mathematics • <a href="https://emilien.ca/FPV-Racing-Drone/">Drone Building</a> • Finance & Investing • <a href="https://notes.emilien.ca/productivity/">Productivity</a> • Music</p>
 </section><section>
-<p><a href="https://github.com/Bricktech2000/Resume/"><em>Bricktech2000/Resume</em></a> <code>385da7276fa27ec&nbsp;&bull; May 2023</code></p>
+<p><a href="https://github.com/Bricktech2000/Resume/"><em>Bricktech2000/Resume</em></a> <code>8A2B5117D637E0C&nbsp;&bull; Sep 2023</code></p>
 </section>
-  </body>
+</body>
+
 </html>

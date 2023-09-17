@@ -26,35 +26,42 @@
 
 [1muOttawa CS Club[0m <https://uocsclub.ca/>
 [[3mClub Executive[0m]                                        [3mUniversity of Ottawa | June 2022 — Present[0m
-• Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
-  events by giving talks and organizing workshops for over [1m100 students[0m.
-• Reorganized Discord server of over [1m1000 members[0m by creating clearer roles and introduction
-  channels, improving user experience and onboarding.
+• Building a community of [1mover 1000[0m computer science students at the University of Ottawa.
+• Collaborating  with both other executives to brainstorm, organize and schedule a few dozen
+  events  by  designing marketing material using Figma and organizing workshops for over [1m100
+  students[0m.
 
 —— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————
 
+[1mAtto-8 Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
+[[3mA minimalist 8-bit microcomputer with stack-based microprocessor[0m]                 [3mRust • Assembly[0m
+• Designing  ecosystem  of  hardware and software from logic chips upward: microarchitecture
+  specification
+  <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md>  •
+  microcode  builder  <https://github.com/Bricktech2000/Atto-8/tree/master/mic> • gate-level
+  circuit  design  <https://github.com/Bricktech2000/Atto-8/tree/master/circ>  •
+  instruction-level  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  •
+  optimizing  assembler <https://github.com/Bricktech2000/Atto-8/tree/master/asm> • assembly
+  standard  library  <https://github.com/Bricktech2000/Atto-8/tree/master/lib> • rudimentary
+  C99 compiler <https://github.com/Bricktech2000/Atto-8/tree/master/cc>.
+• Built  various  utilities  and  demos  running  natively  on microcomputer: heap allocator
+  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm>  •  C string handling
+  functions  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm>  •  native
+  Brainfuck  compiler
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  •  Flappy  Bird
+  clone  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif> • Game
+  of  Life  simulation
+  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif>.
+
 [1mPersonal Website[0m <https://emilien.ca/>
-[[3mA portfolio for sharing various projects[0m]            [3mJavaScript • HTML • CSS • Markdown • Next.js[0m
+[[3mA portfolio for sharing various projects[0m]                                      [3mMarkdown • Next.js[0m
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over [1m5000 unique visitors[0m a month.
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over [1m95%[0m.
 
-[1mAtto-8 Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
-[[3mA minimalist 8-bit microcomputer with stack-based microprocessor[0m]                 [3mRust • Assembly[0m
-• Implemented  optimizing  assembler
-  <https://github.com/Bricktech2000/Atto-8/tree/master/asm>,  elementary  disassembler
-  <https://github.com/Bricktech2000/Atto-8/tree/master/dasm>  and instruction-level emulator
-  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  in  Rust for custom stack-based
-  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>.
-• Proved  instruction  set  Turing  complete through implementation of Conway's Game of Life
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm>  from  scratch  in
-  Assembly.
-• Working  on building microcomputer physically using 74HC-series logic chips and 3D-printed
-  parts.
-
 [1mDBLess Password Manager[0m <https://dbless.emilien.ca/>
-[[3mA hash-based, database-less password manager[0m]          [3mPython • JavaScript • HTML • CSS • Next.js[0m
+[[3mA hash-based, database-less password manager[0m]                                    [3mPython • Next.js[0m
 • Devised  custom  cryptographic  procedure
   <https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js> based on
   SHA-256  to deterministically generate passwords on demand without requiring encryption or
@@ -64,11 +71,11 @@
   for convenience.
 
 [1mLegacy Protocol[0m <https://devpost.com/software/legacy-protocol>
-[[3mSubmission for DeFi The Conventional 2022[0m]                 [3mMarch 2022 | JavaScript • React • Rust[0m
+[[3mSubmission for DeFi The Conventional 2022[0m]                              [3mMarch 2022 | React • Rust[0m
 • Won  [1mfirst  place[0m  in Finance category of Canada's largest DeFi hackathon along with [1m2500$
   prize[0m as part of 3-member team.
 • Built  MVP  smart  contract backend and API <https://github.com/Bricktech2000/crypto_will>
-  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe.
+  from scratch in Rust with no prior experience in Web3, all within tight [1m36-hour timeframe[0m.
 • Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
   secure additional funding prior to Terra Luna collapse.
 
@@ -87,17 +94,17 @@ https://emilien.ca/ <https://emilien.ca/>
 —— SKILLS ————————————————————————————————————————————————————————————————————————————————————————
 
 [1mProgramming Languages[0m
-Rust • Python • C • JavaScript
+Rust • C • Python • JavaScript
 
 [1mDevelopment Tools[0m
-Linux • Neovim • Git • Fish • GitHub • Docker
+NixOS • Neovim • Fish • Git • GitHub • Docker
 
 [1mFrameworks[0m
 React • Next.js • Node.js
 
 [1mOther Technologies[0m
-HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • Assembly • Raspberry Pi • Arduino • VS
-Code • Figma • Notion • Cloudflare
+HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • x86 Assembly • Linux • GDB • Arduino •
+VS Code • Figma • Notion • Cloudflare
 
 —— OTHER —————————————————————————————————————————————————————————————————————————————————————————
 
@@ -113,4 +120,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-[[3mBricktech2000/Resume[0m] <https://github.com/Bricktech2000/Resume/>       [3m385da7276fa27ec • May 2023[0m
+[[3mBricktech2000/Resume[0m] <https://github.com/Bricktech2000/Resume/>       [3m8A2B5117D637E0C • Sep 2023[0m

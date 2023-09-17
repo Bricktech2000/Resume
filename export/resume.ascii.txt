@@ -26,35 +26,42 @@ HACK THE HILL <http://hackthehill.com/>
 
 UOTTAWA CS CLUB <https://uocsclub.ca/>
 [Club Executive]                                       University of Ottawa | June 2022 -- Present
-- Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
-  events by giving talks and organizing workshops for over 100 STUDENTS.
-- Reorganized Discord server of over 1000 MEMBERS by creating clearer roles and introduction
-  channels, improving user experience and onboarding.
+- Building a community of OVER 1000 computer science students at the University of Ottawa.
+- Collaborating  with both other executives to brainstorm, organize and schedule a few dozen
+  events  by  designing marketing material using Figma and organizing workshops for over 100
+  STUDENTS.
 
 -- PROJECTS --------------------------------------------------------------------------------------
 
+ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
+[A minimalist 8-bit microcomputer with stack-based microprocessor]                 Rust - Assembly
+- Designing  ecosystem  of  hardware and software from logic chips upward: microarchitecture
+  specification
+  <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md>  -
+  microcode  builder  <https://github.com/Bricktech2000/Atto-8/tree/master/mic> - gate-level
+  circuit  design  <https://github.com/Bricktech2000/Atto-8/tree/master/circ>  -
+  instruction-level  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  -
+  optimizing  assembler <https://github.com/Bricktech2000/Atto-8/tree/master/asm> - assembly
+  standard  library  <https://github.com/Bricktech2000/Atto-8/tree/master/lib> - rudimentary
+  C99 compiler <https://github.com/Bricktech2000/Atto-8/tree/master/cc>.
+- Built  various  utilities  and  demos  running  natively  on microcomputer: heap allocator
+  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm>  -  C string handling
+  functions  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm>  -  native
+  Brainfuck  compiler
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  -  Flappy  Bird
+  clone  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif> - Game
+  of  Life  simulation
+  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif>.
+
 PERSONAL WEBSITE <https://emilien.ca/>
-[A portfolio for sharing various projects]            JavaScript - HTML - CSS - Markdown - Next.js
+[A portfolio for sharing various projects]                                      Markdown - Next.js
 - Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over 5000 UNIQUE VISITORS a month.
 - Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 95%.
 
-ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
-[A minimalist 8-bit microcomputer with stack-based microprocessor]                 Rust - Assembly
-- Implemented  optimizing  assembler
-  <https://github.com/Bricktech2000/Atto-8/tree/master/asm>,  elementary  disassembler
-  <https://github.com/Bricktech2000/Atto-8/tree/master/dasm>  and instruction-level emulator
-  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  in  Rust for custom stack-based
-  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>.
-- Proved  instruction  set  Turing  complete through implementation of Conway's Game of Life
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm>  from  scratch  in
-  Assembly.
-- Working  on building microcomputer physically using 74HC-series logic chips and 3D-printed
-  parts.
-
 DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
-[A hash-based, database-less password manager]          Python - JavaScript - HTML - CSS - Next.js
+[A hash-based, database-less password manager]                                    Python - Next.js
 - Devised  custom  cryptographic  procedure
   <https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js> based on
   SHA-256  to deterministically generate passwords on demand without requiring encryption or
@@ -64,11 +71,11 @@ DBLESS PASSWORD MANAGER <https://dbless.emilien.ca/>
   for convenience.
 
 LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
-[Submission for DeFi The Conventional 2022]                 March 2022 | JavaScript - React - Rust
+[Submission for DeFi The Conventional 2022]                              March 2022 | React - Rust
 - Won  FIRST  PLACE  in Finance category of Canada's largest DeFi hackathon along with 2500$
   PRIZE as part of 3-member team.
 - Built  MVP  smart  contract backend and API <https://github.com/Bricktech2000/crypto_will>
-  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe.
+  from scratch in Rust with no prior experience in Web3, all within tight 36-HOUR TIMEFRAME.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
   secure additional funding prior to Terra Luna collapse.
 
@@ -87,17 +94,17 @@ LINKEDIN/IN/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 -- SKILLS ----------------------------------------------------------------------------------------
 
 PROGRAMMING LANGUAGES
-Rust - Python - C - JavaScript
+Rust - C - Python - JavaScript
 
 DEVELOPMENT TOOLS
-Linux - Neovim - Git - Fish - GitHub - Docker
+NixOS - Neovim - Fish - Git - GitHub - Docker
 
 FRAMEWORKS
 React - Next.js - Node.js
 
 OTHER TECHNOLOGIES
-HTML - CSS - JSON - YAML - Markdown - LaTeX - C++ - Assembly - Raspberry Pi - Arduino - VS
-Code - Figma - Notion - Cloudflare
+HTML - CSS - JSON - YAML - Markdown - LaTeX - C++ - x86 Assembly - Linux - GDB - Arduino -
+VS Code - Figma - Notion - Cloudflare
 
 -- OTHER -----------------------------------------------------------------------------------------
 
@@ -113,4 +120,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> - Finance & Investing - Pr
 <https://notes.emilien.ca/productivity/> - Music
 
                                              - - -
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       385da7276fa27ec - May 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>       8A2B5117D637E0C - Sep 2023

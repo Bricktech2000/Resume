@@ -26,35 +26,42 @@
 
 𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗦 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
 ᴄʟᴜʙ ᴇxᴇᴄᴜᴛɪᴠᴇ                                          ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ | ᴊᴜɴᴇ 2022 — ᴘʀᴇꜱᴇɴᴛ
-• Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
-  events by giving talks and organizing workshops for over 𝟭𝟬𝟬 𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀.
-• Reorganized Discord server of over 𝟭𝟬𝟬𝟬 𝗺𝗲𝗺𝗯𝗲𝗿𝘀 by creating clearer roles and introduction
-  channels, improving user experience and onboarding.
+• Building a community of 𝗼𝘃𝗲𝗿 𝟭𝟬𝟬𝟬 computer science students at the University of Ottawa.
+• Collaborating  with both other executives to brainstorm, organize and schedule a few dozen
+  events  by  designing marketing material using Figma and organizing workshops for over 𝟭𝟬𝟬
+  𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀.
 
 —— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————
 
+𝗔𝘁𝘁𝗼-𝟴 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
+ᴀ ᴍɪɴɪᴍᴀʟɪꜱᴛ 8-ʙɪᴛ ᴍɪᴄʀᴏᴄᴏᴍᴘᴜᴛᴇʀ ᴡɪᴛʜ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴍɪᴄʀᴏᴘʀᴏᴄᴇꜱꜱᴏʀ                   ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
+• Designing  ecosystem  of  hardware and software from logic chips upward: microarchitecture
+  specification
+  <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md>  •
+  microcode  builder  <https://github.com/Bricktech2000/Atto-8/tree/master/mic> • gate-level
+  circuit  design  <https://github.com/Bricktech2000/Atto-8/tree/master/circ>  •
+  instruction-level  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  •
+  optimizing  assembler <https://github.com/Bricktech2000/Atto-8/tree/master/asm> • assembly
+  standard  library  <https://github.com/Bricktech2000/Atto-8/tree/master/lib> • rudimentary
+  C99 compiler <https://github.com/Bricktech2000/Atto-8/tree/master/cc>.
+• Built  various  utilities  and  demos  running  natively  on microcomputer: heap allocator
+  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm>  •  C string handling
+  functions  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm>  •  native
+  Brainfuck  compiler
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  •  Flappy  Bird
+  clone  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif> • Game
+  of  Life  simulation
+  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif>.
+
 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗪𝗲𝗯𝘀𝗶𝘁𝗲 <https://emilien.ca/>
-ᴀ ᴘᴏʀᴛꜰᴏʟɪᴏ ꜰᴏʀ ꜱʜᴀʀɪɴɢ ᴠᴀʀɪᴏᴜꜱ ᴘʀᴏᴊᴇᴄᴛꜱ              ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ᴍᴀʀᴋᴅᴏᴡɴ • ɴᴇxᴛ.ᴊꜱ
+ᴀ ᴘᴏʀᴛꜰᴏʟɪᴏ ꜰᴏʀ ꜱʜᴀʀɪɴɢ ᴠᴀʀɪᴏᴜꜱ ᴘʀᴏᴊᴇᴄᴛꜱ                                        ᴍᴀʀᴋᴅᴏᴡɴ • ɴᴇxᴛ.ᴊꜱ
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over 𝟱𝟬𝟬𝟬 𝘂𝗻𝗶𝗾𝘂𝗲 𝘃𝗶𝘀𝗶𝘁𝗼𝗿𝘀 a month.
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 𝟵𝟱%.
 
-𝗔𝘁𝘁𝗼-𝟴 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
-ᴀ ᴍɪɴɪᴍᴀʟɪꜱᴛ 8-ʙɪᴛ ᴍɪᴄʀᴏᴄᴏᴍᴘᴜᴛᴇʀ ᴡɪᴛʜ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴍɪᴄʀᴏᴘʀᴏᴄᴇꜱꜱᴏʀ                   ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
-• Implemented  optimizing  assembler
-  <https://github.com/Bricktech2000/Atto-8/tree/master/asm>,  elementary  disassembler
-  <https://github.com/Bricktech2000/Atto-8/tree/master/dasm>  and instruction-level emulator
-  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  in  Rust for custom stack-based
-  architecture <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md>.
-• Proved  instruction  set  Turing  complete through implementation of Conway's Game of Life
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm>  from  scratch  in
-  Assembly.
-• Working  on building microcomputer physically using 74HC-series logic chips and 3D-printed
-  parts.
-
 𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://dbless.emilien.ca/>
-ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ            ᴘʏᴛʜᴏɴ • ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʜᴛᴍʟ • ᴄꜱꜱ • ɴᴇxᴛ.ᴊꜱ
+ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ                                      ᴘʏᴛʜᴏɴ • ɴᴇxᴛ.ᴊꜱ
 • Devised  custom  cryptographic  procedure
   <https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js> based on
   SHA-256  to deterministically generate passwords on demand without requiring encryption or
@@ -64,11 +71,11 @@
   for convenience.
 
 𝗟𝗲𝗴𝗮𝗰𝘆 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹 <https://devpost.com/software/legacy-protocol>
-ꜱᴜʙᴍɪꜱꜱɪᴏɴ ꜰᴏʀ ᴅᴇꜰɪ ᴛʜᴇ ᴄᴏɴᴠᴇɴᴛɪᴏɴᴀʟ 2022                   ᴍᴀʀᴄʜ 2022 | ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ • ʀᴇᴀᴄᴛ • ʀᴜꜱᴛ
+ꜱᴜʙᴍɪꜱꜱɪᴏɴ ꜰᴏʀ ᴅᴇꜰɪ ᴛʜᴇ ᴄᴏɴᴠᴇɴᴛɪᴏɴᴀʟ 2022                                ᴍᴀʀᴄʜ 2022 | ʀᴇᴀᴄᴛ • ʀᴜꜱᴛ
 • Won  𝗳𝗶𝗿𝘀𝘁  𝗽𝗹𝗮𝗰𝗲  in Finance category of Canada's largest DeFi hackathon along with 𝟮𝟱𝟬𝟬$
   𝗽𝗿𝗶𝘇𝗲 as part of 3-member team.
 • Built  MVP  smart  contract backend and API <https://github.com/Bricktech2000/crypto_will>
-  from scratch in Rust with no prior experience in Web3, all within tight 36-hour timeframe.
+  from scratch in Rust with no prior experience in Web3, all within tight 𝟯𝟲-𝗵𝗼𝘂𝗿 𝘁𝗶𝗺𝗲𝗳𝗿𝗮𝗺𝗲.
 • Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
   secure additional funding prior to Terra Luna collapse.
 
@@ -87,17 +94,17 @@ https://emilien.ca/ <https://emilien.ca/>
 —— SKILLS ————————————————————————————————————————————————————————————————————————————————————————
 
 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀
-Rust • Python • C • JavaScript
+Rust • C • Python • JavaScript
 
 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗧𝗼𝗼𝗹𝘀
-Linux • Neovim • Git • Fish • GitHub • Docker
+NixOS • Neovim • Fish • Git • GitHub • Docker
 
 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸𝘀
 React • Next.js • Node.js
 
 𝗢𝘁𝗵𝗲𝗿 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀
-HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • Assembly • Raspberry Pi • Arduino • VS
-Code • Figma • Notion • Cloudflare
+HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • x86 Assembly • Linux • GDB • Arduino •
+VS Code • Figma • Notion • Cloudflare
 
 —— OTHER —————————————————————————————————————————————————————————————————————————————————————————
 
@@ -113,4 +120,4 @@ Drone Building <https://emilien.ca/FPV-Racing-Drone/> • Finance & Investing �
 <https://notes.emilien.ca/productivity/> • Music
 
                                              • • •
-ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>         385ᴅᴀ7276ꜰᴀ27ᴇᴄ • ᴍᴀʏ 2023
+ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>         8ᴀ2ʙ5117ᴅ637ᴇ0ᴄ • ꜱᴇᴘ 2023
