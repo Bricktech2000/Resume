@@ -93,19 +93,6 @@ _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust&nbsp;&b
 - Designing ecosystem of hardware and software from logic chips upward: [microarchitecture specification](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md)&nbsp;&bull; [microcode builder](https://github.com/Bricktech2000/Atto-8/tree/master/mic)&nbsp;&bull; [gate-level circuit design](https://github.com/Bricktech2000/Atto-8/tree/master/circ)&nbsp;&bull; [instruction-level emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu)&nbsp;&bull; [optimizing assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm)&nbsp;&bull; [assembly standard library](https://github.com/Bricktech2000/Atto-8/tree/master/lib)&nbsp;&bull; [rudimentary C99 compiler](https://github.com/Bricktech2000/Atto-8/tree/master/cc).
 - Built various utilities and demos running natively on microcomputer: [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm)&nbsp;&bull; [C string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm)&nbsp;&bull; [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm)&nbsp;&bull; [Flappy Bird clone](https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif)&nbsp;&bull; [Game of Life simulation](https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif).
 
-<!--
-TODO delete
-
-- brainfuck interpreter
-- hex monitor
-- life
-
-- Implemented [optimizing assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm), [elementary disassembler](https://github.com/Bricktech2000/Atto-8/tree/master/dasm) and [instruction-level emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu) in Rust for [custom stack-based architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microprocessor.md).
-- Proved instruction set Turing complete through [implementation of Conway's Game of Life](https://github.com/Bricktech2000/Atto-8/blob/master/test/life.asm) from scratch in Assembly.
-- Writing [rudimentary C99 compiler](https://github.com/Bricktech2000/Atto-8/tree/master/cc) in Rust targetting the architecture.
-- Working on building microcomputer physically using 74HC-series logic chips and 3D-printed parts.
--->
-
 ### [Personal Website](https://emilien.ca/)
 
 _A portfolio for sharing various projects_ `Markdown&nbsp;&bull; Next.js`

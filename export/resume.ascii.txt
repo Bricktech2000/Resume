@@ -120,4 +120,4 @@ GITHUB/ Bricktech2000 <https://github.com/Bricktech2000>
 LINKEDIN/IN/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
                                              - - -
-[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>        Commit 113CAA2 - Sep 2023
+[Bricktech2000/Resume] <https://github.com/Bricktech2000/Resume/>        Commit CCE12FA - Sep 2023
