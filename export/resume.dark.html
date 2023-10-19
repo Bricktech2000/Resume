@@ -61,7 +61,7 @@
   <style>
     body {
       display: grid !important;
-      grid-template-columns: auto 14em;
+      grid-template-columns: 3fr 1fr;
       grid-template-rows: auto 1fr auto;
       padding: 7.5mm;
       margin: 7.5mm;
@@ -212,7 +212,7 @@
     /* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
     @page {
-      size: A4 portrait;
+      size: 210mm 297mm;
       margin: 0;
     }
   </style>
@@ -243,22 +243,24 @@
 <h2>Experience</h2>
 <h3>Zeptile Software</h3>
 <!-- according to Discord conversations -->
-<p><em>Software Engineer — Web3</em> <code>Remote from Ottawa | October 2022 &mdash; Present</code></p>
+<p><em>Software Engineer — Web3</em> <code>Remote from Ottawa&ensp;|&ensp;October 2022 &mdash; Present</code></p>
 <ul>
-<li>Implemented various smart contracts in Solitidy as per specification and ensured <strong>100% test coverage</strong> through Chai and Hardhat.</li>
+<li>Implemented various smart contracts in Solidity as per specification and ensured <strong>100% test coverage</strong> through Chai and Hardhat.</li>
 </ul>
 <h2>Volunteering</h2>
 <h3><a href="http://hackthehill.com/">Hack the Hill</a></h3>
-<!-- Development Coordinator was updated to Development Manager around 2023-05-01 -->
-<p><em>Development Manager — Development Team</em> <code>Ottawa | May 2023 &mdash; Present</code></p>
 <!-- according to Code, Coffee & Cram collab on 2022-10-30 -->
-<!-- infrastructure role was removed around 2023-01-24 -->
-<p><em>Development Coordinator — Development Team</em> <code>Ottawa | November 2022 &mdash; May 2023</code></p>
+<!-- Development Coordinator was updated to Development Manager around 2023-05-01 -->
+<!--
+_Development Manager &mdash; Development Team_ `Ottawa&ensp;|&ensp;May 2023 &mdash; Present`
+_Development Coordinator &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 2022 &mdash; May 2023`
+-->
+<p><em>Development Manager — Development Team</em> <code>Ottawa&ensp;|&ensp;November 2022 &mdash; Present</code></p>
 <!-- according to https://prisma.hackthehill.com/ -->
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 <ul>
 <li>Leading development of <a href="https://github.com/HacktheHill/track-the-hack">open-source participant tracker</a> built with Next.js and Prisma, used by over <strong>1000 hackers</strong> and <strong>50 organizers</strong> throughout hackathon.</li>
-<li>Built and maintained internal payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, allowing for over <strong>20 000$</strong> in sponsor payments to be processed.</li>
+<li>Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, allowing processing of over <strong>20 000$</strong>.</li>
 </ul>
 <!--
 - Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
@@ -282,10 +284,10 @@
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress.
 -->
 <!-- 1147 members on Discord server as of September 19 2023 19:08 -->
-<p><em>Club Executive</em> <code>University of Ottawa | June 2022 &mdash; Present</code></p>
+<p><em>Club Executive</em> <code>University of Ottawa&ensp;|&ensp;June 2022 &mdash; Present</code></p>
 <ul>
-<li>Building a community of <strong>over 1000</strong> computer science students at the University of Ottawa.</li>
-<li>Collaborating with both other executives to brainstorm, organize and schedule a few dozen events by designing marketing material using Figma and organizing workshops for over <strong>100 students</strong>. <!-- generous cumulative estimation --></li>
+<li>Building community of <strong>over 1000</strong> computer science students at the University of Ottawa.</li>
+<li>Collaborating with both other executives to brainstorm, organize and schedule a few dozen events by designing marketing material using Figma and organizing workshops for <!-- generous cumulative estimation --> over <strong>100 students</strong>.</li>
 </ul>
 <!--
 - Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
@@ -305,9 +307,11 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 <h2>Projects</h2>
 <h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
 <p><em>A minimalist 8-bit microcomputer with stack-based microprocessor</em> <code>Rust&nbsp;&bull; Assembly</code></p>
+<!-- according to Toggl Track as of 2023-10-17 -->
 <ul>
-<li>Designing ecosystem of hardware and software from logic chips upward: <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">microarchitecture specification</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/mic">microcode builder</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/circ">gate-level circuit design</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">instruction-level emulator</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">optimizing assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/lib">assembly standard library</a> • <a href="https://github.com/Bricktech2000/Atto-8/tree/master/cc">rudimentary C99 compiler</a>.</li>
-<li>Built various utilities and demos running natively on microcomputer: <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">C string handling functions</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm">native Brainfuck compiler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif">Flappy Bird clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif">Game of Life simulation</a>.</li>
+<li>Designing ecosystem of hardware and software from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">CPU architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">assembler</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/cc">C compiler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">emulator</a>, totaling over <strong>400 hours</strong> of work.</li>
+<li>Built various utilities running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm">native Brainfuck compiler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm">hex monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm">pixel editor</a></li>
+<li>Porting microcomputer design to hardware using discrete logic chips on breadboards.</li>
 </ul>
 <h3><a href="https://emilien.ca/">Personal Website</a></h3>
 <p><em>A portfolio for sharing various projects</em> <code>Markdown&nbsp;&bull; Next.js</code></p>
@@ -343,7 +347,7 @@ _Design and build of a racing drone_ `May 2020 &mdash; February 2021`
 -->
 <h3><a href="https://devpost.com/software/legacy-protocol">Legacy Protocol</a></h3>
 <!-- March 18th 2022 &mdash; March 20th 2022 -->
-<p><em>Submission for DeFi The Conventional 2022</em> <code>March 2022 | React&nbsp;&bull; Rust</code></p>
+<p><em>Submission for DeFi The Conventional 2022</em> <code>March 2022&ensp;|&ensp;React&nbsp;&bull; Rust</code></p>
 <ul>
 <li>Won <strong>first place</strong> in Finance category of Canada's largest DeFi hackathon along with <strong>2500$ prize</strong> as part of 3-member team.</li>
 <li>Built <a href="https://github.com/Bricktech2000/crypto_will">MVP smart contract backend and API</a> from scratch in Rust with no prior experience in Web3, all within tight <strong>36-hour timeframe</strong>.</li>
@@ -397,7 +401,7 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 <p><a href="https://github.com/Bricktech2000"><strong>github/</strong> Bricktech2000</a></p>
 <p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/in/</strong> emilien-breton</a></p>
 </section><section>
-<p><a href="https://github.com/Bricktech2000/Resume/"><em>Bricktech2000/Resume</em></a> <code>Commit CCE12FA&nbsp;&bull; Sep 2023</code></p>
+<p><a href="https://github.com/Bricktech2000/Resume/"><em>Bricktech2000/Resume</em></a> <code>Commit B25641B&nbsp;&bull; Oct 2023</code></p>
 </section>
 </body>
 

@@ -13,11 +13,11 @@ import re
 
 
 def utf8_replace_html_entities(html):
-  return html.replace('&nbsp;', ' ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—')
+  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—')
 
 
 def ascii_replace_html_entities(html):
-  return html.replace('&nbsp;', ' ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-')
+  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-')
 
 
 def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90, heading_cache={}):
@@ -214,6 +214,7 @@ def make_pdf_process(html_process):
         'marginLeft': 0,
         'marginRight': 0,
     }
+    # for some reason, `--headless` results in different line breaks
     options.add_argument('--headless')
     driver = webdriver.Chrome(options=options)
     driver.get(f'file://{os.path.realpath("temp.html")}')

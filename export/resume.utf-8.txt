@@ -9,24 +9,23 @@
 
 𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
 ꜱᴏꜰᴛᴡᴀʀᴇ ᴇɴɢɪɴᴇᴇʀ — ᴡᴇʙ3                               ʀᴇᴍᴏᴛᴇ ꜰʀᴏᴍ ᴏᴛᴛᴀᴡᴀ | ᴏᴄᴛᴏʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
-• Implemented various smart contracts in Solitidy as per specification and ensured 𝟭𝟬𝟬% 𝘁𝗲𝘀𝘁
+• Implemented various smart contracts in Solidity as per specification and ensured 𝟭𝟬𝟬% 𝘁𝗲𝘀𝘁
   𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 through Chai and Hardhat.
 
 —— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 <http://hackthehill.com/>
-ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴍᴀɴᴀɢᴇʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                                 ᴏᴛᴛᴀᴡᴀ | ᴍᴀʏ 2023 — ᴘʀᴇꜱᴇɴᴛ
-ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴄᴏᴏʀᴅɪɴᴀᴛᴏʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                       ᴏᴛᴛᴀᴡᴀ | ɴᴏᴠᴇᴍʙᴇʀ 2022 — ᴍᴀʏ 2023
+ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴍᴀɴᴀɢᴇʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                            ᴏᴛᴛᴀᴡᴀ | ɴᴏᴠᴇᴍʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
 • Leading  development  of  open-source  participant  tracker
   <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
   over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
-• Built  and  maintained  internal  payment  portal  powered  by  Stripe  and  React.js  in
-  collaboration  with  infrastructure  and  sponsorship  teams, allowing for over 𝟮𝟬 𝟬𝟬𝟬$ in
-  sponsor payments to be processed.
+• Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
+  collaboration  with  infrastructure  and sponsorship teams, allowing processing of over 𝟮𝟬
+  𝟬𝟬𝟬$.
 
 𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗦 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
 ᴄʟᴜʙ ᴇxᴇᴄᴜᴛɪᴠᴇ                                          ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ | ᴊᴜɴᴇ 2022 — ᴘʀᴇꜱᴇɴᴛ
-• Building a community of 𝗼𝘃𝗲𝗿 𝟭𝟬𝟬𝟬 computer science students at the University of Ottawa.
+• Building community of 𝗼𝘃𝗲𝗿 𝟭𝟬𝟬𝟬 computer science students at the University of Ottawa.
 • Collaborating  with both other executives to brainstorm, organize and schedule a few dozen
   events  by  designing marketing material using Figma and organizing workshops for over 𝟭𝟬𝟬
   𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀.
@@ -35,23 +34,21 @@
 
 𝗔𝘁𝘁𝗼-𝟴 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
 ᴀ ᴍɪɴɪᴍᴀʟɪꜱᴛ 8-ʙɪᴛ ᴍɪᴄʀᴏᴄᴏᴍᴘᴜᴛᴇʀ ᴡɪᴛʜ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴍɪᴄʀᴏᴘʀᴏᴄᴇꜱꜱᴏʀ                   ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
-• Designing  ecosystem  of  hardware and software from logic chips upward: microarchitecture
-  specification
-  <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md>  •
-  microcode  builder  <https://github.com/Bricktech2000/Atto-8/tree/master/mic> • gate-level
-  circuit  design  <https://github.com/Bricktech2000/Atto-8/tree/master/circ>  •
-  instruction-level  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>  •
-  optimizing  assembler <https://github.com/Bricktech2000/Atto-8/tree/master/asm> • assembly
-  standard  library  <https://github.com/Bricktech2000/Atto-8/tree/master/lib> • rudimentary
-  C99 compiler <https://github.com/Bricktech2000/Atto-8/tree/master/cc>.
-• Built  various  utilities  and  demos  running  natively  on microcomputer: heap allocator
-  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm>  •  C string handling
+• Designing  ecosystem  of  hardware  and  software  from  logic gates upward, including CPU
+  architecture
+  <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md>, assembler
+  <https://github.com/Bricktech2000/Atto-8/tree/master/asm>,  C  compiler
+  <https://github.com/Bricktech2000/Atto-8/tree/master/cc>  and  emulator
+  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>,  totaling  over  𝟰𝟬𝟬  𝗵𝗼𝘂𝗿𝘀  of
+  work.
+• Built  various  utilities  running  natively  on  microcomputer  —  heap  allocator
+  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm>  •  string  handling
   functions  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm>  •  native
   Brainfuck  compiler
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  •  Flappy  Bird
-  clone  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif> • Game
-  of  Life  simulation
-  <https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif>.
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  •  hex  monitor
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm>  •  pixel  editor
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm>
+• Porting microcomputer design to hardware using discrete logic chips on breadboards.
 
 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗪𝗲𝗯𝘀𝗶𝘁𝗲 <https://emilien.ca/>
 ᴀ ᴘᴏʀᴛꜰᴏʟɪᴏ ꜰᴏʀ ꜱʜᴀʀɪɴɢ ᴠᴀʀɪᴏᴜꜱ ᴘʀᴏᴊᴇᴄᴛꜱ                                        ᴍᴀʀᴋᴅᴏᴡɴ • ɴᴇxᴛ.ᴊꜱ
@@ -120,4 +117,4 @@ https://emilien.ca/ <https://emilien.ca/>
 𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/𝗶𝗻/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
                                              • • •
-ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>          ᴄᴏᴍᴍɪᴛ ᴄᴄᴇ12ꜰᴀ • ꜱᴇᴘ 2023
+ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <https://github.com/Bricktech2000/Resume/>          ᴄᴏᴍᴍɪᴛ ʙ25641ʙ • ᴏᴄᴛ 2023

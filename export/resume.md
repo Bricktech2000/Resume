@@ -6,34 +6,35 @@
 
 ### Zeptile Software
 
-_Software Engineer — Web3_ `Remote from Ottawa | October 2022 — Present`
+_Software Engineer — Web3_ `Remote from Ottawa  |  October 2022 — Present`
 
-- Implemented various smart contracts in Solitidy as per specification and ensured **100% test coverage** through Chai and Hardhat.
+- Implemented various smart contracts in Solidity as per specification and ensured **100% test coverage** through Chai and Hardhat.
 
 ## Volunteering
 
 ### [Hack the Hill](http://hackthehill.com/)
 
-_Development Manager — Development Team_ `Ottawa | May 2023 — Present`
-
-_Development Coordinator — Development Team_ `Ottawa | November 2022 — May 2023`
+_Development Manager — Development Team_ `Ottawa  |  November 2022 — Present`
 
 - Leading development of [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over **1000 hackers** and **50 organizers** throughout hackathon.
-- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, allowing for over **20 000$** in sponsor payments to be processed.
+- Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, allowing processing of over **20 000$**.
 
 ### [uOttawa CS Club](https://uocsclub.ca/)
 
-_Club Executive_ `University of Ottawa | June 2022 — Present`
+_Club Executive_ `University of Ottawa  |  June 2022 — Present`
 
-- Building a community of **over 1000** computer science students at the University of Ottawa.
-- Collaborating with both other executives to brainstorm, organize and schedule a few dozen events by designing marketing material using Figma and organizing workshops for over **100 students**. ## Projects
+- Building community of **over 1000** computer science students at the University of Ottawa.
+- Collaborating with both other executives to brainstorm, organize and schedule a few dozen events by designing marketing material using Figma and organizing workshops for  over **100 students**.
+
+## Projects
 
 ### [Atto-8 Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
 _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • Assembly`
 
-- Designing ecosystem of hardware and software from logic chips upward: [microarchitecture specification](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md) • [microcode builder](https://github.com/Bricktech2000/Atto-8/tree/master/mic) • [gate-level circuit design](https://github.com/Bricktech2000/Atto-8/tree/master/circ) • [instruction-level emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu) • [optimizing assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) • [assembly standard library](https://github.com/Bricktech2000/Atto-8/tree/master/lib) • [rudimentary C99 compiler](https://github.com/Bricktech2000/Atto-8/tree/master/cc).
-- Built various utilities and demos running natively on microcomputer: [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) • [C string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) • [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm) • [Flappy Bird clone](https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/flappy.gif) • [Game of Life simulation](https://github.com/Bricktech2000/Atto-8/blob/master/misc/assets/life.gif).
+- Designing ecosystem of hardware and software from logic gates upward, including [CPU architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm), [C compiler](https://github.com/Bricktech2000/Atto-8/tree/master/cc) and [emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **400 hours** of work.
+- Built various utilities running natively on microcomputer — [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) • [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) • [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm) • [hex monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm) • [pixel editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm)
+- Porting microcomputer design to hardware using discrete logic chips on breadboards.
 
 ### [Personal Website](https://emilien.ca/)
 
@@ -51,7 +52,7 @@ _A hash-based, database-less password manager_ `Python • Next.js`
 
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
 
-_Submission for DeFi The Conventional 2022_ `March 2022 | React • Rust`
+_Submission for DeFi The Conventional 2022_ `March 2022  |  React • Rust`
 
 - Won **first place** in Finance category of Canada's largest DeFi hackathon along with **2500$ prize** as part of 3-member team.
 - Built [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within tight **36-hour timeframe**.
@@ -111,4 +112,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing •
 
 ---
 
-[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `Commit CCE12FA • Sep 2023`
+[_Bricktech2000/Resume_](https://github.com/Bricktech2000/Resume/) `Commit B25641B • Oct 2023`
