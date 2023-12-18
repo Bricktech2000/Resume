@@ -12,6 +12,14 @@ import re
 # - an _export_ folder
 
 
+heading_cache = {'Emilien Breton': r'''
+ ___                 ___          __   __   ___ ___  __       
+|__   |\/| | |    | |__  |\ |    |__) |__) |__   |  /  \ |\ | 
+|___  |  | | |___ | |___ | \|    |__) |  \ |___  |  \__/ | \| 
+                                                              
+'''[1:-1]}
+
+
 def utf8_replace_html_entities(html):
   return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—')
 
@@ -20,7 +28,7 @@ def ascii_replace_html_entities(html):
   return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-')
 
 
-def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90, heading_cache={}):
+def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90):
   from marko.renderer import Renderer
 
   def fill(text, target_width, justify=False):
