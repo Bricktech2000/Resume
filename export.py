@@ -7,17 +7,10 @@ import re
 # - `marko`
 # - Google Chrome
 # - `git` in `$PATH`
+# - `figlet` in `$PATH`
 # - `chromedriver` in `$PATH`
 # - an internet connection
 # - an _export_ folder
-
-
-heading_cache = {'Emilien Breton': r'''
- ___                 ___          __   __   ___ ___  __       
-|__   |\/| | |    | |__  |\ |    |__) |__) |__   |  /  \ |\ | 
-|___  |  | | |___ | |___ | \|    |__) |  \ |___  |  \__/ | \| 
-                                                              
-'''[1:-1]}
 
 
 def utf8_replace_html_entities(html):
@@ -32,7 +25,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
   from marko.renderer import Renderer
 
   def fill(text, target_width, justify=False):
-    right_float_delta = (width - small_width) if '|||' in text else 0
+    right_float_delta = (width - small_width) if '||||' in text else 0
     target_width = target_width + right_float_delta  # allow right float to take full `width`
 
     def fill(text, target_width, len_patched=len):
@@ -69,9 +62,9 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       self.small_width = small_width
 
     def render_document(self, element):
-      # "|||" is used to represent `float: right`
+      # "||||" is used to represent `float: right`
       return '\n'.join(map(
-          lambda line: line.replace('|||', ' ' * (self.width - len_patched(line) + 5)),
+          lambda line: line.replace('||||', ' ' * (self.width - len_patched(line) + 5)),
           self.render_children(element).split('\n')
       )).encode('utf-8')
 
@@ -87,22 +80,12 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
             return ''.join(map(formatless, element.children))
           return self.render(element)
 
-        formatless_children = "".join(formatless(child) for child in element.children)
-
-        if formatless_children not in heading_cache:
-          from selenium import webdriver
-          from selenium.webdriver.common.by import By
-
-          options = webdriver.ChromeOptions()
-          options.add_argument('--headless')
-          driver = webdriver.Chrome(options=options)
-          driver.get(
-              f'http://patorjk.com/software/taag/#p=display&f=Stick%20Letters&t={formatless_children}')
-          time.sleep(0.5)
-          heading_cache[formatless_children] = driver.find_element(By.ID, 'taag_output_text').text
-          driver.quit()
-
-        return f'{heading_cache[formatless_children]}\n'
+        import subprocess
+        font = ['straight', '-m-1']  # ['mini', '-m0']
+        formatless_children = ''.join(formatless(child) for child in element.children)
+        figlet_output = subprocess.check_output(['figlet', '-f', *font, formatless_children])
+        # remove trailing whitespace and remove whitespace-only lines
+        return re.sub(r'\n? +$', r'', figlet_output.decode('utf-8'), flags=re.MULTILINE)
 
       if element.level == 2:
         return f'\n{self.format_html("&ndash;&ndash;") + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_html("&ndash;"))}\n'
@@ -163,7 +146,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
 
     def render_code_span(self, element):
       newline = '\n'
-      return f'|||{(newline + "|||").join(fill(self.format_code(self.format_html(element.children)), self.small_width).split(newline))}'
+      return f'||||{(newline + "||||").join(fill(self.format_code(self.format_html(element.children)), self.small_width).split(newline))}'
 
     def render_emphasis(self, element):
       return f'{fill(self.format_emphasis(self.render_children(element)), self.small_width)}'
@@ -305,7 +288,7 @@ def light_pdf_process(source):
 
 def compose(*fns):
   from functools import reduce
-  return reduce(lambda g, f: lambda *args: f(g(*args)), fns)
+  return reduce(lambda f, g: lambda *args: f(g(*args)), fns)
 
 
 def preprocess(source):
@@ -328,12 +311,12 @@ def export(extension, process):
     f.write(processed)
 
 
-export('.md', compose(preprocess, md_process))
-export('.dark.html', compose(preprocess, dark_html_process))
-export('.light.html', compose(preprocess, light_html_process))
-export('.ascii.txt', compose(preprocess, ascii_txt_process))
-export('.utf-8.txt', compose(preprocess, utf8_txt_process))
-export('.term.txt', compose(preprocess, term_txt_process))
-export('.dark.pdf', compose(preprocess, dark_pdf_process))
-export('.light.pdf', compose(preprocess, light_pdf_process))
+export('.md', compose(md_process, preprocess))
+export('.dark.html', compose(dark_html_process, preprocess))
+export('.light.html', compose(light_html_process, preprocess))
+export('.ascii.txt', compose(ascii_txt_process, preprocess))
+export('.utf-8.txt', compose(utf8_txt_process, preprocess))
+export('.term.txt', compose(term_txt_process, preprocess))
+export('.dark.pdf', compose(dark_pdf_process, preprocess))
+export('.light.pdf', compose(light_pdf_process, preprocess))
 print('done.')
