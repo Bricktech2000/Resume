@@ -61,51 +61,40 @@
   <style>
     body {
       display: grid !important;
-      grid-template-columns: 3fr 1fr;
+      grid-template-columns: 4fr 1fr;
       grid-template-rows: auto 1fr auto;
       padding: 7.5mm;
       margin: 7.5mm;
-      font-size: 3.125mm;
-      line-height: 1.4;
+      font-size: 3.5mm;
+      line-height: 1.2;
       gap: 7.5mm;
     }
 
     h1 {
-      font-size: 2.5em;
-      line-height: 1.25;
       flex-direction: row;
-      font-weight: 300;
-    }
-
-    h1 strong {
-      font-weight: 500;
+      font-size: 2em;
+      font-weight: inherit;
     }
 
     h2 {
-      font-weight: 300;
       font-size: 1.5em;
+      font-weight: inherit;
       text-transform: uppercase;
       color: var(--text-secondary);
-      line-height: 1;
-      padding-bottom: 0.25em;
     }
 
     /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
     *+h2 {
-      padding-top: 1.5em;
+      padding-top: 1em;
     }
 
     h3 {
-      font-weight: 500;
-      font-size: 1em;
-      align-items: center;
-      line-height: 1;
-      padding-top: 0.75em;
-      padding-bottom: 0.25em;
+      font-weight: 700;
+      font-size: inherit;
+      padding-top: 0.5em;
     }
 
     li {
-      font-weight: 300;
       padding-left: 1em;
     }
 
@@ -157,7 +146,6 @@
       align-items: center;
       font-family: var(--sans);
       font-weight: 400;
-      font-size: 0.875em;
       font-style: italic;
       color: var(--text-secondary);
     }
@@ -167,21 +155,21 @@
       align-items: center;
       font-family: var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.1em;
       font-weight: 400;
-      font-size: 0.75em;
-      font-style: normal;
+      font-size: 0.875em;
+      font-style: inherit;
       color: var(--text-secondary);
       align-items: center;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
+    strong {
+      font-weight: 500;
     }
 
-    a>* {
-      vertical-align: middle;
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
     }
 
     i {
@@ -216,24 +204,6 @@
       margin: 0;
     }
   </style>
-  <script>
-    window.addEventListener('load', () => {
-      document.querySelectorAll('a').forEach((a) => {
-        let icon = '';
-        if (a.href.includes('google.com/maps'))
-          icon = 'fas fa-map-marker-alt';
-        else if (a.href.includes('tel:')) icon = 'fas fa-phone';
-        else if (a.href.includes('mailto:')) icon = 'fas fa-envelope';
-        else if (a.href.includes('github.com')) icon = 'fab fa-github';
-        else if (a.href.includes('devpost.com')) icon = 'fas fa-file-lines';
-        else if (a.href.includes('linkedin.com')) icon = 'fab fa-linkedin';
-        else icon = 'fas fa-link';
-
-        a.target = '_blank';
-        a.innerHTML = `<i class="fa-sm ${icon}"></i>${a.innerHTML}`;
-      });
-    });
-  </script>
 </head>
 
 <body>

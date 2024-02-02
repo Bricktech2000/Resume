@@ -61,51 +61,40 @@
   <style>
     body {
       display: grid !important;
-      grid-template-columns: 3fr 1fr;
+      grid-template-columns: 4fr 1fr;
       grid-template-rows: auto 1fr auto;
       padding: 7.5mm;
       margin: 7.5mm;
-      font-size: 3.125mm;
-      line-height: 1.4;
+      font-size: 3.5mm;
+      line-height: 1.2;
       gap: 7.5mm;
     }
 
     h1 {
-      font-size: 2.5em;
-      line-height: 1.25;
       flex-direction: row;
-      font-weight: 300;
-    }
-
-    h1 strong {
-      font-weight: 500;
+      font-size: 2em;
+      font-weight: inherit;
     }
 
     h2 {
-      font-weight: 300;
       font-size: 1.5em;
+      font-weight: inherit;
       text-transform: uppercase;
       color: var(--text-secondary);
-      line-height: 1;
-      padding-bottom: 0.25em;
     }
 
     /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
     *+h2 {
-      padding-top: 1.5em;
+      padding-top: 1em;
     }
 
     h3 {
-      font-weight: 500;
-      font-size: 1em;
-      align-items: center;
-      line-height: 1;
-      padding-top: 0.75em;
-      padding-bottom: 0.25em;
+      font-weight: 700;
+      font-size: inherit;
+      padding-top: 0.5em;
     }
 
     li {
-      font-weight: 300;
       padding-left: 1em;
     }
 
@@ -157,7 +146,6 @@
       align-items: center;
       font-family: var(--sans);
       font-weight: 400;
-      font-size: 0.875em;
       font-style: italic;
       color: var(--text-secondary);
     }
@@ -167,21 +155,21 @@
       align-items: center;
       font-family: var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.1em;
       font-weight: 400;
-      font-size: 0.75em;
-      font-style: normal;
+      font-size: 0.875em;
+      font-style: inherit;
       color: var(--text-secondary);
       align-items: center;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
+    strong {
+      font-weight: 500;
     }
 
-    a>* {
-      vertical-align: middle;
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
     }
 
     i {
@@ -216,39 +204,83 @@
       margin: 0;
     }
   </style>
-  <script>
-    window.addEventListener('load', () => {
-      document.querySelectorAll('a').forEach((a) => {
-        let icon = '';
-        if (a.href.includes('google.com/maps'))
-          icon = 'fas fa-map-marker-alt';
-        else if (a.href.includes('tel:')) icon = 'fas fa-phone';
-        else if (a.href.includes('mailto:')) icon = 'fas fa-envelope';
-        else if (a.href.includes('github.com')) icon = 'fab fa-github';
-        else if (a.href.includes('devpost.com')) icon = 'fas fa-file-lines';
-        else if (a.href.includes('linkedin.com')) icon = 'fab fa-linkedin';
-        else icon = 'fas fa-link';
-
-        a.target = '_blank';
-        a.innerHTML = `<i class="fa-sm ${icon}"></i>${a.innerHTML}`;
-      });
-    });
-  </script>
 </head>
 
 <body>
   <section><h1>Emilien <strong>Breton</strong></h1>
 </section><section>
 <!-- https://www.engineering.cornell.edu/sites/default/files/users/user240/Action%20Words%20for%20ENG%20(website).pdf -->
-<h2>Experience</h2>
-<h3>Zeptile Software</h3>
-<!-- according to Discord conversations -->
-<p><em>Software Engineer — Web3</em> <code>Remote from Ottawa&ensp;|&ensp;October 2022 &mdash; Present</code></p>
+<h2>Projects</h2>
+<h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
+<p><em>A minimalist 8-bit microcomputer with stack-based microprocessor</em> <code>Rust&nbsp;&bull; Assembly</code></p>
+<!-- according to Toggl Track as of 2023-10-17 -->
+<!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 <ul>
-<li>Implemented various smart contracts in Solidity as per specification and ensured <strong>100% test coverage</strong> through Chai and Hardhat.</li>
+<li>Designed ecosystem of hardware and software from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">instruction set architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">from-scratch assembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">cross-platform emulator</a>, totaling over <strong>15 000 SLOC</strong> and <strong>500 hours</strong> of work.</li>
+<li>Wrote various demos in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm">memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm">sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm">native Brainfuck compiler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/calc.asm">RPN calculator</a>.</li>
+<li>Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.</li>
 </ul>
+<h3>Atto-8 C Compiler</h3>
+<p><em>A rudimentary C99 compiler for the Atto-8 microarchitecture</em> <code>Rust&nbsp;&bull; C&nbsp;&bull; Assembly</code></p>
+<ul>
+<li>Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.</li>
+<li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong>.</li>
+<li>Hand-wrote <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">printf implementation</a> in Assembly which supports conversion specifiers %d, %u, %x, %c, %s and %p, increasing debugging efficiency and convenience.</li>
+</ul>
+<h3><a href="https://github.com/Bricktech2000/DBLess">DBLess Password Manager</a></h3>
+<p><em>A hash-based, database-less password manager</em> <code>C&nbsp;&bull; Python</code></p>
+<ul>
+<li>Devised <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py">custom cryptographic procedure</a> based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.</li>
+<li>Reimplemented password generation algorithm in C for use as <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c">interactive CLI tool</a>.</li>
+</ul>
+<!-- - Built cross-platform PWA with Next.js used by over **50 accounts** <!-- 50 of which are mine that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience. -->
+<h3><a href="https://emilien.ca/">Personal Portfolio</a></h3>
+<p><em>A portfolio for sharing various projects</em> <code>Markdown&nbsp;&bull; Next.js</code></p>
+<ul>
+<li>Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over <strong>5000 unique visitors</strong> to portfolio website a month.</li>
+<li>Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over <strong>95%</strong>.</li>
+</ul>
+<!--
+### IB Personal Project
+
+_Design and build of a racing drone_ `May 2020 &mdash; February 2021`
+
+- Strategically put in place a dozen deadlines for the year-long project allowing for submission of [final report](https://docs.google.com/document/d/1IacnKTF84T8h3rhnu_9Y1yqm5nK6_kY3pc5PWw-RIvo/edit?usp=sharing) several days early.
+- Designed project roadmap based on thorough understanding of possible complications resulting in only one major setback caused by defective parts.
+-->
+<h3><a href="https://devpost.com/software/legacy-protocol">Legacy Protocol</a></h3>
+<!-- March 18th 2022 &mdash; March 20th 2022 -->
+<p><em>Submission for DeFi The Conventional 2022</em> <code>React&nbsp;&bull; Rust</code></p>
+<ul>
+<li>Won <strong>first place</strong> in Finance category of Canada's largest DeFi hackathon along with <strong>2500$ prize</strong> as part of 3-member team.</li>
+<li>Engineered <a href="https://github.com/Bricktech2000/crypto_will">MVP smart contract backend and API</a> from scratch in Rust with no prior experience in Web3, all within limited <strong>36-hour timeframe</strong>.</li>
+<li>Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.</li>
+</ul>
+<!--
+### AI Image Compressor
+
+_A neural network that learns to compress images_ `Python&nbsp;&bull; Tensorflow&nbsp;&bull; Keras`
+
+- Implemented web scraper and image preprocessor optimized with numpy to generate millions of training samples in less than 5 minutes.
+- Created and implemented custom algorithm within autoencoder structure to allow for variable compression ratio with no overhead.
+- Supervised training process and tweaked settings leading to results of superior quality than JPEG compression when in favorable circumstances.
+-->
+<!--
+## Education
+
+### University of Ottawa
+
+_BSc with Honours in Computer Science_ `Dropped out after first year`
+
+- Admission scholarship &mdash; 95%+ average. `November 2020`
+-->
+<!--
+### Polyvalente Saint-Francois
+
+_IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; June 2021`
+-->
 <h2>Volunteering</h2>
-<h3><a href="http://hackthehill.com/">Hack the Hill</a></h3>
+<h3><a href="http://hackthehill.com/">Hack the Hill Hackathon</a></h3>
 <!-- according to Code, Coffee & Cram collab on 2022-10-30 -->
 <!-- Development Coordinator was updated to Development Manager around 2023-05-01 -->
 <!--
@@ -260,7 +292,7 @@ _Development Coordinator &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 <ul>
 <li>Leading development of <a href="https://github.com/HacktheHill/track-the-hack">open-source participant tracker</a> built with Next.js and Prisma, used by over <strong>1000 hackers</strong> and <strong>50 organizers</strong> throughout hackathon.</li>
-<li>Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, allowing processing of over <strong>20 000$</strong>.</li>
+<li>Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, enabling processing of over <strong>20 000$</strong>.</li>
 </ul>
 <!--
 - Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
@@ -274,7 +306,7 @@ _Development Coordinator &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 
 - worked on database schema for hacker tracker, implementing `hackers/hacker?id` endpoint
 - learned basics of SQL to build queries for hacker tracker
 -->
-<h3><a href="https://uocsclub.ca/">uOttawa CS Club</a></h3>
+<h3><a href="https://uocsclub.ca/">uOttawa Computer Science Club</a></h3>
 <!-- May 29 2022 20:57 according to CS Discord Jedi -->
 <!--
 - got Manaal involved to take care of social media and photography
@@ -287,7 +319,7 @@ _Development Coordinator &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 
 <p><em>Club Executive</em> <code>University of Ottawa&ensp;|&ensp;June 2022 &mdash; Present</code></p>
 <ul>
 <li>Building community of <strong>over 1000</strong> computer science students at the University of Ottawa.</li>
-<li>Collaborating with both other executives to brainstorm, organize and schedule a few dozen events by designing marketing material using Figma and organizing workshops for <!-- generous cumulative estimation --> over <strong>100 students</strong>.</li>
+<li>Collaborated with both other executives to brainstorm, organize and schedule a dozen events by designing marketing material using Figma and organizing workshops for <!-- generous cumulative estimation --> over <strong>100 students</strong>.</li>
 </ul>
 <!--
 - Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
@@ -304,81 +336,21 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 - Built and promoted six Discord servers allowing total of over **1000 students** to communicate with their peers and share course resources easily.
 - Improved moderation experience by creating [Discord bot](https://github.com/Bricktech2000/Turing-Complete-Mentions) to address groups of students based on specific criteria, extending flexibility of Discord mentions.
 -->
-<h2>Projects</h2>
-<h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
-<p><em>A minimalist 8-bit microcomputer with stack-based microprocessor</em> <code>Rust&nbsp;&bull; Assembly</code></p>
-<!-- according to Toggl Track as of 2023-10-17 -->
+<h2>Experience</h2>
+<h3>Zeptile Software</h3>
+<!-- according to Discord conversations -->
+<p><em>Software Engineer — Web3</em> <code>Remote from Ottawa&ensp;|&ensp;October 2022 &mdash; Present</code></p>
 <ul>
-<li>Designing ecosystem of hardware and software from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">CPU architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">assembler</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/cc">C compiler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">emulator</a>, totaling over <strong>400 hours</strong> of work.</li>
-<li>Built various utilities running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm">native Brainfuck compiler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm">hex monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm">pixel editor</a></li>
-<li>Porting microcomputer design to hardware using discrete logic chips on breadboards.</li>
+<li>Implemented various smart contracts in Solidity as per specification and ensured <strong>100% test coverage</strong> through Chai and Hardhat.</li>
 </ul>
-<h3><a href="https://emilien.ca/">Personal Website</a></h3>
-<p><em>A portfolio for sharing various projects</em> <code>Markdown&nbsp;&bull; Next.js</code></p>
-<ul>
-<li>Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over <strong>5000 unique visitors</strong> a month.</li>
-<li>Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over <strong>95%</strong>.</li>
-</ul>
-<!--
-### AI Image Compressor
-
-_A neural network that learns to compress specific categories of images_ `Python&nbsp;&bull; Tensorflow&nbsp;&bull; Keras`
-
-- Implemented web scraper and image preprocessor optimized with numpy to generate millions of training samples in less than 5 minutes.
-- Created and implemented custom algorithm within autoencoder structure to allow for variable compression ratio with no overhead.
-- Supervised training process and tweaked settings leading to results of superior quality than JPEG compression when in favorable circumstances.
--->
-<!--
-### IB Personal Project
-
-_Design and build of a racing drone_ `May 2020 &mdash; February 2021`
-
-- Strategically put in place a dozen deadlines for the year-long project allowing for submission of [final report](https://docs.google.com/document/d/1IacnKTF84T8h3rhnu_9Y1yqm5nK6_kY3pc5PWw-RIvo/edit?usp=sharing) several days early.
-- Designed project roadmap based on thorough understanding of possible complications resulting in only one major setback caused by defective parts.
--->
-<h3><a href="https://dbless.emilien.ca/">DBLess Password Manager</a></h3>
-<p><em>A hash-based, database-less password manager</em> <code>Python&nbsp;&bull; Next.js</code></p>
-<ul>
-<li>Devised <a href="https://github.com/Bricktech2000/DBLess/blob/master/web/lib/generatePassword.js">custom cryptographic procedure</a> based on SHA-256 to deterministically generate passwords on demand without requiring encryption or password storage.</li>
-<li>Built <a href="https://dbless.emilien.ca/">cross-platform PWA</a> with Next.js used by over <strong>50 accounts</strong> <!-- 50 of which are mine--> that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience.</li>
-</ul>
-<!--
-- Haven't been pwned yet, thereby proving security of password generation.
--->
-<h3><a href="https://devpost.com/software/legacy-protocol">Legacy Protocol</a></h3>
-<!-- March 18th 2022 &mdash; March 20th 2022 -->
-<p><em>Submission for DeFi The Conventional 2022</em> <code>March 2022&ensp;|&ensp;React&nbsp;&bull; Rust</code></p>
-<ul>
-<li>Won <strong>first place</strong> in Finance category of Canada's largest DeFi hackathon along with <strong>2500$ prize</strong> as part of 3-member team.</li>
-<li>Built <a href="https://github.com/Bricktech2000/crypto_will">MVP smart contract backend and API</a> from scratch in Rust with no prior experience in Web3, all within tight <strong>36-hour timeframe</strong>.</li>
-<li>Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.</li>
-</ul>
-<h3>More on <a href="https://github.com/Bricktech2000">GitHub</a> and in <a href="https://emilien.ca/">Portfolio</a></h3>
-<!--
-## Education
-
-### University of Ottawa
-
-_BSc with Honours in Computer Science_ `Dropped out after first year`
-
-- Admission scholarship &mdash; 95%+ average. `November 2020`
--->
-<!--
-### Polyvalente Saint-Francois
-
-_IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; June 2021`
--->
 </section><section>
 <h2>Skills</h2>
-<h3>Programming Languages</h3>
+<h3>Languages</h3>
 <p>Rust • C • Python • JavaScript</p>
 <h3>Development Tools</h3>
-<p>NixOS • Neovim • Fish • Git • GitHub • Docker</p>
-<h3>Frameworks</h3>
-<p>React • Next.js • Node.js</p>
+<p>NixOS • Neovim • Fish Shell • Git</p>
 <h3>Other Technologies</h3>
-<p>HTML • CSS • JSON • YAML • Markdown • LaTeX • C++ • x86 Assembly • Linux • GDB • Arduino • VS Code • Figma • Notion • Cloudflare</p>
-<h2>Other</h2>
+<p>React • Node.js • HTML • CSS • JSON • YAML • Markdown • LaTeX • Lua • x86 Assembly • C++ • Bash • GDB • Linux • Arduino • VS Code • Figma • Notion • Docker • Cloudflare • GitHub</p>
 <h3>Spoken Languages</h3>
 <!-- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf -->
 <!-- https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/ -->
@@ -388,8 +360,20 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 <li>Spanish <code>Intermediate</code></li>
 <li>Russian <code>Elementary</code></li>
 </ul>
-<h3>Interests</h3>
-<p>Electronics • <a href="https://emilien.ca/Spider-Robot/">Robotics</a> • 3D Printing • Mathematics • <a href="https://emilien.ca/FPV-Racing-Drone/">Drone Building</a> • Finance & Investing • <a href="https://notes.emilien.ca/productivity/">Productivity</a> • Music</p>
+<h3>Other Interests</h3>
+<p>Electronics • <a href="https://emilien.ca/Spider-Robot/">Robotics</a> • 3D Printing • <a href="https://emilien.ca/FPV-Racing-Drone/">Drone Building</a> • Mathematics • Finance and Investing • <a href="https://notes.emilien.ca/productivity/">Productivity</a> • Music</p>
+<!--
+## Achievements
+
+### Fusce Sed Erat Velit
+
+- Sed euismod diam sit amet euismod.
+
+### Iaculis Vehicula Felis
+
+- Aliquam ornare diam sit amet euismod pellentesque.
+- In condimentum tortor non odio consectetur accumsan.
+-->
 <h2>Contact</h2>
 <p><a href="https://google.com/maps/place/Ottawa,+ON">Ottawa, Ontario</a></p>
 <!--          WARNING          -->
@@ -399,9 +383,9 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 <p><a href="mailto:mail@emilien.ca">mail@emilien.ca</a></p>
 <p><a href="https://emilien.ca/">https://emilien.ca/</a></p>
 <p><a href="https://github.com/Bricktech2000"><strong>github/</strong> Bricktech2000</a></p>
-<p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/in/</strong> emilien-breton</a></p>
+<p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/</strong> emilien-breton</a></p>
 </section><section>
-<p><a href="https://github.com/Bricktech2000/Resume/"><em>Bricktech2000/Resume</em></a> <code>Commit B25641B&nbsp;&bull; Oct 2023</code></p>
+<p><em><a href="https://github.com/Bricktech2000/Resume/">Bricktech2000/Resume</a></em> <code>Commit 6EAA176&nbsp;&bull; Feb 2024</code></p>
 </section>
 </body>
 
