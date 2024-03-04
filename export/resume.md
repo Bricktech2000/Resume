@@ -9,7 +9,7 @@
 _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • Assembly`
 
 - Designed ecosystem of hardware and software from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **15 000 SLOC** and **500 hours** of work.
-- Wrote various demos in Assembly running natively on microcomputer — [memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm) • [sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/tetris.asm) • [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm) • [RPN calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/calc.asm).
+- Wrote various demos in Assembly running natively on microcomputer — [memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 ### Atto-8 C Compiler
@@ -31,7 +31,7 @@ _A hash-based, database-less password manager_ `C • Python`
 
 _A portfolio for sharing various projects_ `Markdown • Next.js`
 
-- Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over **5000 unique visitors** to portfolio website a month.
+- Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over **15 000 unique visitors** to portfolio website a month.
 - Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over **95%**.
 
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
@@ -112,4 +112,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing •
 
 ---
 
-_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 6EAA176 • Feb 2024`
+_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit AD519D7 • Mar 2024`

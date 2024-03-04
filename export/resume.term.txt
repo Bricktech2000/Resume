@@ -15,11 +15,13 @@
   cross-platform  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>,
   totaling over [1m15 000 SLOC[0m and [1m500 hours[0m of work.
 • Wrote  various  demos  in  Assembly  running  natively  on  microcomputer — memory monitor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm>  •  sprite  editor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm>  •  Tetris  clone
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/tetris.asm>  •  native Brainfuck
-  compiler  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  •  RPN
-  calculator <https://github.com/Bricktech2000/Atto-8/blob/master/test/calc.asm>.
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm>  •  sprite
+  editor  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm>  •
+  Tetris clone <https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm> •
+  native  Brainfuck  compiler
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm>  •  postfix
+  notation  calculator
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm>.
 • Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 [1mAtto-8 C Compiler[0m
@@ -47,7 +49,7 @@
 [1mPersonal Portfolio[0m <https://emilien.ca/>
 [[3mA portfolio for sharing various projects[0m]                                     [3mMarkdown • Next.js[0m
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
-  resulting in over [1m5000 unique visitors[0m to portfolio website a month.
+  resulting in over [1m15 000 unique visitors[0m to portfolio website a month.
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over [1m95%[0m.
 
@@ -120,4 +122,4 @@ https://emilien.ca/ <https://emilien.ca/>
 [1mlinkedin/[0m emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
                                              • • •
-[[3mBricktech2000/Resume <https://github.com/Bricktech2000/Resume/>[0m]       [3mCommit 6EAA176 • Feb 2024[0m
+[[3mBricktech2000/Resume <https://github.com/Bricktech2000/Resume/>[0m]       [3mCommit AD519D7 • Mar 2024[0m

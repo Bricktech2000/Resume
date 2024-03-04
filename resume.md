@@ -15,7 +15,7 @@ _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust&nbsp;&b
 <!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 
 - Designed ecosystem of hardware and software from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **15&nbsp;000 SLOC** and **500 hours** of work.
-- Wrote various demos in Assembly running natively on microcomputer &mdash; [memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm)&nbsp;&bull; [sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm)&nbsp;&bull; [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/tetris.asm)&nbsp;&bull; [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm)&nbsp;&bull; [RPN calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/calc.asm).
+- Wrote various demos in Assembly running natively on microcomputer &mdash; [memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm)&nbsp;&bull; [sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm)&nbsp;&bull; [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm)&nbsp;&bull; [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm)&nbsp;&bull; [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 ### Atto-8 C Compiler
@@ -39,7 +39,7 @@ _A hash-based, database-less password manager_ `C&nbsp;&bull; Python`
 
 _A portfolio for sharing various projects_ `Markdown&nbsp;&bull; Next.js`
 
-- Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over **5000 unique visitors** to portfolio website a month.
+- Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over **15&nbsp;000 unique visitors** to portfolio website a month.
 - Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over **95%**.
 
 <!--

@@ -15,11 +15,13 @@ ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
   cross-platform  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>,
   totaling over 15 000 SLOC and 500 HOURS of work.
 - Wrote  various  demos  in  Assembly  running  natively  on microcomputer -- memory monitor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm>  -  sprite  editor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm>  -  Tetris  clone
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/tetris.asm>  -  native Brainfuck
-  compiler  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  -  RPN
-  calculator <https://github.com/Bricktech2000/Atto-8/blob/master/test/calc.asm>.
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm>  -  sprite
+  editor  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm>  -
+  Tetris clone <https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm> -
+  native  Brainfuck  compiler
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm>  -  postfix
+  notation  calculator
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm>.
 - Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 ATTO-8 C COMPILER
@@ -47,7 +49,7 @@ DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
 PERSONAL PORTFOLIO <https://emilien.ca/>
 [A portfolio for sharing various projects]                                     Markdown - Next.js
 - Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
-  resulting in over 5000 UNIQUE VISITORS to portfolio website a month.
+  resulting in over 15 000 UNIQUE VISITORS to portfolio website a month.
 - Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 95%.
 
@@ -120,4 +122,4 @@ GITHUB/ Bricktech2000 <https://github.com/Bricktech2000>
 LINKEDIN/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
                                              - - -
-[Bricktech2000/Resume <https://github.com/Bricktech2000/Resume/>]       Commit 6EAA176 - Feb 2024
+[Bricktech2000/Resume <https://github.com/Bricktech2000/Resume/>]       Commit AD519D7 - Mar 2024

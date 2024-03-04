@@ -15,11 +15,13 @@
   cross-platform  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>,
   totaling over 𝟭𝟱 𝟬𝟬𝟬 𝗦𝗟𝗢𝗖 and 𝟱𝟬𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
 • Wrote  various  demos  in  Assembly  running  natively  on  microcomputer — memory monitor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm>  •  sprite  editor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm>  •  Tetris  clone
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/tetris.asm>  •  native Brainfuck
-  compiler  <https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm>  •  RPN
-  calculator <https://github.com/Bricktech2000/Atto-8/blob/master/test/calc.asm>.
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm>  •  sprite
+  editor  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm>  •
+  Tetris clone <https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm> •
+  native  Brainfuck  compiler
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm>  •  postfix
+  notation  calculator
+  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm>.
 • Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 𝗔𝘁𝘁𝗼-𝟴 𝗖 𝗖𝗼𝗺𝗽𝗶𝗹𝗲𝗿
@@ -47,7 +49,7 @@
 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗣𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼 <https://emilien.ca/>
 ᴀ ᴘᴏʀᴛꜰᴏʟɪᴏ ꜰᴏʀ ꜱʜᴀʀɪɴɢ ᴠᴀʀɪᴏᴜꜱ ᴘʀᴏᴊᴇᴄᴛꜱ                                       ᴍᴀʀᴋᴅᴏᴡɴ • ɴᴇxᴛ.ᴊꜱ
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
-  resulting in over 𝟱𝟬𝟬𝟬 𝘂𝗻𝗶𝗾𝘂𝗲 𝘃𝗶𝘀𝗶𝘁𝗼𝗿𝘀 to portfolio website a month.
+  resulting in over 𝟭𝟱 𝟬𝟬𝟬 𝘂𝗻𝗶𝗾𝘂𝗲 𝘃𝗶𝘀𝗶𝘁𝗼𝗿𝘀 to portfolio website a month.
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 𝟵𝟱%.
 
@@ -120,4 +122,4 @@ https://emilien.ca/ <https://emilien.ca/>
 𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
 
                                              • • •
-ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <ʜᴛᴛᴘꜱ://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ/>         ᴄᴏᴍᴍɪᴛ 6ᴇᴀᴀ176 • ꜰᴇʙ 2024
+ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <ʜᴛᴛᴘꜱ://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ/>         ᴄᴏᴍᴍɪᴛ ᴀᴅ519ᴅ7 • ᴍᴀʀ 2024

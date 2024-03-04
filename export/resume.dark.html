@@ -20,7 +20,6 @@
   <!-- fontawesome css cdn: -->
   <!-- https://www.cdnpkg.com/font-awesome/5.5.0 -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css" rel="stylesheet" />
-  <!-- https://resumeworded.com/results.php -->
   <!-- https://fontawesome.com/v5.15/icons -->
   <style>
     :root {
@@ -71,7 +70,6 @@
     }
 
     h1 {
-      flex-direction: row;
       font-size: 2em;
       font-weight: inherit;
     }
@@ -83,19 +81,17 @@
       color: var(--text-secondary);
     }
 
-    /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
+    h3 {
+      font-weight: 700;
+      font-size: inherit;
+    }
+
     *+h2 {
       padding-top: 1em;
     }
 
-    h3 {
-      font-weight: 700;
-      font-size: inherit;
+    *+h3 {
       padding-top: 0.5em;
-    }
-
-    li {
-      padding-left: 1em;
     }
 
     ul,
@@ -108,6 +104,7 @@
       display: list-item !important;
       list-style: none;
       position: relative;
+      padding-left: 1em;
     }
 
     ul li::before {
@@ -122,20 +119,11 @@
       flex: auto;
     }
 
-    section:nth-child(1) {
-      grid-column: 1 / 3;
-    }
-
-    section:nth-child(2) {
+    section {
       flex-direction: column;
-      justify-content: stretch;
     }
 
-    section:nth-child(3) {
-      flex-direction: column;
-      justify-content: stretch;
-    }
-
+    section:nth-child(1),
     section:nth-child(4) {
       grid-column: 1 / 3;
     }
@@ -170,12 +158,6 @@
       color: inherit;
       text-decoration: underline;
       text-underline-offset: 0.2em;
-    }
-
-    i {
-      width: 1em;
-      margin-right: 0.5em;
-      text-align: right;
     }
 
     h1,
@@ -217,7 +199,7 @@
 <!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 <ul>
 <li>Designed ecosystem of hardware and software from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">instruction set architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">from-scratch assembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">cross-platform emulator</a>, totaling over <strong>15 000 SLOC</strong> and <strong>500 hours</strong> of work.</li>
-<li>Wrote various demos in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/attomon.asm">memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/pixedit.asm">sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/brainfuck.asm">native Brainfuck compiler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/calc.asm">RPN calculator</a>.</li>
+<li>Wrote various demos in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm">memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm">sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm">native Brainfuck compiler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm">postfix notation calculator</a>.</li>
 <li>Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.</li>
 </ul>
 <h3>Atto-8 C Compiler</h3>
@@ -237,7 +219,7 @@
 <h3><a href="https://emilien.ca/">Personal Portfolio</a></h3>
 <p><em>A portfolio for sharing various projects</em> <code>Markdown&nbsp;&bull; Next.js</code></p>
 <ul>
-<li>Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over <strong>5000 unique visitors</strong> to portfolio website a month.</li>
+<li>Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over <strong>15 000 unique visitors</strong> to portfolio website a month.</li>
 <li>Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over <strong>95%</strong>.</li>
 </ul>
 <!--
@@ -385,7 +367,7 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 <p><a href="https://github.com/Bricktech2000"><strong>github/</strong> Bricktech2000</a></p>
 <p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/</strong> emilien-breton</a></p>
 </section><section>
-<p><em><a href="https://github.com/Bricktech2000/Resume/">Bricktech2000/Resume</a></em> <code>Commit 6EAA176&nbsp;&bull; Feb 2024</code></p>
+<p><em><a href="https://github.com/Bricktech2000/Resume/">Bricktech2000/Resume</a></em> <code>Commit AD519D7&nbsp;&bull; Mar 2024</code></p>
 </section>
 </body>
 

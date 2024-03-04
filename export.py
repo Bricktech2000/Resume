@@ -10,7 +10,7 @@ import re
 # - `figlet` in `$PATH`
 # - `chromedriver` in `$PATH`
 # - an internet connection
-# - an _export_ folder
+# - an `export/` directory
 
 
 def utf8_replace_html_entities(html):
@@ -68,8 +68,8 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
           self.render_children(element).split('\n')
       )).encode('utf-8')
 
-    def render_code_block(self, _):
-      raise NotImplementedError
+    def render_code_block(self, element):
+      return self.render_children(element)
 
     def render_heading(self, element):
       if element.level == 1:
@@ -115,10 +115,11 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       return f''
 
     def render_quote(self, element):
-      return f'| {"| ".join(self.render(child) for child in element.children)}'
+      newline = '\n'
+      return f'| {(newline + "| ").join(fill("".join(child for child in (self.render(child) for child in element.children) if child), self.small_width, justify=True).split(newline))}\n'
 
-    def render_fenced_code(self, _):
-      raise NotImplementedError
+    def render_fenced_code(self, element):
+      return self.render_code_block(element)
 
     def render_thematic_break(self, _):
       return f'\n{" " * (self.width // 2 - 3) + self.format_html("&bull;&nbsp;&bull;&nbsp;&bull;")}\n'
