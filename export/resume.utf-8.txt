@@ -7,58 +7,40 @@
 —— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————
 
 𝗔𝘁𝘁𝗼-𝟴 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
-ᴀ ᴍɪɴɪᴍᴀʟɪꜱᴛ 8-ʙɪᴛ ᴍɪᴄʀᴏᴄᴏᴍᴘᴜᴛᴇʀ ᴡɪᴛʜ ꜱᴛᴀᴄᴋ-ʙᴀꜱᴇᴅ ᴍɪᴄʀᴏᴘʀᴏᴄᴇꜱꜱᴏʀ                  ʀᴜꜱᴛ • ᴀꜱꜱᴇᴍʙʟʏ
+[A minimalist 8-bit microcomputer with stack-based microprocessor]                Rust • Assembly
 • Designed ecosystem of hardware and software from logic gates upward, including instruction
-  set  architecture
-  <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md>,
-  from-scratch  assembler  <https://github.com/Bricktech2000/Atto-8/tree/master/asm>  and
-  cross-platform  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>,
-  totaling over 𝟭𝟱 𝟬𝟬𝟬 𝗦𝗟𝗢𝗖 and 𝟱𝟬𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
-• Wrote  various  demos  in  Assembly  running  natively  on  microcomputer — memory monitor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm>  •  sprite
-  editor  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm>  •
-  Tetris clone <https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm> •
-  native  Brainfuck  compiler
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm>  •  postfix
-  notation  calculator
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm>.
+  set architecture, from-scratch assembler and cross-platform emulator, totaling over 𝟭𝟱 𝟬𝟬𝟬
+  𝗦𝗟𝗢𝗖 and 𝟱𝟬𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
+• Wrote  various  demos  in  Assembly  running  natively on microcomputer — memory monitor •
+  sprite editor • Tetris clone • native Brainfuck compiler • postfix notation calculator.
 • Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 𝗔𝘁𝘁𝗼-𝟴 𝗖 𝗖𝗼𝗺𝗽𝗶𝗹𝗲𝗿
-ᴀ ʀᴜᴅɪᴍᴇɴᴛᴀʀʏ ᴄ99 ᴄᴏᴍᴘɪʟᴇʀ ꜰᴏʀ ᴛʜᴇ ᴀᴛᴛᴏ-8 ᴍɪᴄʀᴏᴀʀᴄʜɪᴛᴇᴄᴛᴜʀᴇ                   ʀᴜꜱᴛ • ᴄ • ᴀꜱꜱᴇᴍʙʟʏ
+[A rudimentary C99 compiler for the Atto-8 microarchitecture]                 Rust • C • Assembly
 • Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
-• Developed  extensive  C  standard  library,  including  heap  allocator
-  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm> supporting 𝗺𝗮𝗹𝗹𝗼𝗰 𝗮𝗻𝗱
-  𝗳𝗿𝗲𝗲  and  string  handling  functions
-  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm>  such  as  𝘀𝘁𝗿𝗹𝗲𝗻 𝗮𝗻𝗱
-  𝗺𝗲𝗺𝗰𝗽𝘆.
-• Hand-wrote  printf  implementation
-  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm>  in  Assembly  which
-  supports  conversion specifiers %d, %u, %x, %c, %s and %p, increasing debugging efficiency
-  and convenience.
+• Developed  extensive  C  standard  library, including heap allocator supporting 𝗺𝗮𝗹𝗹𝗼𝗰 𝗮𝗻𝗱
+  𝗳𝗿𝗲𝗲 and string handling functions such as 𝘀𝘁𝗿𝗹𝗲𝗻 𝗮𝗻𝗱 𝗺𝗲𝗺𝗰𝗽𝘆.
+• Hand-wrote  printf implementation in Assembly which supports conversion specifiers %d, %u,
+  %x, %c, %s and %p, increasing debugging efficiency and convenience.
 
 𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://github.com/Bricktech2000/DBLess>
-ᴀ ʜᴀꜱʜ-ʙᴀꜱᴇᴅ, ᴅᴀᴛᴀʙᴀꜱᴇ-ʟᴇꜱꜱ ᴘᴀꜱꜱᴡᴏʀᴅ ᴍᴀɴᴀɢᴇʀ                                           ᴄ • ᴘʏᴛʜᴏɴ
-• Devised  custom  cryptographic  procedure
-  <https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py>  based  on  SHA-256 in
-  Python  which deterministically generates passwords on demand without requiring encryption
-  or password storage.
-• Reimplemented  password  generation  algorithm  in  C  for  use  as  interactive  CLI tool
-  <https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c>.
+[A hash-based, database-less password manager]                                         C • Python
+• Devised  custom cryptographic procedure based on SHA-256 in Python which deterministically
+  generates passwords on demand without requiring encryption or password storage.
+• Reimplemented password generation algorithm in C for use as interactive CLI tool.
 
 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗣𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼 <https://emilien.ca/>
-ᴀ ᴘᴏʀᴛꜰᴏʟɪᴏ ꜰᴏʀ ꜱʜᴀʀɪɴɢ ᴠᴀʀɪᴏᴜꜱ ᴘʀᴏᴊᴇᴄᴛꜱ                                       ᴍᴀʀᴋᴅᴏᴡɴ • ɴᴇxᴛ.ᴊꜱ
+[A portfolio for sharing various projects]                                     Markdown • Next.js
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over 𝟭𝟱 𝟬𝟬𝟬 𝘂𝗻𝗶𝗾𝘂𝗲 𝘃𝗶𝘀𝗶𝘁𝗼𝗿𝘀 to portfolio website a month.
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 𝟵𝟱%.
 
 𝗟𝗲𝗴𝗮𝗰𝘆 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹 <https://devpost.com/software/legacy-protocol>
-ꜱᴜʙᴍɪꜱꜱɪᴏɴ ꜰᴏʀ ᴅᴇꜰɪ ᴛʜᴇ ᴄᴏɴᴠᴇɴᴛɪᴏɴᴀʟ 2022                                            ʀᴇᴀᴄᴛ • ʀᴜꜱᴛ
+[Submission for DeFi The Conventional 2022]                                          React • Rust
 • Won  𝗳𝗶𝗿𝘀𝘁  𝗽𝗹𝗮𝗰𝗲  in Finance category of Canada's largest DeFi hackathon along with 𝟮𝟱𝟬𝟬$
   𝗽𝗿𝗶𝘇𝗲 as part of 3-member team.
-• Engineered  MVP  smart  contract  backend  and  API
-  <https://github.com/Bricktech2000/crypto_will>  from  scratch  in  Rust  with  no  prior
+• Engineered  MVP  smart  contract  backend  and  API  from  scratch  in  Rust with no prior
   experience in Web3, all within limited 𝟯𝟲-𝗵𝗼𝘂𝗿 𝘁𝗶𝗺𝗲𝗳𝗿𝗮𝗺𝗲.
 • Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
   secure additional funding prior to Terra Luna collapse.
@@ -66,16 +48,15 @@
 —— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 <http://hackthehill.com/>
-ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴍᴀɴᴀɢᴇʀ — ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴛᴇᴀᴍ                           ᴏᴛᴛᴀᴡᴀ | ɴᴏᴠᴇᴍʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
-• Leading  development  of  open-source  participant  tracker
-  <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
-  over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
+[Development Manager — Development Team]                         Ottawa | November 2022 — Present
+• Leading development of open-source participant tracker built with Next.js and Prisma, used
+  by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
 • Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
   collaboration  with  infrastructure  and sponsorship teams, enabling processing of over 𝟮𝟬
   𝟬𝟬𝟬$.
 
 𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
-ᴄʟᴜʙ ᴇxᴇᴄᴜᴛɪᴠᴇ                                         ᴜɴɪᴠᴇʀꜱɪᴛʏ ᴏꜰ ᴏᴛᴛᴀᴡᴀ | ᴊᴜɴᴇ 2022 — ᴘʀᴇꜱᴇɴᴛ
+[Club Executive]                                       University of Ottawa | June 2022 — Present
 • Building community of 𝗼𝘃𝗲𝗿 𝟭𝟬𝟬𝟬 computer science students at the University of Ottawa.
 • Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
   events  by  designing marketing material using Figma and organizing workshops for over 𝟭𝟬𝟬
@@ -84,7 +65,7 @@
 —— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
 
 𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
-ꜱᴏꜰᴛᴡᴀʀᴇ ᴇɴɢɪɴᴇᴇʀ — ᴡᴇʙ3                              ʀᴇᴍᴏᴛᴇ ꜰʀᴏᴍ ᴏᴛᴛᴀᴡᴀ | ᴏᴄᴛᴏʙᴇʀ 2022 — ᴘʀᴇꜱᴇɴᴛ
+[Software Engineer — Web3]                            Remote from Ottawa | October 2022 — Present
 • Implemented various smart contracts in Solidity as per specification and ensured 𝟭𝟬𝟬% 𝘁𝗲𝘀𝘁
   𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 through Chai and Hardhat.
 
@@ -103,23 +84,22 @@ React • Node.js • HTML • CSS • JSON • YAML • Markdown • LaTeX • 
 Bash • GDB • Linux • Arduino • VS Code • Figma • Notion • Docker • Cloudflare • GitHub
 
 𝗦𝗽𝗼𝗸𝗲𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀
-• French                                                                                   ɴᴀᴛɪᴠᴇ
-• English                                                                                  ɴᴀᴛɪᴠᴇ
-• Spanish                                                                            ɪɴᴛᴇʀᴍᴇᴅɪᴀᴛᴇ
-• Russian                                                                              ᴇʟᴇᴍᴇɴᴛᴀʀʏ
+• French                                                                                   Native
+• English                                                                                  Native
+• Spanish                                                                            Intermediate
+• Russian                                                                              Elementary
 
 𝗢𝘁𝗵𝗲𝗿 𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝘀
-Electronics • Robotics <https://emilien.ca/Spider-Robot/> • 3D Printing • Drone Building
-<https://emilien.ca/FPV-Racing-Drone/> • Mathematics • Finance and Investing •
-Productivity <https://notes.emilien.ca/productivity/> • Music
+Electronics • Robotics • 3D Printing • Drone Building • Mathematics • Finance and
+Investing • Productivity • Music
 
 —— CONTACT ———————————————————————————————————————————————————————————————————————————————————————
-Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
-613-913-9909 <tel:+1-613-913-9909>
-mail@emilien.ca <mailto:mail@emilien.ca>
-https://emilien.ca/ <https://emilien.ca/>
-𝗴𝗶𝘁𝗵𝘂𝗯/ Bricktech2000 <https://github.com/Bricktech2000>
-𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
+Ottawa, Ontario
+613-913-9909
+mail@emilien.ca
+https://emilien.ca/
+𝗴𝗶𝘁𝗵𝘂𝗯/ Bricktech2000
+𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/ emilien-breton
 
                                              • • •
-ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ <ʜᴛᴛᴘꜱ://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/ʙʀɪᴄᴋᴛᴇᴄʜ2000/ʀᴇꜱᴜᴍᴇ/>         ᴄᴏᴍᴍɪᴛ ᴀᴅ519ᴅ7 • ᴍᴀʀ 2024
+[Bricktech2000/Resume]                                                  Commit 919F83E • Mar 2024

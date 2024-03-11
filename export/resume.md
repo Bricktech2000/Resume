@@ -112,4 +112,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing •
 
 ---
 
-_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit AD519D7 • Mar 2024`
+_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 919F83E • Mar 2024`

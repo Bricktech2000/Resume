@@ -156,7 +156,8 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       return f'{fill(self.format_strong(self.render_children(element)), self.small_width)}'
 
     def render_link(self, element):
-      return f'{self.render_children(element)} <{element.dest}>'
+      # do not include `element.dest` in output to reduce clutter
+      return f'{self.render_children(element)}'
 
     def render_image(self, _):
       raise NotImplementedError
@@ -176,13 +177,9 @@ def make_html_process(text_primary, text_secondary, background):
 
     with open('template.html', 'r') as f:
       template = f.read()
-      return template.replace('[EXPORT]',
-                              '<section>' +
-                              gfm(source)
-                              .replace('&amp;', '&')
-                              .replace('<hr />', '</section><section>')
-                              + '</section>') \
-          .replace('[TEXT_PRIMARY]', text_primary).replace('[TEXT_SECONDARY]', text_secondary).replace('[BACKGROUND]', background).encode('utf-8')
+
+    export = '<section>' + gfm(source) .replace('&amp;', '&') .replace('<hr />', '</section><section>') + '</section>'
+    return template.replace('[EXPORT]', export).replace('[TEXT_PRIMARY]', text_primary).replace('[TEXT_SECONDARY]', text_secondary).replace('[BACKGROUND]', background).encode('utf-8')
 
   return html_process
 
@@ -237,7 +234,9 @@ def ascii_txt_process(source):
   from marko import Markdown
 
   AsciiTxtRenderer = make_text_renderer(
-      lambda strong: str.upper(strong), lambda emphasis: '[' + emphasis + ']', lambda code: code,
+      lambda strong: str.upper(strong),
+      lambda emphasis: '[' + emphasis + ']',
+      lambda code: code,
       lambda html: ascii_replace_html_entities(html))
 
   # raise exception if not valid ASCII
@@ -256,10 +255,8 @@ def utf8_txt_process(source):
   Utf8TxtRenderer = make_text_renderer(
       make_format(
           '                                 !"#$%&\'()*+,-./𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵:;<=>?@𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤𝗥𝗦𝗧𝗨𝗩𝗪𝗫𝗬𝗭[\\]^_`𝗮𝗯𝗰𝗱𝗲𝗳𝗴𝗵𝗶𝗷𝗸𝗹𝗺𝗻𝗼𝗽𝗾𝗿𝘀𝘁𝘂𝘃𝘄𝘅𝘆𝘇{|}~'),
-      make_format(
-          '                                 !"#$%&\'()*+,-./0123456789:;<=>?@ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ[\\]^_`ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ{|}~'),
-      make_format(
-          '                                 !"#$%&\'()*+,-./0123456789:;<=>?@ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ[\\]^_`ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ{|}~'),
+      lambda emphasis: '[' + emphasis + ']',
+      lambda code: code,
       lambda html: utf8_replace_html_entities(html))
 
   return Markdown(parser=Parser, renderer=Utf8TxtRenderer)(source)
@@ -297,8 +294,8 @@ def preprocess(source):
 
   commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:7].upper()
   day, month, year = time.strftime('%d %b %Y').split()
-  source = source.replace('[COMMIT_HASH]', commit_hash).replace('[DAY]', day).replace(
-      '[MONTH]', month).replace('[YEAR]', year)
+  source = source.replace('[COMMIT_HASH]', commit_hash).replace(
+      '[DAY]', day).replace('[MONTH]', month).replace('[YEAR]', year)
 
   return source
 

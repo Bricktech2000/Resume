@@ -9,42 +9,25 @@
 ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
 [A minimalist 8-bit microcomputer with stack-based microprocessor]                Rust - Assembly
 - Designed ecosystem of hardware and software from logic gates upward, including instruction
-  set  architecture
-  <https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md>,
-  from-scratch  assembler  <https://github.com/Bricktech2000/Atto-8/tree/master/asm>  and
-  cross-platform  emulator  <https://github.com/Bricktech2000/Atto-8/tree/master/emu>,
-  totaling over 15 000 SLOC and 500 HOURS of work.
-- Wrote  various  demos  in  Assembly  running  natively  on microcomputer -- memory monitor
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm>  -  sprite
-  editor  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm>  -
-  Tetris clone <https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm> -
-  native  Brainfuck  compiler
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm>  -  postfix
-  notation  calculator
-  <https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm>.
+  set architecture, from-scratch assembler and cross-platform emulator, totaling over 15 000
+  SLOC and 500 HOURS of work.
+- Wrote  various  demos  in  Assembly  running natively on microcomputer -- memory monitor -
+  sprite editor - Tetris clone - native Brainfuck compiler - postfix notation calculator.
 - Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 ATTO-8 C COMPILER
 [A rudimentary C99 compiler for the Atto-8 microarchitecture]                 Rust - C - Assembly
 - Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
-- Developed  extensive  C  standard  library,  including  heap  allocator
-  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm> supporting MALLOC AND
-  FREE  and  string  handling  functions
-  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm>  such  as  STRLEN AND
-  MEMCPY.
-- Hand-wrote  printf  implementation
-  <https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm>  in  Assembly  which
-  supports  conversion specifiers %d, %u, %x, %c, %s and %p, increasing debugging efficiency
-  and convenience.
+- Developed  extensive  C  standard  library, including heap allocator supporting MALLOC AND
+  FREE and string handling functions such as STRLEN AND MEMCPY.
+- Hand-wrote  printf implementation in Assembly which supports conversion specifiers %d, %u,
+  %x, %c, %s and %p, increasing debugging efficiency and convenience.
 
 DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
 [A hash-based, database-less password manager]                                         C - Python
-- Devised  custom  cryptographic  procedure
-  <https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py>  based  on  SHA-256 in
-  Python  which deterministically generates passwords on demand without requiring encryption
-  or password storage.
-- Reimplemented  password  generation  algorithm  in  C  for  use  as  interactive  CLI tool
-  <https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c>.
+- Devised  custom cryptographic procedure based on SHA-256 in Python which deterministically
+  generates passwords on demand without requiring encryption or password storage.
+- Reimplemented password generation algorithm in C for use as interactive CLI tool.
 
 PERSONAL PORTFOLIO <https://emilien.ca/>
 [A portfolio for sharing various projects]                                     Markdown - Next.js
@@ -57,8 +40,7 @@ LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
 [Submission for DeFi The Conventional 2022]                                          React - Rust
 - Won  FIRST  PLACE  in Finance category of Canada's largest DeFi hackathon along with 2500$
   PRIZE as part of 3-member team.
-- Engineered  MVP  smart  contract  backend  and  API
-  <https://github.com/Bricktech2000/crypto_will>  from  scratch  in  Rust  with  no  prior
+- Engineered  MVP  smart  contract  backend  and  API  from  scratch  in  Rust with no prior
   experience in Web3, all within limited 36-HOUR TIMEFRAME.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
   secure additional funding prior to Terra Luna collapse.
@@ -67,9 +49,8 @@ LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
 
 HACK THE HILL HACKATHON <http://hackthehill.com/>
 [Development Manager -- Development Team]                       Ottawa | November 2022 -- Present
-- Leading  development  of  open-source  participant  tracker
-  <https://github.com/HacktheHill/track-the-hack>  built  with  Next.js  and Prisma, used by
-  over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
+- Leading development of open-source participant tracker built with Next.js and Prisma, used
+  by over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
 - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
   collaboration  with  infrastructure  and sponsorship teams, enabling processing of over 20
   000$.
@@ -109,17 +90,16 @@ SPOKEN LANGUAGES
 - Russian                                                                              Elementary
 
 OTHER INTERESTS
-Electronics - Robotics <https://emilien.ca/Spider-Robot/> - 3D Printing - Drone Building
-<https://emilien.ca/FPV-Racing-Drone/> - Mathematics - Finance and Investing -
-Productivity <https://notes.emilien.ca/productivity/> - Music
+Electronics - Robotics - 3D Printing - Drone Building - Mathematics - Finance and
+Investing - Productivity - Music
 
 -- CONTACT ---------------------------------------------------------------------------------------
-Ottawa, Ontario <https://google.com/maps/place/Ottawa,+ON>
-613-913-9909 <tel:+1-613-913-9909>
-mail@emilien.ca <mailto:mail@emilien.ca>
-https://emilien.ca/ <https://emilien.ca/>
-GITHUB/ Bricktech2000 <https://github.com/Bricktech2000>
-LINKEDIN/ emilien-breton <https://www.linkedin.com/in/emilien-breton/>
+Ottawa, Ontario
+613-913-9909
+mail@emilien.ca
+https://emilien.ca/
+GITHUB/ Bricktech2000
+LINKEDIN/ emilien-breton
 
                                              - - -
-[Bricktech2000/Resume <https://github.com/Bricktech2000/Resume/>]       Commit AD519D7 - Mar 2024
+[Bricktech2000/Resume]                                                  Commit 919F83E - Mar 2024
