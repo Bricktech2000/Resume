@@ -1,6 +1,6 @@
 # Resume
 
-_Current resume as a software engineer_
+_Resume exporter from Markdown to various formats_
 
 ## Overview
 
