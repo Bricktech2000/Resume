@@ -12,7 +12,8 @@ ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
   set architecture, from-scratch assembler and cross-platform emulator, totaling over 15 000
   SLOC and 500 HOURS of work.
 - Wrote  various  demos  in  Assembly  running natively on microcomputer -- memory monitor -
-  sprite editor - Tetris clone - native Brainfuck compiler - postfix notation calculator.
+  sprite  editor  -  Tetris  clone  -  self-assembling  native  assembler - postfix notation
+  calculator.
 - Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 ATTO-8 C COMPILER
@@ -102,4 +103,4 @@ GITHUB/ Bricktech2000
 LINKEDIN/ emilien-breton
 
                                              - - -
-[Bricktech2000/Resume]                                                  Commit 919F83E - Mar 2024
+[Bricktech2000/Resume]                                                  Commit 9208CF1 - Mar 2024

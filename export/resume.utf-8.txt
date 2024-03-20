@@ -12,7 +12,8 @@
   set architecture, from-scratch assembler and cross-platform emulator, totaling over 𝟭𝟱 𝟬𝟬𝟬
   𝗦𝗟𝗢𝗖 and 𝟱𝟬𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
 • Wrote  various  demos  in  Assembly  running  natively on microcomputer — memory monitor •
-  sprite editor • Tetris clone • native Brainfuck compiler • postfix notation calculator.
+  sprite  editor  •  Tetris  clone  •  self-assembling  native  assembler • postfix notation
+  calculator.
 • Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 𝗔𝘁𝘁𝗼-𝟴 𝗖 𝗖𝗼𝗺𝗽𝗶𝗹𝗲𝗿
@@ -102,4 +103,4 @@ https://emilien.ca/
 𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/ emilien-breton
 
                                              • • •
-[Bricktech2000/Resume]                                                  Commit 919F83E • Mar 2024
+[Bricktech2000/Resume]                                                  Commit 9208CF1 • Mar 2024

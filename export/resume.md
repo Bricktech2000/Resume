@@ -9,7 +9,7 @@
 _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • Assembly`
 
 - Designed ecosystem of hardware and software from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **15 000 SLOC** and **500 hours** of work.
-- Wrote various demos in Assembly running natively on microcomputer — [memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native Brainfuck compiler](https://github.com/Bricktech2000/Atto-8/blob/master/test/musts/bf%20jit.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
+- Wrote various demos in Assembly running natively on microcomputer — [memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [self-assembling native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 ### Atto-8 C Compiler
@@ -112,4 +112,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • 3D Printing •
 
 ---
 
-_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 919F83E • Mar 2024`
+_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 9208CF1 • Mar 2024`
