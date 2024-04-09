@@ -7,7 +7,7 @@
 -- PROJECTS --------------------------------------------------------------------------------------
 
 ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
-[A minimalist 8-bit microcomputer with stack-based microprocessor]                Rust - Assembly
+[A minimalist 8-bit microcomputer with stack-based microprocessor]            Rust - C - Assembly
 - Designed ecosystem of hardware and software from logic gates upward, including instruction
   set architecture, from-scratch assembler and cross-platform emulator, totaling over 15 000
   SLOC and 500 HOURS of work.
@@ -22,7 +22,7 @@ ATTO-8 C COMPILER
 - Developed  extensive  C  standard  library, including heap allocator supporting MALLOC AND
   FREE and string handling functions such as STRLEN AND MEMCPY.
 - Hand-wrote  printf implementation in Assembly which supports conversion specifiers %d, %u,
-  %x, %c, %s and %p, increasing debugging efficiency and convenience.
+  %x, %c, %s and %p to increase debugging efficiency and convenience.
 
 DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
 [A hash-based, database-less password manager]                                         C - Python
@@ -36,15 +36,6 @@ PERSONAL PORTFOLIO <https://emilien.ca/>
   resulting in over 15 000 UNIQUE VISITORS to portfolio website a month.
 - Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over 95%.
-
-LEGACY PROTOCOL <https://devpost.com/software/legacy-protocol>
-[Submission for DeFi The Conventional 2022]                                          React - Rust
-- Won  FIRST  PLACE  in Finance category of Canada's largest DeFi hackathon along with 2500$
-  PRIZE as part of 3-member team.
-- Engineered  MVP  smart  contract  backend  and  API  from  scratch  in  Rust with no prior
-  experience in Web3, all within limited 36-HOUR TIMEFRAME.
-- Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
-  secure additional funding prior to Terra Luna collapse.
 
 -- VOLUNTEERING ----------------------------------------------------------------------------------
 
@@ -66,9 +57,15 @@ UOTTAWA COMPUTER SCIENCE CLUB <https://uocsclub.ca/>
 -- EXPERIENCE ------------------------------------------------------------------------------------
 
 ZEPTILE SOFTWARE
-[Software Engineer -- Web3]                          Remote from Ottawa | October 2022 -- Present
+[Software Engineer -- Web3]                                      Remote | October 2022 -- Present
 - Implemented various smart contracts in Solidity as per specification and ensured 100% TEST
   COVERAGE through Chai and Hardhat.
+
+-- EDUCATION -------------------------------------------------------------------------------------
+
+UNIVERSITY OF OTTAWA
+[BSc with Honours in Computer Science]                                  September 2021 -- Present
+- Admission scholarship -- 95%+ average.                                            November 2020
 
                                              - - -
 
@@ -91,8 +88,8 @@ SPOKEN LANGUAGES
 - Russian                                                                              Elementary
 
 OTHER INTERESTS
-Electronics - Robotics - 3D Printing - Drone Building - Mathematics - Finance and
-Investing - Productivity - Music
+Electronics - Robotics - CAD - 3D Printing - Finance - Mathematics - Drone Building -
+Music - Bouldering
 
 -- CONTACT ---------------------------------------------------------------------------------------
 Ottawa, Ontario
@@ -103,4 +100,4 @@ GITHUB/ Bricktech2000
 LINKEDIN/ emilien-breton
 
                                              - - -
-[Bricktech2000/Resume]                                                  Commit 9208CF1 - Mar 2024
+[Bricktech2000/Resume]                                                  Commit 4774280 - Apr 2024

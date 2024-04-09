@@ -8,7 +8,7 @@
 
 ### [Atto-8 Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
-_A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust&nbsp;&bull; Assembly`
+_A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust&nbsp;&bull; C&nbsp;&bull; Assembly`
 
 <!-- according to Toggl Track as of 2023-10-17 -->
 
@@ -24,7 +24,7 @@ _A rudimentary C99 compiler for the Atto-8 microarchitecture_ `Rust&nbsp;&bull; 
 
 - Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
 - Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free** and [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy**.
-- Hand-wrote [printf implementation](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) in Assembly which supports conversion specifiers %d, %u, %x, %c, %s and %p, increasing debugging efficiency and convenience.
+- Hand-wrote [printf implementation](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) in Assembly which supports conversion specifiers %d, %u, %x, %c, %s and %p to increase debugging efficiency and convenience.
 
 ### [DBLess Password Manager](https://github.com/Bricktech2000/DBLess)
 
@@ -51,15 +51,17 @@ _Design and build of a racing drone_ `May 2020 &mdash; February 2021`
 - Designed project roadmap based on thorough understanding of possible complications resulting in only one major setback caused by defective parts.
 -->
 
+<!--
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
 
-<!-- March 18th 2022 &mdash; March 20th 2022 -->
+<!-- March 18th 2022 &mdash; March 20th 2022
 
 _Submission for DeFi The Conventional 2022_ `React&nbsp;&bull; Rust`
 
 - Won **first place** in Finance category of Canada's largest DeFi hackathon along with **2500&dollar; prize** as part of 3-member team.
 - Engineered [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within limited **36-hour timeframe**.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.
+-->
 
 <!--
 ### AI Image Compressor
@@ -69,22 +71,6 @@ _A neural network that learns to compress images_ `Python&nbsp;&bull; Tensorflow
 - Implemented web scraper and image preprocessor optimized with numpy to generate millions of training samples in less than 5 minutes.
 - Created and implemented custom algorithm within autoencoder structure to allow for variable compression ratio with no overhead.
 - Supervised training process and tweaked settings leading to results of superior quality than JPEG compression when in favorable circumstances.
--->
-
-<!--
-## Education
-
-### University of Ottawa
-
-_BSc with Honours in Computer Science_ `Dropped out after first year`
-
-- Admission scholarship &mdash; 95%+ average. `November 2020`
--->
-
-<!--
-### Polyvalente Saint-Francois
-
-_IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; June 2021`
 -->
 
 ## Volunteering
@@ -164,9 +150,23 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 
 <!-- according to Discord conversations -->
 
-_Software Engineer &mdash; Web3_ `Remote from Ottawa&ensp;|&ensp;October 2022 &mdash; Present`
+_Software Engineer &mdash; Web3_ `Remote&ensp;|&ensp;October 2022 &mdash; Present`
 
 - Implemented various smart contracts in Solidity as per specification and ensured **100% test coverage** through Chai and Hardhat.
+
+## Education
+
+### University of Ottawa
+
+_BSc with Honours in Computer Science_ `September 2021 &mdash; Present`
+
+- Admission scholarship &mdash; 95%+ average. `November 2020`
+
+<!--
+### Polyvalente Saint-Francois
+
+_IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; June 2021`
+-->
 
 ---
 
@@ -196,7 +196,7 @@ React&nbsp;&bull; Node.js&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; JSON&nbsp
 
 ### Other Interests
 
-Electronics&nbsp;&bull; [Robotics](https://emilien.ca/Spider-Robot/)&nbsp;&bull; 3D Printing&nbsp;&bull; [Drone Building](https://emilien.ca/FPV-Racing-Drone/)&nbsp;&bull; Mathematics&nbsp;&bull; Finance and Investing&nbsp;&bull; [Productivity](https://notes.emilien.ca/productivity/)&nbsp;&bull; Music
+Electronics&nbsp;&bull; [Robotics](https://emilien.ca/Spider-Robot/)&nbsp;&bull; CAD&nbsp;&bull; 3D Printing&nbsp;&bull; Finance&nbsp;&bull; Mathematics&nbsp;&bull; [Drone Building](https://emilien.ca/FPV-Racing-Drone/)&nbsp;&bull; Music&nbsp;&bull; Bouldering
 
 <!--
 ## Achievements

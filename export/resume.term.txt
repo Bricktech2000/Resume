@@ -7,7 +7,7 @@
 —— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————
 
 [1mAtto-8 Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
-[[3mA minimalist 8-bit microcomputer with stack-based microprocessor[0m]                [3mRust • Assembly[0m
+[[3mA minimalist 8-bit microcomputer with stack-based microprocessor[0m]            [3mRust • C • Assembly[0m
 • Designed ecosystem of hardware and software from logic gates upward, including instruction
   set architecture, from-scratch assembler and cross-platform emulator, totaling over [1m15 000
   SLOC[0m and [1m500 hours[0m of work.
@@ -22,7 +22,7 @@
 • Developed  extensive  C  standard  library, including heap allocator supporting [1mmalloc and
   free[0m and string handling functions such as [1mstrlen and memcpy[0m.
 • Hand-wrote  printf implementation in Assembly which supports conversion specifiers %d, %u,
-  %x, %c, %s and %p, increasing debugging efficiency and convenience.
+  %x, %c, %s and %p to increase debugging efficiency and convenience.
 
 [1mDBLess Password Manager[0m <https://github.com/Bricktech2000/DBLess>
 [[3mA hash-based, database-less password manager[0m]                                         [3mC • Python[0m
@@ -36,15 +36,6 @@
   resulting in over [1m15 000 unique visitors[0m to portfolio website a month.
 • Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
   Lighthouse score consistently over [1m95%[0m.
-
-[1mLegacy Protocol[0m <https://devpost.com/software/legacy-protocol>
-[[3mSubmission for DeFi The Conventional 2022[0m]                                          [3mReact • Rust[0m
-• Won  [1mfirst  place[0m  in Finance category of Canada's largest DeFi hackathon along with [1m2500$
-  prize[0m as part of 3-member team.
-• Engineered  MVP  smart  contract  backend  and  API  from  scratch  in  Rust with no prior
-  experience in Web3, all within limited [1m36-hour timeframe[0m.
-• Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and
-  secure additional funding prior to Terra Luna collapse.
 
 —— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
 
@@ -66,9 +57,15 @@
 —— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
 
 [1mZeptile Software[0m
-[[3mSoftware Engineer — Web3[0m]                            [3mRemote from Ottawa | October 2022 — Present[0m
+[[3mSoftware Engineer — Web3[0m]                                        [3mRemote | October 2022 — Present[0m
 • Implemented various smart contracts in Solidity as per specification and ensured [1m100% test
   coverage[0m through Chai and Hardhat.
+
+—— EDUCATION —————————————————————————————————————————————————————————————————————————————————————
+
+[1mUniversity of Ottawa[0m
+[[3mBSc with Honours in Computer Science[0m]                                   [3mSeptember 2021 — Present[0m
+• Admission scholarship — 95%+ average.                                             [3mNovember 2020[0m
 
                                              • • •
 
@@ -91,8 +88,8 @@ Bash • GDB • Linux • Arduino • VS Code • Figma • Notion • Docker �
 • Russian                                                                              [3mElementary[0m
 
 [1mOther Interests[0m
-Electronics • Robotics • 3D Printing • Drone Building • Mathematics • Finance and
-Investing • Productivity • Music
+Electronics • Robotics • CAD • 3D Printing • Finance • Mathematics • Drone Building •
+Music • Bouldering
 
 —— CONTACT ———————————————————————————————————————————————————————————————————————————————————————
 Ottawa, Ontario
@@ -103,4 +100,4 @@ https://emilien.ca/
 [1mlinkedin/[0m emilien-breton
 
                                              • • •
-[[3mBricktech2000/Resume[0m]                                                  [3mCommit 9208CF1 • Mar 2024[0m
+[[3mBricktech2000/Resume[0m]                                                  [3mCommit 4774280 • Apr 2024[0m
