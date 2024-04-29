@@ -27,7 +27,7 @@ _A hash-based, database-less password manager_ `C • Python`
 - Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
 - Reimplemented password generation algorithm in C for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
 
-### [Personal Portfolio](https://emilien.ca/)
+### [Personal Website](https://emilien.ca/)
 
 _A portfolio for sharing various projects_ `Markdown • Next.js`
 
@@ -92,7 +92,7 @@ React • Node.js • HTML • CSS • JSON • YAML • Markdown • LaTeX • 
 
 ### Other Interests
 
-Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • CAD • 3D Printing • Finance • Mathematics • [Drone Building](https://emilien.ca/FPV-Racing-Drone/) • Music • Bouldering
+Electronics • Robotics • CAD • 3D Printing • Finance • Mathematics • Drone Building • Music • Bouldering
 
 ## Contact
 
@@ -112,4 +112,4 @@ Electronics • [Robotics](https://emilien.ca/Spider-Robot/) • CAD • 3D Prin
 
 ---
 
-_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 4774280 • Apr 2024`
+_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit D1F0705 • Apr 2024`

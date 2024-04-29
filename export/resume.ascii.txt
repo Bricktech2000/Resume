@@ -30,7 +30,7 @@ DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
   generates passwords on demand without requiring encryption or password storage.
 - Reimplemented password generation algorithm in C for use as interactive CLI tool.
 
-PERSONAL PORTFOLIO <https://emilien.ca/>
+PERSONAL WEBSITE <https://emilien.ca/>
 [A portfolio for sharing various projects]                                     Markdown - Next.js
 - Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over 15 000 UNIQUE VISITORS to portfolio website a month.
@@ -100,4 +100,4 @@ GITHUB/ Bricktech2000
 LINKEDIN/ emilien-breton
 
                                              - - -
-[Bricktech2000/Resume]                                                  Commit 4774280 - Apr 2024
+[Bricktech2000/Resume]                                                  Commit D1F0705 - Apr 2024

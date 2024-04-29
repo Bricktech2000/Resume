@@ -35,7 +35,7 @@ _A hash-based, database-less password manager_ `C&nbsp;&bull; Python`
 
 <!-- - Built cross-platform PWA with Next.js used by over **50 accounts** <!-- 50 of which are mine that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience. -->
 
-### [Personal Portfolio](https://emilien.ca/)
+### [Personal Website](https://emilien.ca/)
 
 _A portfolio for sharing various projects_ `Markdown&nbsp;&bull; Next.js`
 
@@ -118,6 +118,7 @@ _Development Manager &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 2022
 - ported logo from raster to vector
 - refreshed Discord server with clearer roles and introduction
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress.
+- Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
 -->
 
 <!-- 1147 members on Discord server as of September 19 2023 19:08 -->
@@ -126,10 +127,6 @@ _Club Executive_ `University of Ottawa&ensp;|&ensp;June 2022 &mdash; Present`
 
 - Building community of **over 1000** computer science students at the University of Ottawa.
 - Collaborated with both other executives to brainstorm, organize and schedule a dozen events by designing marketing material using Figma and organizing workshops for <!-- generous cumulative estimation --> over **100 students**.
-
-<!--
-- Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
--->
 
 <!--
 ### Group Chat Moderator
@@ -196,7 +193,7 @@ React&nbsp;&bull; Node.js&nbsp;&bull; HTML&nbsp;&bull; CSS&nbsp;&bull; JSON&nbsp
 
 ### Other Interests
 
-Electronics&nbsp;&bull; [Robotics](https://emilien.ca/Spider-Robot/)&nbsp;&bull; CAD&nbsp;&bull; 3D Printing&nbsp;&bull; Finance&nbsp;&bull; Mathematics&nbsp;&bull; [Drone Building](https://emilien.ca/FPV-Racing-Drone/)&nbsp;&bull; Music&nbsp;&bull; Bouldering
+Electronics&nbsp;&bull; Robotics&nbsp;&bull; CAD&nbsp;&bull; 3D Printing&nbsp;&bull; Finance&nbsp;&bull; Mathematics&nbsp;&bull; Drone Building&nbsp;&bull; Music&nbsp;&bull; Bouldering
 
 <!--
 ## Achievements

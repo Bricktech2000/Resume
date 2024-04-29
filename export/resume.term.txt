@@ -30,7 +30,7 @@
   generates passwords on demand without requiring encryption or password storage.
 • Reimplemented password generation algorithm in C for use as interactive CLI tool.
 
-[1mPersonal Portfolio[0m <https://emilien.ca/>
+[1mPersonal Website[0m <https://emilien.ca/>
 [[3mA portfolio for sharing various projects[0m]                                     [3mMarkdown • Next.js[0m
 • Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
   resulting in over [1m15 000 unique visitors[0m to portfolio website a month.
@@ -100,4 +100,4 @@ https://emilien.ca/
 [1mlinkedin/[0m emilien-breton
 
                                              • • •
-[[3mBricktech2000/Resume[0m]                                                  [3mCommit 4774280 • Apr 2024[0m
+[[3mBricktech2000/Resume[0m]                                                  [3mCommit D1F0705 • Apr 2024[0m
