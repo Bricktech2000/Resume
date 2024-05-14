@@ -9,24 +9,25 @@
 [1mAtto-8 Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
 [[3mA minimalist 8-bit microcomputer with stack-based microprocessor[0m]            [3mRust • C • Assembly[0m
 • Designed ecosystem of hardware and software from logic gates upward, including instruction
-  set architecture, from-scratch assembler and cross-platform emulator, totaling over [1m15 000
-  SLOC[0m and [1m500 hours[0m of work.
+  set architecture, from-scratch assembler and cross-platform emulator, totaling over [1m20 000
+  SLOC[0m and [1m750 hours[0m of work.
 • Wrote  various  demos  in  Assembly  running  natively on microcomputer — memory monitor •
-  sprite  editor  •  Tetris  clone  •  self-assembling  native  assembler • postfix notation
-  calculator.
+  sprite editor • Tetris clone • native assembler • postfix notation calculator.
 • Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 [1mAtto-8 C Compiler[0m
 [[3mA rudimentary C99 compiler for the Atto-8 microarchitecture[0m]                 [3mRust • C • Assembly[0m
-• Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
+• Building  C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting
+  of preprocessor, parser, typechecker, optimizer and code generator.
+• Implemented  dead  code  elimination, constant folding and strength reduction resulting in
+  average of [1m20% increase[0m in execution speed and [1m10% reduction[0m in binary size.
 • Developed  extensive  C  standard  library, including heap allocator supporting [1mmalloc and
-  free[0m and string handling functions such as [1mstrlen and memcpy[0m.
-• Hand-wrote  printf implementation in Assembly which supports conversion specifiers %d, %u,
-  %x, %c, %s and %p to increase debugging efficiency and convenience.
+  free[0m,  string  handling  functions  such  as  [1mstrlen  and memcpy[0m and input/output routines
+  including [1mprintf[0m supporting conversion specifiers %d, %u, %x, %c, %s and %p.
 
 [1mDBLess Password Manager[0m <https://github.com/Bricktech2000/DBLess>
 [[3mA hash-based, database-less password manager[0m]                                         [3mC • Python[0m
-• Devised  custom cryptographic procedure based on SHA-256 in Python which deterministically
+• Devised  cryptographic  procedure  based  on  SHA-256  in  Python  which deterministically
   generates passwords on demand without requiring encryption or password storage.
 • Reimplemented password generation algorithm in C for use as interactive CLI tool.
 
@@ -44,15 +45,13 @@
 • Leading development of open-source participant tracker built with Next.js and Prisma, used
   by over [1m1000 hackers[0m and [1m50 organizers[0m throughout hackathon.
 • Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
-  collaboration  with  infrastructure  and sponsorship teams, enabling processing of over [1m20
-  000$[0m.
+  collaboration with sponsorship team, enabling processing of over [1m20 000$[0m.
 
 [1muOttawa Computer Science Club[0m <https://uocsclub.ca/>
 [[3mClub Executive[0m]                                       [3mUniversity of Ottawa | June 2022 — Present[0m
 • Building community of [1mover 1000[0m computer science students at the University of Ottawa.
-• Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
-  events  by  designing marketing material using Figma and organizing workshops for over [1m100
-  students[0m.
+• Collaborated  executive  board  to  brainstorm,  organize  and  schedule a dozen events by
+  designing marketing material with Figma and hosting workshops for over [1m100 students[0m.
 
 —— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
 
@@ -100,4 +99,4 @@ https://emilien.ca/
 [1mlinkedin/[0m emilien-breton
 
                                              • • •
-[[3mBricktech2000/Resume[0m]                                                  [3mCommit D1F0705 • Apr 2024[0m
+[[3mBricktech2000/Resume[0m]                                                  [3mCommit D1E8450 • May 2024[0m

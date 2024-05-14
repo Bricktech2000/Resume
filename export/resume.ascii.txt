@@ -9,24 +9,25 @@
 ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
 [A minimalist 8-bit microcomputer with stack-based microprocessor]            Rust - C - Assembly
 - Designed ecosystem of hardware and software from logic gates upward, including instruction
-  set architecture, from-scratch assembler and cross-platform emulator, totaling over 15 000
-  SLOC and 500 HOURS of work.
+  set architecture, from-scratch assembler and cross-platform emulator, totaling over 20 000
+  SLOC and 750 HOURS of work.
 - Wrote  various  demos  in  Assembly  running natively on microcomputer -- memory monitor -
-  sprite  editor  -  Tetris  clone  -  self-assembling  native  assembler - postfix notation
-  calculator.
+  sprite editor - Tetris clone - native assembler - postfix notation calculator.
 - Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
 
 ATTO-8 C COMPILER
 [A rudimentary C99 compiler for the Atto-8 microarchitecture]                 Rust - C - Assembly
-- Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
+- Building  C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting
+  of preprocessor, parser, typechecker, optimizer and code generator.
+- Implemented  dead  code  elimination, constant folding and strength reduction resulting in
+  average of 20% INCREASE in execution speed and 10% REDUCTION in binary size.
 - Developed  extensive  C  standard  library, including heap allocator supporting MALLOC AND
-  FREE and string handling functions such as STRLEN AND MEMCPY.
-- Hand-wrote  printf implementation in Assembly which supports conversion specifiers %d, %u,
-  %x, %c, %s and %p to increase debugging efficiency and convenience.
+  FREE,  string  handling  functions  such  as  STRLEN  AND MEMCPY and input/output routines
+  including PRINTF supporting conversion specifiers %d, %u, %x, %c, %s and %p.
 
 DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
 [A hash-based, database-less password manager]                                         C - Python
-- Devised  custom cryptographic procedure based on SHA-256 in Python which deterministically
+- Devised  cryptographic  procedure  based  on  SHA-256  in  Python  which deterministically
   generates passwords on demand without requiring encryption or password storage.
 - Reimplemented password generation algorithm in C for use as interactive CLI tool.
 
@@ -44,15 +45,13 @@ HACK THE HILL HACKATHON <http://hackthehill.com/>
 - Leading development of open-source participant tracker built with Next.js and Prisma, used
   by over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
 - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
-  collaboration  with  infrastructure  and sponsorship teams, enabling processing of over 20
-  000$.
+  collaboration with sponsorship team, enabling processing of over 20 000$.
 
 UOTTAWA COMPUTER SCIENCE CLUB <https://uocsclub.ca/>
 [Club Executive]                                      University of Ottawa | June 2022 -- Present
 - Building community of OVER 1000 computer science students at the University of Ottawa.
-- Collaborated  with  both  other  executives  to  brainstorm, organize and schedule a dozen
-  events  by  designing marketing material using Figma and organizing workshops for over 100
-  STUDENTS.
+- Collaborated  executive  board  to  brainstorm,  organize  and  schedule a dozen events by
+  designing marketing material with Figma and hosting workshops for over 100 STUDENTS.
 
 -- EXPERIENCE ------------------------------------------------------------------------------------
 
@@ -100,4 +99,4 @@ GITHUB/ Bricktech2000
 LINKEDIN/ emilien-breton
 
                                              - - -
-[Bricktech2000/Resume]                                                  Commit D1F0705 - Apr 2024
+[Bricktech2000/Resume]                                                  Commit D1E8450 - May 2024

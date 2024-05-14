@@ -191,24 +191,24 @@
 <h2>Projects</h2>
 <h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
 <p><em>A minimalist 8-bit microcomputer with stack-based microprocessor</em> <code>Rust&nbsp;&bull; C&nbsp;&bull; Assembly</code></p>
-<!-- according to Toggl Track as of 2023-10-17 -->
+<!-- according to Toggl Track as of 2024-05-12 -->
 <!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 <ul>
-<li>Designed ecosystem of hardware and software from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">instruction set architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">from-scratch assembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">cross-platform emulator</a>, totaling over <strong>15 000 SLOC</strong> and <strong>500 hours</strong> of work.</li>
-<li>Wrote various demos in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm">memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm">sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm">self-assembling native assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm">postfix notation calculator</a>.</li>
+<li>Designed ecosystem of hardware and software from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">instruction set architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">from-scratch assembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">cross-platform emulator</a>, totaling over <strong>20 000 SLOC</strong> and <strong>750 hours</strong> of work.</li>
+<li>Wrote various demos in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm">memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm">sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm">native assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm">postfix notation calculator</a>.</li>
 <li>Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.</li>
 </ul>
 <h3>Atto-8 C Compiler</h3>
 <p><em>A rudimentary C99 compiler for the Atto-8 microarchitecture</em> <code>Rust&nbsp;&bull; C&nbsp;&bull; Assembly</code></p>
 <ul>
-<li>Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.</li>
-<li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong>.</li>
-<li>Hand-wrote <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">printf implementation</a> in Assembly which supports conversion specifiers %d, %u, %x, %c, %s and %p to increase debugging efficiency and convenience.</li>
+<li>Building C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting of <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/preprocess.rs">preprocessor</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs">parser</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/typecheck.rs">typechecker</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/optimize.rs">optimizer</a> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/codegen.rs">code generator</a>.</li>
+<li>Implemented dead code elimination, constant folding and strength reduction resulting in average of <strong>20% increase</strong> in execution speed and <strong>10% reduction</strong> in binary size.</li>
+<li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">input/output routines</a> including <strong>printf</strong> supporting conversion specifiers %d, %u, %x, %c, %s and %p.</li>
 </ul>
 <h3><a href="https://github.com/Bricktech2000/DBLess">DBLess Password Manager</a></h3>
 <p><em>A hash-based, database-less password manager</em> <code>C&nbsp;&bull; Python</code></p>
 <ul>
-<li>Devised <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py">custom cryptographic procedure</a> based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.</li>
+<li>Devised <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py">cryptographic procedure</a> based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.</li>
 <li>Reimplemented password generation algorithm in C for use as <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c">interactive CLI tool</a>.</li>
 </ul>
 <!-- - Built cross-platform PWA with Next.js used by over **50 accounts** <!-- 50 of which are mine that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience. -->
@@ -259,7 +259,7 @@ _Development Coordinator &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 <ul>
 <li>Leading development of <a href="https://github.com/HacktheHill/track-the-hack">open-source participant tracker</a> built with Next.js and Prisma, used by over <strong>1000 hackers</strong> and <strong>50 organizers</strong> throughout hackathon.</li>
-<li>Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with infrastructure and sponsorship teams, enabling processing of over <strong>20 000$</strong>.</li>
+<li>Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over <strong>20 000$</strong>.</li>
 </ul>
 <!--
 - Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
@@ -283,11 +283,11 @@ _Development Coordinator &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress.
 - Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
 -->
-<!-- 1147 members on Discord server as of September 19 2023 19:08 -->
+<!-- 1147 members on Discord server as of 2023-11-10 19:08 -->
 <p><em>Club Executive</em> <code>University of Ottawa&ensp;|&ensp;June 2022 &mdash; Present</code></p>
 <ul>
 <li>Building community of <strong>over 1000</strong> computer science students at the University of Ottawa.</li>
-<li>Collaborated with both other executives to brainstorm, organize and schedule a dozen events by designing marketing material using Figma and organizing workshops for <!-- generous cumulative estimation --> over <strong>100 students</strong>.</li>
+<li>Collaborated executive board to brainstorm, organize and schedule a dozen events by designing marketing material with Figma and hosting workshops for <!-- generous cumulative estimation --> over <strong>100 students</strong>.</li>
 </ul>
 <!--
 ### Group Chat Moderator
@@ -361,7 +361,7 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 <p><a href="https://github.com/Bricktech2000"><strong>github/</strong> Bricktech2000</a></p>
 <p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/</strong> emilien-breton</a></p>
 </section><section>
-<p><em><a href="https://github.com/Bricktech2000/Resume/">Bricktech2000/Resume</a></em> <code>Commit D1F0705&nbsp;&bull; Apr 2024</code></p>
+<p><em><a href="https://github.com/Bricktech2000/Resume/">Bricktech2000/Resume</a></em> <code>Commit D1E8450&nbsp;&bull; May 2024</code></p>
 </section>
 </body>
 
