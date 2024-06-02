@@ -25,18 +25,19 @@
   free[0m,  string  handling  functions  such  as  [1mstrlen  and memcpy[0m and input/output routines
   including [1mprintf[0m supporting conversion specifiers %d, %u, %x, %c, %s and %p.
 
+[1mLTRE Regex Engine[0m <https://github.com/Bricktech2000/LTRE>
+[[3mA fast regular expression library written in C99[0m]                                              [3mC[0m
+• Built  regex engine in C99 which compiles regular expressions down to deterministic finite
+  automata to match input strings in [1mlinear time[0m without backtracking.
+• Wrote extensive test suite of over [1m100 tests[0m to ensure end-to-end correctness of engine.
+• Developed  grep-like tool supporting flags -v, -x, -i, -n and -c as real-world stress test
+  for engine.
+
 [1mDBLess Password Manager[0m <https://github.com/Bricktech2000/DBLess>
 [[3mA hash-based, database-less password manager[0m]                                         [3mC • Python[0m
-• Devised  cryptographic  procedure  based  on  SHA-256  in  Python  which deterministically
+• Devised  custom cryptographic procedure based on SHA-256 in Python which deterministically
   generates passwords on demand without requiring encryption or password storage.
 • Reimplemented password generation algorithm in C for use as interactive CLI tool.
-
-[1mPersonal Website[0m <https://emilien.ca/>
-[[3mA portfolio for sharing various projects[0m]                                     [3mMarkdown • Next.js[0m
-• Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
-  resulting in over [1m15 000 unique visitors[0m to portfolio website a month.
-• Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
-  Lighthouse score consistently over [1m95%[0m.
 
 —— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
 
@@ -56,7 +57,7 @@
 —— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
 
 [1mZeptile Software[0m
-[[3mSoftware Engineer — Web3[0m]                                        [3mRemote | October 2022 — Present[0m
+[[3mSoftware Engineer — Web3[0m]                                   [3mRemote | October 2022 — October 2023[0m
 • Implemented various smart contracts in Solidity as per specification and ensured [1m100% test
   coverage[0m through Chai and Hardhat.
 
@@ -99,4 +100,4 @@ https://emilien.ca/
 [1mlinkedin/[0m emilien-breton
 
                                              • • •
-[[3mBricktech2000/Resume[0m]                                                  [3mCommit D1E8450 • May 2024[0m
+[[3mBricktech2000/Resume[0m]                                                  [3mCommit AF46350 • Jun 2024[0m

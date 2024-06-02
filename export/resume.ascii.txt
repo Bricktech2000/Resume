@@ -25,18 +25,19 @@ ATTO-8 C COMPILER
   FREE,  string  handling  functions  such  as  STRLEN  AND MEMCPY and input/output routines
   including PRINTF supporting conversion specifiers %d, %u, %x, %c, %s and %p.
 
+LTRE REGEX ENGINE <https://github.com/Bricktech2000/LTRE>
+[A fast regular expression library written in C99]                                              C
+- Built  regex engine in C99 which compiles regular expressions down to deterministic finite
+  automata to match input strings in LINEAR TIME without backtracking.
+- Wrote extensive test suite of over 100 TESTS to ensure end-to-end correctness of engine.
+- Developed  grep-like tool supporting flags -v, -x, -i, -n and -c as real-world stress test
+  for engine.
+
 DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
 [A hash-based, database-less password manager]                                         C - Python
-- Devised  cryptographic  procedure  based  on  SHA-256  in  Python  which deterministically
+- Devised  custom cryptographic procedure based on SHA-256 in Python which deterministically
   generates passwords on demand without requiring encryption or password storage.
 - Reimplemented password generation algorithm in C for use as interactive CLI tool.
-
-PERSONAL WEBSITE <https://emilien.ca/>
-[A portfolio for sharing various projects]                                     Markdown - Next.js
-- Designed  and  implemented  appealing  UI  and  optimized  UX  using Google Search Console
-  resulting in over 15 000 UNIQUE VISITORS to portfolio website a month.
-- Leveraged  Cloudflare  caching  system  and optimized site-wide accessibility resulting in
-  Lighthouse score consistently over 95%.
 
 -- VOLUNTEERING ----------------------------------------------------------------------------------
 
@@ -56,7 +57,7 @@ UOTTAWA COMPUTER SCIENCE CLUB <https://uocsclub.ca/>
 -- EXPERIENCE ------------------------------------------------------------------------------------
 
 ZEPTILE SOFTWARE
-[Software Engineer -- Web3]                                      Remote | October 2022 -- Present
+[Software Engineer -- Web3]                                 Remote | October 2022 -- October 2023
 - Implemented various smart contracts in Solidity as per specification and ensured 100% TEST
   COVERAGE through Chai and Hardhat.
 
@@ -99,4 +100,4 @@ GITHUB/ Bricktech2000
 LINKEDIN/ emilien-breton
 
                                              - - -
-[Bricktech2000/Resume]                                                  Commit D1E8450 - May 2024
+[Bricktech2000/Resume]                                                  Commit AF46350 - Jun 2024

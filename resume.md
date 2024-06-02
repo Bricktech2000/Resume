@@ -26,21 +26,31 @@ _A rudimentary C99 compiler for the Atto-8 microarchitecture_ `Rust&nbsp;&bull; 
 - Implemented dead code elimination, constant folding and strength reduction resulting in average of **20% increase** in execution speed and **10% reduction** in binary size.
 - Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **printf** supporting conversion specifiers %d, %u, %x, %c, %s and %p.
 
+### [LTRE Regex Engine](https://github.com/Bricktech2000/LTRE)
+
+_A fast regular expression library written in C99_ `C`
+
+- Built [regex engine](https://github.com/Bricktech2000/LTRE/blob/master/ltre.c) in C99 which compiles regular expressions down to deterministic finite automata to match input strings in **linear time** without backtracking.
+- Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **100 tests** to ensure end-to-end correctness of engine.
+- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) supporting flags -v, -x, -i, -n and -c as real-world stress test for engine.
+
 ### [DBLess Password Manager](https://github.com/Bricktech2000/DBLess)
 
 _A hash-based, database-less password manager_ `C&nbsp;&bull; Python`
 
-- Devised [cryptographic procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
+- Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
 - Reimplemented password generation algorithm in C for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
 
 <!-- - Built cross-platform PWA with Next.js used by over **50 accounts** <!-- 50 of which are mine that loads 2FA tokens, generates passwords and copies them to user's clipboard for convenience. -->
 
+<!--
 ### [Personal Website](https://emilien.ca/)
 
 _A portfolio for sharing various projects_ `Markdown&nbsp;&bull; Next.js`
 
 - Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over **15&nbsp;000 unique visitors** to portfolio website a month.
 - Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over **95%**.
+-->
 
 <!--
 ### IB Personal Project
@@ -145,9 +155,9 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 
 ### Zeptile Software
 
-<!-- according to Discord conversations -->
+<!-- start date according to Discord conversations. end date estimated -->
 
-_Software Engineer &mdash; Web3_ `Remote&ensp;|&ensp;October 2022 &mdash; Present`
+_Software Engineer &mdash; Web3_ `Remote&ensp;|&ensp;October 2022 &mdash; October 2023`
 
 - Implemented various smart contracts in Solidity as per specification and ensured **100% test coverage** through Chai and Hardhat.
 
