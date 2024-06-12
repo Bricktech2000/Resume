@@ -35,9 +35,10 @@
 
 [1mDBLess Password Manager[0m <https://github.com/Bricktech2000/DBLess>
 [[3mA hash-based, database-less password manager[0m]                                         [3mC • Python[0m
-• Devised  custom cryptographic procedure based on SHA-256 in Python which deterministically
-  generates passwords on demand without requiring encryption or password storage.
-• Reimplemented password generation algorithm in C for use as interactive CLI tool.
+• Devised custom hash procedure based on SHA-256 in Python which deterministically generates
+  passwords on demand without requiring encryption or password storage.
+• Reimplemented  password  generation algorithm in C along with SHA-256 routines as per FIPS
+  PUB 180-4 for use as interactive CLI tool.
 
 —— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
 
@@ -100,4 +101,4 @@ https://emilien.ca/
 [1mlinkedin/[0m emilien-breton
 
                                              • • •
-[[3mBricktech2000/Resume[0m]                                                  [3mCommit AF46350 • Jun 2024[0m
+[[3mBricktech2000/Resume[0m]                                                  [3mCommit CBB9E42 • Jun 2024[0m

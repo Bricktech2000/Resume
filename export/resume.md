@@ -32,8 +32,8 @@ _A fast regular expression library written in C99_ `C`
 
 _A hash-based, database-less password manager_ `C • Python`
 
-- Devised [custom cryptographic procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
-- Reimplemented password generation algorithm in C for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
+- Devised [custom hash procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
+- Reimplemented password generation algorithm in C along with [SHA-256 routines](https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c) as per FIPS PUB 180-4 for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
 
 ## Volunteering
 
@@ -113,4 +113,4 @@ Electronics • Robotics • CAD • 3D Printing • Finance • Mathematics •
 
 ---
 
-_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit AF46350 • Jun 2024`
+_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit CBB9E42 • Jun 2024`
