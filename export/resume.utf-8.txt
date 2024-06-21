@@ -52,7 +52,7 @@
 𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
 [Club Executive]                                       University of Ottawa | June 2022 — Present
 • Building community of 𝗼𝘃𝗲𝗿 𝟭𝟬𝟬𝟬 computer science students at the University of Ottawa.
-• Collaborated  executive  board  to  brainstorm,  organize  and  schedule a dozen events by
+• Collaborated  with  executive board to brainstorm, organize and schedule a dozen events by
   designing marketing material with Figma and hosting workshops for over 𝟭𝟬𝟬 𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀.
 
 —— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
@@ -101,4 +101,4 @@ https://emilien.ca/
 𝗹𝗶𝗻𝗸𝗲𝗱𝗶𝗻/ emilien-breton
 
                                              • • •
-[Bricktech2000/Resume]                                                  Commit CBB9E42 • Jun 2024
+[Bricktech2000/Resume]                                                  Commit 3ea7e0d • Jun 2024

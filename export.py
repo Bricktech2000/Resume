@@ -3,22 +3,13 @@ import time
 import os
 import re
 
-# external requirements:
-# - `marko`
-# - Google Chrome
-# - `git` in `$PATH`
-# - `figlet` in `$PATH`
-# - `chromedriver` in `$PATH`
-# - an internet connection
-# - an `export/` directory
-
 
 def utf8_replace_html_entities(html):
-  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—')
+  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—').replace('&times;', '×')
 
 
 def ascii_replace_html_entities(html):
-  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-')
+  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-').replace('&times;', 'x')
 
 
 def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90):
@@ -292,7 +283,7 @@ def compose(*fns):
 def preprocess(source):
   import subprocess
 
-  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:7].upper()
+  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:7]
   day, month, year = time.strftime('%d %b %Y').split()
   source = source.replace('[COMMIT_HASH]', commit_hash).replace(
       '[DAY]', day).replace('[MONTH]', month).replace('[YEAR]', year)

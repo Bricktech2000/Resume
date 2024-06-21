@@ -136,7 +136,7 @@ _Development Manager &mdash; Development Team_ `Ottawa&ensp;|&ensp;November 2022
 _Club Executive_ `University of Ottawa&ensp;|&ensp;June 2022 &mdash; Present`
 
 - Building community of **over 1000** computer science students at the University of Ottawa.
-- Collaborated executive board to brainstorm, organize and schedule a dozen events by designing marketing material with Figma and hosting workshops for <!-- generous cumulative estimation --> over **100 students**.
+- Collaborated with executive board to brainstorm, organize and schedule a dozen events by designing marketing material with Figma and hosting workshops for <!-- generous cumulative estimation --> over **100 students**.
 
 <!--
 ### Group Chat Moderator

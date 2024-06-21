@@ -49,7 +49,7 @@ _Development Manager — Development Team_ `Ottawa  |  November 2022 — Present
 _Club Executive_ `University of Ottawa  |  June 2022 — Present`
 
 - Building community of **over 1000** computer science students at the University of Ottawa.
-- Collaborated executive board to brainstorm, organize and schedule a dozen events by designing marketing material with Figma and hosting workshops for  over **100 students**.
+- Collaborated with executive board to brainstorm, organize and schedule a dozen events by designing marketing material with Figma and hosting workshops for  over **100 students**.
 
 ## Experience
 
@@ -113,4 +113,4 @@ Electronics • Robotics • CAD • 3D Printing • Finance • Mathematics •
 
 ---
 
-_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit CBB9E42 • Jun 2024`
+_[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 3ea7e0d • Jun 2024`
