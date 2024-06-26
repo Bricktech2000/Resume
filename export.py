@@ -55,7 +55,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
     def render_document(self, element):
       # "||||" is used to represent `float: right`
       return '\n'.join(map(
-          lambda line: line.replace('||||', ' ' * (self.width - len_patched(line) + 5)),
+          lambda line: line.replace('||||', ' ' * (self.width - len_patched(line) + 6)),
           self.render_children(element).split('\n')
       )).encode('utf-8')
 
@@ -75,11 +75,10 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
         font = ['straight', '-m-1']  # ['mini', '-m0']
         formatless_children = ''.join(formatless(child) for child in element.children)
         figlet_output = subprocess.check_output(['figlet', '-f', *font, formatless_children])
-        # remove trailing whitespace and remove whitespace-only lines
-        return re.sub(r'\n? +$', r'', figlet_output.decode('utf-8'), flags=re.MULTILINE)
+        return re.sub(r' +\n', r'\n', figlet_output.decode('utf-8'))
 
       if element.level == 2:
-        return f'\n{self.format_html("&ndash;&ndash;") + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_html("&ndash;"))}\n'
+        return f'\n{self.format_html("&ndash;&ndash;&ndash;") + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_html("&ndash;"))}\n'
 
       if element.level == 3:
         def strong_safe(element):
@@ -97,7 +96,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
         newline = '\n'
         return f'{bullet}{(newline + " " * len(bullet)).join(fill(self.render_children(element), self.small_width, justify=True).split(newline))}\n'
 
-      return ''.join(render_list_child(child, '  ' if element.ordered else self.format_html('&bull; ')) for child in element.children)
+      return ''.join(render_list_child(child, '    ' if element.ordered else self.format_html('  &bull; ')) for child in element.children)
 
     def render_list_item(self, _):
       raise NotImplementedError
@@ -169,7 +168,7 @@ def make_html_process(text_primary, text_secondary, background):
     with open('template.html', 'r') as f:
       template = f.read()
 
-    export = '<section>' + gfm(source) .replace('&amp;', '&') .replace('<hr />', '</section><section>') + '</section>'
+    export = gfm(source).replace('&amp;', '&')
     return template.replace('[EXPORT]', export).replace('[TEXT_PRIMARY]', text_primary).replace('[TEXT_SECONDARY]', text_secondary).replace('[BACKGROUND]', background).encode('utf-8')
 
   return html_process

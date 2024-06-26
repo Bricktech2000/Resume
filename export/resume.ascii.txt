@@ -2,103 +2,78 @@
 |_   _  . | .  _  _    |__)  _  _ |_  _   _
 |__ ||| | | | (- | )   |__) |  (- |_ (_) | )
 
-                                             - - -
+613-913-9909 - mail@emilien.ca - github.com/Bricktech2000 - linkedin.com/in/emilien-breton
+- https://emilien.ca/
 
--- PROJECTS --------------------------------------------------------------------------------------
+--- PROJECTS --------------------------------------------------------------------------------------
 
 ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
-[A minimalist 8-bit microcomputer with stack-based microprocessor]            Rust - C - Assembly
-- Designed ecosystem of hardware and software from logic gates upward, including instruction
-  set architecture, from-scratch assembler and cross-platform emulator, totaling over 20 000
-  SLOC and 750 HOURS of work.
-- Wrote  various  demos  in  Assembly  running natively on microcomputer -- memory monitor -
-  sprite editor - Tetris clone - native assembler - postfix notation calculator.
-- Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.
+[A minimalist 8-bit microcomputer with stack-based microprocessor]             Rust - C - Assembly
+  - Designed ecosystem of hardware and software from logic gates upward, including instruction
+    set architecture, from-scratch assembler and cross-platform emulator, totaling over 20 000
+    SLOC and 750 HOURS of work.
+  - Wrote  various  demos  in  Assembly  running  natively on microcomputer -- Wozmon-inspired
+    memory  monitor - 16x16 sprite editor - Tetris clone - native assembler - postfix notation
+    calculator.
+  - Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
+    breadboards.
 
 ATTO-8 C COMPILER
-[A rudimentary C99 compiler for the Atto-8 microarchitecture]                 Rust - C - Assembly
-- Building  C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting
-  of preprocessor, parser, typechecker, optimizer and code generator.
-- Implemented  dead  code  elimination, constant folding and strength reduction resulting in
-  average of 20% INCREASE in execution speed and 10% REDUCTION in binary size.
-- Developed  extensive  C  standard  library, including heap allocator supporting MALLOC AND
-  FREE,  string  handling  functions  such  as  STRLEN  AND MEMCPY and input/output routines
-  including PRINTF supporting conversion specifiers %d, %u, %x, %c, %s and %p.
+[A rudimentary C99 compiler for the Atto-8 microarchitecture]                  Rust - C - Assembly
+  - Building  C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting
+    of preprocessor, parser, typechecker, optimizer and code generator.
+  - Implemented  dead  code  elimination, constant folding and strength reduction resulting in
+    average of 20% INCREASE in generated code performance and 10% REDUCTION in binary size.
+  - Developed  extensive  C  standard  library, including heap allocator supporting MALLOC AND
+    FREE,  string  handling  functions  such  as  STRLEN  AND MEMCPY and input/output routines
+    including PRINTF supporting conversion specifiers %d, %u, %x, %c, %s and %p.
 
 LTRE REGEX ENGINE <https://github.com/Bricktech2000/LTRE>
-[A fast regular expression library written in C99]                                              C
-- Built  regex engine in C99 which compiles regular expressions down to deterministic finite
-  automata to match input strings in LINEAR TIME without backtracking.
-- Wrote extensive test suite of over 100 TESTS to ensure end-to-end correctness of engine.
-- Developed  grep-like tool supporting flags -v, -x, -i, -n and -c as real-world stress test
-  for engine.
+[A fast regular expression library written in C99]                                               C
+  - Built  regex engine in C99 which compiles regular expressions down to deterministic finite
+    automata to match input strings in LINEAR TIME without backtracking.
+  - Wrote  extensive  test  suite of over 100 TESTS to ensure end-to-end correctness of engine
+    and catch regressions.
+  - Developed  grep-like tool supporting flags -v, -x, -i, -n and -c as real-world stress test
+    for engine.
 
 DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
-[A hash-based, database-less password manager]                                         C - Python
-- Devised custom hash procedure based on SHA-256 in Python which deterministically generates
-  passwords on demand without requiring encryption or password storage.
-- Reimplemented  password  generation algorithm in C along with SHA-256 routines as per FIPS
-  PUB 180-4 for use as interactive CLI tool.
+[A hash-based, database-less password manager]                                          C - Python
+  - Devised custom hash procedure based on SHA-256 in Python which deterministically generates
+    passwords on demand without requiring encryption or password storage.
+  - Reimplemented  password  generation algorithm in C along with SHA-256 routines as per FIPS
+    PUB 180-4 for use as interactive CLI tool.
 
--- VOLUNTEERING ----------------------------------------------------------------------------------
+--- VOLUNTEERING ----------------------------------------------------------------------------------
 
 HACK THE HILL HACKATHON <http://hackthehill.com/>
-[Development Manager -- Development Team]                       Ottawa | November 2022 -- Present
-- Leading development of open-source participant tracker built with Next.js and Prisma, used
-  by over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
-- Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
-  collaboration with sponsorship team, enabling processing of over 20 000$.
+[Development Manager -- Development Team]                        Ottawa | November 2022 -- Present
+  - Leading development of open-source participant tracker built with Next.js and Prisma, used
+    by over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
+  - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
+    collaboration with sponsorship team, enabling processing of over 20 000$.
 
 UOTTAWA COMPUTER SCIENCE CLUB <https://uocsclub.ca/>
-[Club Executive]                                      University of Ottawa | June 2022 -- Present
-- Building community of OVER 1000 computer science students at the University of Ottawa.
-- Collaborated  with  executive board to brainstorm, organize and schedule a dozen events by
-  designing marketing material with Figma and hosting workshops for over 100 STUDENTS.
+[Club Executive]                                       University of Ottawa | June 2022 -- Present
+  - Building community of OVER 1000 computer science students at the University of Ottawa.
+  - Collaborated  with  executive board to brainstorm, organize and schedule a dozen events by
+    designing marketing material with Figma and hosting workshops for over 100 STUDENTS.
 
--- EXPERIENCE ------------------------------------------------------------------------------------
+--- EXPERIENCE ------------------------------------------------------------------------------------
 
 ZEPTILE SOFTWARE
-[Software Engineer -- Web3]                                 Remote | October 2022 -- October 2023
-- Implemented various smart contracts in Solidity as per specification and ensured 100% TEST
-  COVERAGE through Chai and Hardhat.
+[Software Engineer -- Web3]                                  Remote | October 2022 -- October 2023
+  - Implemented  various  smart  contracts  in Solidity and ensured 100% TEST COVERAGE through
+    Chai and Hardhat.
 
--- EDUCATION -------------------------------------------------------------------------------------
+--- EDUCATION -------------------------------------------------------------------------------------
 
 UNIVERSITY OF OTTAWA
-[BSc with Honours in Computer Science]                                  September 2021 -- Present
-- Admission scholarship -- 95%+ average.                                            November 2020
+[BSc with Honours in Computer Science]                                   September 2021 -- Present
+  - Admission scholarship -- 95%+ average.                                           November 2020
 
-                                             - - -
-
--- SKILLS ----------------------------------------------------------------------------------------
-
-LANGUAGES
-Rust - C - Python - JavaScript
-
-DEVELOPMENT TOOLS
-NixOS - Neovim - Fish Shell - Git
-
-OTHER TECHNOLOGIES
-React - Node.js - HTML - CSS - JSON - YAML - Markdown - LaTeX - Lua - x86 Assembly - C++ -
-Bash - GDB - Linux - Arduino - VS Code - Figma - Notion - Docker - Cloudflare - GitHub
-
-SPOKEN LANGUAGES
-- French                                                                                   Native
-- English                                                                                  Native
-- Spanish                                                                            Intermediate
-- Russian                                                                              Elementary
-
-OTHER INTERESTS
-Electronics - Robotics - CAD - 3D Printing - Finance - Mathematics - Drone Building -
-Music - Bouldering
-
--- CONTACT ---------------------------------------------------------------------------------------
-Ottawa, Ontario
-613-913-9909
-mail@emilien.ca
-https://emilien.ca/
-GITHUB/ Bricktech2000
-LINKEDIN/ emilien-breton
-
-                                             - - -
-[Bricktech2000/Resume]                                                  Commit 3ea7e0d - Jun 2024
+--- SKILLS ----------------------------------------------------------------------------------------
+  - LANGUAGES C - Rust - Python - JavaScript - HTML/CSS - JSON - YAML - Markdown - LaTeX - Lua
+    - C++
+  - DEVELOPER TOOLS GNU/Linux - Vim - Bash - Fish Shell - Git - GDB - GNU Make - Docker
+  - OTHER TECHNOLOGIES React - Node.js - Express - Figma - Notion - Cloudflare - GitHub

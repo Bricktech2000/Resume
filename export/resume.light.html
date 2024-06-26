@@ -1,192 +1,196 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --text-primary: #000000;
+        --text-secondary: #888888;
+        --background: #FFFFFF;
+        --sans: Roboto, sans-serif;
+        --mono: Inconsolata, monospace;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title></title>
-  <!-- https://fonts.google.com/specimen/Roboto?category=Sans+Serif -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet" />
-  <!-- https://fonts.google.com/specimen/Inconsolata?category=Monospace -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <style>
-    :root {
-      --text-primary: #000000;
-      --text-secondary: #888888;
-      --background: #FFFFFF;
-      --sans: Roboto, sans-serif;
-      --mono: Inconsolata, monospace;
-    }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+      }
 
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-      -webkit-tap-highlight-color: transparent;
-    }
+      html *:not(head *):not(script):not(style) {
+        /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
+        display: flex;
+      }
 
-    html *:not(head *):not(script):not(style) {
-      /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
-      display: flex;
-    }
-
-    body {
-      /* A4 paper size */
-      width: 210mm;
-      height: 297mm;
-      font-family: var(--sans);
-      font-weight: 300;
-      color: var(--text-primary);
-      background: var(--background);
-      text-align: justify;
-    }
-
-    html {
-      background: #888888;
-    }
-  </style>
-  <style>
-    body {
-      display: grid !important;
-      grid-template-columns: 4fr 1fr;
-      grid-template-rows: auto 1fr auto;
-      padding: 7.5mm;
-      margin: 7.5mm;
-      font-size: 3.5mm;
-      line-height: 1.2;
-      gap: 7.5mm;
-    }
-
-    h1 {
-      font-size: 2em;
-      font-weight: inherit;
-    }
-
-    h2 {
-      font-size: 1.5em;
-      font-weight: inherit;
-      text-transform: uppercase;
-      color: var(--text-secondary);
-    }
-
-    h3 {
-      font-weight: 700;
-      font-size: inherit;
-    }
-
-    *+h2 {
-      padding-top: 1em;
-    }
-
-    *+h3 {
-      padding-top: 0.5em;
-    }
-
-    ul,
-    ol {
-      flex-direction: column;
-    }
-
-    ul li,
-    ol li {
-      display: list-item !important;
-      list-style: none;
-      position: relative;
-      padding-left: 1em;
-    }
-
-    ul li::before {
-      content: '•';
-      position: absolute;
-      left: 0;
-      top: 0;
-      padding-left: 0.25em;
-    }
-
-    section>* {
-      flex: auto;
-    }
-
-    section {
-      flex-direction: column;
-    }
-
-    section:nth-child(1),
-    section:nth-child(4) {
-      grid-column: 1 / 3;
-    }
-
-    code {
-      height: 100%;
-      float: right;
-      align-items: center;
-      font-family: var(--sans);
-      font-weight: 400;
-      font-style: italic;
-      color: var(--text-secondary);
-    }
-
-    em {
-      height: 100%;
-      align-items: center;
-      font-family: var(--sans);
-      text-transform: uppercase;
-      font-weight: 400;
-      font-size: 0.875em;
-      font-style: inherit;
-      color: var(--text-secondary);
-      align-items: center;
-    }
-
-    strong {
-      font-weight: 500;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: underline;
-      text-underline-offset: 0.2em;
-    }
-
-    h1,
-    h2,
-    h3 {
-      display: block !important;
-    }
-
-    a,
-    p,
-    strong,
-    em {
-      display: inline !important;
-    }
-
-    @media print {
       body {
+        /* A4 paper size */
+        width: 210mm;
+        height: 297mm;
+        font-family: var(--sans);
+        font-weight: 300;
+        color: var(--text-primary);
+        background: var(--background);
+        text-align: justify;
+      }
+
+      html {
+        background: #888888;
+      }
+    </style>
+    <style>
+      body {
+        flex-direction: column;
+        padding: 10mm;
+        margin: 10mm;
+        font-size: 3.5mm;
+        line-height: 1.2;
+      }
+
+      body > * {
+        flex: auto;
+      }
+
+      h1 {
+        font-size: 2em;
+        font-weight: inherit;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        font-weight: inherit;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+        gap: 0.5em;
+      }
+
+      h3 {
+        font-weight: 700;
+        font-size: inherit;
+      }
+
+      * + h2 {
+        padding-top: 0.75em;
+      }
+
+      * + h3 {
+        padding-top: 0.5em;
+      }
+
+      h2::before,
+      h2::after {
+        content: '';
+        align-self: center;
+        height: 1px;
+        background: var(--text-secondary);
+      }
+
+      h2::before {
+        width: 1.25em;
+      }
+
+      h2::after {
+        flex: auto;
+      }
+
+      ul,
+      ol {
+        flex-direction: column;
+      }
+
+      ul li,
+      ol li {
+        display: list-item !important;
+        list-style: none;
+        position: relative;
+        padding: 0 2.5em;
+      }
+
+      ul li::before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 1.75em;
+      }
+
+      code {
+        height: 100%;
+        float: right;
+        align-items: center;
+        font-family: var(--sans);
+        font-weight: 400;
+        font-style: italic;
+        color: var(--text-secondary);
+      }
+
+      em {
+        height: 100%;
+        align-items: center;
+        font-family: var(--sans);
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 0.875em;
+        font-style: inherit;
+        color: var(--text-secondary);
+        align-items: center;
+      }
+
+      strong {
+        font-weight: 500;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+      }
+
+      a,
+      p,
+      strong,
+      em {
+        display: inline !important;
+      }
+
+      @media print {
+        body {
+          margin: 0;
+        }
+      }
+
+      /* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
+      @page {
+        size: 210mm 297mm;
         margin: 0;
       }
-    }
+    </style>
+  </head>
 
-    /* https://stackoverflow.com/questions/1542320/margin-while-printing-html-page */
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size */
-    @page {
-      size: 210mm 297mm;
-      margin: 0;
-    }
-  </style>
-</head>
-
-<body>
-  <section><h1>Emilien <strong>Breton</strong></h1>
-</section><section>
+  <body>
+    <h1>Emilien <strong>Breton</strong></h1>
+<!--          WARNING          -->
+<!-- don't spam call me thanks -->
+<!--        END WARNING        -->
+<p><a href="tel:+1-613-913-9909">613-913-9909</a> • <a href="mailto:mail@emilien.ca">mail@emilien.ca</a> • <a href="https://github.com/Bricktech2000">github.com/Bricktech2000</a> • <a href="https://www.linkedin.com/in/emilien-breton/">linkedin.com/in/emilien-breton</a> • <a href="https://emilien.ca/">https://emilien.ca/</a></p>
 <!-- https://www.engineering.cornell.edu/sites/default/files/users/user240/Action%20Words%20for%20ENG%20(website).pdf -->
 <h2>Projects</h2>
 <h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
@@ -195,21 +199,21 @@
 <!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 <ul>
 <li>Designed ecosystem of hardware and software from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">instruction set architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">from-scratch assembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">cross-platform emulator</a>, totaling over <strong>20 000 SLOC</strong> and <strong>750 hours</strong> of work.</li>
-<li>Wrote various demos in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm">memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm">sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm">native assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm">postfix notation calculator</a>.</li>
-<li>Built microcomputer in hardware using discrete 74HC-series logic chips on breadboards.</li>
+<li>Wrote various demos in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm">Wozmon-inspired memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm">16×16 sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm">native assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm">postfix notation calculator</a>.</li>
+<li>Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.</li>
 </ul>
 <h3>Atto-8 C Compiler</h3>
 <p><em>A rudimentary C99 compiler for the Atto-8 microarchitecture</em> <code>Rust&nbsp;&bull; C&nbsp;&bull; Assembly</code></p>
 <ul>
 <li>Building C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting of <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/preprocess.rs">preprocessor</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs">parser</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/typecheck.rs">typechecker</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/optimize.rs">optimizer</a> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/codegen.rs">code generator</a>.</li>
-<li>Implemented dead code elimination, constant folding and strength reduction resulting in average of <strong>20% increase</strong> in execution speed and <strong>10% reduction</strong> in binary size.</li>
+<li>Implemented dead code elimination, constant folding and strength reduction resulting in average of <strong>20% increase</strong> in generated code performance and <strong>10% reduction</strong> in binary size.</li>
 <li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">input/output routines</a> including <strong>printf</strong> supporting conversion specifiers %d, %u, %x, %c, %s and %p.</li>
 </ul>
 <h3><a href="https://github.com/Bricktech2000/LTRE">LTRE Regex Engine</a></h3>
 <p><em>A fast regular expression library written in C99</em> <code>C</code></p>
 <ul>
 <li>Built <a href="https://github.com/Bricktech2000/LTRE/blob/master/ltre.c">regex engine</a> in C99 which compiles regular expressions down to deterministic finite automata to match input strings in <strong>linear time</strong> without backtracking.</li>
-<li>Wrote <a href="https://github.com/Bricktech2000/LTRE/blob/master/test.c">extensive test suite</a> of over <strong>100 tests</strong> to ensure end-to-end correctness of engine.</li>
+<li>Wrote <a href="https://github.com/Bricktech2000/LTRE/blob/master/test.c">extensive test suite</a> of over <strong>100 tests</strong> to ensure end-to-end correctness of engine and catch regressions.</li>
 <li>Developed <a href="https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c">grep-like tool</a> supporting flags -v, -x, -i, -n and -c as real-world stress test for engine.</li>
 </ul>
 <h3><a href="https://github.com/Bricktech2000/DBLess">DBLess Password Manager</a></h3>
@@ -315,7 +319,7 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 <!-- start date according to Discord conversations. end date estimated -->
 <p><em>Software Engineer — Web3</em> <code>Remote&ensp;|&ensp;October 2022 &mdash; October 2023</code></p>
 <ul>
-<li>Implemented various smart contracts in Solidity as per specification and ensured <strong>100% test coverage</strong> through Chai and Hardhat.</li>
+<li>Implemented various smart contracts in Solidity and ensured <strong>100% test coverage</strong> through Chai and Hardhat.</li>
 </ul>
 <h2>Education</h2>
 <h3>University of Ottawa</h3>
@@ -328,25 +332,23 @@ _Course-specific Discord server creator, owner and moderator_ `University of Ott
 
 _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; June 2021`
 -->
-</section><section>
 <h2>Skills</h2>
-<h3>Languages</h3>
-<p>Rust • C • Python • JavaScript</p>
-<h3>Development Tools</h3>
-<p>NixOS • Neovim • Fish Shell • Git</p>
-<h3>Other Technologies</h3>
-<p>React • Node.js • HTML • CSS • JSON • YAML • Markdown • LaTeX • Lua • x86 Assembly • C++ • Bash • GDB • Linux • Arduino • VS Code • Figma • Notion • Docker • Cloudflare • GitHub</p>
-<h3>Spoken Languages</h3>
-<!-- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf -->
-<!-- https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/ -->
 <ul>
-<li>French <code>Native</code></li>
-<li>English <code>Native</code></li>
-<li>Spanish <code>Intermediate</code></li>
-<li>Russian <code>Elementary</code></li>
+<li><strong>Languages</strong>   C • Rust • Python • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua • C++</li>
+<li><strong>Developer Tools</strong>   GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker</li>
+<li><strong>Other Technologies</strong>   React • Node.js • Express • Figma • Notion • Cloudflare • GitHub</li>
 </ul>
-<h3>Other Interests</h3>
-<p>Electronics • Robotics • CAD • 3D Printing • Finance • Mathematics • Drone Building • Music • Bouldering</p>
+<!--
+### Spoken Languages
+
+<!-- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf
+<!-- https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/
+
+- French `Native`
+- English `Native`
+- Spanish `Intermediate`
+- Russian `Elementary`
+-->
 <!--
 ## Achievements
 
@@ -359,19 +361,7 @@ _IB Middle Years Programme, Secondary School Diploma_ `September 2016 &mdash; Ju
 - Aliquam ornare diam sit amet euismod pellentesque.
 - In condimentum tortor non odio consectetur accumsan.
 -->
-<h2>Contact</h2>
-<p><a href="https://google.com/maps/place/Ottawa,+ON">Ottawa, Ontario</a></p>
-<!--          WARNING          -->
-<!-- don't spam call me thanks -->
-<!--        END WARNING        -->
-<p><a href="tel:+1-613-913-9909">613-913-9909</a></p>
-<p><a href="mailto:mail@emilien.ca">mail@emilien.ca</a></p>
-<p><a href="https://emilien.ca/">https://emilien.ca/</a></p>
-<p><a href="https://github.com/Bricktech2000"><strong>github/</strong> Bricktech2000</a></p>
-<p><a href="https://www.linkedin.com/in/emilien-breton/"><strong>linkedin/</strong> emilien-breton</a></p>
-</section><section>
-<p><em><a href="https://github.com/Bricktech2000/Resume/">Bricktech2000/Resume</a></em> <code>Commit 3ea7e0d&nbsp;&bull; Jun 2024</code></p>
-</section>
-</body>
+<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 1f6f988&nbsp;&bull; Jun 2024` -->
 
+  </body>
 </html>
