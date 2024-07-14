@@ -9,14 +9,12 @@ Resume markup is located in [resume.md](resume.md). The markdown source code is 
 ## Requirements
 
 ```bash
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-apt-get install -y chromium-chromedriver figlet
+apt-get install -y chromium-browser chromium-chromedriver figlet
 pip install marko selenium
 ```
 
 ## Export
 
 ```bash
-time python3 export.py
+python3 export.py
 ```
