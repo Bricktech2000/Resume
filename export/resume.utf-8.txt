@@ -1,41 +1,52 @@
- __                     __
-|_   _  . | .  _  _    |__)  _  _ |_  _   _
-|__ ||| | | | (- | )   |__) |  (- |_ (_) | )
+ __                   __
+|_   _  . | .  _  _  |__)  _  _ |_  _   _
+|__ ||| | | | (- | ) |__) |  (- |_ (_) | )
 
 613-913-9909 • mail@emilien.ca • github.com/Bricktech2000 • linkedin.com/in/emilien-breton
 • https://emilien.ca/
 
-——— PROJECTS ——————————————————————————————————————————————————————————————————————————————————————
+─── EXPERIENCE ────────────────────────────────────────────────────────────────────────────────────
+
+𝗘𝗰𝗼𝗦𝗮𝗳𝗲𝗦𝗲𝗻𝘀𝗲
+[Firmware Engineer]                                                  Ottawa | October 2024–Present
+
+𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
+[Software Engineer — Web3]                                      Remote | October 2022–October 2023
+  • Implemented  various  smart  contracts  in Solidity and ensured 𝟭𝟬𝟬% 𝘁𝗲𝘀𝘁 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 through
+    Chai and Hardhat.
+
+─── PROJECTS ──────────────────────────────────────────────────────────────────────────────────────
+
+𝗟𝗧𝗥𝗘 𝗥𝗲𝗴𝗲𝘅 𝗘𝗻𝗴𝗶𝗻𝗲 <https://github.com/Bricktech2000/LTRE>
+[A fast regular expression library written in C99]                                               C
+  • Built  regex engine in C99 that compiles regular expressions down to minimal deterministic
+    finite automata to match input strings in 𝗹𝗶𝗻𝗲𝗮𝗿 𝘁𝗶𝗺𝗲 without backtracking.
+  • Wrote  extensive  test  suite of over 𝟯𝟬𝟬 𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end correctness of engine
+    and catch regressions.
+  • Developed  grep-like  tool as real-world stress test for engine, with command-line options
+    for  case-insensitive  and  smart-case  matching,  fixed-string  patterns,  full-match and
+    partial-match searches, and more.
 
 𝗔𝘁𝘁𝗼-𝟴 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
 [A minimalist 8-bit microcomputer with stack-based microprocessor]             Rust • C • Assembly
-  • Designed ecosystem of hardware and software from logic gates upward, including instruction
-    set architecture, from-scratch assembler and cross-platform emulator, totaling over 𝟮𝟬 𝟬𝟬𝟬
+  • Designed  entire  microcomputer  from  from  logic gates upward, including instruction set
+    architecture,  from-scratch  assembler  and  cross-platform emulator, totaling over 𝟮𝟬 𝟬𝟬𝟬
     𝗦𝗟𝗢𝗖 and 𝟳𝟱𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
-  • Wrote various demos in Assembly running natively on microcomputer — Wozmon-inspired memory
-    monitor  •  16×16  sprite  editor  •  Tetris  clone  • native assembler • postfix notation
+  • Wrote  various  utilities  in Assembly running natively on microcomputer — Wozmon-inspired
+    memory  monitor • 16×16 sprite editor • Tetris clone • native assembler • postfix notation
     calculator.
   • Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
     breadboards.
 
 𝗔𝘁𝘁𝗼-𝟴 𝗖 𝗖𝗼𝗺𝗽𝗶𝗹𝗲𝗿
 [A rudimentary C99 compiler for the Atto-8 microarchitecture]                  Rust • C • Assembly
-  • Building  C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting
+  • Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
     of preprocessor, parser, typechecker, optimizer and code generator.
-  • Implemented  dead  code  elimination, constant folding and strength reduction resulting in
+  • Implemented  dead  code elimination, constant folding and strength reduction, resulting in
     average of 𝟮𝟬% 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲 in generated code performance and 𝟭𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in binary size.
   • Developed  extensive  C  standard  library, including heap allocator supporting 𝗺𝗮𝗹𝗹𝗼𝗰 𝗮𝗻𝗱
     𝗳𝗿𝗲𝗲,  string  handling  functions  such  as  𝘀𝘁𝗿𝗹𝗲𝗻  𝗮𝗻𝗱 𝗺𝗲𝗺𝗰𝗽𝘆 and input/output routines
     including 𝗽𝗿𝗶𝗻𝘁𝗳 supporting conversion specifiers %d, %u, %x, %c, %s and %p.
-
-𝗟𝗧𝗥𝗘 𝗥𝗲𝗴𝗲𝘅 𝗘𝗻𝗴𝗶𝗻𝗲 <https://github.com/Bricktech2000/LTRE>
-[A fast regular expression library written in C99]                                               C
-  • Built  regex engine in C99 which compiles regular expressions down to deterministic finite
-    automata to match input strings in 𝗹𝗶𝗻𝗲𝗮𝗿 𝘁𝗶𝗺𝗲 without backtracking.
-  • Wrote  extensive  test  suite of over 𝟭𝟬𝟬 𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end correctness of engine
-    and catch regressions.
-  • Developed  grep-like tool supporting flags -v, -x, -i, -n and -c as real-world stress test
-    for engine.
 
 𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://github.com/Bricktech2000/DBLess>
 [A hash-based, database-less password manager]                                          C • Python
@@ -44,36 +55,23 @@
   • Reimplemented  password  generation algorithm in C along with SHA-256 routines as per FIPS
     PUB 180-4 for use as interactive CLI tool.
 
-——— VOLUNTEERING ——————————————————————————————————————————————————————————————————————————————————
+─── VOLUNTEERING ──────────────────────────────────────────────────────────────────────────────────
+
+𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
+[Club Executive]                                          University of Ottawa | June 2022–Present
+  • Building community of 𝗼𝘃𝗲𝗿 𝟭𝟬𝟬𝟬 computer science students at the University of Ottawa.
+  • Collaborated  with  executive board to brainstorm and organize a dozen events by designing
+    marketing material with Figma and hosting workshops for over 𝟭𝟬𝟬 𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀.
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 <http://hackthehill.com/>
-[Development Manager — Development Team]                          Ottawa | November 2022 — Present
-  • Leading development of open-source participant tracker built with Next.js and Prisma, used
-    by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
+[Development Manager — Development Team]                       Ottawa | November 2022–October 2024
+  • Led  development of open-source participant tracker built with Next.js and Prisma, used by
+    over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
   • Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
     collaboration with sponsorship team, enabling processing of over 𝟮𝟬 𝟬𝟬𝟬$.
 
-𝘂𝗢𝘁𝘁𝗮𝘄𝗮 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
-[Club Executive]                                        University of Ottawa | June 2022 — Present
-  • Building community of 𝗼𝘃𝗲𝗿 𝟭𝟬𝟬𝟬 computer science students at the University of Ottawa.
-  • Collaborated  with  executive board to brainstorm, organize and schedule a dozen events by
-    designing marketing material with Figma and hosting workshops for over 𝟭𝟬𝟬 𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀.
-
-——— EXPERIENCE ————————————————————————————————————————————————————————————————————————————————————
-
-𝗭𝗲𝗽𝘁𝗶𝗹𝗲 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲
-[Software Engineer — Web3]                                    Remote | October 2022 — October 2023
-  • Implemented  various  smart  contracts  in Solidity and ensured 𝟭𝟬𝟬% 𝘁𝗲𝘀𝘁 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 through
-    Chai and Hardhat.
-
-——— EDUCATION —————————————————————————————————————————————————————————————————————————————————————
-
-𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 𝗼𝗳 𝗢𝘁𝘁𝗮𝘄𝗮
-[BSc with Honours in Computer Science]                                    September 2021 — Present
-  • Admission scholarship — 95%+ average.                                            November 2020
-
-——— SKILLS ————————————————————————————————————————————————————————————————————————————————————————
-  • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 C • Rust • Python • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua
-    • C++
-  • 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗧𝗼𝗼𝗹𝘀 GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker
-  • 𝗢𝘁𝗵𝗲𝗿 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀 React • Node.js • Express • Figma • Notion • Cloudflare • GitHub
+─── SKILLS ────────────────────────────────────────────────────────────────────────────────────────
+  • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀  —  C • Rust • Python • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX •
+    Lua • C++
+  • 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker
+  • 𝗢𝘁𝗵𝗲𝗿 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀 — React • Node.js • Express • Figma • Notion • Cloudflare • GitHub

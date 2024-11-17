@@ -4,15 +4,11 @@ import os
 import re
 
 
-def utf8_replace_html_entities(html):
-  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '•').replace('&mdash;', '—').replace('&dollar;', '$').replace('&ndash;', '—').replace('&times;', '×')
+def unicode_to_ascii(text):
+  return text.replace('\u00a0', ' ').replace('\u2022', '-').replace('\u2014', '---').replace('\u2013', '--').replace('\u00d7', 'x').replace('\u2500', '-').replace('\u2019', "'")
 
 
-def ascii_replace_html_entities(html):
-  return html.replace('&nbsp;', ' ').replace('&ensp;', '  ').replace('&bull;', '-').replace('&mdash;', '--').replace('&dollar;', '$').replace('&ndash;', '-').replace('&times;', 'x')
-
-
-def make_text_renderer(format_strong, format_emphasis, format_code, format_html, len_patched=len, width=96, small_width=90):
+def make_text_renderer(format_strong, format_emphasis, format_code, format_text, len_patched=len, width=96, small_width=90):
   from marko.renderer import Renderer
 
   def fill(text, target_width, justify=False):
@@ -48,7 +44,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       self.format_strong = format_strong
       self.format_emphasis = format_emphasis
       self.format_code = format_code
-      self.format_html = format_html
+      self.format_text = format_text
       self.width = width
       self.small_width = small_width
 
@@ -78,7 +74,8 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
         return re.sub(r' +\n', r'\n', figlet_output.decode('utf-8'))
 
       if element.level == 2:
-        return f'\n{self.format_html("&ndash;&ndash;&ndash;") + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_html("&ndash;"))}\n'
+        hh = '\u2500'
+        return f'\n{self.format_text(hh * 3) + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_text(hh))}\n'
 
       if element.level == 3:
         def strong_safe(element):
@@ -96,7 +93,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
         newline = '\n'
         return f'{bullet}{(newline + " " * len(bullet)).join(fill(self.render_children(element), self.small_width, justify=True).split(newline))}\n'
 
-      return ''.join(render_list_child(child, '    ' if element.ordered else self.format_html('  &bull; ')) for child in element.children)
+      return ''.join(render_list_child(child, '    ' if element.ordered else self.format_text('  \u2022 ')) for child in element.children)
 
     def render_list_item(self, _):
       raise NotImplementedError
@@ -112,7 +109,8 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       return self.render_code_block(element)
 
     def render_thematic_break(self, _):
-      return f'\n{" " * (self.width // 2 - 3) + self.format_html("&bull;&nbsp;&bull;&nbsp;&bull;")}\n'
+      bull, nbsp = '\u2022', '\u00a0'
+      return f'\n{" " * (self.width // 2 - 3) + self.format_text(f"{bull}{nbsp}{bull}{nbsp}{bull}")}\n'
 
     def render_html_block(self, _):
       return f''
@@ -137,7 +135,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
 
     def render_code_span(self, element):
       newline = '\n'
-      return f'||||{(newline + "||||").join(fill(self.format_code(self.format_html(element.children)), self.small_width).split(newline))}'
+      return f'||||{(newline + "||||").join(fill(self.format_code(self.format_text(element.children)), self.small_width).split(newline))}'
 
     def render_emphasis(self, element):
       return f'{fill(self.format_emphasis(self.render_children(element)), self.small_width)}'
@@ -156,7 +154,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_html,
       raise NotImplementedError
 
     def render_raw_text(self, element):
-      return f'{self.format_html(element.children)}'
+      return f'{self.format_text(element.children)}'
 
   return TextRenderer
 
@@ -208,7 +206,7 @@ def make_pdf_process(html_process):
 
 
 def md_process(source):
-  return utf8_replace_html_entities(re.sub(r'<!--(.|\n)*?-->(\n\n)?', r'', source)).encode('utf-8')
+  return re.sub(r'<!--(.|\n)*?-->(\n\n)?', r'', source).encode('utf-8')
 
 
 def dark_html_process(source):
@@ -227,7 +225,7 @@ def ascii_txt_process(source):
       lambda strong: str.upper(strong),
       lambda emphasis: '[' + emphasis + ']',
       lambda code: code,
-      lambda html: ascii_replace_html_entities(html))
+      lambda text: unicode_to_ascii(text))
 
   # raise exception if not valid ASCII
   return Markdown(parser=Parser, renderer=AsciiTxtRenderer)(source).decode('utf-8').encode('ascii')
@@ -247,7 +245,7 @@ def utf8_txt_process(source):
           '                                 !"#$%&\'()*+,-./𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵:;<=>?@𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤𝗥𝗦𝗧𝗨𝗩𝗪𝗫𝗬𝗭[\\]^_`𝗮𝗯𝗰𝗱𝗲𝗳𝗴𝗵𝗶𝗷𝗸𝗹𝗺𝗻𝗼𝗽𝗾𝗿𝘀𝘁𝘂𝘃𝘄𝘅𝘆𝘇{|}~'),
       lambda emphasis: '[' + emphasis + ']',
       lambda code: code,
-      lambda html: utf8_replace_html_entities(html))
+      lambda text: text)
 
   return Markdown(parser=Parser, renderer=Utf8TxtRenderer)(source)
 
@@ -260,7 +258,7 @@ def term_txt_process(source):
       lambda strong: '\033[1m' + strong + '\033[0m',
       lambda emphasis: '[' + '\033[3m' + emphasis + '\033[0m' + ']',
       lambda code: '\033[3m' + code + '\033[0m',
-      lambda html: utf8_replace_html_entities(html),
+      lambda text: unicode_to_ascii(text),
       lambda string: len(re.sub(r'\033[^m]*m', '', string)))
 
   return Markdown(parser=Parser, renderer=TermTxtRenderer)(source)

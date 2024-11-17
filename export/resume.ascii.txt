@@ -5,14 +5,34 @@
 613-913-9909 - mail@emilien.ca - github.com/Bricktech2000 - linkedin.com/in/emilien-breton
 - https://emilien.ca/
 
+--- EXPERIENCE ------------------------------------------------------------------------------------
+
+ECOSAFESENSE
+[Firmware Engineer]                                                 Ottawa | October 2024--Present
+
+ZEPTILE SOFTWARE
+[Software Engineer --- Web3]                                   Remote | October 2022--October 2023
+  - Implemented  various  smart  contracts  in Solidity and ensured 100% TEST COVERAGE through
+    Chai and Hardhat.
+
 --- PROJECTS --------------------------------------------------------------------------------------
+
+LTRE REGEX ENGINE <https://github.com/Bricktech2000/LTRE>
+[A fast regular expression library written in C99]                                               C
+  - Built  regex engine in C99 that compiles regular expressions down to minimal deterministic
+    finite automata to match input strings in LINEAR TIME without backtracking.
+  - Wrote  extensive  test  suite of over 300 TESTS to ensure end-to-end correctness of engine
+    and catch regressions.
+  - Developed  grep-like  tool as real-world stress test for engine, with command-line options
+    for  case-insensitive  and  smart-case  matching,  fixed-string  patterns,  full-match and
+    partial-match searches, and more.
 
 ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
 [A minimalist 8-bit microcomputer with stack-based microprocessor]             Rust - C - Assembly
-  - Designed ecosystem of hardware and software from logic gates upward, including instruction
-    set architecture, from-scratch assembler and cross-platform emulator, totaling over 20 000
+  - Designed  entire  microcomputer  from  from  logic gates upward, including instruction set
+    architecture,  from-scratch  assembler  and  cross-platform emulator, totaling over 20 000
     SLOC and 750 HOURS of work.
-  - Wrote  various  demos  in  Assembly  running  natively on microcomputer -- Wozmon-inspired
+  - Wrote  various utilities in Assembly running natively on microcomputer --- Wozmon-inspired
     memory  monitor - 16x16 sprite editor - Tetris clone - native assembler - postfix notation
     calculator.
   - Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
@@ -20,22 +40,13 @@ ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
 
 ATTO-8 C COMPILER
 [A rudimentary C99 compiler for the Atto-8 microarchitecture]                  Rust - C - Assembly
-  - Building  C99 compiler from sctatch in Rust targeting Atto-8 Assembly language, consisting
+  - Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
     of preprocessor, parser, typechecker, optimizer and code generator.
-  - Implemented  dead  code  elimination, constant folding and strength reduction resulting in
+  - Implemented  dead  code elimination, constant folding and strength reduction, resulting in
     average of 20% INCREASE in generated code performance and 10% REDUCTION in binary size.
   - Developed  extensive  C  standard  library, including heap allocator supporting MALLOC AND
     FREE,  string  handling  functions  such  as  STRLEN  AND MEMCPY and input/output routines
     including PRINTF supporting conversion specifiers %d, %u, %x, %c, %s and %p.
-
-LTRE REGEX ENGINE <https://github.com/Bricktech2000/LTRE>
-[A fast regular expression library written in C99]                                               C
-  - Built  regex engine in C99 which compiles regular expressions down to deterministic finite
-    automata to match input strings in LINEAR TIME without backtracking.
-  - Wrote  extensive  test  suite of over 100 TESTS to ensure end-to-end correctness of engine
-    and catch regressions.
-  - Developed  grep-like tool supporting flags -v, -x, -i, -n and -c as real-world stress test
-    for engine.
 
 DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
 [A hash-based, database-less password manager]                                          C - Python
@@ -46,34 +57,21 @@ DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
 
 --- VOLUNTEERING ----------------------------------------------------------------------------------
 
+UOTTAWA COMPUTER SCIENCE CLUB <https://uocsclub.ca/>
+[Club Executive]                                         University of Ottawa | June 2022--Present
+  - Building community of OVER 1000 computer science students at the University of Ottawa.
+  - Collaborated  with  executive board to brainstorm and organize a dozen events by designing
+    marketing material with Figma and hosting workshops for over 100 STUDENTS.
+
 HACK THE HILL HACKATHON <http://hackthehill.com/>
-[Development Manager -- Development Team]                        Ottawa | November 2022 -- Present
-  - Leading development of open-source participant tracker built with Next.js and Prisma, used
-    by over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
+[Development Manager --- Development Team]                    Ottawa | November 2022--October 2024
+  - Led  development of open-source participant tracker built with Next.js and Prisma, used by
+    over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
   - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
     collaboration with sponsorship team, enabling processing of over 20 000$.
 
-UOTTAWA COMPUTER SCIENCE CLUB <https://uocsclub.ca/>
-[Club Executive]                                       University of Ottawa | June 2022 -- Present
-  - Building community of OVER 1000 computer science students at the University of Ottawa.
-  - Collaborated  with  executive board to brainstorm, organize and schedule a dozen events by
-    designing marketing material with Figma and hosting workshops for over 100 STUDENTS.
-
---- EXPERIENCE ------------------------------------------------------------------------------------
-
-ZEPTILE SOFTWARE
-[Software Engineer -- Web3]                                  Remote | October 2022 -- October 2023
-  - Implemented  various  smart  contracts  in Solidity and ensured 100% TEST COVERAGE through
-    Chai and Hardhat.
-
---- EDUCATION -------------------------------------------------------------------------------------
-
-UNIVERSITY OF OTTAWA
-[BSc with Honours in Computer Science]                                   September 2021 -- Present
-  - Admission scholarship -- 95%+ average.                                           November 2020
-
 --- SKILLS ----------------------------------------------------------------------------------------
-  - LANGUAGES C - Rust - Python - JavaScript - HTML/CSS - JSON - YAML - Markdown - LaTeX - Lua
-    - C++
-  - DEVELOPER TOOLS GNU/Linux - Vim - Bash - Fish Shell - Git - GDB - GNU Make - Docker
-  - OTHER TECHNOLOGIES React - Node.js - Express - Figma - Notion - Cloudflare - GitHub
+  - LANGUAGES --- C - Rust - Python - JavaScript - HTML/CSS - JSON - YAML - Markdown - LaTeX -
+    Lua - C++
+  - DEVELOPER TOOLS --- GNU/Linux - Vim - Bash - Fish Shell - Git - GDB - GNU Make - Docker
+  - OTHER TECHNOLOGIES --- React - Node.js - Express - Figma - Notion - Cloudflare - GitHub
