@@ -24,8 +24,8 @@
         --text-primary: [TEXT_PRIMARY];
         --text-secondary: [TEXT_SECONDARY];
         --background: [BACKGROUND];
-        --sans: Roboto, sans-serif;
-        --mono: Inconsolata, monospace;
+        --body: Roboto, sans-serif;
+        --code: Inconsolata, monospace;
       }
 
       * {
@@ -44,7 +44,7 @@
         /* A4 paper size */
         width: 210mm;
         height: 297mm;
-        font-family: var(--sans);
+        font-family: var(--body);
         font-weight: 300;
         color: var(--text-primary);
         background: var(--background);
@@ -137,7 +137,7 @@
         height: 100%;
         float: right;
         align-items: center;
-        font-family: var(--sans);
+        font-family: var(--body);
         font-weight: 400;
         font-style: italic;
         color: var(--text-secondary);
@@ -146,7 +146,7 @@
       em {
         height: 100%;
         align-items: center;
-        font-family: var(--sans);
+        font-family: var(--body);
         text-transform: uppercase;
         font-weight: 400;
         font-size: 0.875em;

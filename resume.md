@@ -6,7 +6,9 @@
 
 [613-913-9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
 
-<!-- https://www.engineering.cornell.edu/sites/default/files/users/user240/Action%20Words%20for%20ENG%20(website).pdf -->
+<!-- https://www.engineering.cornell.edu/sites/default/files/departments/career%20services/Action-Words-for-ENG-2016.pdf -->
+
+<!-- https://practicaltypography.com/resumes.html -->
 
 ## Experience
 
@@ -14,15 +16,25 @@
 
 <!-- first meeting with Olga was 2024-10-16 -->
 
-_Firmware Engineer_ `Ottawa | October 2024–Present`
+_Firmware Engineer_ `Ottawa | October 2024–Present`
 
+### Cohere
+
+<!-- contractor agreement signed 2024-10-28 -->
+
+_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–Present`
+
+- Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory, group theory and graph theory.
+
+<!--
 ### Zeptile Software
 
-<!-- start date according to Discord conversations. end date estimated -->
+<!-- start date according to Discord conversations. end date estimated
 
-_Software Engineer — Web3_ `Remote | October 2022–October 2023`
+_Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
 - Implemented various smart contracts in Solidity and ensured **100% test coverage** through Chai and Hardhat.
+-->
 
 ## Projects
 
@@ -32,9 +44,12 @@ _A fast regular expression library written in C99_ `C`
 
 - Built [regex engine](https://github.com/Bricktech2000/LTRE/blob/master/ltre.c) in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in **linear time** without backtracking.
 - Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **300 tests** to ensure end-to-end correctness of engine and catch regressions.
-- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, with command-line options for case-insensitive and smart-case matching, fixed-string patterns, full-match and partial-match searches, and more.
+- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, achieving performance on par with GNU grep.
 
-<!-- - Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) supporting flags -v, -x/-p, -i/-s, -S, -F, -n/-N, -H/-I and -c as real-world stress test for engine. -->
+<!--
+- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) supporting flags -v, -x/-p, -i/-s, -S, -F, -n/-N, -H/-I and -c as real-world stress test for engine.
+- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, with command-line options for case-insensitive and smart-case matching, fixed-string patterns, full-match and partial-match searches, and more.
+-->
 
 ### [Atto-8 Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
@@ -98,7 +113,7 @@ _A neural network that learns to compress images_ `Python • Tensorflow • K
 
 ## Volunteering
 
-### [uOttawa Computer Science Club](https://uocsclub.ca/)
+### [Computer Science Club](https://uocsclub.ca/)
 
 <!-- May 29 2022 20:57 according to CS Discord Jedi -->
 
@@ -109,14 +124,15 @@ _A neural network that learns to compress images_ `Python • Tensorflow • K
 - refreshed Discord server with clearer roles and introduction
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress.
 - Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
+- hosted talk on the practicality of the lambda-calculus
 -->
 
-<!-- 1147 members on Discord server as of 2023-11-10 19:08 -->
+<!-- 1306 members on Discord server as of 2024-11-23 03:03 -->
 
-_Club Executive_ `University of Ottawa | June 2022–Present`
+_Club Executive_ `University of Ottawa | June 2022–Present`
 
-- Building community of **over 1000** computer science students at the University of Ottawa.
-- Collaborated with executive board to brainstorm and organize a dozen events by designing marketing material with Figma and hosting workshops for <!-- cumulative estimate --> over **100 students**.
+- Running growing community of **over 1000** computer science students at the University of Ottawa.
+- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, including workshop on Vim bindings and mini-course on the λ-calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
 
@@ -125,17 +141,17 @@ _Club Executive_ `University of Ottawa | June 2022–Present`
 <!-- Development Coordinator was updated to Development Manager around 2023-05-01 -->
 
 <!--
-_Development Manager — Development Team_ `Ottawa | May 2023–October 2024`
-_Development Coordinator — Development Team_ `Ottawa | November 2022–May 2023`
+_Development Manager — Development Team_ `Ottawa | May 2023–October 2024`
+_Development Coordinator — Development Team_ `Ottawa | November 2022–May 2023`
 -->
 
-_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
+_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
 
 <!-- according to https://prisma.hackthehill.com/ -->
 
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 
-- Led development of [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over **1000 hackers** and **50 organizers** throughout hackathon.
+- Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
 - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
 
 <!--

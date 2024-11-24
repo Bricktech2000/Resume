@@ -5,7 +5,7 @@ import re
 
 
 def unicode_to_ascii(text):
-  return text.replace('\u00a0', ' ').replace('\u2022', '-').replace('\u2014', '---').replace('\u2013', '--').replace('\u00d7', 'x').replace('\u2500', '-').replace('\u2019', "'")
+  return text.replace('\u00a0', ' ').replace('\u2022', '-').replace('\u2014', '---').replace('\u2013', '--').replace('\u00d7', 'x').replace('\u2500', '-').replace('\u2019', "'").replace('\u03bb', 'lambda')
 
 
 def make_text_renderer(format_strong, format_emphasis, format_code, format_text, len_patched=len, width=96, small_width=90):

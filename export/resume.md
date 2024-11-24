@@ -8,13 +8,13 @@
 
 ### EcoSafeSense
 
-_Firmware Engineer_ `Ottawa | October 2024–Present`
+_Firmware Engineer_ `Ottawa | October 2024–Present`
 
-### Zeptile Software
+### Cohere
 
-_Software Engineer — Web3_ `Remote | October 2022–October 2023`
+_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–Present`
 
-- Implemented various smart contracts in Solidity and ensured **100% test coverage** through Chai and Hardhat.
+- Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory, group theory and graph theory.
 
 ## Projects
 
@@ -24,7 +24,7 @@ _A fast regular expression library written in C99_ `C`
 
 - Built [regex engine](https://github.com/Bricktech2000/LTRE/blob/master/ltre.c) in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in **linear time** without backtracking.
 - Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **300 tests** to ensure end-to-end correctness of engine and catch regressions.
-- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, with command-line options for case-insensitive and smart-case matching, fixed-string patterns, full-match and partial-match searches, and more.
+- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, achieving performance on par with GNU grep.
 
 ### [Atto-8 Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
@@ -51,18 +51,18 @@ _A hash-based, database-less password manager_ `C • Python`
 
 ## Volunteering
 
-### [uOttawa Computer Science Club](https://uocsclub.ca/)
+### [Computer Science Club](https://uocsclub.ca/)
 
-_Club Executive_ `University of Ottawa | June 2022–Present`
+_Club Executive_ `University of Ottawa | June 2022–Present`
 
-- Building community of **over 1000** computer science students at the University of Ottawa.
-- Collaborated with executive board to brainstorm and organize a dozen events by designing marketing material with Figma and hosting workshops for  over **100 students**.
+- Running growing community of **over 1000** computer science students at the University of Ottawa.
+- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, including workshop on Vim bindings and mini-course on the λ-calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
 
-_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
+_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
 
-- Led development of [open-source participant tracker](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma, used by over **1000 hackers** and **50 organizers** throughout hackathon.
+- Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
 - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
 
 ## Skills
