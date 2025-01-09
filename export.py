@@ -206,7 +206,7 @@ def make_pdf_process(html_process):
 
 
 def md_process(source):
-  return re.sub(r'<!--(.|\n)*?-->(\n\n)?', r'', source).encode('utf-8')
+  return re.sub(r'(\n?)<!--(.|\n)*?-->\1', r'', source).encode('utf-8')
 
 
 def dark_html_process(source):

@@ -1,9 +1,5 @@
 # Emilien **Breton**
 
-<!--          WARNING          -->
-<!-- don't spam call me thanks -->
-<!--        END WARNING        -->
-
 [613-913-9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
 
 <!-- https://www.engineering.cornell.edu/sites/default/files/departments/career%20services/Action-Words-for-ENG-2016.pdf -->
@@ -24,12 +20,12 @@ _Firmware Engineer_ `Ottawa | October 2024–Present`
 
 _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–Present`
 
-- Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory, group theory and graph theory.
+- Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and optimization.
 
 <!--
 ### Zeptile Software
 
-<!-- start date according to Discord conversations. end date estimated
+<! -- start date according to Discord conversations. end date estimated -- >
 
 _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
@@ -43,7 +39,7 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 _A fast regular expression library written in C99_ `C`
 
 - Built [regex engine](https://github.com/Bricktech2000/LTRE/blob/master/ltre.c) in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in **linear time** without backtracking.
-- Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **300 tests** to ensure end-to-end correctness of engine and catch regressions.
+- Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **400 tests** to ensure end-to-end correctness of engine and catch regressions.
 - Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, achieving performance on par with GNU grep.
 
 <!--
@@ -68,9 +64,10 @@ _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • C�
 _A rudimentary C99 compiler for the Atto-8 microarchitecture_ `Rust • C • Assembly`
 
 - Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting of [preprocessor](https://github.com/Bricktech2000/Atto-8/blob/master/cc/preprocess.rs), [parser](https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs), [typechecker](https://github.com/Bricktech2000/Atto-8/blob/master/cc/typecheck.rs), [optimizer](https://github.com/Bricktech2000/Atto-8/blob/master/cc/optimize.rs) and [code generator](https://github.com/Bricktech2000/Atto-8/blob/master/cc/codegen.rs).
-- Implemented dead code elimination, constant folding and strength reduction, resulting in average of **20% increase** in generated code performance and **10% reduction** in binary size.
-- Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **printf** supporting conversion specifiers %d, %u, %x, %c, %s and %p.
+- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite.
+- Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. <!-- supporting conversion specifiers %d, %u, %x, %c, %s and %p -->
 
+<!--
 ### [DBLess Password Manager](https://github.com/Bricktech2000/DBLess)
 
 _A hash-based, database-less password manager_ `C • Python`
@@ -78,7 +75,8 @@ _A hash-based, database-less password manager_ `C • Python`
 - Devised [custom hash procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
 - Reimplemented password generation algorithm in C along with [SHA-256 routines](https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c) as per FIPS PUB 180-4 for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
 
-<!-- - Built cross-platform PWA with Next.js used by over **50 accounts** <!-- 50 of which are mine that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience. -->
+- Built cross-platform PWA with Next.js used by over **50 accounts** <! -- 50 of which are mine -- > that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience.
+-->
 
 <!--
 ### [Personal Website](https://emilien.ca/)
@@ -92,7 +90,7 @@ _A portfolio for sharing various projects_ `Markdown • Next.js`
 <!--
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
 
-<!-- March 18th 2022–March 20th 2022
+<! -- March 18th 2022–March 20th 2022 -- >
 
 _Submission for DeFi The Conventional 2022_ `React • Rust`
 
@@ -132,7 +130,7 @@ _A neural network that learns to compress images_ `Python • Tensorflow • K
 _Club Executive_ `University of Ottawa | June 2022–Present`
 
 - Running growing community of **over 1000** computer science students at the University of Ottawa.
-- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, including workshop on Vim bindings and mini-course on the λ-calculus.
+- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
 
@@ -176,8 +174,8 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 <!--
 ### Spoken Languages
 
-<!-- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf
-<!-- https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/
+<! -- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf -- >
+<! -- https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/ -- >
 
 - French `Native`
 - English `Native`

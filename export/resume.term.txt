@@ -13,8 +13,8 @@
 [1mCohere[0m
 [[3mSenior Data Quality Specialist --- Advanced Mathematics[0m]        [3mFreelance | October 2024--Present[0m
   - Writing, auditing and correcting LLM prompts and responses with utmost attention to detail
-    to  produce  [1mspotless  training  data[0m in formal logic, combinatorics, number theory, group
-    theory and graph theory.
+    to  produce  [1mspotless  training  data[0m in formal logic, combinatorics, number theory, graph
+    theory and optimization.
 
 --- PROJECTS --------------------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@
 [[3mA fast regular expression library written in C99[0m]                                               [3mC[0m
   - Built  regex engine in C99 that compiles regular expressions down to minimal deterministic
     finite automata to match input strings in [1mlinear time[0m without backtracking.
-  - Wrote  extensive  test  suite of over [1m300 tests[0m to ensure end-to-end correctness of engine
+  - Wrote  extensive  test  suite of over [1m400 tests[0m to ensure end-to-end correctness of engine
     and catch regressions.
   - Developed  grep-like  tool  as real-world stress test for engine, achieving performance on
     par with GNU grep.
@@ -43,17 +43,11 @@
   - Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
     of preprocessor, parser, typechecker, optimizer and code generator.
   - Implemented  dead  code elimination, constant folding and strength reduction, resulting in
-    average of [1m20% increase[0m in generated code performance and [1m10% reduction[0m in binary size.
+    [1m20%  increase[0m  in  generated code performance and [1m10% reduction[0m in binary size across test
+    suite.
   - Developed  extensive  C  standard  library, including heap allocator supporting [1mmalloc and
     free[0m,  string  handling  functions  such  as  [1mstrlen  and memcpy[0m and input/output routines
-    including [1mprintf[0m supporting conversion specifiers %d, %u, %x, %c, %s and %p.
-
-[1mDBLess Password Manager[0m <https://github.com/Bricktech2000/DBLess>
-[[3mA hash-based, database-less password manager[0m]                                          [3mC - Python[0m
-  - Devised custom hash procedure based on SHA-256 in Python which deterministically generates
-    passwords on demand without requiring encryption or password storage.
-  - Reimplemented  password  generation algorithm in C along with SHA-256 routines as per FIPS
-    PUB 180-4 for use as interactive CLI tool.
+    including [1mgetline and printf[0m.
 
 --- VOLUNTEERING ----------------------------------------------------------------------------------
 
@@ -62,7 +56,7 @@
   - Running  growing  community  of  [1mover  1000[0m computer science students at the University of
     Ottawa.
   - Collaborating with executive board to brainstorm, plan, fund and market monthly events and
-    meetups, including workshop on Vim bindings and mini-course on the lambda-calculus.
+    meetups, such as workshop on Vim bindings and mini-course on the lambda-calculus.
 
 [1mHack the Hill Hackathon[0m <http://hackthehill.com/>
 [[3mDevelopment Manager --- Development Team[0m]                    [3mOttawa | November 2022--October 2024[0m

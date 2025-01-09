@@ -13,8 +13,8 @@ ECOSAFESENSE
 COHERE
 [Senior Data Quality Specialist --- Advanced Mathematics]        Freelance | October 2024--Present
   - Writing, auditing and correcting LLM prompts and responses with utmost attention to detail
-    to  produce  SPOTLESS  TRAINING  DATA in formal logic, combinatorics, number theory, group
-    theory and graph theory.
+    to  produce  SPOTLESS  TRAINING  DATA in formal logic, combinatorics, number theory, graph
+    theory and optimization.
 
 --- PROJECTS --------------------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ LTRE REGEX ENGINE <https://github.com/Bricktech2000/LTRE>
 [A fast regular expression library written in C99]                                               C
   - Built  regex engine in C99 that compiles regular expressions down to minimal deterministic
     finite automata to match input strings in LINEAR TIME without backtracking.
-  - Wrote  extensive  test  suite of over 300 TESTS to ensure end-to-end correctness of engine
+  - Wrote  extensive  test  suite of over 400 TESTS to ensure end-to-end correctness of engine
     and catch regressions.
   - Developed  grep-like  tool  as real-world stress test for engine, achieving performance on
     par with GNU grep.
@@ -43,17 +43,11 @@ ATTO-8 C COMPILER
   - Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
     of preprocessor, parser, typechecker, optimizer and code generator.
   - Implemented  dead  code elimination, constant folding and strength reduction, resulting in
-    average of 20% INCREASE in generated code performance and 10% REDUCTION in binary size.
+    20%  INCREASE  in  generated code performance and 10% REDUCTION in binary size across test
+    suite.
   - Developed  extensive  C  standard  library, including heap allocator supporting MALLOC AND
     FREE,  string  handling  functions  such  as  STRLEN  AND MEMCPY and input/output routines
-    including PRINTF supporting conversion specifiers %d, %u, %x, %c, %s and %p.
-
-DBLESS PASSWORD MANAGER <https://github.com/Bricktech2000/DBLess>
-[A hash-based, database-less password manager]                                          C - Python
-  - Devised custom hash procedure based on SHA-256 in Python which deterministically generates
-    passwords on demand without requiring encryption or password storage.
-  - Reimplemented  password  generation algorithm in C along with SHA-256 routines as per FIPS
-    PUB 180-4 for use as interactive CLI tool.
+    including GETLINE AND PRINTF.
 
 --- VOLUNTEERING ----------------------------------------------------------------------------------
 
@@ -62,7 +56,7 @@ COMPUTER SCIENCE CLUB <https://uocsclub.ca/>
   - Running  growing  community  of  OVER  1000 computer science students at the University of
     Ottawa.
   - Collaborating with executive board to brainstorm, plan, fund and market monthly events and
-    meetups, including workshop on Vim bindings and mini-course on the lambda-calculus.
+    meetups, such as workshop on Vim bindings and mini-course on the lambda-calculus.
 
 HACK THE HILL HACKATHON <http://hackthehill.com/>
 [Development Manager --- Development Team]                    Ottawa | November 2022--October 2024

@@ -13,8 +13,8 @@
 𝗖𝗼𝗵𝗲𝗿𝗲
 [Senior Data Quality Specialist — Advanced Mathematics]           Freelance | October 2024–Present
   • Writing, auditing and correcting LLM prompts and responses with utmost attention to detail
-    to  produce  𝘀𝗽𝗼𝘁𝗹𝗲𝘀𝘀  𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴  𝗱𝗮𝘁𝗮 in formal logic, combinatorics, number theory, group
-    theory and graph theory.
+    to  produce  𝘀𝗽𝗼𝘁𝗹𝗲𝘀𝘀  𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴  𝗱𝗮𝘁𝗮 in formal logic, combinatorics, number theory, graph
+    theory and optimization.
 
 ─── PROJECTS ──────────────────────────────────────────────────────────────────────────────────────
 
@@ -22,7 +22,7 @@
 [A fast regular expression library written in C99]                                               C
   • Built  regex engine in C99 that compiles regular expressions down to minimal deterministic
     finite automata to match input strings in 𝗹𝗶𝗻𝗲𝗮𝗿 𝘁𝗶𝗺𝗲 without backtracking.
-  • Wrote  extensive  test  suite of over 𝟯𝟬𝟬 𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end correctness of engine
+  • Wrote  extensive  test  suite of over 𝟰𝟬𝟬 𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end correctness of engine
     and catch regressions.
   • Developed  grep-like  tool  as real-world stress test for engine, achieving performance on
     par with GNU grep.
@@ -43,17 +43,11 @@
   • Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
     of preprocessor, parser, typechecker, optimizer and code generator.
   • Implemented  dead  code elimination, constant folding and strength reduction, resulting in
-    average of 𝟮𝟬% 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲 in generated code performance and 𝟭𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in binary size.
+    𝟮𝟬%  𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲  in  generated code performance and 𝟭𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in binary size across test
+    suite.
   • Developed  extensive  C  standard  library, including heap allocator supporting 𝗺𝗮𝗹𝗹𝗼𝗰 𝗮𝗻𝗱
     𝗳𝗿𝗲𝗲,  string  handling  functions  such  as  𝘀𝘁𝗿𝗹𝗲𝗻  𝗮𝗻𝗱 𝗺𝗲𝗺𝗰𝗽𝘆 and input/output routines
-    including 𝗽𝗿𝗶𝗻𝘁𝗳 supporting conversion specifiers %d, %u, %x, %c, %s and %p.
-
-𝗗𝗕𝗟𝗲𝘀𝘀 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 <https://github.com/Bricktech2000/DBLess>
-[A hash-based, database-less password manager]                                          C • Python
-  • Devised custom hash procedure based on SHA-256 in Python which deterministically generates
-    passwords on demand without requiring encryption or password storage.
-  • Reimplemented  password  generation algorithm in C along with SHA-256 routines as per FIPS
-    PUB 180-4 for use as interactive CLI tool.
+    including 𝗴𝗲𝘁𝗹𝗶𝗻𝗲 𝗮𝗻𝗱 𝗽𝗿𝗶𝗻𝘁𝗳.
 
 ─── VOLUNTEERING ──────────────────────────────────────────────────────────────────────────────────
 
@@ -62,7 +56,7 @@
   • Running  growing  community  of  𝗼𝘃𝗲𝗿  𝟭𝟬𝟬𝟬 computer science students at the University of
     Ottawa.
   • Collaborating with executive board to brainstorm, plan, fund and market monthly events and
-    meetups, including workshop on Vim bindings and mini-course on the λ-calculus.
+    meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 <http://hackthehill.com/>
 [Development Manager — Development Team]                       Ottawa | November 2022–October 2024

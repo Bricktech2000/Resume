@@ -163,6 +163,7 @@
         color: inherit;
         text-decoration: underline;
         text-underline-offset: 0.2em;
+        text-decoration-thickness: from-font;
       }
 
       a,
@@ -189,9 +190,6 @@
 
   <body>
     <h1>Emilien <strong>Breton</strong></h1>
-<!--          WARNING          -->
-<!-- don't spam call me thanks -->
-<!--        END WARNING        -->
 <p><a href="tel:+1-613-913-9909">613-913-9909</a> • <a href="mailto:mail@emilien.ca">mail@emilien.ca</a> • <a href="https://github.com/Bricktech2000">github.com/Bricktech2000</a> • <a href="https://www.linkedin.com/in/emilien-breton/">linkedin.com/in/emilien-breton</a> • <a href="https://emilien.ca/">https://emilien.ca/</a></p>
 <!-- https://www.engineering.cornell.edu/sites/default/files/departments/career%20services/Action-Words-for-ENG-2016.pdf -->
 <!-- https://practicaltypography.com/resumes.html -->
@@ -203,12 +201,12 @@
 <!-- contractor agreement signed 2024-10-28 -->
 <p><em>Senior Data Quality Specialist — Advanced Mathematics</em> <code>Freelance | October 2024–Present</code></p>
 <ul>
-<li>Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce <strong>spotless training data</strong> in formal logic, combinatorics, number theory, group theory and graph theory.</li>
+<li>Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce <strong>spotless training data</strong> in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and optimization.</li>
 </ul>
 <!--
 ### Zeptile Software
 
-<!-- start date according to Discord conversations. end date estimated
+<! -- start date according to Discord conversations. end date estimated -- >
 
 _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
@@ -219,7 +217,7 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 <p><em>A fast regular expression library written in C99</em> <code>C</code></p>
 <ul>
 <li>Built <a href="https://github.com/Bricktech2000/LTRE/blob/master/ltre.c">regex engine</a> in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in <strong>linear time</strong> without backtracking.</li>
-<li>Wrote <a href="https://github.com/Bricktech2000/LTRE/blob/master/test.c">extensive test suite</a> of over <strong>300 tests</strong> to ensure end-to-end correctness of engine and catch regressions.</li>
+<li>Wrote <a href="https://github.com/Bricktech2000/LTRE/blob/master/test.c">extensive test suite</a> of over <strong>400 tests</strong> to ensure end-to-end correctness of engine and catch regressions.</li>
 <li>Developed <a href="https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c">grep-like tool</a> as real-world stress test for engine, achieving performance on par with GNU grep.</li>
 </ul>
 <!--
@@ -239,16 +237,19 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 <p><em>A rudimentary C99 compiler for the Atto-8 microarchitecture</em> <code>Rust • C • Assembly</code></p>
 <ul>
 <li>Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting of <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/preprocess.rs">preprocessor</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs">parser</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/typecheck.rs">typechecker</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/optimize.rs">optimizer</a> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/codegen.rs">code generator</a>.</li>
-<li>Implemented dead code elimination, constant folding and strength reduction, resulting in average of <strong>20% increase</strong> in generated code performance and <strong>10% reduction</strong> in binary size.</li>
-<li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">input/output routines</a> including <strong>printf</strong> supporting conversion specifiers %d, %u, %x, %c, %s and %p.</li>
+<li>Implemented dead code elimination, constant folding and strength reduction, resulting in <strong>20% increase</strong> in generated code performance and <strong>10% reduction</strong> in binary size across test suite.</li>
+<li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">input/output routines</a> including <strong>getline and printf</strong>. <!-- supporting conversion specifiers %d, %u, %x, %c, %s and %p --></li>
 </ul>
-<h3><a href="https://github.com/Bricktech2000/DBLess">DBLess Password Manager</a></h3>
-<p><em>A hash-based, database-less password manager</em> <code>C • Python</code></p>
-<ul>
-<li>Devised <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py">custom hash procedure</a> based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.</li>
-<li>Reimplemented password generation algorithm in C along with <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c">SHA-256 routines</a> as per FIPS PUB 180-4 for use as <a href="https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c">interactive CLI tool</a>.</li>
-</ul>
-<!-- - Built cross-platform PWA with Next.js used by over **50 accounts** <!-- 50 of which are mine that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience. -->
+<!--
+### [DBLess Password Manager](https://github.com/Bricktech2000/DBLess)
+
+_A hash-based, database-less password manager_ `C • Python`
+
+- Devised [custom hash procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
+- Reimplemented password generation algorithm in C along with [SHA-256 routines](https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c) as per FIPS PUB 180-4 for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
+
+- Built cross-platform PWA with Next.js used by over **50 accounts** <! -- 50 of which are mine -- > that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience.
+-->
 <!--
 ### [Personal Website](https://emilien.ca/)
 
@@ -260,7 +261,7 @@ _A portfolio for sharing various projects_ `Markdown • Next.js`
 <!--
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
 
-<!-- March 18th 2022–March 20th 2022
+<! -- March 18th 2022–March 20th 2022 -- >
 
 _Submission for DeFi The Conventional 2022_ `React • Rust`
 
@@ -293,7 +294,7 @@ _A neural network that learns to compress images_ `Python • Tensorflow • K
 <p><em>Club Executive</em> <code>University of Ottawa | June 2022–Present</code></p>
 <ul>
 <li>Running growing community of <strong>over 1000</strong> computer science students at the University of Ottawa.</li>
-<li>Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, including workshop on Vim bindings and mini-course on the λ-calculus.</li>
+<li>Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.</li>
 </ul>
 <h3><a href="http://hackthehill.com/">Hack the Hill Hackathon</a></h3>
 <!-- according to Code, Coffee & Cram collab on 2022-10-30 -->
@@ -330,8 +331,8 @@ _Development Coordinator — Development Team_ `Ottawa | November 2022–May 2
 <!--
 ### Spoken Languages
 
-<!-- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf
-<!-- https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/
+<! -- https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf -- >
+<! -- https://corporatefinanceinstitute.com/resources/careers/resume/language-proficiency-levels/ -- >
 
 - French `Native`
 - English `Native`
@@ -350,7 +351,7 @@ _Development Coordinator — Development Team_ `Ottawa | November 2022–May 2
 - Aliquam ornare diam sit amet euismod pellentesque.
 - In condimentum tortor non odio consectetur accumsan.
 -->
-<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit eeac924 • Nov 2024` -->
+<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 29b8e30 • Jan 2025` -->
 
   </body>
 </html>
