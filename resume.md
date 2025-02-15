@@ -1,4 +1,4 @@
-# Emilien **Breton**
+# Emilien Breton
 
 [613-913-9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
 
@@ -12,7 +12,15 @@
 
 <!-- first meeting with Olga was 2024-10-16 -->
 
+<!--
+- wrote test bench firmware
+- soldered together sensors using hot air rework station
+- oversaw sensor installation
+-->
+
 _Firmware Engineer_ `Ottawa | October 2024–Present`
+
+- Writing firmware for ESP32-based air quality sensor and complementary test bench.
 
 ### Cohere
 
@@ -59,11 +67,11 @@ _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • C�
 - Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
-### Atto-8 C Compiler
+### [Atto-8 C Compiler](https://github.com/Bricktech2000/Atto-8/blob/master/cc)
 
 _A rudimentary C99 compiler for the Atto-8 microarchitecture_ `Rust • C • Assembly`
 
-- Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting of [preprocessor](https://github.com/Bricktech2000/Atto-8/blob/master/cc/preprocess.rs), [parser](https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs), [typechecker](https://github.com/Bricktech2000/Atto-8/blob/master/cc/typecheck.rs), [optimizer](https://github.com/Bricktech2000/Atto-8/blob/master/cc/optimize.rs) and [code generator](https://github.com/Bricktech2000/Atto-8/blob/master/cc/codegen.rs).
+- Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
 - Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite.
 - Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. <!-- supporting conversion specifiers %d, %u, %x, %c, %s and %p -->
 
@@ -97,16 +105,6 @@ _Submission for DeFi The Conventional 2022_ `React • Rust`
 - Won **first place** in Finance category of Canada’s largest DeFi hackathon along with **2500$ prize** as part of 3-member team.
 - Engineered [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within limited **36-hour timeframe**.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.
--->
-
-<!--
-### AI Image Compressor
-
-_A neural network that learns to compress images_ `Python • Tensorflow • Keras`
-
-- Implemented web scraper and image preprocessor optimized with numpy to generate millions of training samples in less than 5 minutes.
-- Created and implemented custom algorithm within autoencoder structure to allow for variable compression ratio with no overhead.
-- Supervised training process and tweaked settings leading to results of superior quality than JPEG compression when in favorable circumstances.
 -->
 
 ## Volunteering
@@ -164,6 +162,12 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 - worked on database schema for hacker tracker, implementing `hackers/hacker?id` endpoint
 - learned basics of SQL to build queries for hacker tracker
 -->
+
+## Awards
+
+- **uOttaHack 6** — 1st place QNX challenge `January 2025` <!-- January 17th 2024—January 19th 2024 -->
+- **CS Games 2024** — 1st place IOT challenge `March 2024` <!-- March 15th 2024—March 17th 2024 -->
+- **DeFi The Conventional** — 1st place DeFi challenge `March 2022` <!-- March 18th 2022–March 20th 2022 -->
 
 ## Skills
 

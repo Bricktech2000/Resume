@@ -1,4 +1,4 @@
-# Emilien **Breton**
+# Emilien Breton
 
 [613-913-9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
 
@@ -7,6 +7,8 @@
 ### EcoSafeSense
 
 _Firmware Engineer_ `Ottawa | October 2024–Present`
+
+- Writing firmware for ESP32-based air quality sensor and complementary test bench.
 
 ### Cohere
 
@@ -32,11 +34,11 @@ _A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • C�
 - Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
-### Atto-8 C Compiler
+### [Atto-8 C Compiler](https://github.com/Bricktech2000/Atto-8/blob/master/cc)
 
 _A rudimentary C99 compiler for the Atto-8 microarchitecture_ `Rust • C • Assembly`
 
-- Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting of [preprocessor](https://github.com/Bricktech2000/Atto-8/blob/master/cc/preprocess.rs), [parser](https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs), [typechecker](https://github.com/Bricktech2000/Atto-8/blob/master/cc/typecheck.rs), [optimizer](https://github.com/Bricktech2000/Atto-8/blob/master/cc/optimize.rs) and [code generator](https://github.com/Bricktech2000/Atto-8/blob/master/cc/codegen.rs).
+- Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
 - Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite.
 - Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. 
 
@@ -55,6 +57,12 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 - Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
 - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
+
+## Awards
+
+- **uOttaHack 6** — 1st place QNX challenge `January 2025` 
+- **CS Games 2024** — 1st place IOT challenge `March 2024` 
+- **DeFi The Conventional** — 1st place DeFi challenge `March 2022` 
 
 ## Skills
 

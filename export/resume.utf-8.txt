@@ -1,6 +1,6 @@
- __                   __
-|_   _  . | .  _  _  |__)  _  _ |_  _   _
-|__ ||| | | | (- | ) |__) |  (- |_ (_) | )
+ __                     __
+|_   _  . | .  _  _    |__)  _  _ |_  _   _
+|__ ||| | | | (- | )   |__) |  (- |_ (_) | )
 
 613-913-9909 • mail@emilien.ca • github.com/Bricktech2000 • linkedin.com/in/emilien-breton
 • https://emilien.ca/
@@ -9,6 +9,7 @@
 
 𝗘𝗰𝗼𝗦𝗮𝗳𝗲𝗦𝗲𝗻𝘀𝗲
 [Firmware Engineer]                                                  Ottawa | October 2024–Present
+  • Writing firmware for ESP32-based air quality sensor and complementary test bench.
 
 𝗖𝗼𝗵𝗲𝗿𝗲
 [Senior Data Quality Specialist — Advanced Mathematics]           Freelance | October 2024–Present
@@ -38,10 +39,9 @@
   • Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
     breadboards.
 
-𝗔𝘁𝘁𝗼-𝟴 𝗖 𝗖𝗼𝗺𝗽𝗶𝗹𝗲𝗿
+𝗔𝘁𝘁𝗼-𝟴 𝗖 𝗖𝗼𝗺𝗽𝗶𝗹𝗲𝗿 <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
 [A rudimentary C99 compiler for the Atto-8 microarchitecture]                  Rust • C • Assembly
-  • Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
-    of preprocessor, parser, typechecker, optimizer and code generator.
+  • Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
   • Implemented  dead  code elimination, constant folding and strength reduction, resulting in
     𝟮𝟬%  𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲  in  generated code performance and 𝟭𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in binary size across test
     suite.
@@ -64,6 +64,11 @@
     used by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
   • Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
     collaboration with sponsorship team, enabling processing of over 𝟮𝟬 𝟬𝟬𝟬$.
+
+─── AWARDS ────────────────────────────────────────────────────────────────────────────────────────
+  • 𝘂𝗢𝘁𝘁𝗮𝗛𝗮𝗰𝗸 𝟲 — 1st place QNX challenge                                             January 2025
+  • 𝗖𝗦 𝗚𝗮𝗺𝗲𝘀 𝟮𝟬𝟮𝟰 — 1st place IOT challenge                                             March 2024
+  • 𝗗𝗲𝗙𝗶 𝗧𝗵𝗲 𝗖𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝗮𝗹 — 1st place DeFi challenge                                    March 2022
 
 ─── SKILLS ────────────────────────────────────────────────────────────────────────────────────────
   • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀  —  C • Rust • Python • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX •

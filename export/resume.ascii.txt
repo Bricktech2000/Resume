@@ -9,6 +9,7 @@
 
 ECOSAFESENSE
 [Firmware Engineer]                                                 Ottawa | October 2024--Present
+  - Writing firmware for ESP32-based air quality sensor and complementary test bench.
 
 COHERE
 [Senior Data Quality Specialist --- Advanced Mathematics]        Freelance | October 2024--Present
@@ -38,10 +39,9 @@ ATTO-8 MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
   - Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
     breadboards.
 
-ATTO-8 C COMPILER
+ATTO-8 C COMPILER <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
 [A rudimentary C99 compiler for the Atto-8 microarchitecture]                  Rust - C - Assembly
-  - Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
-    of preprocessor, parser, typechecker, optimizer and code generator.
+  - Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
   - Implemented  dead  code elimination, constant folding and strength reduction, resulting in
     20%  INCREASE  in  generated code performance and 10% REDUCTION in binary size across test
     suite.
@@ -64,6 +64,11 @@ HACK THE HILL HACKATHON <http://hackthehill.com/>
     used by over 1000 HACKERS and 50 ORGANIZERS throughout hackathon.
   - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
     collaboration with sponsorship team, enabling processing of over 20 000$.
+
+--- AWARDS ----------------------------------------------------------------------------------------
+  - UOTTAHACK 6 --- 1st place QNX challenge                                           January 2025
+  - CS GAMES 2024 --- 1st place IOT challenge                                           March 2024
+  - DEFI THE CONVENTIONAL --- 1st place DeFi challenge                                  March 2022
 
 --- SKILLS ----------------------------------------------------------------------------------------
   - LANGUAGES --- C - Rust - Python - JavaScript - HTML/CSS - JSON - YAML - Markdown - LaTeX -

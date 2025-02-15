@@ -9,6 +9,7 @@
 
 [1mEcoSafeSense[0m
 [[3mFirmware Engineer[0m]                                                 [3mOttawa | October 2024--Present[0m
+  - Writing firmware for ESP32-based air quality sensor and complementary test bench.
 
 [1mCohere[0m
 [[3mSenior Data Quality Specialist --- Advanced Mathematics[0m]        [3mFreelance | October 2024--Present[0m
@@ -38,10 +39,9 @@
   - Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
     breadboards.
 
-[1mAtto-8 C Compiler[0m
+[1mAtto-8 C Compiler[0m <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
 [[3mA rudimentary C99 compiler for the Atto-8 microarchitecture[0m]                  [3mRust - C - Assembly[0m
-  - Building  C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting
-    of preprocessor, parser, typechecker, optimizer and code generator.
+  - Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
   - Implemented  dead  code elimination, constant folding and strength reduction, resulting in
     [1m20%  increase[0m  in  generated code performance and [1m10% reduction[0m in binary size across test
     suite.
@@ -64,6 +64,11 @@
     used by over [1m1000 hackers[0m and [1m50 organizers[0m throughout hackathon.
   - Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
     collaboration with sponsorship team, enabling processing of over [1m20 000$[0m.
+
+--- AWARDS ----------------------------------------------------------------------------------------
+  - [1muOttaHack 6[0m --- 1st place QNX challenge                                           [3mJanuary 2025[0m
+  - [1mCS Games 2024[0m --- 1st place IOT challenge                                           [3mMarch 2024[0m
+  - [1mDeFi The Conventional[0m --- 1st place DeFi challenge                                  [3mMarch 2022[0m
 
 --- SKILLS ----------------------------------------------------------------------------------------
   - [1mLanguages[0m --- C - Rust - Python - JavaScript - HTML/CSS - JSON - YAML - Markdown - LaTeX -

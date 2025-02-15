@@ -22,8 +22,8 @@
     <style>
       :root {
         --text-primary: #000000;
-        --text-secondary: #888888;
-        --background: #FFFFFF;
+        --text-secondary: #000000;
+        --background: #ffffff;
         --body: Roboto, sans-serif;
         --code: Inconsolata, monospace;
       }
@@ -70,7 +70,7 @@
 
       h1 {
         font-size: 2em;
-        font-weight: inherit;
+        font-weight: 500;
         padding-bottom: 0.25em;
       }
 
@@ -138,7 +138,6 @@
         float: right;
         align-items: center;
         font-family: var(--body);
-        font-weight: 400;
         font-style: italic;
         color: var(--text-secondary);
       }
@@ -148,11 +147,9 @@
         align-items: center;
         font-family: var(--body);
         text-transform: uppercase;
-        font-weight: 400;
         font-size: 0.875em;
         font-style: inherit;
         color: var(--text-secondary);
-        align-items: center;
       }
 
       strong {
@@ -161,9 +158,7 @@
 
       a {
         color: inherit;
-        text-decoration: underline;
-        text-underline-offset: 0.2em;
-        text-decoration-thickness: from-font;
+        text-decoration: none;
       }
 
       a,
@@ -189,14 +184,22 @@
   </head>
 
   <body>
-    <h1>Emilien <strong>Breton</strong></h1>
+    <h1>Emilien Breton</h1>
 <p><a href="tel:+1-613-913-9909">613-913-9909</a> • <a href="mailto:mail@emilien.ca">mail@emilien.ca</a> • <a href="https://github.com/Bricktech2000">github.com/Bricktech2000</a> • <a href="https://www.linkedin.com/in/emilien-breton/">linkedin.com/in/emilien-breton</a> • <a href="https://emilien.ca/">https://emilien.ca/</a></p>
 <!-- https://www.engineering.cornell.edu/sites/default/files/departments/career%20services/Action-Words-for-ENG-2016.pdf -->
 <!-- https://practicaltypography.com/resumes.html -->
 <h2>Experience</h2>
 <h3>EcoSafeSense</h3>
 <!-- first meeting with Olga was 2024-10-16 -->
+<!--
+- wrote test bench firmware
+- soldered together sensors using hot air rework station
+- oversaw sensor installation
+-->
 <p><em>Firmware Engineer</em> <code>Ottawa | October 2024–Present</code></p>
+<ul>
+<li>Writing firmware for ESP32-based air quality sensor and complementary test bench.</li>
+</ul>
 <h3>Cohere</h3>
 <!-- contractor agreement signed 2024-10-28 -->
 <p><em>Senior Data Quality Specialist — Advanced Mathematics</em> <code>Freelance | October 2024–Present</code></p>
@@ -233,10 +236,10 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 <li>Wrote various utilities in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm">Wozmon-inspired memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm">16×16 sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm">native assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm">postfix notation calculator</a>.</li>
 <li>Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.</li>
 </ul>
-<h3>Atto-8 C Compiler</h3>
+<h3><a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc">Atto-8 C Compiler</a></h3>
 <p><em>A rudimentary C99 compiler for the Atto-8 microarchitecture</em> <code>Rust • C • Assembly</code></p>
 <ul>
-<li>Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language, consisting of <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/preprocess.rs">preprocessor</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs">parser</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/typecheck.rs">typechecker</a>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/optimize.rs">optimizer</a> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc/codegen.rs">code generator</a>.</li>
+<li>Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.</li>
 <li>Implemented dead code elimination, constant folding and strength reduction, resulting in <strong>20% increase</strong> in generated code performance and <strong>10% reduction</strong> in binary size across test suite.</li>
 <li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">input/output routines</a> including <strong>getline and printf</strong>. <!-- supporting conversion specifiers %d, %u, %x, %c, %s and %p --></li>
 </ul>
@@ -268,15 +271,6 @@ _Submission for DeFi The Conventional 2022_ `React • Rust`
 - Won **first place** in Finance category of Canada’s largest DeFi hackathon along with **2500$ prize** as part of 3-member team.
 - Engineered [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within limited **36-hour timeframe**.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.
--->
-<!--
-### AI Image Compressor
-
-_A neural network that learns to compress images_ `Python • Tensorflow • Keras`
-
-- Implemented web scraper and image preprocessor optimized with numpy to generate millions of training samples in less than 5 minutes.
-- Created and implemented custom algorithm within autoencoder structure to allow for variable compression ratio with no overhead.
-- Supervised training process and tweaked settings leading to results of superior quality than JPEG compression when in favorable circumstances.
 -->
 <h2>Volunteering</h2>
 <h3><a href="https://uocsclub.ca/">Computer Science Club</a></h3>
@@ -322,6 +316,12 @@ _Development Coordinator — Development Team_ `Ottawa | November 2022–May 2
 - worked on database schema for hacker tracker, implementing `hackers/hacker?id` endpoint
 - learned basics of SQL to build queries for hacker tracker
 -->
+<h2>Awards</h2>
+<ul>
+<li><strong>uOttaHack 6</strong> — 1st place QNX challenge <code>January 2025</code> <!-- January 17th 2024—January 19th 2024 --></li>
+<li><strong>CS Games 2024</strong> — 1st place IOT challenge <code>March 2024</code> <!-- March 15th 2024—March 17th 2024 --></li>
+<li><strong>DeFi The Conventional</strong> — 1st place DeFi challenge <code>March 2022</code> <!-- March 18th 2022–March 20th 2022 --></li>
+</ul>
 <h2>Skills</h2>
 <ul>
 <li><strong>Languages</strong> — C • Rust • Python • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua • C++</li>
@@ -351,7 +351,7 @@ _Development Coordinator — Development Team_ `Ottawa | November 2022–May 2
 - Aliquam ornare diam sit amet euismod pellentesque.
 - In condimentum tortor non odio consectetur accumsan.
 -->
-<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 29b8e30 • Jan 2025` -->
+<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 4207bae • Feb 2025` -->
 
   </body>
 </html>
