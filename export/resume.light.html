@@ -193,8 +193,8 @@
 <!-- first meeting with Olga was 2024-10-16 -->
 <!--
 - wrote test bench firmware
-- soldered together sensors using hot air rework station
 - oversaw sensor installation
+- soldered together sensors using hot air rework station
 -->
 <p><em>Firmware Engineer</em> <code>Ottawa | October 2024–Present</code></p>
 <ul>
@@ -216,8 +216,7 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 - Implemented various smart contracts in Solidity and ensured **100% test coverage** through Chai and Hardhat.
 -->
 <h2>Projects</h2>
-<h3><a href="https://github.com/Bricktech2000/LTRE">LTRE Regex Engine</a></h3>
-<p><em>A fast regular expression library written in C99</em> <code>C</code></p>
+<h3><a href="https://github.com/Bricktech2000/LTRE">DFA Regex Engine</a></h3>
 <ul>
 <li>Built <a href="https://github.com/Bricktech2000/LTRE/blob/master/ltre.c">regex engine</a> in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in <strong>linear time</strong> without backtracking.</li>
 <li>Wrote <a href="https://github.com/Bricktech2000/LTRE/blob/master/test.c">extensive test suite</a> of over <strong>400 tests</strong> to ensure end-to-end correctness of engine and catch regressions.</li>
@@ -227,21 +226,24 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 - Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) supporting flags -v, -x/-p, -i/-s, -S, -F, -n/-N, -H/-I and -c as real-world stress test for engine.
 - Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, with command-line options for case-insensitive and smart-case matching, fixed-string patterns, full-match and partial-match searches, and more.
 -->
-<h3><a href="https://github.com/Bricktech2000/Atto-8">Atto-8 Microcomputer</a></h3>
-<p><em>A minimalist 8-bit microcomputer with stack-based microprocessor</em> <code>Rust • C • Assembly</code></p>
+<h3><a href="https://github.com/Bricktech2000/Atto-8">Breadboard Microcomputer</a></h3>
 <!-- according to Toggl Track as of 2024-05-12 -->
 <!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 <ul>
-<li>Designed entire microcomputer from from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">instruction set architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">from-scratch assembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">cross-platform emulator</a>, totaling over <strong>20 000 SLOC</strong> and <strong>750 hours</strong> of work.</li>
+<li>Designed 8-bit microcomputer from from logic gates upward, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md">instruction set architecture</a>, <a href="https://github.com/Bricktech2000/Atto-8/tree/master/asm">from-scratch assembler</a> and <a href="https://github.com/Bricktech2000/Atto-8/tree/master/emu">cross-platform emulator in Rust</a>, totaling over <strong>20 000 SLOC</strong> and <strong>750 hours</strong> of work.</li>
 <li>Wrote various utilities in Assembly running natively on microcomputer — <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm">Wozmon-inspired memory monitor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm">16×16 sprite editor</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm">Tetris clone</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm">native assembler</a> • <a href="https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm">postfix notation calculator</a>.</li>
 <li>Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.</li>
 </ul>
-<h3><a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc">Atto-8 C Compiler</a></h3>
-<p><em>A rudimentary C99 compiler for the Atto-8 microarchitecture</em> <code>Rust • C • Assembly</code></p>
+<h3><a href="https://github.com/Bricktech2000/Atto-8/blob/master/cc">Rudimentary C Compiler</a></h3>
 <ul>
-<li>Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.</li>
-<li>Implemented dead code elimination, constant folding and strength reduction, resulting in <strong>20% increase</strong> in generated code performance and <strong>10% reduction</strong> in binary size across test suite.</li>
+<li>Building C99 compiler from scratch in Rust targeting breadboard microcomputer’s instruction set.</li>
+<li>Implemented dead code elimination, constant folding and strength reduction, resulting in <strong>20% increase</strong> in generated code performance and <strong>10% reduction</strong> in binary size across test suite. <!-- estimated --></li>
 <li>Developed extensive C standard library, including <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm">heap allocator</a> supporting <strong>malloc and free</strong>, <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm">string handling functions</a> such as <strong>strlen and memcpy</strong> and <a href="https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm">input/output routines</a> including <strong>getline and printf</strong>. <!-- supporting conversion specifiers %d, %u, %x, %c, %s and %p --></li>
+</ul>
+<h3><a href="https://github.com/Bricktech2000/Autodiff">Multilayer Perceptron</a></h3>
+<ul>
+<li>Wrote <a href="https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.c">static reverse-mode automatic differentiation library</a> in C99 for use in deep learning.</li>
+<li>Designed <a href="https://github.com/Bricktech2000/Autodiff/blob/master/mlp-gen.c">multilayer perceptron model</a> and implemented <a href="https://github.com/Bricktech2000/Autodiff/blob/master/mlp-fit.c">stochastic gradient descent</a>, momentum and L2 regularization, achieving <strong>96% accuracy</strong> on MNIST database after 3 minutes training on 16 threads. <!-- thank you Justin for the CPU time :) --></li>
 </ul>
 <!--
 ### [DBLess Password Manager](https://github.com/Bricktech2000/DBLess)
@@ -281,13 +283,13 @@ _Submission for DeFi The Conventional 2022_ `React • Rust`
 - ported logo from raster to vector
 - refreshed Discord server with clearer roles and introduction
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress.
-- Reorganized Discord server of over **1000 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
+- Reorganized Discord server of over **1500 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
 - hosted talk on the practicality of the lambda-calculus
 -->
-<!-- 1306 members on Discord server as of 2024-11-23 03:03 -->
+<!-- 1468 members on Discord server as of 2025-03-26 -->
 <p><em>Club Executive</em> <code>University of Ottawa | June 2022–Present</code></p>
 <ul>
-<li>Running growing community of <strong>over 1000</strong> computer science students at the University of Ottawa.</li>
+<li>Running growing community of <strong>over 1500</strong> computer science students at the University of Ottawa.</li>
 <li>Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.</li>
 </ul>
 <h3><a href="http://hackthehill.com/">Hack the Hill Hackathon</a></h3>
@@ -318,13 +320,15 @@ _Development Coordinator — Development Team_ `Ottawa | November 2022–May 2
 -->
 <h2>Awards</h2>
 <ul>
-<li><strong>uOttaHack 6</strong> — 1st place QNX challenge <code>January 2025</code> <!-- January 17th 2024—January 19th 2024 --></li>
-<li><strong>CS Games 2024</strong> — 1st place IOT challenge <code>March 2024</code> <!-- March 15th 2024—March 17th 2024 --></li>
-<li><strong>DeFi The Conventional</strong> — 1st place DeFi challenge <code>March 2022</code> <!-- March 18th 2022–March 20th 2022 --></li>
+<li><strong>uOCTF 2025</strong> — 1st place <code>March 2025</code> <!-- March 25th 2025 --></li>
+<li><strong>uOttaHack 6</strong> — 1st place, QNX challenge <code>January 2025</code> <!-- January 17th 2024–January 19th 2024 --></li>
+<li><strong>CS Games 2024</strong> — 1st place, IOT challenge <code>March 2024</code> <!-- March 15th 2024–March 17th 2024 --></li>
+<li><strong>uOCTF 2024</strong> — 1st place <code>November 2023</code> <!-- November 25th 2023 --> <!-- pretty sure I placed first but not certain; been over a year --></li>
+<li><strong>DeFi The Conventional</strong> — 1st place, DeFi challenge <code>March 2022</code> <!-- March 18th 2022–March 20th 2022 --></li>
 </ul>
 <h2>Skills</h2>
 <ul>
-<li><strong>Languages</strong> — C • Rust • Python • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua • C++</li>
+<li><strong>Languages</strong> — C • Rust • Python • C++ • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua</li>
 <li><strong>Developer Tools</strong> — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker</li>
 <li><strong>Other Technologies</strong> — React • Node.js • Express • Figma • Notion • Cloudflare • GitHub</li>
 </ul>
@@ -339,19 +343,7 @@ _Development Coordinator — Development Team_ `Ottawa | November 2022–May 2
 - Spanish `Intermediate`
 - Russian `Elementary`
 -->
-<!--
-## Achievements
-
-### Fusce Sed Erat Velit
-
-- Sed euismod diam sit amet euismod.
-
-### Iaculis Vehicula Felis
-
-- Aliquam ornare diam sit amet euismod pellentesque.
-- In condimentum tortor non odio consectetur accumsan.
--->
-<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 4207bae • Feb 2025` -->
+<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit 0607901 • Mar 2025` -->
 
   </body>
 </html>

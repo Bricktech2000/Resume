@@ -18,29 +18,28 @@ _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October
 
 ## Projects
 
-### [LTRE Regex Engine](https://github.com/Bricktech2000/LTRE)
-
-_A fast regular expression library written in C99_ `C`
+### [DFA Regex Engine](https://github.com/Bricktech2000/LTRE)
 
 - Built [regex engine](https://github.com/Bricktech2000/LTRE/blob/master/ltre.c) in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in **linear time** without backtracking.
 - Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **400 tests** to ensure end-to-end correctness of engine and catch regressions.
 - Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, achieving performance on par with GNU grep.
 
-### [Atto-8 Microcomputer](https://github.com/Bricktech2000/Atto-8)
+### [Breadboard Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
-_A minimalist 8-bit microcomputer with stack-based microprocessor_ `Rust • C • Assembly`
-
-- Designed entire microcomputer from from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **20 000 SLOC** and **750 hours** of work.
+- Designed 8-bit microcomputer from from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator in Rust](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **20 000 SLOC** and **750 hours** of work.
 - Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
-### [Atto-8 C Compiler](https://github.com/Bricktech2000/Atto-8/blob/master/cc)
+### [Rudimentary C Compiler](https://github.com/Bricktech2000/Atto-8/blob/master/cc)
 
-_A rudimentary C99 compiler for the Atto-8 microarchitecture_ `Rust • C • Assembly`
-
-- Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
-- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite.
+- Building C99 compiler from scratch in Rust targeting breadboard microcomputer’s instruction set.
+- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite. 
 - Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. 
+
+### [Multilayer Perceptron](https://github.com/Bricktech2000/Autodiff)
+
+- Wrote [static reverse-mode automatic differentiation library](https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.c) in C99 for use in deep learning.
+- Designed [multilayer perceptron model](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-gen.c) and implemented [stochastic gradient descent](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-fit.c), momentum and L2 regularization, achieving **96% accuracy** on MNIST database after 3 minutes training on 16 threads. 
 
 ## Volunteering
 
@@ -48,7 +47,7 @@ _A rudimentary C99 compiler for the Atto-8 microarchitecture_ `Rust • C • 
 
 _Club Executive_ `University of Ottawa | June 2022–Present`
 
-- Running growing community of **over 1000** computer science students at the University of Ottawa.
+- Running growing community of **over 1500** computer science students at the University of Ottawa.
 - Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
@@ -60,12 +59,14 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 ## Awards
 
-- **uOttaHack 6** — 1st place QNX challenge `January 2025` 
-- **CS Games 2024** — 1st place IOT challenge `March 2024` 
-- **DeFi The Conventional** — 1st place DeFi challenge `March 2022` 
+- **uOCTF 2025** — 1st place `March 2025` 
+- **uOttaHack 6** — 1st place, QNX challenge `January 2025` 
+- **CS Games 2024** — 1st place, IOT challenge `March 2024` 
+- **uOCTF 2024** — 1st place `November 2023`  
+- **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` 
 
 ## Skills
 
-- **Languages** — C • Rust • Python • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua • C++
+- **Languages** — C • Rust • Python • C++ • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua
 - **Developer Tools** — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker
 - **Other Technologies** — React • Node.js • Express • Figma • Notion • Cloudflare • GitHub

@@ -19,8 +19,7 @@
 
 --- PROJECTS --------------------------------------------------------------------------------------
 
-[1mLTRE Regex Engine[0m <https://github.com/Bricktech2000/LTRE>
-[[3mA fast regular expression library written in C99[0m]                                               [3mC[0m
+[1mDFA Regex Engine[0m <https://github.com/Bricktech2000/LTRE>
   - Built  regex engine in C99 that compiles regular expressions down to minimal deterministic
     finite automata to match input strings in [1mlinear time[0m without backtracking.
   - Wrote  extensive  test  suite of over [1m400 tests[0m to ensure end-to-end correctness of engine
@@ -28,20 +27,19 @@
   - Developed  grep-like  tool  as real-world stress test for engine, achieving performance on
     par with GNU grep.
 
-[1mAtto-8 Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
-[[3mA minimalist 8-bit microcomputer with stack-based microprocessor[0m]             [3mRust - C - Assembly[0m
-  - Designed  entire  microcomputer  from  from  logic gates upward, including instruction set
-    architecture,  from-scratch  assembler  and  cross-platform emulator, totaling over [1m20 000
-    SLOC[0m and [1m750 hours[0m of work.
+[1mBreadboard Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
+  - Designed  8-bit  microcomputer  from  from  logic  gates upward, including instruction set
+    architecture, from-scratch assembler and cross-platform emulator in Rust, totaling over [1m20
+    000 SLOC[0m and [1m750 hours[0m of work.
   - Wrote  various utilities in Assembly running natively on microcomputer --- Wozmon-inspired
     memory  monitor - 16x16 sprite editor - Tetris clone - native assembler - postfix notation
     calculator.
   - Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
     breadboards.
 
-[1mAtto-8 C Compiler[0m <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
-[[3mA rudimentary C99 compiler for the Atto-8 microarchitecture[0m]                  [3mRust - C - Assembly[0m
-  - Building C99 compiler from scratch in Rust targeting Atto-8 Assembly language.
+[1mRudimentary C Compiler[0m <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
+  - Building  C99  compiler  from  scratch  in  Rust  targeting  breadboard  microcomputer's
+    instruction set.
   - Implemented  dead  code elimination, constant folding and strength reduction, resulting in
     [1m20%  increase[0m  in  generated code performance and [1m10% reduction[0m in binary size across test
     suite.
@@ -49,11 +47,18 @@
     free[0m,  string  handling  functions  such  as  [1mstrlen  and memcpy[0m and input/output routines
     including [1mgetline and printf[0m.
 
+[1mMultilayer Perceptron[0m <https://github.com/Bricktech2000/Autodiff>
+  - Wrote  static  reverse-mode  automatic  differentiation  library  in  C99  for use in deep
+    learning.
+  - Designed multilayer perceptron model and implemented stochastic gradient descent, momentum
+    and  L2  regularization, achieving [1m96% accuracy[0m on MNIST database after 3 minutes training
+    on 16 threads.
+
 --- VOLUNTEERING ----------------------------------------------------------------------------------
 
 [1mComputer Science Club[0m <https://uocsclub.ca/>
 [[3mClub Executive[0m]                                         [3mUniversity of Ottawa | June 2022--Present[0m
-  - Running  growing  community  of  [1mover  1000[0m computer science students at the University of
+  - Running  growing  community  of  [1mover  1500[0m computer science students at the University of
     Ottawa.
   - Collaborating with executive board to brainstorm, plan, fund and market monthly events and
     meetups, such as workshop on Vim bindings and mini-course on the lambda-calculus.
@@ -66,12 +71,14 @@
     collaboration with sponsorship team, enabling processing of over [1m20 000$[0m.
 
 --- AWARDS ----------------------------------------------------------------------------------------
-  - [1muOttaHack 6[0m --- 1st place QNX challenge                                           [3mJanuary 2025[0m
-  - [1mCS Games 2024[0m --- 1st place IOT challenge                                           [3mMarch 2024[0m
-  - [1mDeFi The Conventional[0m --- 1st place DeFi challenge                                  [3mMarch 2022[0m
+  - [1muOCTF 2025[0m --- 1st place                                                            [3mMarch 2025[0m
+  - [1muOttaHack 6[0m --- 1st place, QNX challenge                                          [3mJanuary 2025[0m
+  - [1mCS Games 2024[0m --- 1st place, IOT challenge                                          [3mMarch 2024[0m
+  - [1muOCTF 2024[0m --- 1st place                             [3mNovember 2023[0m <!-- November 25th 2023 -->
+  - [1mDeFi The Conventional[0m --- 1st place, DeFi challenge                                 [3mMarch 2022[0m
 
 --- SKILLS ----------------------------------------------------------------------------------------
-  - [1mLanguages[0m --- C - Rust - Python - JavaScript - HTML/CSS - JSON - YAML - Markdown - LaTeX -
-    Lua - C++
+  - [1mLanguages[0m  ---  C - Rust - Python - C++ - JavaScript - HTML/CSS - JSON - YAML - Markdown -
+    LaTeX - Lua
   - [1mDeveloper Tools[0m --- GNU/Linux - Vim - Bash - Fish Shell - Git - GDB - GNU Make - Docker
   - [1mOther Technologies[0m --- React - Node.js - Express - Figma - Notion - Cloudflare - GitHub
