@@ -2,83 +2,92 @@
 |_   _  . | .  _  _    |__)  _  _ |_  _   _
 |__ ||| | | | (- | )   |__) |  (- |_ (_) | )
 
-613-913-9909 • mail@emilien.ca • github.com/Bricktech2000 • linkedin.com/in/emilien-breton
-• https://emilien.ca/
+613-913-9909 • mail@emilien.ca • github.com/Bricktech2000 •
+linkedin.com/in/emilien-breton • https://emilien.ca/
 
-─── EXPERIENCE ────────────────────────────────────────────────────────────────────────────────────
+─── EXPERIENCE ─────────────────────────────────────────────────────────────────
 
 𝗘𝗰𝗼𝗦𝗮𝗳𝗲𝗦𝗲𝗻𝘀𝗲
-[Firmware Engineer]                                                  Ottawa | October 2024–Present
-  • Writing firmware for ESP32-based air quality sensor and complementary test bench.
+[Firmware Engineer]                                Ottawa | October 2024–Present
+  • Writing  firmware  for  ESP32-based air quality sensor and complementary
+    test bench.
 
 𝗖𝗼𝗵𝗲𝗿𝗲
-[Senior Data Quality Specialist — Advanced Mathematics]           Freelance | October 2024–Present
-  • Writing, auditing and correcting LLM prompts and responses with utmost attention to detail
-    to  produce  𝘀𝗽𝗼𝘁𝗹𝗲𝘀𝘀  𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴  𝗱𝗮𝘁𝗮 in formal logic, combinatorics, number theory, graph
-    theory and optimization.
+[Senior Data Quality Specialist — Advanced Mathematics]      Freelance | October
+2024–April 2025
+  • Wrote,  audited  and  corrected  LLM  prompts  and responses with utmost
+    attention  to  detail to produce 𝘀𝗽𝗼𝘁𝗹𝗲𝘀𝘀 𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴 𝗱𝗮𝘁𝗮 in formal logic,
+    combinatorics, number theory, graph theory and optimization.
 
-─── PROJECTS ──────────────────────────────────────────────────────────────────────────────────────
+─── PROJECTS ───────────────────────────────────────────────────────────────────
 
 𝗗𝗙𝗔 𝗥𝗲𝗴𝗲𝘅 𝗘𝗻𝗴𝗶𝗻𝗲 <https://github.com/Bricktech2000/LTRE>
-  • Built  regex engine in C99 that compiles regular expressions down to minimal deterministic
-    finite automata to match input strings in 𝗹𝗶𝗻𝗲𝗮𝗿 𝘁𝗶𝗺𝗲 without backtracking.
-  • Wrote  extensive  test  suite of over 𝟰𝟬𝟬 𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end correctness of engine
-    and catch regressions.
-  • Developed  grep-like  tool  as real-world stress test for engine, achieving performance on
-    par with GNU grep.
+  • Built  regex  engine  in  C99  that compiles regular expressions down to
+    minimal  deterministic  finite automata to match input strings in 𝗹𝗶𝗻𝗲𝗮𝗿
+    𝘁𝗶𝗺𝗲 without backtracking.
+  • Wrote  extensive  test  suite  of  over  𝟰𝟬𝟬  𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end
+    correctness of engine and catch regressions.
+  • Developed grep-like tool as real-world stress test for engine, achieving
+    performance on par with GNU grep.
 
 𝗕𝗿𝗲𝗮𝗱𝗯𝗼𝗮𝗿𝗱 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
-  • Designed  8-bit  microcomputer  from  from  logic  gates upward, including instruction set
-    architecture, from-scratch assembler and cross-platform emulator in Rust, totaling over 𝟮𝟬
-    𝟬𝟬𝟬 𝗦𝗟𝗢𝗖 and 𝟳𝟱𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
-  • Wrote  various  utilities  in Assembly running natively on microcomputer — Wozmon-inspired
-    memory  monitor • 16×16 sprite editor • Tetris clone • native assembler • postfix notation
-    calculator.
-  • Built  microcomputer  in  hardware  by  hand-wiring  discrete  74HC-series  logic chips on
-    breadboards.
+  • Designed  8-bit  microcomputer  from  from logic gates upward, including
+    instruction  set architecture, from-scratch assembler and cross-platform
+    emulator in Rust, totaling over 𝟮𝟬 𝟬𝟬𝟬 𝗦𝗟𝗢𝗖 and 𝟳𝟱𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
+  • Wrote  various utilities in Assembly running natively on microcomputer —
+    Wozmon-inspired  memory  monitor •  16×16 sprite editor • Tetris clone •
+    native assembler • postfix notation calculator.
+  • Built  microcomputer  in  hardware  by  hand-wiring discrete 74HC-series
+    logic chips on breadboards.
 
 𝗥𝘂𝗱𝗶𝗺𝗲𝗻𝘁𝗮𝗿𝘆 𝗖 𝗖𝗼𝗺𝗽𝗶𝗹𝗲𝗿 <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
-  • Building  C99  compiler  from  scratch  in  Rust  targeting  breadboard  microcomputer’s
-    instruction set.
-  • Implemented  dead  code elimination, constant folding and strength reduction, resulting in
-    𝟮𝟬%  𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲  in  generated code performance and 𝟭𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in binary size across test
-    suite.
-  • Developed  extensive  C  standard  library, including heap allocator supporting 𝗺𝗮𝗹𝗹𝗼𝗰 𝗮𝗻𝗱
-    𝗳𝗿𝗲𝗲,  string  handling  functions  such  as  𝘀𝘁𝗿𝗹𝗲𝗻  𝗮𝗻𝗱 𝗺𝗲𝗺𝗰𝗽𝘆 and input/output routines
-    including 𝗴𝗲𝘁𝗹𝗶𝗻𝗲 𝗮𝗻𝗱 𝗽𝗿𝗶𝗻𝘁𝗳.
+  • Building  C99  compiler  from  scratch  in  Rust  targeting  breadboard
+    microcomputer’s instruction set.
+  • Implemented  dead  code  elimination,  constant  folding  and  strength
+    reduction,  resulting  in 𝟮𝟬% 𝗶𝗻𝗰𝗿𝗲𝗮𝘀𝗲 in generated code performance and
+    𝟭𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in binary size across test suite.
+  • Developed  extensive  C  standard  library,  including  heap  allocator
+    supporting 𝗺𝗮𝗹𝗹𝗼𝗰 𝗮𝗻𝗱 𝗳𝗿𝗲𝗲, string handling functions such as 𝘀𝘁𝗿𝗹𝗲𝗻 𝗮𝗻𝗱
+    𝗺𝗲𝗺𝗰𝗽𝘆 and input/output routines including 𝗴𝗲𝘁𝗹𝗶𝗻𝗲 𝗮𝗻𝗱 𝗽𝗿𝗶𝗻𝘁𝗳.
 
 𝗠𝘂𝗹𝘁𝗶𝗹𝗮𝘆𝗲𝗿 𝗣𝗲𝗿𝗰𝗲𝗽𝘁𝗿𝗼𝗻 <https://github.com/Bricktech2000/Autodiff>
-  • Wrote  static  reverse-mode  automatic  differentiation  library  in  C99  for use in deep
-    learning.
-  • Designed multilayer perceptron model and implemented stochastic gradient descent, momentum
-    and  L2  regularization, achieving 𝟵𝟲% 𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆 on MNIST database after 3 minutes training
-    on 16 threads.
+  • Wrote  static  reverse-mode automatic differentiation library in C99 for
+    use in deep learning.
+  • Designed multilayer perceptron model and implemented stochastic gradient
+    descent, momentum and L2 regularization, achieving 𝟵𝟳% 𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆 on MNIST
+    database after 3 minutes training on 16 threads.
 
-─── VOLUNTEERING ──────────────────────────────────────────────────────────────────────────────────
+─── VOLUNTEERING ───────────────────────────────────────────────────────────────
 
 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
-[Club Executive]                                          University of Ottawa | June 2022–Present
-  • Running  growing  community  of  𝗼𝘃𝗲𝗿  𝟭𝟱𝟬𝟬 computer science students at the University of
-    Ottawa.
-  • Collaborating with executive board to brainstorm, plan, fund and market monthly events and
-    meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.
+[Club Executive]                        University of Ottawa | June 2022–Present
+  • Running  growing community of 𝗼𝘃𝗲𝗿 𝟭𝟱𝟬𝟬 computer science students at the
+    University of Ottawa.
+  • Collaborating  with executive board to brainstorm, plan, fund and market
+    monthly  events  and  meetups,  such  as  workshop  on  Vim bindings and
+    mini-course on the λ-calculus.
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 <http://hackthehill.com/>
-[Development Manager — Development Team]                       Ottawa | November 2022–October 2024
-  • Led  development  of open-source event management system built with Next.js and Prisma and
-    used by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout hackathon.
-  • Built and maintained internal sporsorship payment portal powered by Stripe and React.js in
-    collaboration with sponsorship team, enabling processing of over 𝟮𝟬 𝟬𝟬𝟬$.
+[Development Manager — Development Team]     Ottawa | November 2022–October 2024
+  • Led  development of open-source event management system based on Next.js
+    and  Prisma  and  used by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout
+    hackathon.
+  • Built  and  maintained  internal  payment  portal  powered by Stripe and
+    React.js  in collaboration with sponsorship team, enabling processing of
+    over 𝟮𝟬 𝟬𝟬𝟬$.
 
-─── AWARDS ────────────────────────────────────────────────────────────────────────────────────────
-  • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟱 — 1st place                                                              March 2025
-  • 𝘂𝗢𝘁𝘁𝗮𝗛𝗮𝗰𝗸 𝟲 — 1st place, QNX challenge                                            January 2025
-  • 𝗖𝗦 𝗚𝗮𝗺𝗲𝘀 𝟮𝟬𝟮𝟰 — 1st place, IOT challenge                                            March 2024
-  • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟰 — 1st place                               November 2023 <!-- November 25th 2023 -->
-  • 𝗗𝗲𝗙𝗶 𝗧𝗵𝗲 𝗖𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝗮𝗹 — 1st place, DeFi challenge                                   March 2022
+─── AWARDS ─────────────────────────────────────────────────────────────────────
+  • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟱 — 1st place                                            March 2025
+  • 𝘂𝗢𝘁𝘁𝗮𝗛𝗮𝗰𝗸 𝟲 — 1st place, QNX challenge                          January 2025
+  • 𝗖𝗦 𝗚𝗮𝗺𝗲𝘀 𝟮𝟬𝟮𝟰 — 1st place, IOT challenge                          March 2024
+  • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟰 — 1st place                                         November 2023
+  • 𝗗𝗲𝗙𝗶 𝗧𝗵𝗲 𝗖𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝗮𝗹 — 1st place, DeFi challenge                 March 2022
 
-─── SKILLS ────────────────────────────────────────────────────────────────────────────────────────
-  • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀  —  C  •  Rust • Python • C++ • JavaScript • HTML/CSS • JSON • YAML • Markdown •
-    LaTeX • Lua
-  • 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker
-  • 𝗢𝘁𝗵𝗲𝗿 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀 — React • Node.js • Express • Figma • Notion • Cloudflare • GitHub
+─── SKILLS ─────────────────────────────────────────────────────────────────────
+  • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 —  C •  Rust •  Python •  C++ • JavaScript • HTML/CSS • JSON •
+    YAML • Markdown • LaTeX • Lua
+  • 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU
+    Make • Docker
+  • 𝗢𝘁𝗵𝗲𝗿  𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀 —  React •  Node.js •  Express •  Figma •  Notion •
+    Cloudflare • GitHub
+                                                             cd204e3c • Jul 2025

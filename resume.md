@@ -14,8 +14,9 @@
 
 <!--
 - wrote test bench firmware
-- oversaw sensor installation
+- oversaw AreaXO sensor installation
 - soldered together sensors using hot air rework station
+- troubleshooted miswired I2C bus (flipped connector on daughter board)
 -->
 
 _Firmware Engineer_ `Ottawa | October 2024–Present`
@@ -24,11 +25,11 @@ _Firmware Engineer_ `Ottawa | October 2024–Present`
 
 ### Cohere
 
-<!-- contractor agreement signed 2024-10-28 -->
+<!-- contractor agreement signed 2024-10-28, completed 2025-04-28-->
 
-_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–Present`
+_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
 
-- Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and optimization.
+- Wrote, audited and corrected LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and optimization.
 
 <!--
 ### Zeptile Software
@@ -72,7 +73,7 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 ### [Multilayer Perceptron](https://github.com/Bricktech2000/Autodiff)
 
 - Wrote [static reverse-mode automatic differentiation library](https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.c) in C99 for use in deep learning.
-- Designed [multilayer perceptron model](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-gen.c) and implemented [stochastic gradient descent](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-fit.c), momentum and L2 regularization, achieving **96% accuracy** on MNIST database after 3 minutes training on 16 threads. <!-- thank you Justin for the CPU time :) -->
+- Designed [multilayer perceptron model](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-gen.c) and implemented [stochastic gradient descent](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-fit.c), momentum and L2 regularization, achieving **97% accuracy** on MNIST database after 3 minutes training on 16 threads. <!-- thank you Justin for the CPU time :) -->
 
 <!--
 ### [DBLess Password Manager](https://github.com/Bricktech2000/DBLess)
@@ -82,7 +83,7 @@ _A hash-based, database-less password manager_ `C • Python`
 - Devised [custom hash procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
 - Reimplemented password generation algorithm in C along with [SHA-256 routines](https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c) as per FIPS PUB 180-4 for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
 
-- Built cross-platform PWA with Next.js used by over **50 accounts** <! -- 50 of which are mine -- > that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience.
+- Wrote cross-platform PWA with Next.js used by over **50 accounts** <! -- 50 of which are mine -- > that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience.
 -->
 
 <!--
@@ -146,8 +147,8 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 
-- Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
-- Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
+- Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) based on Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
+- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
 
 <!--
 - Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
@@ -167,7 +168,7 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 - **uOCTF 2025** — 1st place `March 2025` <!-- March 25th 2025 -->
 - **uOttaHack 6** — 1st place, QNX challenge `January 2025` <!-- January 17th 2024–January 19th 2024 -->
 - **CS Games 2024** — 1st place, IOT challenge `March 2024` <!-- March 15th 2024–March 17th 2024 -->
-- **uOCTF 2024** — 1st place `November 2023` <!-- November 25th 2023 --> <!-- pretty sure I placed first but not certain; been over a year -->
+- **uOCTF 2024** — 1st place `November 2023` <!-- November 25th 2023 > <! pretty sure I placed first but not certain; been over a year -->
 - **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` <!-- March 18th 2022–March 20th 2022 -->
 
 ## Skills
@@ -188,4 +189,6 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 - Russian `Elementary`
 -->
 
-<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ `Commit [COMMIT_HASH] • [MONTH] [YEAR]` -->
+<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ -->
+
+`[COMMIT_HASH] • [MONTH] [YEAR]`

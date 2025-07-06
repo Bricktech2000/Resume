@@ -5,18 +5,16 @@ import re
 
 
 def unicode_to_ascii(text):
-  return text.replace('\u00a0', ' ').replace('\u2022', '-').replace('\u2014', '---').replace('\u2013', '--').replace('\u00d7', 'x').replace('\u2500', '-').replace('\u2019', "'").replace('\u03bb', 'lambda')
+  return text.replace('\u2022', '-').replace('\u2014', '---').replace('\u2013', '--').replace('\u00d7', 'x').replace('\u2500', '-').replace('\u2019', "'").replace('\u03bb', 'lambda')
 
 
-def make_text_renderer(format_strong, format_emphasis, format_code, format_text, len_patched=len, width=96, small_width=90):
+def make_text_renderer(format_strong, format_emphasis, format_code, format_text, len_patched=len, width=80):
   from marko.renderer import Renderer
 
   def fill(text, target_width, justify=False):
-    right_float_delta = (width - small_width) if '||||' in text else 0
-    target_width = target_width + right_float_delta  # allow right float to take full `width`
-
     def fill(text, target_width, len_patched=len):
-      words = text.split()
+      # '\t' and '\u00a0' are handled separately, so don't consider them whitespace
+      words = (word for word in re.split(r'[^\S\t\u00a0]', text) if word)
       lines = []
       for word in words:
         if len(lines) == 0:
@@ -29,7 +27,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
 
     def _justify(text):
       lines = text.split('\n')
-      return '\n'.join(list(map(lambda line: line.replace(' ', '  ', target_width - len_patched(line)), lines[:-1])) + [lines[-1]])
+      return '\n'.join([line.replace(' ', '  ', target_width - len_patched(line)) for line in lines[:-1]] + [lines[-1]])
 
     return _justify(fill(text, target_width, len_patched)) if justify else fill(text, target_width, len_patched)
 
@@ -46,14 +44,10 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
       self.format_code = format_code
       self.format_text = format_text
       self.width = width
-      self.small_width = small_width
 
     def render_document(self, element):
-      # "||||" is used to represent `float: right`
-      return '\n'.join(map(
-          lambda line: line.replace('||||', ' ' * (self.width - len_patched(line) + 6)),
-          self.render_children(element).split('\n')
-      )).encode('utf-8')
+      # '\t' is used to represent `float: right;` and non-breaking spaces '\u00a0' are respected
+      return '\n'.join(line.replace('\t', ' ' + ' ' * (self.width - len_patched(line))) for line in self.render_children(element).split('\n')).replace('\u00a0', ' ').encode('utf-8')
 
     def render_code_block(self, element):
       return self.render_children(element)
@@ -75,7 +69,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
 
       if element.level == 2:
         hh = '\u2500'
-        return f'\n{self.format_text(hh * 3) + (" " + self.render_children(element).upper() + " ").ljust(self.width, self.format_text(hh))}\n'
+        return f'\n{self.format_text(hh * 3)}{(" " + self.render_children(element).upper() + " ").ljust(self.width - len_patched(self.format_text(hh * 3)), self.format_text(hh))}\n'
 
       if element.level == 3:
         def strong_safe(element):
@@ -85,13 +79,13 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
             return f'{self.format_strong(self.render_children(element))} <{element.dest}>'
           return self.format_strong(self.render(element))
 
-        return f'\n{fill("".join(strong_safe(child) for child in element.children), self.small_width)}\n'
+        return f'\n{fill("".join(strong_safe(child) for child in element.children), self.width)}\n'
       raise NotImplementedError
 
     def render_list(self, element):
       def render_list_child(element, bullet):
         newline = '\n'
-        return f'{bullet}{(newline + " " * len(bullet)).join(fill(self.render_children(element), self.small_width, justify=True).split(newline))}\n'
+        return f'{bullet}{(newline + " " * len(bullet)).join(fill(self.render_children(element), self.width - 2 * len(bullet), justify=True).split(newline))}\n'
 
       return ''.join(render_list_child(child, '    ' if element.ordered else self.format_text('  \u2022 ')) for child in element.children)
 
@@ -103,7 +97,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
 
     def render_quote(self, element):
       newline = '\n'
-      return f'| {(newline + "| ").join(fill("".join(child for child in (self.render(child) for child in element.children) if child), self.small_width, justify=True).split(newline))}\n'
+      return f'  | {(newline + "  | ").join(fill("".join(child for child in (self.render(child) for child in element.children) if child), self.width - 2 * len("  | "), justify=True).split(newline))}\n'
 
     def render_fenced_code(self, element):
       return self.render_code_block(element)
@@ -122,7 +116,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
       raise NotImplementedError
 
     def render_paragraph(self, element):
-      return f'{fill(self.render_children(element), self.small_width)}\n'
+      return f'{fill(self.render_children(element), self.width)}\n'
 
     def render_line_break(self, _):
       return f'\n'
@@ -134,14 +128,14 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
       return f''
 
     def render_code_span(self, element):
-      newline = '\n'
-      return f'||||{(newline + "||||").join(fill(self.format_code(self.format_text(element.children)), self.small_width).split(newline))}'
+      newline, tab = '\n', '\t'
+      return f'{tab}{(newline + tab).join(fill(self.format_code(self.format_text(element.children)), self.width).split(newline))}'
 
     def render_emphasis(self, element):
-      return f'{fill(self.format_emphasis(self.render_children(element)), self.small_width)}'
+      return f'{fill(self.format_emphasis(self.render_children(element)), self.width)}'
 
     def render_strong_emphasis(self, element):
-      return f'{fill(self.format_strong(self.render_children(element)), self.small_width)}'
+      return f'{fill(self.format_strong(self.render_children(element)), self.width)}'
 
     def render_link(self, element):
       # do not include `element.dest` in output to reduce clutter
@@ -191,7 +185,7 @@ def make_pdf_process(html_process):
         'marginLeft': 0,
         'marginRight': 0,
     }
-    # for some reason, `--headless` results in different line breaks
+    # for some reason, '--headless' results in different line breaks
     options.add_argument('--headless')
     driver = webdriver.Chrome(options=options)
     driver.get(f'file://{os.path.realpath("temp.html")}')
@@ -280,7 +274,7 @@ def compose(*fns):
 def preprocess(source):
   import subprocess
 
-  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:7]
+  commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()[0:8]
   day, month, year = time.strftime('%d %b %Y').split()
   source = source.replace('[COMMIT_HASH]', commit_hash).replace(
       '[DAY]', day).replace('[MONTH]', month).replace('[YEAR]', year)
@@ -289,7 +283,7 @@ def preprocess(source):
 
 
 def export(extension, process):
-  print(f'exporting `{extension}` file...')
+  print(f'exporting \'{extension}\' file...')
   with open(f'resume.md', 'r') as f:
     source = f.read()
   processed = process(source)  # blocking

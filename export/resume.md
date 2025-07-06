@@ -12,9 +12,9 @@ _Firmware Engineer_ `Ottawa | October 2024–Present`
 
 ### Cohere
 
-_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–Present`
+_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
 
-- Writing, auditing and correcting LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory,  graph theory and optimization.
+- Wrote, audited and corrected LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory,  graph theory and optimization.
 
 ## Projects
 
@@ -39,7 +39,7 @@ _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October
 ### [Multilayer Perceptron](https://github.com/Bricktech2000/Autodiff)
 
 - Wrote [static reverse-mode automatic differentiation library](https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.c) in C99 for use in deep learning.
-- Designed [multilayer perceptron model](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-gen.c) and implemented [stochastic gradient descent](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-fit.c), momentum and L2 regularization, achieving **96% accuracy** on MNIST database after 3 minutes training on 16 threads. 
+- Designed [multilayer perceptron model](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-gen.c) and implemented [stochastic gradient descent](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-fit.c), momentum and L2 regularization, achieving **97% accuracy** on MNIST database after 3 minutes training on 16 threads. 
 
 ## Volunteering
 
@@ -54,15 +54,15 @@ _Club Executive_ `University of Ottawa | June 2022–Present`
 
 _Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
 
-- Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) built with Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
-- Built and maintained internal sporsorship payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
+- Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) based on Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
+- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
 
 ## Awards
 
 - **uOCTF 2025** — 1st place `March 2025` 
 - **uOttaHack 6** — 1st place, QNX challenge `January 2025` 
 - **CS Games 2024** — 1st place, IOT challenge `March 2024` 
-- **uOCTF 2024** — 1st place `November 2023`  
+- **uOCTF 2024** — 1st place `November 2023` 
 - **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` 
 
 ## Skills
@@ -70,3 +70,5 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 - **Languages** — C • Rust • Python • C++ • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua
 - **Developer Tools** — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker
 - **Other Technologies** — React • Node.js • Express • Figma • Notion • Cloudflare • GitHub
+
+`cd204e3c • Jul 2025`
