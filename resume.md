@@ -25,11 +25,11 @@ _Firmware Engineer_ `Ottawa | October 2024–Present`
 
 ### Cohere
 
-<!-- contractor agreement signed 2024-10-28, completed 2025-04-28-->
+<!-- contractor agreement signed 2024-10-28, completed 2025-04-28 -->
 
 _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
 
-- Wrote, audited and corrected LLM prompts and responses with utmost attention to detail to produce **spotless training data** in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and optimization.
+- Wrote, audited and corrected LLM prompts and responses to produce **spotless training data** in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and mathematical optimization.
 
 <!--
 ### Zeptile Software
@@ -46,8 +46,8 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 ### [DFA Regex Engine](https://github.com/Bricktech2000/LTRE)
 
 - Built [regex engine](https://github.com/Bricktech2000/LTRE/blob/master/ltre.c) in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in **linear time** without backtracking.
-- Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **400 tests** to ensure end-to-end correctness of engine and catch regressions.
-- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, achieving performance on par with GNU grep.
+- Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **500 tests** to ensure end-to-end correctness of engine and catch regressions.
+- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine and achieved performance on par with GNU grep.
 
 <!--
 - Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) supporting flags -v, -x/-p, -i/-s, -S, -F, -n/-N, -H/-I and -c as real-world stress test for engine.
@@ -148,7 +148,7 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 
 - Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) based on Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
-- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with sponsorship team, enabling processing of over **20 000$**.
+- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with sponsorship team that processed upwards of **20 000$**.
 
 <!--
 - Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
@@ -165,6 +165,7 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 ## Awards
 
+- **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` <!-- September 6th 2025—September 7th 2025 -->
 - **uOCTF 2025** — 1st place `March 2025` <!-- March 25th 2025 -->
 - **uOttaHack 6** — 1st place, QNX challenge `January 2025` <!-- January 17th 2024–January 19th 2024 -->
 - **CS Games 2024** — 1st place, IOT challenge `March 2024` <!-- March 15th 2024–March 17th 2024 -->
@@ -173,9 +174,8 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 ## Skills
 
-- **Languages** — C • Rust • Python • C++ • JavaScript • HTML/CSS • JSON • YAML • Markdown • LaTeX • Lua
-- **Developer Tools** — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU Make • Docker
-- **Other Technologies** — React • Node.js • Express • Figma • Notion • Cloudflare • GitHub
+- **Languages** — C • Rust • Python • Haskell • JavaScript
+- **Tools** — GNU/Linux • GDB • GNU Make • Vim • Docker • React
 
 <!--
 ### Spoken Languages

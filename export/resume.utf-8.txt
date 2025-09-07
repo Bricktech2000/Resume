@@ -15,9 +15,9 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
 𝗖𝗼𝗵𝗲𝗿𝗲
 [Senior Data Quality Specialist — Advanced Mathematics]      Freelance | October
 2024–April 2025
-  • Wrote,  audited  and  corrected  LLM  prompts  and responses with utmost
-    attention  to  detail to produce 𝘀𝗽𝗼𝘁𝗹𝗲𝘀𝘀 𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴 𝗱𝗮𝘁𝗮 in formal logic,
-    combinatorics, number theory, graph theory and optimization.
+  • Wrote,  audited  and  corrected  LLM  prompts  and  responses to produce
+    𝘀𝗽𝗼𝘁𝗹𝗲𝘀𝘀  𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴  𝗱𝗮𝘁𝗮  in formal logic, combinatorics, number theory,
+    graph theory and mathematical optimization.
 
 ─── PROJECTS ───────────────────────────────────────────────────────────────────
 
@@ -25,10 +25,10 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
   • Built  regex  engine  in  C99  that compiles regular expressions down to
     minimal  deterministic  finite automata to match input strings in 𝗹𝗶𝗻𝗲𝗮𝗿
     𝘁𝗶𝗺𝗲 without backtracking.
-  • Wrote  extensive  test  suite  of  over  𝟰𝟬𝟬  𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end
+  • Wrote  extensive  test  suite  of  over  𝟱𝟬𝟬  𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end
     correctness of engine and catch regressions.
-  • Developed grep-like tool as real-world stress test for engine, achieving
-    performance on par with GNU grep.
+  • Developed  grep-like  tool  as  real-world  stress  test  for engine and
+    achieved performance on par with GNU grep.
 
 𝗕𝗿𝗲𝗮𝗱𝗯𝗼𝗮𝗿𝗱 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
   • Designed  8-bit  microcomputer  from  from logic gates upward, including
@@ -73,10 +73,11 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
     and  Prisma  and  used by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout
     hackathon.
   • Built  and  maintained  internal  payment  portal  powered by Stripe and
-    React.js  in collaboration with sponsorship team, enabling processing of
-    over 𝟮𝟬 𝟬𝟬𝟬$.
+    React.js  in  collaboration with sponsorship team that processed upwards
+    of 𝟮𝟬 𝟬𝟬𝟬$.
 
 ─── AWARDS ─────────────────────────────────────────────────────────────────────
+  • 𝗔𝗜𝗧 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 𝟯.𝟬 — 1st place, Mocha challenge                September 2025
   • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟱 — 1st place                                            March 2025
   • 𝘂𝗢𝘁𝘁𝗮𝗛𝗮𝗰𝗸 𝟲 — 1st place, QNX challenge                          January 2025
   • 𝗖𝗦 𝗚𝗮𝗺𝗲𝘀 𝟮𝟬𝟮𝟰 — 1st place, IOT challenge                          March 2024
@@ -84,10 +85,6 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
   • 𝗗𝗲𝗙𝗶 𝗧𝗵𝗲 𝗖𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝗮𝗹 — 1st place, DeFi challenge                 March 2022
 
 ─── SKILLS ─────────────────────────────────────────────────────────────────────
-  • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 —  C •  Rust •  Python •  C++ • JavaScript • HTML/CSS • JSON •
-    YAML • Markdown • LaTeX • Lua
-  • 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • Vim • Bash • Fish Shell • Git • GDB • GNU
-    Make • Docker
-  • 𝗢𝘁𝗵𝗲𝗿  𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀 —  React •  Node.js •  Express •  Figma •  Notion •
-    Cloudflare • GitHub
-                                                             cd204e3c • Jul 2025
+  • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 — C • Rust • Python • Haskell • JavaScript
+  • 𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • GDB • GNU Make • Vim • Docker • React
+                                                             bab7d929 • Sep 2025
