@@ -86,5 +86,5 @@ HACK THE HILL HACKATHON <http://hackthehill.com/>
 
 --- SKILLS ---------------------------------------------------------------------
   - LANGUAGES --- C - Rust - Python - Haskell - JavaScript
-  - TOOLS --- GNU/Linux - GDB - GNU Make - Vim - Docker - React
-                                                             bab7d929 - Sep 2025
+  - TOOLS --- GNU/Linux - GDB - GNU Make - Vim - React
+                                                             f141c4d3 - Sep 2025

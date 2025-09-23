@@ -69,6 +69,6 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 ## Skills
 
 - **Languages** — C • Rust • Python • Haskell • JavaScript
-- **Tools** — GNU/Linux • GDB • GNU Make • Vim • Docker • React
+- **Tools** — GNU/Linux • GDB • GNU Make • Vim • React
 
-`bab7d929 • Sep 2025`
+`f141c4d3 • Sep 2025`

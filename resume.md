@@ -114,16 +114,18 @@ _Submission for DeFi The Conventional 2022_ `React • Rust`
 <!-- May 29 2022 20:57 according to CS Discord Jedi -->
 
 <!--
-- got Manaal involved to take care of social media and photography
 - updated outdated information on website
 - ported logo from raster to vector
 - refreshed Discord server with clearer roles and introduction
 - Designed internal Notion workspace, improving short-term planning by providing single central platform to capture meeting minutes and track task progress.
 - Reorganized Discord server of over **1500 members** by creating clearer roles and introduction channels, improving user experience and onboarding.
 - hosted talk on the practicality of the lambda-calculus
+- brought a team to CS Games & team placed twice
 -->
 
 <!-- 1468 members on Discord server as of 2025-03-26 -->
+
+<!-- made myself an advisor on 2025-09-14, according to website commit history -->
 
 _Club Executive_ `University of Ottawa | June 2022–Present`
 
@@ -175,7 +177,7 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 ## Skills
 
 - **Languages** — C • Rust • Python • Haskell • JavaScript
-- **Tools** — GNU/Linux • GDB • GNU Make • Vim • Docker • React
+- **Tools** — GNU/Linux • GDB • GNU Make • Vim • React
 
 <!--
 ### Spoken Languages
