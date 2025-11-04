@@ -1,6 +1,6 @@
 # Emilien Breton
 
-[613-913-9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
+[613‑913‑9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
 
 <!-- https://www.engineering.cornell.edu/sites/default/files/departments/career%20services/Action-Words-for-ENG-2016.pdf -->
 
@@ -49,18 +49,13 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 - Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **500 tests** to ensure end-to-end correctness of engine and catch regressions.
 - Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine and achieved performance on par with GNU grep.
 
-<!--
-- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) supporting flags -v, -x/-p, -i/-s, -S, -F, -n/-N, -H/-I and -c as real-world stress test for engine.
-- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine, with command-line options for case-insensitive and smart-case matching, fixed-string patterns, full-match and partial-match searches, and more.
--->
-
 ### [Breadboard Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
 <!-- according to Toggl Track as of 2024-05-12 -->
 
 <!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 
-- Designed 8-bit microcomputer from from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator in Rust](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **20 000 SLOC** and **750 hours** of work.
+- Designed 8‑bit microcomputer from from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator in Rust](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **20 000 SLOC** and **750 hours** of work.
 - Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
@@ -80,8 +75,8 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
 _A hash-based, database-less password manager_ `C • Python`
 
-- Devised [custom hash procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA-256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
-- Reimplemented password generation algorithm in C along with [SHA-256 routines](https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c) as per FIPS PUB 180-4 for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
+- Devised [custom hash procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA‑256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
+- Reimplemented password generation algorithm in C along with [SHA‑256 routines](https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c) as per FIPS PUB 180‑4 for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
 
 - Wrote cross-platform PWA with Next.js used by over **50 accounts** <! -- 50 of which are mine -- > that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience.
 -->
@@ -102,8 +97,8 @@ _A portfolio for sharing various projects_ `Markdown • Next.js`
 
 _Submission for DeFi The Conventional 2022_ `React • Rust`
 
-- Won **first place** in Finance category of Canada’s largest DeFi hackathon along with **2500$ prize** as part of 3-member team.
-- Engineered [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within limited **36-hour timeframe**.
+- Won **first place** in Finance category of Canada’s largest DeFi hackathon along with **2500$ prize** as part of 3‑member team.
+- Engineered [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within limited **36‑hour timeframe**.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.
 -->
 
@@ -130,7 +125,7 @@ _Submission for DeFi The Conventional 2022_ `React • Rust`
 _Club Executive_ `University of Ottawa | June 2022–Present`
 
 - Running growing community of **over 1500** computer science students at the University of Ottawa.
-- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.
+- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ‑calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
 
@@ -167,6 +162,7 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 ## Awards
 
+- **Tech-Nol-Hack 2025** — 2nd place `October 2025` <!-- October 4th 2025—October 5th 2025 -->
 - **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` <!-- September 6th 2025—September 7th 2025 -->
 - **uOCTF 2025** — 1st place `March 2025` <!-- March 25th 2025 -->
 - **uOttaHack 6** — 1st place, QNX challenge `January 2025` <!-- January 17th 2024–January 19th 2024 -->

@@ -2,7 +2,7 @@
 |_   _  . | .  _  _    |__)  _  _ |_  _   _
 |__ ||| | | | (- | )   |__) |  (- |_ (_) | )
 
-613-913-9909 • mail@emilien.ca • github.com/Bricktech2000 •
+613‑913‑9909 • mail@emilien.ca • github.com/Bricktech2000 •
 linkedin.com/in/emilien-breton • https://emilien.ca/
 
 ─── EXPERIENCE ─────────────────────────────────────────────────────────────────
@@ -31,7 +31,7 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
     achieved performance on par with GNU grep.
 
 𝗕𝗿𝗲𝗮𝗱𝗯𝗼𝗮𝗿𝗱 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
-  • Designed  8-bit  microcomputer  from  from logic gates upward, including
+  • Designed  8‑bit  microcomputer  from  from logic gates upward, including
     instruction  set architecture, from-scratch assembler and cross-platform
     emulator in Rust, totaling over 𝟮𝟬 𝟬𝟬𝟬 𝗦𝗟𝗢𝗖 and 𝟳𝟱𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
   • Wrote  various utilities in Assembly running natively on microcomputer —
@@ -65,7 +65,7 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
     University of Ottawa.
   • Collaborating  with executive board to brainstorm, plan, fund and market
     monthly  events  and  meetups,  such  as  workshop  on  Vim bindings and
-    mini-course on the λ-calculus.
+    mini-course on the λ‑calculus.
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 <http://hackthehill.com/>
 [Development Manager — Development Team]     Ottawa | November 2022–October 2024
@@ -77,6 +77,7 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
     of 𝟮𝟬 𝟬𝟬𝟬$.
 
 ─── AWARDS ─────────────────────────────────────────────────────────────────────
+  • 𝗧𝗲𝗰𝗵-𝗡𝗼𝗹-𝗛𝗮𝗰𝗸 𝟮𝟬𝟮𝟱 — 2nd place                                  October 2025
   • 𝗔𝗜𝗧 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 𝟯.𝟬 — 1st place, Mocha challenge                September 2025
   • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟱 — 1st place                                            March 2025
   • 𝘂𝗢𝘁𝘁𝗮𝗛𝗮𝗰𝗸 𝟲 — 1st place, QNX challenge                          January 2025
@@ -87,4 +88,4 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
 ─── SKILLS ─────────────────────────────────────────────────────────────────────
   • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 — C • Rust • Python • Haskell • JavaScript
   • 𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • GDB • GNU Make • Vim • React
-                                                             f141c4d3 • Sep 2025
+                                                             bdd79da6 • Nov 2025

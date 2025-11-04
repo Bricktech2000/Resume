@@ -77,6 +77,7 @@ HACK THE HILL HACKATHON <http://hackthehill.com/>
     of 20 000$.
 
 --- AWARDS ---------------------------------------------------------------------
+  - TECH-NOL-HACK 2025 --- 2nd place                                October 2025
   - AIT HACKATHON 3.0 --- 1st place, Mocha challenge              September 2025
   - UOCTF 2025 --- 1st place                                          March 2025
   - UOTTAHACK 6 --- 1st place, QNX challenge                        January 2025
@@ -87,4 +88,4 @@ HACK THE HILL HACKATHON <http://hackthehill.com/>
 --- SKILLS ---------------------------------------------------------------------
   - LANGUAGES --- C - Rust - Python - Haskell - JavaScript
   - TOOLS --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             f141c4d3 - Sep 2025
+                                                             bdd79da6 - Nov 2025

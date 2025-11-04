@@ -77,6 +77,7 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
     of [1m20 000$[0m.
 
 --- AWARDS ---------------------------------------------------------------------
+  - [1mTech-Nol-Hack 2025[0m --- 2nd place                                [3mOctober 2025[0m
   - [1mAIT Hackathon 3.0[0m --- 1st place, Mocha challenge              [3mSeptember 2025[0m
   - [1muOCTF 2025[0m --- 1st place                                          [3mMarch 2025[0m
   - [1muOttaHack 6[0m --- 1st place, QNX challenge                        [3mJanuary 2025[0m
@@ -87,4 +88,4 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
 --- SKILLS ---------------------------------------------------------------------
   - [1mLanguages[0m --- C - Rust - Python - Haskell - JavaScript
   - [1mTools[0m --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             [3mf141c4d3 - Sep 2025[0m
+                                                             [3mbdd79da6 - Nov 2025[0m

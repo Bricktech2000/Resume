@@ -1,6 +1,6 @@
 # Emilien Breton
 
-[613-913-9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
+[613‑913‑9909](tel:+1-613-913-9909) • [mail@emilien.ca](mailto:mail@emilien.ca) • [github.com/Bricktech2000](https://github.com/Bricktech2000) • [linkedin.com/in/emilien-breton](https://www.linkedin.com/in/emilien-breton/) • [https://emilien.ca/](https://emilien.ca/)
 
 ## Experience
 
@@ -26,7 +26,7 @@ _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October
 
 ### [Breadboard Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
-- Designed 8-bit microcomputer from from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator in Rust](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **20 000 SLOC** and **750 hours** of work.
+- Designed 8‑bit microcomputer from from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator in Rust](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **20 000 SLOC** and **750 hours** of work.
 - Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
@@ -48,7 +48,7 @@ _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October
 _Club Executive_ `University of Ottawa | June 2022–Present`
 
 - Running growing community of **over 1500** computer science students at the University of Ottawa.
-- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ-calculus.
+- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ‑calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
 
@@ -59,6 +59,7 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 ## Awards
 
+- **Tech-Nol-Hack 2025** — 2nd place `October 2025` 
 - **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` 
 - **uOCTF 2025** — 1st place `March 2025` 
 - **uOttaHack 6** — 1st place, QNX challenge `January 2025` 
@@ -71,4 +72,4 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 - **Languages** — C • Rust • Python • Haskell • JavaScript
 - **Tools** — GNU/Linux • GDB • GNU Make • Vim • React
 
-`f141c4d3 • Sep 2025`
+`bdd79da6 • Nov 2025`
