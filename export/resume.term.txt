@@ -1,6 +1,4 @@
- __                     __
-|_   _  . | .  _  _    |__)  _  _ |_  _   _
-|__ ||| | | | (- | )   |__) |  (- |_ (_) | )
+                      [1mE m i l i e n   B r e t o n[0m
 
 613-913-9909 - mail@emilien.ca - github.com/Bricktech2000 -
 linkedin.com/in/emilien-breton - https://emilien.ca/
@@ -88,4 +86,4 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
 --- SKILLS ---------------------------------------------------------------------
   - [1mLanguages[0m --- C - Rust - Python - Haskell - JavaScript
   - [1mTools[0m --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             [3mbdd79da6 - Nov 2025[0m
+                                                             [3m994735bb - Nov 2025[0m

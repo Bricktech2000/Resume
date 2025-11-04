@@ -61,11 +61,8 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
             return ''.join(map(formatless, element.children))
           return self.render(element)
 
-        import subprocess
-        font = ['straight', '-m-1']  # ['mini', '-m0']
         formatless_children = ''.join(formatless(child) for child in element.children)
-        figlet_output = subprocess.check_output(['figlet', '-f', *font, formatless_children])
-        return re.sub(r' +\n', r'\n', figlet_output.decode('utf-8'))
+        return f'{self.format_strong(" ".join(formatless_children)).center(self.width).rstrip()}\n\n'
 
       if element.level == 2:
         hh = '\u2500'

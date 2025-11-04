@@ -1,6 +1,4 @@
- __                     __
-|_   _  . | .  _  _    |__)  _  _ |_  _   _
-|__ ||| | | | (- | )   |__) |  (- |_ (_) | )
+                          E M I L I E N   B R E T O N
 
 613-913-9909 - mail@emilien.ca - github.com/Bricktech2000 -
 linkedin.com/in/emilien-breton - https://emilien.ca/
@@ -88,4 +86,4 @@ HACK THE HILL HACKATHON <http://hackthehill.com/>
 --- SKILLS ---------------------------------------------------------------------
   - LANGUAGES --- C - Rust - Python - Haskell - JavaScript
   - TOOLS --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             bdd79da6 - Nov 2025
+                                                             994735bb - Nov 2025

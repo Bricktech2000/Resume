@@ -72,4 +72,4 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 - **Languages** — C • Rust • Python • Haskell • JavaScript
 - **Tools** — GNU/Linux • GDB • GNU Make • Vim • React
 
-`bdd79da6 • Nov 2025`
+`994735bb • Nov 2025`
