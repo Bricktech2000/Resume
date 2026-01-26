@@ -11,7 +11,7 @@ ECOSAFESENSE
     test bench.
 
 COHERE
-[Senior Data Quality Specialist --- Advanced Mathematics]    Freelance | October
+[Data Quality Specialist --- Advanced Mathematics]           Freelance | October
 2024--April 2025
   - Wrote,  audited  and  corrected  LLM  prompts  and  responses to produce
     SPOTLESS  TRAINING  DATA  in formal logic, combinatorics, number theory,
@@ -37,16 +37,6 @@ BREADBOARD MICROCOMPUTER <https://github.com/Bricktech2000/Atto-8>
     Tetris clone - native assembler - postfix notation calculator.
   - Built  microcomputer  in  hardware  by  hand-wiring discrete 74HC-series
     logic chips on breadboards.
-
-RUDIMENTARY C COMPILER <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
-  - Building  C99  compiler  from  scratch  in  Rust  targeting  breadboard
-    microcomputer's instruction set.
-  - Implemented  dead  code  elimination,  constant  folding  and  strength
-    reduction,  resulting  in 20% INCREASE in generated code performance and
-    10% REDUCTION in binary size across test suite.
-  - Developed  extensive  C  standard  library,  including  heap  allocator
-    supporting MALLOC AND FREE, string handling functions such as STRLEN AND
-    MEMCPY and input/output routines including GETLINE AND PRINTF.
 
 MULTILAYER PERCEPTRON <https://github.com/Bricktech2000/Autodiff>
   - Wrote  static  reverse-mode automatic differentiation library in C99 for
@@ -75,15 +65,16 @@ HACK THE HILL HACKATHON <http://hackthehill.com/>
     of 20 000$.
 
 --- AWARDS ---------------------------------------------------------------------
+  - IEEE X HTB CTF --- 2nd place                                    January 2026
   - TECH-NOL-HACK 2025 --- 2nd place                                October 2025
   - AIT HACKATHON 3.0 --- 1st place, Mocha challenge              September 2025
   - UOCTF 2025 --- 1st place                                          March 2025
   - UOTTAHACK 6 --- 1st place, QNX challenge                        January 2025
-  - CS GAMES 2024 --- 1st place, IOT challenge                        March 2024
+  - CS GAMES 2024 --- 1st place, IoT challenge                        March 2024
   - UOCTF 2024 --- 1st place                                       November 2023
   - DEFI THE CONVENTIONAL --- 1st place, DeFi challenge               March 2022
 
 --- SKILLS ---------------------------------------------------------------------
   - LANGUAGES --- C - Rust - Python - Haskell - JavaScript
   - TOOLS --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             994735bb - Nov 2025
+                                                             49c603b4 - Jan 2026

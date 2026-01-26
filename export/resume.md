@@ -6,13 +6,13 @@
 
 ### EcoSafeSense
 
-_Firmware Engineer_ `Ottawa | October 2024–Present`
+_Firmware Engineer_ `Ottawa | October 2024–Present`
 
 - Writing firmware for ESP32-based air quality sensor and complementary test bench.
 
 ### Cohere
 
-_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
+_Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
 
 - Wrote, audited and corrected LLM prompts and responses to produce **spotless training data** in formal logic, combinatorics, number theory,  graph theory and mathematical optimization.
 
@@ -30,12 +30,6 @@ _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October
 - Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
-### [Rudimentary C Compiler](https://github.com/Bricktech2000/Atto-8/blob/master/cc)
-
-- Building C99 compiler from scratch in Rust targeting breadboard microcomputer’s instruction set.
-- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite. 
-- Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. 
-
 ### [Multilayer Perceptron](https://github.com/Bricktech2000/Autodiff)
 
 - Wrote [static reverse-mode automatic differentiation library](https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.c) in C99 for use in deep learning.
@@ -45,25 +39,26 @@ _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October
 
 ### [Computer Science Club](https://uocsclub.ca/)
 
-_Club Executive_ `University of Ottawa | June 2022–Present`
+_Club Executive_ `University of Ottawa | June 2022–Present`
 
 - Running growing community of **over 1500** computer science students at the University of Ottawa.
 - Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ‑calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
 
-_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
+_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
 
 - Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) based on Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
 - Built and maintained internal payment portal powered by Stripe and React.js in collaboration with sponsorship team that processed upwards of **20 000$**.
 
 ## Awards
 
+- **IEEE x HTB CTF** — 2nd place `January 2026` 
 - **Tech-Nol-Hack 2025** — 2nd place `October 2025` 
 - **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` 
 - **uOCTF 2025** — 1st place `March 2025` 
 - **uOttaHack 6** — 1st place, QNX challenge `January 2025` 
-- **CS Games 2024** — 1st place, IOT challenge `March 2024` 
+- **CS Games 2024** — 1st place, IoT challenge `March 2024` 
 - **uOCTF 2024** — 1st place `November 2023` 
 - **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` 
 
@@ -72,4 +67,4 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 - **Languages** — C • Rust • Python • Haskell • JavaScript
 - **Tools** — GNU/Linux • GDB • GNU Make • Vim • React
 
-`994735bb • Nov 2025`
+`49c603b4 • Jan 2026`

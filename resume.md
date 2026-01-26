@@ -19,7 +19,7 @@
 - troubleshooted miswired I2C bus (flipped connector on daughter board)
 -->
 
-_Firmware Engineer_ `Ottawa | October 2024–Present`
+_Firmware Engineer_ `Ottawa | October 2024–Present`
 
 - Writing firmware for ESP32-based air quality sensor and complementary test bench.
 
@@ -27,7 +27,7 @@ _Firmware Engineer_ `Ottawa | October 2024–Present`
 
 <!-- contractor agreement signed 2024-10-28, completed 2025-04-28 -->
 
-_Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
+_Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
 
 - Wrote, audited and corrected LLM prompts and responses to produce **spotless training data** in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and mathematical optimization.
 
@@ -36,7 +36,7 @@ _Senior Data Quality Specialist — Advanced Mathematics_ `Freelance | October
 
 <! -- start date according to Discord conversations. end date estimated -- >
 
-_Software Engineer — Web3_ `Remote | October 2022–October 2023`
+_Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
 - Implemented various smart contracts in Solidity and ensured **100% test coverage** through Chai and Hardhat.
 -->
@@ -59,11 +59,13 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 - Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
 - Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
+<!--
 ### [Rudimentary C Compiler](https://github.com/Bricktech2000/Atto-8/blob/master/cc)
 
 - Building C99 compiler from scratch in Rust targeting breadboard microcomputer’s instruction set.
-- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite. <!-- estimated -->
-- Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. <!-- supporting conversion specifiers %d, %u, %x, %c, %s and %p -->
+- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite. <! -- estimated -- >
+- Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. <! -- supporting conversion specifiers %d, %u, %x, %c, %s and %p -- >
+-->
 
 ### [Multilayer Perceptron](https://github.com/Bricktech2000/Autodiff)
 
@@ -118,11 +120,11 @@ _Submission for DeFi The Conventional 2022_ `React • Rust`
 - brought a team to CS Games & team placed twice
 -->
 
-<!-- 1468 members on Discord server as of 2025-03-26 -->
+<!-- 1500 members on Discord server as of 2025-11-19 -->
 
 <!-- made myself an advisor on 2025-09-14, according to website commit history -->
 
-_Club Executive_ `University of Ottawa | June 2022–Present`
+_Club Executive_ `University of Ottawa | June 2022–Present`
 
 - Running growing community of **over 1500** computer science students at the University of Ottawa.
 - Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ‑calculus.
@@ -134,11 +136,11 @@ _Club Executive_ `University of Ottawa | June 2022–Present`
 <!-- Development Coordinator was updated to Development Manager around 2023-05-01 -->
 
 <!--
-_Development Manager — Development Team_ `Ottawa | May 2023–October 2024`
-_Development Coordinator — Development Team_ `Ottawa | November 2022–May 2023`
+_Development Manager — Development Team_ `Ottawa | May 2023–October 2024`
+_Development Coordinator — Development Team_ `Ottawa | November 2022–May 2023`
 -->
 
-_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
+_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
 
 <!-- according to https://prisma.hackthehill.com/ -->
 
@@ -162,11 +164,12 @@ _Development Manager — Development Team_ `Ottawa | November 2022–October 2
 
 ## Awards
 
+- **IEEE x HTB CTF** — 2nd place `January 2026` <!-- January 1st 2026 -->
 - **Tech-Nol-Hack 2025** — 2nd place `October 2025` <!-- October 4th 2025—October 5th 2025 -->
 - **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` <!-- September 6th 2025—September 7th 2025 -->
 - **uOCTF 2025** — 1st place `March 2025` <!-- March 25th 2025 -->
 - **uOttaHack 6** — 1st place, QNX challenge `January 2025` <!-- January 17th 2024–January 19th 2024 -->
-- **CS Games 2024** — 1st place, IOT challenge `March 2024` <!-- March 15th 2024–March 17th 2024 -->
+- **CS Games 2024** — 1st place, IoT challenge `March 2024` <!-- March 15th 2024–March 17th 2024 -->
 - **uOCTF 2024** — 1st place `November 2023` <!-- November 25th 2023 > <! pretty sure I placed first but not certain; been over a year -->
 - **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` <!-- March 18th 2022–March 20th 2022 -->
 

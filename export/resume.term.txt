@@ -11,7 +11,7 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
     test bench.
 
 [1mCohere[0m
-[[3mSenior Data Quality Specialist --- Advanced Mathematics[0m]    [3mFreelance | October
+[[3mData Quality Specialist --- Advanced Mathematics[0m]           [3mFreelance | October
 2024--April 2025[0m
   - Wrote,  audited  and  corrected  LLM  prompts  and  responses to produce
     [1mspotless  training  data[0m  in formal logic, combinatorics, number theory,
@@ -37,16 +37,6 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
     Tetris clone - native assembler - postfix notation calculator.
   - Built  microcomputer  in  hardware  by  hand-wiring discrete 74HC-series
     logic chips on breadboards.
-
-[1mRudimentary C Compiler[0m <https://github.com/Bricktech2000/Atto-8/blob/master/cc>
-  - Building  C99  compiler  from  scratch  in  Rust  targeting  breadboard
-    microcomputer's instruction set.
-  - Implemented  dead  code  elimination,  constant  folding  and  strength
-    reduction,  resulting  in [1m20% increase[0m in generated code performance and
-    [1m10% reduction[0m in binary size across test suite.
-  - Developed  extensive  C  standard  library,  including  heap  allocator
-    supporting [1mmalloc and free[0m, string handling functions such as [1mstrlen and
-    memcpy[0m and input/output routines including [1mgetline and printf[0m.
 
 [1mMultilayer Perceptron[0m <https://github.com/Bricktech2000/Autodiff>
   - Wrote  static  reverse-mode automatic differentiation library in C99 for
@@ -75,15 +65,16 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
     of [1m20 000$[0m.
 
 --- AWARDS ---------------------------------------------------------------------
+  - [1mIEEE x HTB CTF[0m --- 2nd place                                    [3mJanuary 2026[0m
   - [1mTech-Nol-Hack 2025[0m --- 2nd place                                [3mOctober 2025[0m
   - [1mAIT Hackathon 3.0[0m --- 1st place, Mocha challenge              [3mSeptember 2025[0m
   - [1muOCTF 2025[0m --- 1st place                                          [3mMarch 2025[0m
   - [1muOttaHack 6[0m --- 1st place, QNX challenge                        [3mJanuary 2025[0m
-  - [1mCS Games 2024[0m --- 1st place, IOT challenge                        [3mMarch 2024[0m
+  - [1mCS Games 2024[0m --- 1st place, IoT challenge                        [3mMarch 2024[0m
   - [1muOCTF 2024[0m --- 1st place                                       [3mNovember 2023[0m
   - [1mDeFi The Conventional[0m --- 1st place, DeFi challenge               [3mMarch 2022[0m
 
 --- SKILLS ---------------------------------------------------------------------
   - [1mLanguages[0m --- C - Rust - Python - Haskell - JavaScript
   - [1mTools[0m --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             [3m994735bb - Nov 2025[0m
+                                                             [3m49c603b4 - Jan 2026[0m
