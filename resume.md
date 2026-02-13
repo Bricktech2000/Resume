@@ -19,15 +19,15 @@
 - troubleshooted miswired I2C bus (flipped connector on daughter board)
 -->
 
-_Firmware Engineer_ `Ottawa | October 2024–Present`
+_Firmware Engineer_ `Ottawa | October 2024–Present`
 
-- Writing firmware for ESP32-based air quality sensor and complementary test bench.
+- Writing firmware for an ESP32-based air quality sensor and complementary test bench.
 
 ### Cohere
 
 <!-- contractor agreement signed 2024-10-28, completed 2025-04-28 -->
 
-_Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
+_Data Quality Specialist — Advanced Mathematics_ `Freelance | October 2024–April 2025`
 
 - Wrote, audited and corrected LLM prompts and responses to produce **spotless training data** in formal logic, combinatorics, number theory, <!-- group theory, --> graph theory and mathematical optimization.
 
@@ -36,7 +36,7 @@ _Data Quality Specialist — Advanced Mathematics_ `Freelance | October 202
 
 <! -- start date according to Discord conversations. end date estimated -- >
 
-_Software Engineer — Web3_ `Remote | October 2022–October 2023`
+_Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
 - Implemented various smart contracts in Solidity and ensured **100% test coverage** through Chai and Hardhat.
 -->
@@ -45,9 +45,19 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
 ### [DFA Regex Engine](https://github.com/Bricktech2000/LTRE)
 
-- Built [regex engine](https://github.com/Bricktech2000/LTRE/blob/master/ltre.c) in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in **linear time** without backtracking.
-- Wrote [extensive test suite](https://github.com/Bricktech2000/LTRE/blob/master/test.c) of over **500 tests** to ensure end-to-end correctness of engine and catch regressions.
-- Developed [grep-like tool](https://github.com/Bricktech2000/LTRE/blob/master/ltrep.c) as real-world stress test for engine and achieved performance on par with GNU grep.
+- Built a regex engine in C99 that compiles regular expressions down to minimal deterministic finite automata to match input strings in **linear time** without backtracking.
+- Wrote a test suite of over **500 end-to-end tests** to ensure correctness of the engine and catch regressions.
+- Developed a grep-like tool to stress-test the engine and achieved performance on par with GNU grep.
+
+### [Multilayer Perceptron](https://github.com/Bricktech2000/Autodiff)
+
+- Wrote a static reverse-mode automatic differentiation library in C99 for use in deep learning.
+- Designed a multilayer perceptron model atop the library and implemented stochastic gradient descent with momentum, <!-- and L2 regularization, --> ultimately achieving **97% accuracy** on the MNIST database after 3 minutes training on 16 threads. <!-- thank you Justin for the CPU time :) -->
+
+### [Purely Functional Language](https://github.com/Bricktech2000/PNLC)
+
+- Developed an interpreter for a lazily-evaluated λ‑calculus augmented with monadic I/O.
+- Bootstrapped the interpreter into a usable language by writing a **2000-line prelude** complete with booleans, integers, pairs, optionals, lists, strings, functors, monads, monoids, foldables, traversables…
 
 ### [Breadboard Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
@@ -55,52 +65,36 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
 <!-- according to https://codetabs.com/count-loc/count-loc-online.html -->
 
-- Designed 8‑bit microcomputer from from logic gates upward, including [instruction set architecture](https://github.com/Bricktech2000/Atto-8/blob/master/spec/microarchitecture.md), [from-scratch assembler](https://github.com/Bricktech2000/Atto-8/tree/master/asm) and [cross-platform emulator in Rust](https://github.com/Bricktech2000/Atto-8/tree/master/emu), totaling over **20 000 SLOC** and **750 hours** of work.
-- Wrote various utilities in Assembly running natively on microcomputer — [Wozmon-inspired memory monitor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/attomon.asm) • [16×16 sprite editor](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/pixedit.asm) • [Tetris clone](https://github.com/Bricktech2000/Atto-8/blob/master/test/games/tetris.asm) • [native assembler](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/min-asm.asm) • [postfix notation calculator](https://github.com/Bricktech2000/Atto-8/blob/master/test/utils/calc.asm).
-- Built microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
+- Designed an 8‑bit microcomputer from from logic gates upwards, including an assembler, emulator and rudimentary C compiler in Rust, totaling over **20 000 SLOC** and **750 hours** of work.
+- Wrote various programs running natively on the microcomputer, including a Wozmon-like memory monitor, 16×16 sprite editor, native assembler, postfix notation calculator and Tetris clone.
+- Built the microcomputer in hardware by hand-wiring discrete 74HC-series logic chips on breadboards.
 
 <!--
 ### [Rudimentary C Compiler](https://github.com/Bricktech2000/Atto-8/blob/master/cc)
 
-- Building C99 compiler from scratch in Rust targeting breadboard microcomputer’s instruction set.
-- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across test suite. <! -- estimated -- >
-- Developed extensive C standard library, including [heap allocator](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdlib.asm) supporting **malloc and free**, [string handling functions](https://github.com/Bricktech2000/Atto-8/blob/master/lib/string.asm) such as **strlen and memcpy** and [input/output routines](https://github.com/Bricktech2000/Atto-8/blob/master/lib/stdio.asm) including **getline and printf**. <! -- supporting conversion specifiers %d, %u, %x, %c, %s and %p -- >
+- Building a C99 compiler from scratch in Rust targeting the breadboard microcomputer’s instruction set.
+- Implemented dead code elimination, constant folding and strength reduction, resulting in **20% increase** in generated code performance and **10% reduction** in binary size across the test suite. <! -- estimated -- >
+- Developed an extensive C standard library, including a heap allocator supporting **malloc and free**, string handling functions such as **strlen and memcpy** and input/output routines including **getline and printf**. <! -- supporting conversion specifiers %d, %u, %x, %c, %s and %p -- >
 -->
-
-### [Multilayer Perceptron](https://github.com/Bricktech2000/Autodiff)
-
-- Wrote [static reverse-mode automatic differentiation library](https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.c) in C99 for use in deep learning.
-- Designed [multilayer perceptron model](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-gen.c) and implemented [stochastic gradient descent](https://github.com/Bricktech2000/Autodiff/blob/master/mlp-fit.c), momentum and L2 regularization, achieving **97% accuracy** on MNIST database after 3 minutes training on 16 threads. <!-- thank you Justin for the CPU time :) -->
 
 <!--
 ### [DBLess Password Manager](https://github.com/Bricktech2000/DBLess)
 
 _A hash-based, database-less password manager_ `C • Python`
 
-- Devised [custom hash procedure](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.py) based on SHA‑256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
-- Reimplemented password generation algorithm in C along with [SHA‑256 routines](https://github.com/Bricktech2000/DBLess/blob/master/src/sha256.c) as per FIPS PUB 180‑4 for use as [interactive CLI tool](https://github.com/Bricktech2000/DBLess/blob/master/src/dbless.c).
-
-- Wrote cross-platform PWA with Next.js used by over **50 accounts** <! -- 50 of which are mine -- > that loads 2FA tokens, generates passwords and copies them to user’s clipboard for convenience.
--->
-
-<!--
-### [Personal Website](https://emilien.ca/)
-
-_A portfolio for sharing various projects_ `Markdown • Next.js`
-
-- Designed and implemented appealing UI and optimized UX using Google Search Console resulting in over **15 000 unique visitors** to portfolio website a month.
-- Leveraged Cloudflare caching system and optimized site-wide accessibility resulting in Lighthouse score consistently over **95%**.
+- Devised a custom hash procedure based on SHA‑256 in Python which deterministically generates passwords on demand without requiring encryption or password storage.
+- Reimplemented the password generation algorithm in C along with SHA‑256 routines as per FIPS PUB 180‑4 for use as an interactive CLI tool.
 -->
 
 <!--
 ### [Legacy Protocol](https://devpost.com/software/legacy-protocol)
 
-<! -- March 18th 2022–March 20th 2022 -- >
+<! -- March 18th 2022--March 20th 2022 -- >
 
 _Submission for DeFi The Conventional 2022_ `React • Rust`
 
-- Won **first place** in Finance category of Canada’s largest DeFi hackathon along with **2500$ prize** as part of 3‑member team.
-- Engineered [MVP smart contract backend and API](https://github.com/Bricktech2000/crypto_will) from scratch in Rust with no prior experience in Web3, all within limited **36‑hour timeframe**.
+- Won **first place** in the Finance category of Canada’s largest DeFi hackathon along with **2500$ prize** as part of a 3‑member team.
+- Engineered the smart contract backend and API from scratch in Rust with no prior experience in Web3, all within limited **36‑hour timeframe**.
 - Worked in collaboration with Terraform Labs post-hackathon to officialize our protocol and secure additional funding prior to Terra Luna collapse.
 -->
 
@@ -124,10 +118,10 @@ _Submission for DeFi The Conventional 2022_ `React • Rust`
 
 <!-- made myself an advisor on 2025-09-14, according to website commit history -->
 
-_Club Executive_ `University of Ottawa | June 2022–Present`
+_Club Executive_ `University of Ottawa | June 2022–Present`
 
-- Running growing community of **over 1500** computer science students at the University of Ottawa.
-- Collaborating with executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshop on Vim bindings and mini-course on the λ‑calculus.
+- Running a growing community of **over 1500** computer science students at the University of Ottawa.
+- Collaborating with the executive board to brainstorm, plan, fund and market monthly events and meetups, such as workshops on Vim bindings and a mini-course on the λ‑calculus.
 
 ### [Hack the Hill Hackathon](http://hackthehill.com/)
 
@@ -136,21 +130,21 @@ _Club Executive_ `University of Ottawa | June 2022–Present`
 <!-- Development Coordinator was updated to Development Manager around 2023-05-01 -->
 
 <!--
-_Development Manager — Development Team_ `Ottawa | May 2023–October 2024`
-_Development Coordinator — Development Team_ `Ottawa | November 2022–May 2023`
+_Development Manager — Development Team_ `Ottawa | May 2023–October 2024`
+_Development Coordinator — Development Team_ `Ottawa | November 2022–May 2023`
 -->
 
-_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
+_Development Manager — Development Team_ `Ottawa | November 2022–October 2024`
 
 <!-- according to https://prisma.hackthehill.com/ -->
 
 <!-- according to "Hack the Hill I Budget" spreadsheet (actual number is 21699.32$) -->
 
-- Led development of [open-source event management system](https://github.com/HacktheHill/track-the-hack) based on Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout hackathon.
-- Built and maintained internal payment portal powered by Stripe and React.js in collaboration with sponsorship team that processed upwards of **20 000$**.
+- Led development of an [open-source event management system](https://github.com/HacktheHill/track-the-hack) based on Next.js and Prisma and used by over **1000 hackers** and **50 organizers** throughout the hackathon.
+- Built and maintained an internal payment portal powered by Stripe and React.js in collaboration with the sponsorship team that processed upwards of **20 000$**.
 
 <!--
-- Collaborated with design, development and community teams to fix various issues on [hackathon website](https://hackthehill.com/) and keep it up to date with event information
+- Collaborated with design, development and community teams to fix various issues on hackathon website and keep it up to date with event information
 - worked on website to fix issues
 - worked on sponsorship portal with stripe
 - worked on display system with firebase
@@ -164,14 +158,14 @@ _Development Manager — Development Team_ `Ottawa | November 2022–Octobe
 
 ## Awards
 
-- **IEEE x HTB CTF** — 2nd place `January 2026` <!-- January 1st 2026 -->
-- **Tech-Nol-Hack 2025** — 2nd place `October 2025` <!-- October 4th 2025—October 5th 2025 -->
-- **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` <!-- September 6th 2025—September 7th 2025 -->
-- **uOCTF 2025** — 1st place `March 2025` <!-- March 25th 2025 -->
-- **uOttaHack 6** — 1st place, QNX challenge `January 2025` <!-- January 17th 2024–January 19th 2024 -->
-- **CS Games 2024** — 1st place, IoT challenge `March 2024` <!-- March 15th 2024–March 17th 2024 -->
-- **uOCTF 2024** — 1st place `November 2023` <!-- November 25th 2023 > <! pretty sure I placed first but not certain; been over a year -->
-- **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` <!-- March 18th 2022–March 20th 2022 -->
+- **IEEE x HTB CTF** — 2nd place `January 2026` <!-- January 1st 2026 -->
+- **Tech-Nol-Hack 2025** — 2nd place `October 2025` <!-- October 4th 2025--October 5th 2025 -->
+- **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` <!-- September 6th 2025--September 7th 2025 -->
+- **uOCTF 2025** — 1st place `March 2025` <!-- March 25th 2025 -->
+- **uOttaHack 6** — 1st place, QNX challenge `January 2025` <!-- January 17th 2024--January 19th 2024 -->
+- **CS Games 2024** — 1st place, IoT challenge `March 2024` <!-- March 15th 2024--March 17th 2024 -->
+- **uOCTF 2024** — 1st place `November 2023` <!-- November 25th 2023 > <! pretty sure I placed first but not certain; been over a year -->
+- **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` <!-- March 18th 2022--March 20th 2022 -->
 
 ## Skills
 
@@ -189,7 +183,5 @@ _Development Manager — Development Team_ `Ottawa | November 2022–Octobe
 - Spanish `Intermediate`
 - Russian `Elementary`
 -->
-
-<!-- _[Bricktech2000/Resume](https://github.com/Bricktech2000/Resume/)_ -->
 
 `[COMMIT_HASH] • [MONTH] [YEAR]`

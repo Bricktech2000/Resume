@@ -1,18 +1,20 @@
                       [1mE m i l i e n   B r e t o n[0m
 
-613-913-9909 - mail@emilien.ca - github.com/Bricktech2000 -
-linkedin.com/in/emilien-breton - https://emilien.ca/
+613-913-9909 <tel:+1-613-913-9909> - mail@emilien.ca <mailto:mail@emilien.ca> -
+github.com/Bricktech2000 <https://github.com/Bricktech2000> -
+linkedin.com/in/emilien-breton <https://www.linkedin.com/in/emilien-breton/> -
+https://emilien.ca/ <https://emilien.ca/>
 
 --- EXPERIENCE -----------------------------------------------------------------
 
 [1mEcoSafeSense[0m
 [[3mFirmware Engineer[0m]                               [3mOttawa | October 2024--Present[0m
-  - Writing  firmware  for  ESP32-based air quality sensor and complementary
+  - Writing firmware for an ESP32-based air quality sensor and complementary
     test bench.
 
 [1mCohere[0m
-[[3mData Quality Specialist --- Advanced Mathematics[0m]           [3mFreelance | October
-2024--April 2025[0m
+[[3mData Quality Specialist --- Advanced Mathematics[0m]                   [3mFreelance |
+October 2024--April 2025[0m
   - Wrote,  audited  and  corrected  LLM  prompts  and  responses to produce
     [1mspotless  training  data[0m  in formal logic, combinatorics, number theory,
     graph theory and mathematical optimization.
@@ -20,49 +22,57 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
 --- PROJECTS -------------------------------------------------------------------
 
 [1mDFA Regex Engine[0m <https://github.com/Bricktech2000/LTRE>
-  - Built  regex  engine  in  C99  that compiles regular expressions down to
+  - Built  a  regex  engine in C99 that compiles regular expressions down to
     minimal  deterministic  finite automata to match input strings in [1mlinear
     time[0m without backtracking.
-  - Wrote  extensive  test  suite  of  over  [1m500  tests[0m to ensure end-to-end
-    correctness of engine and catch regressions.
-  - Developed  grep-like  tool  as  real-world  stress  test  for engine and
-    achieved performance on par with GNU grep.
-
-[1mBreadboard Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
-  - Designed  8-bit  microcomputer  from  from logic gates upward, including
-    instruction  set architecture, from-scratch assembler and cross-platform
-    emulator in Rust, totaling over [1m20 000 SLOC[0m and [1m750 hours[0m of work.
-  - Wrote  various  utilities  in  Assembly  running  natively  on
-    microcomputer --- Wozmon-inspired memory monitor - 16x16 sprite editor -
-    Tetris clone - native assembler - postfix notation calculator.
-  - Built  microcomputer  in  hardware  by  hand-wiring discrete 74HC-series
-    logic chips on breadboards.
+  - Wrote a test suite of over [1m500 end-to-end tests[0m to ensure correctness of
+    the engine and catch regressions.
+  - Developed  a  grep-like  tool  to  stress-test  the  engine and achieved
+    performance on par with GNU grep.
 
 [1mMultilayer Perceptron[0m <https://github.com/Bricktech2000/Autodiff>
-  - Wrote  static  reverse-mode automatic differentiation library in C99 for
+  - Wrote a static reverse-mode automatic differentiation library in C99 for
     use in deep learning.
-  - Designed multilayer perceptron model and implemented stochastic gradient
-    descent, momentum and L2 regularization, achieving [1m97% accuracy[0m on MNIST
-    database after 3 minutes training on 16 threads.
+  - Designed  a multilayer perceptron model atop the library and implemented
+    stochastic  gradient  descent  with  momentum,  ultimately achieving [1m97%
+    accuracy[0m on the MNIST database after 3 minutes training on 16 threads.
+
+[1mPurely Functional Language[0m <https://github.com/Bricktech2000/PNLC>
+  - Developed  an  interpreter  for  a  lazily-evaluated  lambda-calculus
+    augmented with monadic I/O.
+  - Bootstrapped  the  interpreter  into  a  usable  language  by  writing a
+    [1m2000-line  prelude[0m  complete  with booleans, integers, pairs, optionals,
+    lists, strings, functors, monads, monoids, foldables, traversables...
+
+[1mBreadboard Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
+  - Designed an 8-bit microcomputer from from logic gates upwards, including
+    an assembler, emulator and rudimentary C compiler in Rust, totaling over
+    [1m20 000 SLOC[0m and [1m750 hours[0m of work.
+  - Wrote  various programs running natively on the microcomputer, including
+    a  Wozmon-like  memory  monitor,  16x16 sprite editor, native assembler,
+    postfix notation calculator and Tetris clone.
+  - Built  the microcomputer in hardware by hand-wiring discrete 74HC-series
+    logic chips on breadboards.
 
 --- VOLUNTEERING ---------------------------------------------------------------
 
 [1mComputer Science Club[0m <https://uocsclub.ca/>
 [[3mClub Executive[0m]                       [3mUniversity of Ottawa | June 2022--Present[0m
-  - Running  growing community of [1mover 1500[0m computer science students at the
-    University of Ottawa.
-  - Collaborating  with executive board to brainstorm, plan, fund and market
-    monthly  events  and  meetups,  such  as  workshop  on  Vim bindings and
-    mini-course on the lambda-calculus.
+  - Running  a  growing  community of [1mover 1500[0m computer science students at
+    the University of Ottawa.
+  - Collaborating  with  the  executive  board to brainstorm, plan, fund and
+    market monthly events and meetups, such as workshops on Vim bindings and
+    a mini-course on the lambda-calculus.
 
 [1mHack the Hill Hackathon[0m <http://hackthehill.com/>
 [[3mDevelopment Manager --- Development Team[0m]  [3mOttawa | November 2022--October 2024[0m
-  - Led  development of open-source event management system based on Next.js
-    and  Prisma  and  used by over [1m1000 hackers[0m and [1m50 organizers[0m throughout
+  - Led  development  of  an  open-source  event  management  system
+    <https://github.com/HacktheHill/track-the-hack>  based  on  Next.js  and
+    Prisma  and  used  by over [1m1000 hackers[0m and [1m50 organizers[0m throughout the
     hackathon.
-  - Built  and  maintained  internal  payment  portal  powered by Stripe and
-    React.js  in  collaboration with sponsorship team that processed upwards
-    of [1m20 000$[0m.
+  - Built  and  maintained  an internal payment portal powered by Stripe and
+    React.js  in  collaboration  with  the  sponsorship  team that processed
+    upwards of [1m20 000$[0m.
 
 --- AWARDS ---------------------------------------------------------------------
   - [1mIEEE x HTB CTF[0m --- 2nd place                                    [3mJanuary 2026[0m
@@ -77,4 +87,4 @@ linkedin.com/in/emilien-breton - https://emilien.ca/
 --- SKILLS ---------------------------------------------------------------------
   - [1mLanguages[0m --- C - Rust - Python - Haskell - JavaScript
   - [1mTools[0m --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             [3m49c603b4 - Jan 2026[0m
+                                                             [3m613463ca - Feb 2026[0m

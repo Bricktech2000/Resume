@@ -5,7 +5,7 @@ import re
 
 
 def unicode_to_ascii(text):
-  return text.replace('\u2022', '-').replace('\u2011', '-').replace('\u2014', '---').replace('\u2013', '--').replace('\u2002', ' ').replace('\u00d7', 'x').replace('\u2500', '-').replace('\u2019', "'").replace('\u03bb', 'lambda')
+  return text.replace('\u2022', '-').replace('\u2011', '-').replace('\u2014', '---').replace('\u2013', '--').replace('\u2002', ' ').replace('\u00d7', 'x').replace('\u2500', '-').replace('\u2019', "'").replace('\u03bb', 'lambda').replace('\u2026', '...')
 
 
 def make_text_renderer(format_strong, format_emphasis, format_code, format_text, len_patched=len, width=80):
@@ -135,8 +135,7 @@ def make_text_renderer(format_strong, format_emphasis, format_code, format_text,
       return f'{fill(self.format_strong(self.render_children(element)), self.width)}'
 
     def render_link(self, element):
-      # do not include `element.dest` in output to reduce clutter
-      return f'{self.render_children(element)}'
+      return f'{self.render_children(element)} <{element.dest}>'
 
     def render_image(self, _):
       raise NotImplementedError

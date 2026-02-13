@@ -1,18 +1,20 @@
                           𝗘 𝗺 𝗶 𝗹 𝗶 𝗲 𝗻   𝗕 𝗿 𝗲 𝘁 𝗼 𝗻
 
-613‑913‑9909 • mail@emilien.ca • github.com/Bricktech2000 •
-linkedin.com/in/emilien-breton • https://emilien.ca/
+613‑913‑9909 <tel:+1-613-913-9909> • mail@emilien.ca <mailto:mail@emilien.ca> •
+github.com/Bricktech2000 <https://github.com/Bricktech2000> •
+linkedin.com/in/emilien-breton <https://www.linkedin.com/in/emilien-breton/> •
+https://emilien.ca/ <https://emilien.ca/>
 
 ─── EXPERIENCE ─────────────────────────────────────────────────────────────────
 
 𝗘𝗰𝗼𝗦𝗮𝗳𝗲𝗦𝗲𝗻𝘀𝗲
 [Firmware Engineer]                                Ottawa | October 2024–Present
-  • Writing  firmware  for  ESP32-based air quality sensor and complementary
+  • Writing firmware for an ESP32-based air quality sensor and complementary
     test bench.
 
 𝗖𝗼𝗵𝗲𝗿𝗲
-[Data Quality Specialist — Advanced Mathematics]  Freelance | October 2024–April
-2025
+[Data Quality Specialist — Advanced Mathematics]                     Freelance |
+October 2024–April 2025
   • Wrote,  audited  and  corrected  LLM  prompts  and  responses to produce
     𝘀𝗽𝗼𝘁𝗹𝗲𝘀𝘀  𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴  𝗱𝗮𝘁𝗮  in formal logic, combinatorics, number theory,
     graph theory and mathematical optimization.
@@ -20,49 +22,57 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
 ─── PROJECTS ───────────────────────────────────────────────────────────────────
 
 𝗗𝗙𝗔 𝗥𝗲𝗴𝗲𝘅 𝗘𝗻𝗴𝗶𝗻𝗲 <https://github.com/Bricktech2000/LTRE>
-  • Built  regex  engine  in  C99  that compiles regular expressions down to
+  • Built  a  regex  engine in C99 that compiles regular expressions down to
     minimal  deterministic  finite automata to match input strings in 𝗹𝗶𝗻𝗲𝗮𝗿
     𝘁𝗶𝗺𝗲 without backtracking.
-  • Wrote  extensive  test  suite  of  over  𝟱𝟬𝟬  𝘁𝗲𝘀𝘁𝘀 to ensure end-to-end
-    correctness of engine and catch regressions.
-  • Developed  grep-like  tool  as  real-world  stress  test  for engine and
-    achieved performance on par with GNU grep.
-
-𝗕𝗿𝗲𝗮𝗱𝗯𝗼𝗮𝗿𝗱 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
-  • Designed  8‑bit  microcomputer  from  from logic gates upward, including
-    instruction  set architecture, from-scratch assembler and cross-platform
-    emulator in Rust, totaling over 𝟮𝟬 𝟬𝟬𝟬 𝗦𝗟𝗢𝗖 and 𝟳𝟱𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
-  • Wrote  various utilities in Assembly running natively on microcomputer —
-    Wozmon-inspired  memory  monitor •  16×16 sprite editor • Tetris clone •
-    native assembler • postfix notation calculator.
-  • Built  microcomputer  in  hardware  by  hand-wiring discrete 74HC-series
-    logic chips on breadboards.
+  • Wrote a test suite of over 𝟱𝟬𝟬 𝗲𝗻𝗱-𝘁𝗼-𝗲𝗻𝗱 𝘁𝗲𝘀𝘁𝘀 to ensure correctness of
+    the engine and catch regressions.
+  • Developed  a  grep-like  tool  to  stress-test  the  engine and achieved
+    performance on par with GNU grep.
 
 𝗠𝘂𝗹𝘁𝗶𝗹𝗮𝘆𝗲𝗿 𝗣𝗲𝗿𝗰𝗲𝗽𝘁𝗿𝗼𝗻 <https://github.com/Bricktech2000/Autodiff>
-  • Wrote  static  reverse-mode automatic differentiation library in C99 for
+  • Wrote a static reverse-mode automatic differentiation library in C99 for
     use in deep learning.
-  • Designed multilayer perceptron model and implemented stochastic gradient
-    descent, momentum and L2 regularization, achieving 𝟵𝟳% 𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆 on MNIST
-    database after 3 minutes training on 16 threads.
+  • Designed  a multilayer perceptron model atop the library and implemented
+    stochastic  gradient  descent  with  momentum,  ultimately achieving 𝟵𝟳%
+    𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆 on the MNIST database after 3 minutes training on 16 threads.
+
+𝗣𝘂𝗿𝗲𝗹𝘆 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝗮𝗹 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 <https://github.com/Bricktech2000/PNLC>
+  • Developed  an  interpreter  for  a lazily-evaluated λ‑calculus augmented
+    with monadic I/O.
+  • Bootstrapped  the  interpreter  into  a  usable  language  by  writing a
+    𝟮𝟬𝟬𝟬-𝗹𝗶𝗻𝗲  𝗽𝗿𝗲𝗹𝘂𝗱𝗲  complete  with booleans, integers, pairs, optionals,
+    lists, strings, functors, monads, monoids, foldables, traversables…
+
+𝗕𝗿𝗲𝗮𝗱𝗯𝗼𝗮𝗿𝗱 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
+  • Designed an 8‑bit microcomputer from from logic gates upwards, including
+    an assembler, emulator and rudimentary C compiler in Rust, totaling over
+    𝟮𝟬 𝟬𝟬𝟬 𝗦𝗟𝗢𝗖 and 𝟳𝟱𝟬 𝗵𝗼𝘂𝗿𝘀 of work.
+  • Wrote  various programs running natively on the microcomputer, including
+    a  Wozmon-like  memory  monitor,  16×16 sprite editor, native assembler,
+    postfix notation calculator and Tetris clone.
+  • Built  the microcomputer in hardware by hand-wiring discrete 74HC-series
+    logic chips on breadboards.
 
 ─── VOLUNTEERING ───────────────────────────────────────────────────────────────
 
 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 𝗖𝗹𝘂𝗯 <https://uocsclub.ca/>
 [Club Executive]                        University of Ottawa | June 2022–Present
-  • Running  growing community of 𝗼𝘃𝗲𝗿 𝟭𝟱𝟬𝟬 computer science students at the
-    University of Ottawa.
-  • Collaborating  with executive board to brainstorm, plan, fund and market
-    monthly  events  and  meetups,  such  as  workshop  on  Vim bindings and
-    mini-course on the λ‑calculus.
+  • Running  a  growing  community of 𝗼𝘃𝗲𝗿 𝟭𝟱𝟬𝟬 computer science students at
+    the University of Ottawa.
+  • Collaborating  with  the  executive  board to brainstorm, plan, fund and
+    market monthly events and meetups, such as workshops on Vim bindings and
+    a mini-course on the λ‑calculus.
 
 𝗛𝗮𝗰𝗸 𝘁𝗵𝗲 𝗛𝗶𝗹𝗹 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 <http://hackthehill.com/>
 [Development Manager — Development Team]     Ottawa | November 2022–October 2024
-  • Led  development of open-source event management system based on Next.js
-    and  Prisma  and  used by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout
+  • Led  development  of  an  open-source  event  management  system
+    <https://github.com/HacktheHill/track-the-hack>  based  on  Next.js  and
+    Prisma  and  used  by over 𝟭𝟬𝟬𝟬 𝗵𝗮𝗰𝗸𝗲𝗿𝘀 and 𝟱𝟬 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗲𝗿𝘀 throughout the
     hackathon.
-  • Built  and  maintained  internal  payment  portal  powered by Stripe and
-    React.js  in  collaboration with sponsorship team that processed upwards
-    of 𝟮𝟬 𝟬𝟬𝟬$.
+  • Built  and  maintained  an internal payment portal powered by Stripe and
+    React.js  in  collaboration  with  the  sponsorship  team that processed
+    upwards of 𝟮𝟬 𝟬𝟬𝟬$.
 
 ─── AWARDS ─────────────────────────────────────────────────────────────────────
   • 𝗜𝗘𝗘𝗘 𝘅 𝗛𝗧𝗕 𝗖𝗧𝗙 — 2nd place                                      January 2026
@@ -77,4 +87,4 @@ linkedin.com/in/emilien-breton • https://emilien.ca/
 ─── SKILLS ─────────────────────────────────────────────────────────────────────
   • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 — C • Rust • Python • Haskell • JavaScript
   • 𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • GDB • GNU Make • Vim • React
-                                                             49c603b4 • Jan 2026
+                                                             613463ca • Feb 2026
