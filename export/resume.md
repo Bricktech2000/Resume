@@ -31,8 +31,8 @@ _Data Quality Specialist — Advanced Mathematics_ `Freelance | October 20
 
 ### [Purely Functional Language](https://github.com/Bricktech2000/PNLC)
 
-- Developed an interpreter for a lazily-evaluated λ‑calculus augmented with monadic I/O.
-- Bootstrapped the interpreter into a usable language by writing a **2000-line prelude** complete with booleans, integers, pairs, optionals, lists, strings, functors, monads, monoids, foldables, traversables…
+- Developed an interpreter for a lazily-evaluated untyped λ‑calculus augmented with monadic I/O.
+- Bootstrapped the interpreter into a usable language by writing a **2500-line prelude** complete with booleans, integers, pairs, optionals, lists, strings, and type classes for total orders, monoids, functors, monads, foldables…
 
 ### [Breadboard Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
@@ -60,16 +60,16 @@ _Development Manager — Development Team_ `Ottawa | November 2022–Octob
 
 - **IEEE x HTB CTF** — 2nd place `January 2026` 
 - **Tech-Nol-Hack 2025** — 2nd place `October 2025` 
-- **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` 
+- **AIT Hackathon 3.0** — 1st place, Mocha track `September 2025` 
 - **uOCTF 2025** — 1st place `March 2025` 
-- **uOttaHack 6** — 1st place, QNX challenge `January 2025` 
-- **CS Games 2024** — 1st place, IoT challenge `March 2024` 
+- **uOttaHack 6** — 1st place, QNX track `January 2025` 
+- **CS Games 2024** — 1st place, IoT track `March 2024` 
 - **uOCTF 2024** — 1st place `November 2023` 
-- **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` 
+- **DeFi The Conventional** — 1st place, DeFi track `March 2022` 
 
 ## Skills
 
 - **Languages** — C • Rust • Python • Haskell • JavaScript
 - **Tools** — GNU/Linux • GDB • GNU Make • Vim • React
 
-`613463ca • Feb 2026`
+`f4f411e5 • May 2026`

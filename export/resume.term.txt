@@ -38,11 +38,12 @@ October 2024--April 2025[0m
     accuracy[0m on the MNIST database after 3 minutes training on 16 threads.
 
 [1mPurely Functional Language[0m <https://github.com/Bricktech2000/PNLC>
-  - Developed  an  interpreter  for  a  lazily-evaluated  lambda-calculus
+  - Developed  an interpreter for a lazily-evaluated untyped lambda-calculus
     augmented with monadic I/O.
   - Bootstrapped  the  interpreter  into  a  usable  language  by  writing a
-    [1m2000-line  prelude[0m  complete  with booleans, integers, pairs, optionals,
-    lists, strings, functors, monads, monoids, foldables, traversables...
+    [1m2500-line  prelude[0m  complete  with booleans, integers, pairs, optionals,
+    lists,  strings,  and  type classes for total orders, monoids, functors,
+    monads, foldables...
 
 [1mBreadboard Microcomputer[0m <https://github.com/Bricktech2000/Atto-8>
   - Designed an 8-bit microcomputer from from logic gates upwards, including
@@ -77,14 +78,14 @@ October 2024--April 2025[0m
 --- AWARDS ---------------------------------------------------------------------
   - [1mIEEE x HTB CTF[0m --- 2nd place                                    [3mJanuary 2026[0m
   - [1mTech-Nol-Hack 2025[0m --- 2nd place                                [3mOctober 2025[0m
-  - [1mAIT Hackathon 3.0[0m --- 1st place, Mocha challenge              [3mSeptember 2025[0m
+  - [1mAIT Hackathon 3.0[0m --- 1st place, Mocha track                  [3mSeptember 2025[0m
   - [1muOCTF 2025[0m --- 1st place                                          [3mMarch 2025[0m
-  - [1muOttaHack 6[0m --- 1st place, QNX challenge                        [3mJanuary 2025[0m
-  - [1mCS Games 2024[0m --- 1st place, IoT challenge                        [3mMarch 2024[0m
+  - [1muOttaHack 6[0m --- 1st place, QNX track                            [3mJanuary 2025[0m
+  - [1mCS Games 2024[0m --- 1st place, IoT track                            [3mMarch 2024[0m
   - [1muOCTF 2024[0m --- 1st place                                       [3mNovember 2023[0m
-  - [1mDeFi The Conventional[0m --- 1st place, DeFi challenge               [3mMarch 2022[0m
+  - [1mDeFi The Conventional[0m --- 1st place, DeFi track                   [3mMarch 2022[0m
 
 --- SKILLS ---------------------------------------------------------------------
   - [1mLanguages[0m --- C - Rust - Python - Haskell - JavaScript
   - [1mTools[0m --- GNU/Linux - GDB - GNU Make - Vim - React
-                                                             [3m613463ca - Feb 2026[0m
+                                                             [3mf4f411e5 - May 2026[0m

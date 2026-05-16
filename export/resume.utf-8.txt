@@ -38,11 +38,12 @@ October 2024–April 2025
     𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆 on the MNIST database after 3 minutes training on 16 threads.
 
 𝗣𝘂𝗿𝗲𝗹𝘆 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝗮𝗹 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 <https://github.com/Bricktech2000/PNLC>
-  • Developed  an  interpreter  for  a lazily-evaluated λ‑calculus augmented
-    with monadic I/O.
+  • Developed  an  interpreter  for  a  lazily-evaluated  untyped λ‑calculus
+    augmented with monadic I/O.
   • Bootstrapped  the  interpreter  into  a  usable  language  by  writing a
-    𝟮𝟬𝟬𝟬-𝗹𝗶𝗻𝗲  𝗽𝗿𝗲𝗹𝘂𝗱𝗲  complete  with booleans, integers, pairs, optionals,
-    lists, strings, functors, monads, monoids, foldables, traversables…
+    𝟮𝟱𝟬𝟬-𝗹𝗶𝗻𝗲  𝗽𝗿𝗲𝗹𝘂𝗱𝗲  complete  with booleans, integers, pairs, optionals,
+    lists,  strings,  and  type classes for total orders, monoids, functors,
+    monads, foldables…
 
 𝗕𝗿𝗲𝗮𝗱𝗯𝗼𝗮𝗿𝗱 𝗠𝗶𝗰𝗿𝗼𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 <https://github.com/Bricktech2000/Atto-8>
   • Designed an 8‑bit microcomputer from from logic gates upwards, including
@@ -77,14 +78,14 @@ October 2024–April 2025
 ─── AWARDS ─────────────────────────────────────────────────────────────────────
   • 𝗜𝗘𝗘𝗘 𝘅 𝗛𝗧𝗕 𝗖𝗧𝗙 — 2nd place                                      January 2026
   • 𝗧𝗲𝗰𝗵-𝗡𝗼𝗹-𝗛𝗮𝗰𝗸 𝟮𝟬𝟮𝟱 — 2nd place                                  October 2025
-  • 𝗔𝗜𝗧 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 𝟯.𝟬 — 1st place, Mocha challenge                September 2025
+  • 𝗔𝗜𝗧 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 𝟯.𝟬 — 1st place, Mocha track                    September 2025
   • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟱 — 1st place                                            March 2025
-  • 𝘂𝗢𝘁𝘁𝗮𝗛𝗮𝗰𝗸 𝟲 — 1st place, QNX challenge                          January 2025
-  • 𝗖𝗦 𝗚𝗮𝗺𝗲𝘀 𝟮𝟬𝟮𝟰 — 1st place, IoT challenge                          March 2024
+  • 𝘂𝗢𝘁𝘁𝗮𝗛𝗮𝗰𝗸 𝟲 — 1st place, QNX track                              January 2025
+  • 𝗖𝗦 𝗚𝗮𝗺𝗲𝘀 𝟮𝟬𝟮𝟰 — 1st place, IoT track                              March 2024
   • 𝘂𝗢𝗖𝗧𝗙 𝟮𝟬𝟮𝟰 — 1st place                                         November 2023
-  • 𝗗𝗲𝗙𝗶 𝗧𝗵𝗲 𝗖𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝗮𝗹 — 1st place, DeFi challenge                 March 2022
+  • 𝗗𝗲𝗙𝗶 𝗧𝗵𝗲 𝗖𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝗮𝗹 — 1st place, DeFi track                     March 2022
 
 ─── SKILLS ─────────────────────────────────────────────────────────────────────
   • 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 — C • Rust • Python • Haskell • JavaScript
   • 𝗧𝗼𝗼𝗹𝘀 — GNU/Linux • GDB • GNU Make • Vim • React
-                                                             613463ca • Feb 2026
+                                                             f4f411e5 • May 2026

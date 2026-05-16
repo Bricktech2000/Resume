@@ -56,8 +56,8 @@ _Software Engineer — Web3_ `Remote | October 2022–October 2023`
 
 ### [Purely Functional Language](https://github.com/Bricktech2000/PNLC)
 
-- Developed an interpreter for a lazily-evaluated λ‑calculus augmented with monadic I/O.
-- Bootstrapped the interpreter into a usable language by writing a **2000-line prelude** complete with booleans, integers, pairs, optionals, lists, strings, functors, monads, monoids, foldables, traversables…
+- Developed an interpreter for a lazily-evaluated untyped λ‑calculus augmented with monadic I/O.
+- Bootstrapped the interpreter into a usable language by writing a **2500-line prelude** complete with booleans, integers, pairs, optionals, lists, strings, and type classes for total orders, monoids, functors, monads, foldables…
 
 ### [Breadboard Microcomputer](https://github.com/Bricktech2000/Atto-8)
 
@@ -160,12 +160,12 @@ _Development Manager — Development Team_ `Ottawa | November 2022–Octob
 
 - **IEEE x HTB CTF** — 2nd place `January 2026` <!-- January 1st 2026 -->
 - **Tech-Nol-Hack 2025** — 2nd place `October 2025` <!-- October 4th 2025--October 5th 2025 -->
-- **AIT Hackathon 3.0** — 1st place, Mocha challenge `September 2025` <!-- September 6th 2025--September 7th 2025 -->
+- **AIT Hackathon 3.0** — 1st place, Mocha track `September 2025` <!-- September 6th 2025--September 7th 2025 -->
 - **uOCTF 2025** — 1st place `March 2025` <!-- March 25th 2025 -->
-- **uOttaHack 6** — 1st place, QNX challenge `January 2025` <!-- January 17th 2024--January 19th 2024 -->
-- **CS Games 2024** — 1st place, IoT challenge `March 2024` <!-- March 15th 2024--March 17th 2024 -->
+- **uOttaHack 6** — 1st place, QNX track `January 2025` <!-- January 17th 2024--January 19th 2024 -->
+- **CS Games 2024** — 1st place, IoT track `March 2024` <!-- March 15th 2024--March 17th 2024 -->
 - **uOCTF 2024** — 1st place `November 2023` <!-- November 25th 2023 > <! pretty sure I placed first but not certain; been over a year -->
-- **DeFi The Conventional** — 1st place, DeFi challenge `March 2022` <!-- March 18th 2022--March 20th 2022 -->
+- **DeFi The Conventional** — 1st place, DeFi track `March 2022` <!-- March 18th 2022--March 20th 2022 -->
 
 ## Skills
 
